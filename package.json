@@ -2,6 +2,7 @@
   "name": "aion2-map",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://patrickmonster.github.io/aion2-map",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -24,7 +25,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "download-data": "ts-node -r tsconfig-paths/register src/download.ts all ./downloads",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
