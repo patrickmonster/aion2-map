@@ -1,0 +1,990 @@
+/* 전체 스크롤바 제거 */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.map-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* 상단 셀렉트박스 영역 */
+.map-selector-top {
+  position: fixed;
+  top: 13px;
+  left: 60px;
+  z-index: 2000;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
+  pointer-events: auto;
+}
+
+.map-select {
+  background: #ffffff;
+  color: #2c3e50;
+  border: 2px solid #dee2e6;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  min-width: 200px;
+  transition: all 0.3s ease;
+}
+
+.map-select:hover {
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.map-select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.map-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.map-controls button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.map-controls button:hover:not(:disabled) {
+  background: #2980b9;
+}
+
+.map-controls button:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.zoom-level {
+  background: #ecf0f1;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.leaflet-map-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.leaflet-map {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.marker-popup h3 {
+  margin: 0 0 8px 0;
+  color: #2c3e50;
+  font-size: 1.2em;
+}
+
+.marker-popup p {
+  margin: 0 0 8px 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+.marker-popup small {
+  color: #888;
+  font-size: 0.85em;
+}
+
+.map-info {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+.map-info h3 {
+  color: #2c3e50;
+  margin: 0 0 15px 0;
+  font-size: 1.3em;
+}
+
+.map-info p {
+  color: #555;
+  margin: 8px 0;
+  font-size: 0.95em;
+}
+
+.markers-list {
+  margin-top: 20px;
+}
+
+.markers-list h4 {
+  color: #2c3e50;
+  margin: 0 0 12px 0;
+  font-size: 1.1em;
+}
+
+.markers-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.markers-list li {
+  background: white;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.markers-list li:hover {
+  background: #e3f2fd;
+  transform: translateX(5px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.markers-list strong {
+  color: #2c3e50;
+  display: block;
+  font-size: 1.05em;
+  margin-bottom: 4px;
+}
+
+/* 기존 맵 선택 영역은 제거됨 */
+
+/* 맵 정보 추가 스타일 */
+.map-url-info {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f1f3f4;
+  border-radius: 6px;
+  border-left: 3px solid #28a745;
+}
+
+.map-url-info h4 {
+  color: #2c3e50;
+  margin: 0 0 8px 0;
+  font-size: 1em;
+}
+
+.map-url-info code {
+  background: #ffffff;
+  color: #e83e8c;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  border: 1px solid #dee2e6;
+  display: block;
+  word-break: break-all;
+}
+
+.map-instructions {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e8f4f8;
+  border-radius: 6px;
+  border-left: 3px solid #17a2b8;
+}
+
+.map-instructions h4 {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-size: 1em;
+}
+
+.map-instructions ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.map-instructions li {
+  color: #495057;
+  font-size: 0.9em;
+  margin: 6px 0;
+  line-height: 1.4;
+}
+
+/* Leaflet 맵 커스텀 스타일 */
+.leaflet-container {
+  background: #1a1a1a !important;
+  overflow: hidden !important;
+}
+
+/* 줌 컨트롤 표시 */
+.leaflet-control-zoom {
+  display: block !important;
+  visibility: visible !important;
+}
+
+.leaflet-top.leaflet-left {
+  pointer-events: auto;
+}
+
+/* Attribution을 우측 하단으로 이동하고 투명도 조정 */
+.leaflet-control-attribution {
+  background: rgba(0, 0, 0, 0.6) !important;
+  color: #ffffff !important;
+  font-size: 10px !important;
+  opacity: 0.7 !important;
+}
+
+.leaflet-control-attribution a {
+  color: #3498db !important;
+}
+
+/* 이미지 오버레이 픽셀화 설정 - 확대 시 타일이 아닌 픽셀화된 이미지 표시 */
+.leaflet-image-layer {
+  image-rendering: -moz-crisp-edges !important;
+  image-rendering: -webkit-crisp-edges !important;
+  image-rendering: pixelated !important;
+  image-rendering: crisp-edges !important;
+}
+
+.leaflet-tile {
+  border: none !important;
+  outline: none !important;
+  margin: 0px !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  image-rendering: -moz-crisp-edges !important;
+  image-rendering: -webkit-crisp-edges !important;
+  image-rendering: pixelated !important;
+  image-rendering: crisp-edges !important;
+}
+
+/* 하단 라벨제거 */
+div.leaflet-bottom.leaflet-right {
+  display: none !important;
+}
+
+/* 메모 다이얼로그 스타일 */
+.memo-dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memo-dialog {
+  background: white;
+  border-radius: 12px;
+  padding: 0;
+  min-width: 400px;
+  max-width: 90vw;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.memo-dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px 15px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.memo-dialog-header h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.3em;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+  background: #f8f9fa;
+  color: #666;
+}
+
+.memo-dialog-content {
+  padding: 20px 25px;
+}
+
+.position-info {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.memo-textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.memo-textarea:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.memo-dialog-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 15px 25px 20px;
+  border-top: 1px solid #e9ecef;
+}
+
+.cancel-btn, .save-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cancel-btn {
+  background: #f8f9fa;
+  color: #666;
+}
+
+.cancel-btn:hover {
+  background: #e9ecef;
+}
+
+.save-btn {
+  background: #3498db;
+  color: white;
+}
+
+.save-btn:hover:not(:disabled) {
+  background: #2980b9;
+}
+
+.save-btn:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* 마커 팝업 스타일 */
+.marker-popup {
+  min-width: 200px;
+}
+
+.memo-content {
+  margin-bottom: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  line-height: 1.4;
+}
+
+.memo-actions {
+  display: flex;
+  gap: 5px;
+  margin: 8px 0;
+}
+
+.edit-btn, .delete-btn {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-btn {
+  background: #f39c12;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #e67e22;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.memo-info {
+  margin-top: 8px;
+  padding-top: 5px;
+  border-top: 1px solid #eee;
+}
+
+/* 마커 사이드바 스타일 */
+.markers-sidebar {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 300px;
+  max-height: calc(100vh - 40px);
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  z-index: 2000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.markers-header {
+  padding: 15px 20px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.markers-header h4 {
+  margin: 0 0 5px 0;
+  color: #2c3e50;
+  font-size: 1.1em;
+}
+
+.markers-header small {
+  color: #666;
+  font-size: 11px;
+}
+
+.markers-list {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.marker-item {
+  padding: 15px 20px;
+  border-bottom: 1px solid #f1f3f4;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+}
+
+.marker-item:hover {
+  background: #e3f2fd;
+  border-left-color: #2196f3;
+  transform: translateX(3px);
+}
+
+.marker-item:last-child {
+  border-bottom: none;
+}
+
+.marker-memo {
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.marker-info {
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.marker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.marker-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-btn-small, .delete-btn-small {
+  padding: 3px 8px;
+  border: none;
+  border-radius: 3px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-btn-small {
+  background: #f39c12;
+  color: white;
+}
+
+.edit-btn-small:hover {
+  background: #e67e22;
+}
+
+.delete-btn-small {
+  background: #e74c3c;
+  color: white;
+}
+
+.delete-btn-small:hover {
+  background: #c0392b;
+}
+
+/* 상단 타이틀 영역 개선 */
+.map-title {
+  margin-bottom: 10px;
+}
+
+.map-title h2 {
+  margin: 0 0 5px 0;
+  color: #2c3e50;
+  font-size: 1.3em;
+}
+
+.map-title small {
+  color: #666;
+  font-size: 12px;
+}
+
+/* 상단 컨트롤 영역 */
+.map-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.settings-btn {
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-btn:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+/* 설정 모달 스타일 */
+.settings-modal {
+  background: white;
+  border-radius: 12px;
+  padding: 0;
+  min-width: 500px;
+  max-width: 90vw;
+  max-height: 80vh;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 25px;
+}
+
+.settings-section {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.settings-section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.settings-section h4 {
+  margin: 0 0 15px 0;
+  color: #2c3e50;
+  font-size: 1.1em;
+}
+
+.setting-item {
+  margin-bottom: 15px;
+}
+
+.setting-item label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.setting-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.setting-item input[type="range"] {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.setting-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.export-btn, .import-btn, .delete-all-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.export-btn {
+  background: #28a745;
+  color: white;
+}
+
+.export-btn:hover:not(:disabled) {
+  background: #218838;
+}
+
+.import-btn {
+  background: #007bff;
+  color: white;
+  display: inline-block;
+}
+
+.import-btn:hover {
+  background: #0056b3;
+}
+
+.delete-all-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.delete-all-btn:hover:not(:disabled) {
+  background: #c82333;
+}
+
+.export-btn:disabled, .delete-all-btn:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+
+.info-text {
+  color: #666;
+  font-size: 14px;
+}
+
+.info-text p {
+  margin: 5px 0;
+}
+
+/* 마커 타입 선택기 스타일 */
+.marker-type-selector {
+  margin: 15px 0;
+}
+
+.marker-type-select {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* 마커 타입 관리 스타일 */
+.marker-types-list {
+  margin-bottom: 15px;
+}
+
+.marker-type-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background: #f8f9fa;
+}
+
+.marker-type-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.marker-type-icon {
+  font-size: 18px;
+}
+
+.marker-type-name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.marker-type-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.marker-type-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.add-marker-type-btn {
+  width: 100%;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.add-marker-type-btn:hover {
+  background: #218838;
+}
+
+/* 마커 타입 폼 스타일 */
+.marker-type-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  color: #555;
+  font-size: 14px;
+}
+
+.form-group input, .form-group textarea {
+  padding: 8px;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.form-group input[type="color"] {
+  width: 50px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.icon-picker {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.icon-option {
+  padding: 8px;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  background: #f8f9fa;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.icon-option:hover {
+  background: #e9ecef;
+}
+
+.icon-option.selected {
+  border-color: #3498db;
+  background: #e3f2fd;
+}
+
+.marker-type-preview {
+  padding: 15px;
+  border: 2px dashed #dee2e6;
+  border-radius: 6px;
+  background: #f8f9fa;
+}
+
+.preview-marker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.preview-icon {
+  font-size: 20px;
+}
+
+.preview-name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.preview-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .map-container {
+    padding: 15px;
+  }
+  
+  .map-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .map-header h1 {
+    font-size: 1.6em;
+  }
+  
+  .map-controls {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .map-buttons {
+    grid-template-columns: 1fr;
+  }
+  
+  .leaflet-map {
+    height: 400px;
+  }
+  
+  .map-info {
+    padding: 20px;
+  }
+  
+  .map-selector {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-controls {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .map-controls button {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .map-buttons {
+    grid-template-columns: 1fr;
+  }
+  
+  .map-buttons button {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+  
+  .leaflet-map {
+    height: 350px;
+  }
+  
+  .map-selector {
+    padding: 15px;
+  }
+  
+  .map-url-info code {
+    font-size: 0.8em;
+  }
+}
