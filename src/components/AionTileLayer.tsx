@@ -27,9 +27,10 @@ class CustomTileLayer extends L.TileLayer {
       return "";
     }
 
-    return `/WorldMap/${selectedMap.name}/${selectedMap.name}_${String(
-      x
-    ).padStart(2, "0")}_${String(y).padStart(2, "0")}.webp`;
+    const basePath = process.env.PUBLIC_URL || "";
+    return `${basePath}/WorldMap/${selectedMap.name}/${
+      selectedMap.name
+    }_${String(x).padStart(2, "0")}_${String(y).padStart(2, "0")}.webp`;
   }
 }
 
