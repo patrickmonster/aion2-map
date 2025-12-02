@@ -5,23 +5,23 @@ import { Marker, Popup } from "react-leaflet";
 import "./Home.css";
 
 // 타입, 상수, 훅들 import
-import { MarkerMemo, MarkerType, AppSettings } from "../types";
 import { setupLeafletIcons } from "../constants";
 import {
-  useUrlParams,
   useMarkers,
   useMarkerTypes,
   useSettings,
+  useUrlParams,
 } from "../hooks";
+import { MarkerMemo, MarkerType } from "../types";
 
 // 컴포넌트들 import
 import {
   MapContainerComponent,
   MarkersSidebar,
-  MemoDialog,
-  SettingsModal,
   MarkerTypeForm,
+  MemoDialog,
   Navigation,
+  SettingsModal,
 } from "../components";
 
 // Leaflet 아이콘 설정
@@ -52,6 +52,7 @@ const Map: React.FC = () => {
     null
   );
   const [showMarkerTypeForm, setShowMarkerTypeForm] = useState(false);
+  const [markerFilter, setMarkerFilter] = useState<string>("all");
 
   // 맵 변경 함수
   const handleMapChange = useCallback((mapName: string) => {
@@ -123,15 +124,6 @@ const Map: React.FC = () => {
       }
     },
     [settings.animationSpeed]
-  );
-
-  // 설정 저장 함수
-  const handleSaveSettings = useCallback(
-    (newSettings: AppSettings) => {
-      saveSettings(newSettings);
-      setShowSettingsModal(false);
-    },
-    [saveSettings]
   );
 
   // 모든 마커 삭제 함수
@@ -226,6 +218,12 @@ const Map: React.FC = () => {
     (marker) => marker.mapName === selectedMap
   );
 
+  // 마커 타입으로 필터링된 마커
+  const filteredMarkers = currentMapMarkers.filter((marker) => {
+    if (markerFilter === "all") return true;
+    return marker.type === markerFilter;
+  });
+
   useEffect(() => {
     const mapParam = getUrlParam("map") || "World_D_A";
     setSelectedMap(mapParam);
@@ -247,36 +245,60 @@ const Map: React.FC = () => {
         onMapClick={handleMapClick}
         mapRef={mapRef}
       >
-        {/* 현재 맵의 마커들 렌더링 */}
-        {currentMapMarkers.map((marker) => (
-          <Marker key={marker.id} position={marker.position}>
-            <Popup>
-              <div className="marker-popup">
-                <div className="memo-content">{marker.memo}</div>
-                <div className="memo-actions">
-                  <button
-                    className="edit-btn"
-                    onClick={() => handleEditMarker(marker)}
-                  >
-                    편집
-                  </button>
-                  <button
-                    className="delete-btn"
-                    onClick={() => handleDeleteMarker(marker.id)}
-                  >
-                    삭제
-                  </button>
+        {/* 필터링된 마커들 렌더링 */}
+        {filteredMarkers.map((marker) => {
+          // 마커 타입에 따른 커스텀 아이콘 생성
+          const markerType =
+            markerTypes.find((type) => type.id === marker.type) ||
+            markerTypes.find((type) => type.id === "default");
+          let customIcon;
+
+          if (markerType && markerType.id !== "default") {
+            // 커스텀 마커 타입인 경우 이모지 아이콘 사용
+            customIcon = L.divIcon({
+              html: `<div style="font-size: 24px; text-align: center; line-height: 1;">${markerType.icon}</div>`,
+              iconSize: [30, 30],
+              iconAnchor: [15, 15],
+              popupAnchor: [0, -15],
+              className: "custom-marker-icon",
+            });
+          }
+          // 기본 타입이거나 타입이 없는 경우 기본 Leaflet 아이콘 사용
+
+          return (
+            <Marker
+              key={marker.id}
+              position={marker.position}
+              {...(customIcon && { icon: customIcon })}
+            >
+              <Popup>
+                <div className="marker-popup">
+                  <div className="memo-content">{marker.memo}</div>
+                  <div className="memo-actions">
+                    <button
+                      className="edit-btn"
+                      onClick={() => handleEditMarker(marker)}
+                    >
+                      편집
+                    </button>
+                    <button
+                      className="delete-btn"
+                      onClick={() => handleDeleteMarker(marker.id)}
+                    >
+                      삭제
+                    </button>
+                  </div>
+                  <div className="memo-info">
+                    <small>
+                      {marker.createdAt.toLocaleDateString()}{" "}
+                      {marker.createdAt.toLocaleTimeString()}
+                    </small>
+                  </div>
                 </div>
-                <div className="memo-info">
-                  <small>
-                    {marker.createdAt.toLocaleDateString()}{" "}
-                    {marker.createdAt.toLocaleTimeString()}
-                  </small>
-                </div>
-              </div>
-            </Popup>
-          </Marker>
-        ))}
+              </Popup>
+            </Marker>
+          );
+        })}
       </MapContainerComponent>
 
       {/* 메모 작성 다이얼로그 */}
@@ -300,7 +322,6 @@ const Map: React.FC = () => {
         markerTypes={markerTypes}
         markers={markers}
         onClose={() => setShowSettingsModal(false)}
-        onSaveSettings={handleSaveSettings}
         onExportMarkers={handleExportMarkers}
         onImportMarkers={handleImportMarkers}
         onDeleteAllMarkers={handleDeleteAllMarkers}
@@ -315,6 +336,9 @@ const Map: React.FC = () => {
       {/* 마커 목록 사이드바 */}
       <MarkersSidebar
         markers={currentMapMarkers}
+        markerTypes={markerTypes}
+        selectedFilter={markerFilter}
+        onFilterChange={setMarkerFilter}
         onMoveToMarker={handleMoveToMarker}
         onEditMarker={handleEditMarker}
         onDeleteMarker={handleDeleteMarker}

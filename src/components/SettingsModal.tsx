@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { MarkerType, AppSettings } from "../types";
+import React, { useEffect, useState } from "react";
 import { PREDEFINED_ICONS } from "../constants";
+import { AppSettings, MarkerType } from "../types";
 import { ActionButton } from "./ActionButton";
 
 interface SettingsModalProps {
@@ -9,7 +9,6 @@ interface SettingsModalProps {
   markerTypes: MarkerType[];
   markers: any[];
   onClose: () => void;
-  onSaveSettings: (settings: AppSettings) => void;
   onExportMarkers: () => void;
   onImportMarkers: (event: React.ChangeEvent<HTMLInputElement>) => void;
   onDeleteAllMarkers: () => void;
@@ -24,7 +23,6 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   markerTypes,
   markers,
   onClose,
-  onSaveSettings,
   onExportMarkers,
   onImportMarkers,
   onDeleteAllMarkers,
@@ -32,12 +30,6 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   onDeleteMarkerType,
   onAddMarkerType,
 }) => {
-  const [tempSettings, setTempSettings] = useState(settings);
-
-  useEffect(() => {
-    setTempSettings(settings);
-  }, [settings]);
-
   useEffect(() => {
     if (!isOpen) return;
 
@@ -56,10 +48,6 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   if (!isOpen) {
     return null;
   }
-
-  const handleSave = () => {
-    onSaveSettings(tempSettings);
-  };
 
   const currentMapMarkers = markers.filter((marker) => marker.mapName);
 
@@ -144,20 +132,9 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
           <div className="settings-section">
             <h4>정보</h4>
             <div className="info-text">
-              <p>전체 마커 수: {markers.length}</p>
-              <p>현재 맵 마커: {currentMapMarkers.length}</p>
-              <p>마커 타입 수: {markerTypes.length}</p>
               <p>버전: 1.0.0</p>
             </div>
           </div>
-        </div>
-        <div className="memo-dialog-actions">
-          <button className="cancel-btn" onClick={onClose}>
-            취소
-          </button>
-          <button className="save-btn" onClick={handleSave}>
-            저장
-          </button>
         </div>
       </div>
     </div>
