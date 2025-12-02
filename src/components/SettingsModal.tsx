@@ -49,8 +49,6 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
     return null;
   }
 
-  const currentMapMarkers = markers.filter((marker) => marker.mapName);
-
   const handleOverlayClick = (e: React.MouseEvent) => {
     if (e.target === e.currentTarget) {
       onClose();

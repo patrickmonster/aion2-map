@@ -36,7 +36,7 @@ const Map: React.FC = () => {
   const { markers, saveMarker, deleteMarker, deleteAllMarkers, importMarkers } =
     useMarkers();
   const { markerTypes, saveMarkerType, deleteMarkerType } = useMarkerTypes();
-  const { settings, saveSettings, updateSetting } = useSettings();
+  const { settings } = useSettings();
 
   // UI 상태 관리
   const [showMemoDialog, setShowMemoDialog] = useState(false);
