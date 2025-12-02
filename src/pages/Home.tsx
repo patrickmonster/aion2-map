@@ -55,10 +55,13 @@ const Map: React.FC = () => {
   const [markerFilter, setMarkerFilter] = useState<string>("all");
 
   // 맵 변경 함수
-  const handleMapChange = useCallback((mapName: string) => {
-    setSelectedMap(mapName);
-    setUrlParam("map", mapName);
-  }, []);
+  const handleMapChange = useCallback(
+    (mapName: string) => {
+      setSelectedMap(mapName);
+      setUrlParam("map", mapName);
+    },
+    [setUrlParam]
+  );
 
   // 마커 추가/수정 함수
   const handleMapClick = useCallback((position: [number, number]) => {
@@ -230,7 +233,7 @@ const Map: React.FC = () => {
     if (!getUrlParam("map")) {
       setUrlParam("map", mapParam);
     }
-  }, []);
+  }, [getUrlParam, setUrlParam]);
 
   return (
     <div className="map-container">
