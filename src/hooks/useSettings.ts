@@ -14,7 +14,7 @@ const DEFAULT_GAME_MARKERS: GameMarkerSettings = {
     color: "#3498db",
     icon: "🌀",
     readonly: true,
-    displayName: "마을",
+    displayName: "귀환석",
   },
   occupation: {
     visible: true,
