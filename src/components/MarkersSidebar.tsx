@@ -10,6 +10,7 @@ interface MarkersSidebarProps {
   onMoveToMarker: (position: [number, number]) => void;
   onEditMarker: (marker: MarkerMemo) => void;
   onDeleteMarker: (markerId: string) => void;
+  onRequestMarkerInfo?: (marker: MarkerMemo) => void;
 }
 
 export const MarkersSidebar: React.FC<MarkersSidebarProps> = ({
@@ -20,6 +21,7 @@ export const MarkersSidebar: React.FC<MarkersSidebarProps> = ({
   onMoveToMarker,
   onEditMarker,
   onDeleteMarker,
+  onRequestMarkerInfo,
 }) => {
   const [isExpanded, setIsExpanded] = useState(true);
 
@@ -103,6 +105,13 @@ export const MarkersSidebar: React.FC<MarkersSidebarProps> = ({
                       type="delete"
                       onClick={() => onDeleteMarker(marker.id)}
                     />
+                    {onRequestMarkerInfo && (
+                      <ActionButton
+                        type="info"
+                        onClick={() => onRequestMarkerInfo(marker)}
+                        title="이 위치를 공식 마커로 추가 요청"
+                      />
+                    )}
                   </div>
                 </div>
                 <div className="marker-memo">{marker.memo}</div>

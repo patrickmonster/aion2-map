@@ -7,12 +7,14 @@ interface GameMarkersProps {
   gameMarkers: GameMarker[];
   gameMarkerSettings: GameMarkerSettings;
   visibleTypes: Set<string>;
+  onReportMarker?: (marker: GameMarker) => void;
 }
 
 export const GameMarkers: React.FC<GameMarkersProps> = ({
   gameMarkers,
   gameMarkerSettings,
   visibleTypes,
+  onReportMarker,
 }) => {
   return (
     <>
@@ -86,6 +88,15 @@ export const GameMarkers: React.FC<GameMarkersProps> = ({
                       ))}
                     </div>
                   )}
+                  <div className="marker-actions">
+                    <button
+                      className="report-btn"
+                      onClick={() => onReportMarker?.(marker)}
+                      title="마커 정보 신고하기"
+                    >
+                      🚨 신고하기
+                    </button>
+                  </div>
                 </div>
               </Popup>
             </Marker>

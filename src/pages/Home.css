@@ -446,7 +446,7 @@ div.leaflet-bottom.leaflet-right {
   margin: 8px 0;
 }
 
-.edit-btn, .delete-btn {
+.edit-btn, .delete-btn, .info-request-btn {
   padding: 4px 8px;
   border: none;
   border-radius: 4px;
@@ -471,6 +471,20 @@ div.leaflet-bottom.leaflet-right {
 
 .delete-btn:hover {
   background: #c0392b;
+}
+
+.info-request-btn {
+  background: #3498db;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.info-request-btn:hover {
+  background: #2980b9;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .memo-info {
@@ -618,7 +632,7 @@ div.leaflet-bottom.leaflet-right {
   gap: 5px;
 }
 
-.edit-btn-small, .delete-btn-small {
+.edit-btn-small, .delete-btn-small, .info-btn-small {
   padding: 3px 8px;
   border: none;
   border-radius: 3px;
@@ -643,6 +657,17 @@ div.leaflet-bottom.leaflet-right {
 
 .delete-btn-small:hover {
   background: #c0392b;
+}
+
+.info-btn-small {
+  background: #3498db;
+  color: white;
+}
+
+.info-btn-small:hover {
+  background: #2980b9;
+  transform: translateY(-1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* 상단 타이틀 영역 개선 */
@@ -1171,6 +1196,34 @@ div.leaflet-bottom.leaflet-right {
 .marker-images {
   margin-top: 10px;
   text-align: center;
+}
+
+.marker-actions {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #e9ecef;
+  display: flex;
+  justify-content: center;
+}
+
+.report-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.report-btn:hover {
+  background: #c0392b;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* 게임 마커 설정 패널 스타일 */

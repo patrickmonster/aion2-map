@@ -224,6 +224,94 @@ const Map: React.FC = () => {
     setShowMarkerTypeForm(true);
   }, []);
 
+  // 게임 마커 신고 함수
+  const handleReportGameMarker = useCallback(
+    (marker: any) => {
+      const reportData = {
+        markerId: marker.id,
+        markerName: marker.name || "Unknown",
+        markerType: marker.type,
+        coordinates: `(${marker.x.toFixed(0)}, ${marker.y.toFixed(0)})`,
+        mapName: selectedMap,
+        category: marker.category,
+        region: marker.region || "N/A",
+        timestamp: new Date().toISOString(),
+      };
+
+      // GitHub Issues로 신고하기 URL 생성
+      const issueTitle = `[마커 신고] ${
+        marker.name || marker.id
+      } - ${selectedMap}`;
+      const issueBody = `## 마커 신고
+
+**마커 ID:** ${marker.id}
+**마커 이름:** ${marker.name || "Unknown"}
+**마커 타입:** ${marker.type}
+**좌표:** ${reportData.coordinates}
+**지도:** ${selectedMap}
+**카테고리:** ${marker.category}
+**지역:** ${marker.region || "N/A"}
+**신고 시간:** ${new Date().toLocaleString()}
+
+## 신고 내용
+해당 마커에 대해 신고하는 이유를 상세히 설명해 주세요:
+
+- [ ] 잘못된 좌표
+- [ ] 잘못된 이름
+- [ ] 잘못된 카테고리
+- [ ] 기타 (아래에 상세 내용 작성)`;
+
+      const githubUrl = `https://github.com/patrickmonster/aion2-map/issues/new?title=${encodeURIComponent(
+        issueTitle
+      )}&body=${encodeURIComponent(issueBody)}`;
+
+      // 새 창에서 GitHub Issues 페이지 열기
+      window.open(githubUrl, "_blank");
+    },
+    [selectedMap]
+  );
+
+  // 사용자 마커 정보 공개 요청 함수
+  const handleRequestMarkerInfo = useCallback(
+    (marker: any) => {
+      const markerTypeName =
+        markerTypes.find((type) => type.id === marker.type)?.name || "기본";
+
+      const issueTitle = `[정보 공개 요청] ${marker.memo.substring(0, 30)}${
+        marker.memo.length > 30 ? "..." : ""
+      } - ${selectedMap}`;
+      const issueBody = `## 사용자 마커 정보 공개 요청
+
+**마커 내용:** ${marker.memo}
+**마커 타입:** ${markerTypeName}
+**좌표:** (${marker.position[1].toFixed(0)}, ${marker.position[0].toFixed(0)})
+**지도:** ${selectedMap}
+**생성 시간:** ${marker.createdAt.toLocaleString()}
+**요청 시간:** ${new Date().toLocaleString()}
+
+## 요청 내용
+이 사용자 마커에 대한 정보를 게임 마커로 추가해 주세요.
+
+**요청 이유:**
+- [ ] 중요한 던전/지역 정보
+- [ ] NPC/상점 위치
+- [ ] 퀀스트 관련 위치
+- [ ] 아이템 수집 위치
+- [ ] 기타 (아래에 상세 내용 작성)
+
+**추가 설명:**
+<!-- 여기에 자세한 내용을 작성해 주세요 -->`;
+
+      const githubUrl = `https://github.com/patrickmonster/aion2-map/issues/new?title=${encodeURIComponent(
+        issueTitle
+      )}&body=${encodeURIComponent(issueBody)}`;
+
+      // 새 창에서 GitHub Issues 페이지 열기
+      window.open(githubUrl, "_blank");
+    },
+    [selectedMap, markerTypes]
+  );
+
   // 현재 맵의 마커만 필터링
   const currentMapMarkers = markers.filter(
     (marker) => marker.mapName === selectedMap
@@ -304,6 +392,7 @@ const Map: React.FC = () => {
             gameMarkers={gameData.markers}
             gameMarkerSettings={settings.gameMarkers}
             visibleTypes={visibleGameMarkerTypes}
+            onReportMarker={handleReportGameMarker}
           />
         )}
 
@@ -348,6 +437,13 @@ const Map: React.FC = () => {
                       onClick={() => handleDeleteMarker(marker.id)}
                     >
                       삭제
+                    </button>
+                    <button
+                      className="info-request-btn"
+                      onClick={() => handleRequestMarkerInfo(marker)}
+                      title="이 위치를 공식 마커로 추가 요청"
+                    >
+                      📝 정보공개
                     </button>
                   </div>
                   <div className="memo-info">
@@ -406,6 +502,7 @@ const Map: React.FC = () => {
         onMoveToMarker={handleMoveToMarker}
         onEditMarker={handleEditMarker}
         onDeleteMarker={handleDeleteMarker}
+        onRequestMarkerInfo={handleRequestMarkerInfo}
       />
 
       {/* 마커 타입 추가/편집 폼 */}
