@@ -7,6 +7,7 @@ import "./Home.css";
 // 타입, 상수, 훅들 import
 import { setupLeafletIcons } from "../constants";
 import {
+  useGameData,
   useMarkers,
   useMarkerTypes,
   useSettings,
@@ -16,6 +17,8 @@ import { MarkerMemo, MarkerType } from "../types";
 
 // 컴포넌트들 import
 import {
+  GameIconToggle,
+  GameMarkers,
   MapContainerComponent,
   MarkersSidebar,
   MarkerTypeForm,
@@ -36,7 +39,12 @@ const Map: React.FC = () => {
   const { markers, saveMarker, deleteMarker, deleteAllMarkers, importMarkers } =
     useMarkers();
   const { markerTypes, saveMarkerType, deleteMarkerType } = useMarkerTypes();
-  const { settings } = useSettings();
+  const { settings, toggleGameMarkerType, initializeGameMarkerType } =
+    useSettings();
+
+  // 게임 데이터 로드
+  const { gameData, getAvailableTypes, getDefaultConfigForType } =
+    useGameData(selectedMap);
 
   // UI 상태 관리
   const [showMemoDialog, setShowMemoDialog] = useState(false);
@@ -235,6 +243,39 @@ const Map: React.FC = () => {
     }
   }, [getUrlParam, setUrlParam]);
 
+  // 게임 데이터 로드 시 새로운 type들을 설정에 초기화
+  useEffect(() => {
+    if (gameData && settings.gameMarkers) {
+      const availableTypes = getAvailableTypes();
+
+      availableTypes.forEach((type) => {
+        // if (!settings.gameMarkers[type]) {
+        //   const defaultConfig = getDefaultConfigForType(type);
+        //   initializeGameMarkerType(type, defaultConfig);
+        // }
+      });
+    }
+  }, [
+    gameData,
+    getAvailableTypes,
+    getDefaultConfigForType,
+    initializeGameMarkerType,
+    settings.gameMarkers,
+  ]);
+
+  // 표시할 게임 마커들 필터링
+  const visibleGameMarkerTypes = React.useMemo(() => {
+    const types = new Set<string>();
+    if (gameData && settings.gameMarkers) {
+      getAvailableTypes().forEach((type) => {
+        if (settings.gameMarkers[type]?.visible) {
+          types.add(type);
+        }
+      });
+    }
+    return types;
+  }, [gameData, getAvailableTypes, settings.gameMarkers]);
+
   return (
     <div className="map-container">
       <Navigation
@@ -243,11 +284,29 @@ const Map: React.FC = () => {
         onSettingsClick={() => setShowSettingsModal(true)}
       />
 
+      {/* 게임 아이콘 토글 패널 */}
+      {gameData && settings.gameMarkers && getAvailableTypes().length > 0 && (
+        <GameIconToggle
+          availableTypes={getAvailableTypes()}
+          gameMarkerSettings={settings.gameMarkers}
+          onToggleMarkerType={toggleGameMarkerType}
+        />
+      )}
+
       <MapContainerComponent
         selectedMap={selectedMap}
         onMapClick={handleMapClick}
         mapRef={mapRef}
       >
+        {/* 게임 마커들 렌더링 */}
+        {gameData && settings.gameMarkers && (
+          <GameMarkers
+            gameMarkers={gameData.markers}
+            gameMarkerSettings={settings.gameMarkers}
+            visibleTypes={visibleGameMarkerTypes}
+          />
+        )}
+
         {/* 필터링된 마커들 렌더링 */}
         {filteredMarkers.map((marker) => {
           // 마커 타입에 따른 커스텀 아이콘 생성
@@ -324,6 +383,7 @@ const Map: React.FC = () => {
         settings={settings}
         markerTypes={markerTypes}
         markers={markers}
+        availableTypes={gameData ? getAvailableTypes() : []}
         onClose={() => setShowSettingsModal(false)}
         onExportMarkers={handleExportMarkers}
         onImportMarkers={handleImportMarkers}
@@ -334,6 +394,7 @@ const Map: React.FC = () => {
           setEditingMarkerType(null);
           setShowMarkerTypeForm(true);
         }}
+        onToggleGameMarkerType={toggleGameMarkerType}
       />
 
       {/* 마커 목록 사이드바 */}

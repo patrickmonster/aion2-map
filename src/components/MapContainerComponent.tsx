@@ -1,9 +1,9 @@
+import L from "leaflet";
 import React from "react";
 import { MapContainer } from "react-leaflet";
-import L from "leaflet";
+import { AION_MAPS } from "../constants";
 import { AionTileLayer } from "./AionTileLayer";
 import { MapClickHandler } from "./MapClickHandler";
-import { AION_MAPS } from "../constants";
 
 interface MapContainerComponentProps {
   selectedMap: string;
@@ -34,7 +34,7 @@ export const MapContainerComponent: React.FC<MapContainerComponentProps> = ({
   ];
 
   // 맵 중앙 좌표 계산
-  const center: [number, number] = [(mapHeight / 2) * -1, mapWidth / 2];
+  const center: [number, number] = [mapHeight / 2, mapWidth / 2];
 
   return (
     <div className="leaflet-map-wrapper">

@@ -1,5 +1,57 @@
-import { useState, useEffect, useCallback } from "react";
-import { AppSettings } from "../types";
+import { useCallback, useEffect, useState } from "react";
+import { AppSettings, GameMarkerSettings } from "../types";
+
+const DEFAULT_GAME_MARKERS: GameMarkerSettings = {
+  seal: {
+    visible: true,
+    color: "#e74c3c",
+    icon: "🔒",
+    readonly: true,
+    displayName: "봉인던전",
+  },
+  teleport: {
+    visible: true,
+    color: "#3498db",
+    icon: "🌀",
+    readonly: true,
+    displayName: "마을",
+  },
+  occupation: {
+    visible: true,
+    color: "#f39c12",
+    icon: "⚔️",
+    readonly: true,
+    displayName: "점령지",
+  },
+  monolithMaterial: {
+    visible: true,
+    color: "#9b59b6",
+    icon: "💎",
+    readonly: true,
+    displayName: "닭털",
+  },
+  battlefield: {
+    visible: true,
+    color: "#c0392b",
+    icon: "⚡",
+    readonly: true,
+    displayName: "전장",
+  },
+  hiddenCube: {
+    visible: true,
+    color: "#8e44ad",
+    icon: "🧊",
+    readonly: true,
+    displayName: "히든 큐브",
+  },
+  village: {
+    visible: true,
+    color: "#27ae60",
+    icon: "🏘️",
+    readonly: true,
+    displayName: "마을",
+  },
+};
 
 const DEFAULT_SETTINGS: AppSettings = {
   showCoordinates: true,
@@ -7,6 +59,7 @@ const DEFAULT_SETTINGS: AppSettings = {
   darkMode: false,
   markerLimit: 100,
   animationSpeed: 1.0,
+  gameMarkers: DEFAULT_GAME_MARKERS,
 };
 
 // 설정 관리 훅
@@ -19,7 +72,16 @@ export const useSettings = () => {
     if (savedSettings) {
       try {
         const parsed = JSON.parse(savedSettings);
-        setSettings(parsed);
+        // 기본 설정과 병합하여 누락된 속성들을 보완
+        const mergedSettings = {
+          ...DEFAULT_SETTINGS,
+          ...parsed,
+          gameMarkers: {
+            ...DEFAULT_GAME_MARKERS,
+            // ...parsed.gameMarkers,
+          },
+        };
+        setSettings(mergedSettings);
       } catch (error) {
         console.error("Failed to load settings:", error);
       }
@@ -44,9 +106,60 @@ export const useSettings = () => {
     []
   );
 
+  // 게임 마커 표시 설정 토글
+  const toggleGameMarkerType = useCallback((subtype: string) => {
+    setSettings((prev) => {
+      const currentGameMarkers = prev.gameMarkers || DEFAULT_GAME_MARKERS;
+      const newGameMarkers = {
+        ...currentGameMarkers,
+        [subtype]: {
+          ...currentGameMarkers[subtype],
+          visible: !currentGameMarkers[subtype]?.visible,
+        },
+      };
+      const newSettings = { ...prev, gameMarkers: newGameMarkers };
+      localStorage.setItem("aion2-map-settings", JSON.stringify(newSettings));
+      return newSettings;
+    });
+  }, []);
+
+  // 새로운 type에 대한 기본 설정 추가
+  const initializeGameMarkerType = useCallback(
+    (
+      type: string,
+      defaultConfig: {
+        color: string;
+        icon: string;
+        readonly: boolean;
+        displayName: string;
+      }
+    ) => {
+      setSettings((prev) => {
+        const currentGameMarkers = prev.gameMarkers || DEFAULT_GAME_MARKERS;
+        if (currentGameMarkers[type]) {
+          return prev; // 이미 존재하면 변경하지 않음
+        }
+
+        const newGameMarkers = {
+          ...currentGameMarkers,
+          [type]: {
+            visible: true,
+            ...defaultConfig,
+          },
+        };
+        const newSettings = { ...prev, gameMarkers: newGameMarkers };
+        localStorage.setItem("aion2-map-settings", JSON.stringify(newSettings));
+        return newSettings;
+      });
+    },
+    []
+  );
+
   return {
     settings,
     saveSettings,
     updateSetting,
+    toggleGameMarkerType,
+    initializeGameMarkerType,
   };
 };

@@ -482,8 +482,8 @@ div.leaflet-bottom.leaflet-right {
 /* 마커 사이드바 스타일 */
 .markers-sidebar {
   position: fixed;
-  right: 20px;
-  top: 20px;
+  left: 40px;
+  top: 140px;
   width: 300px;
   max-height: calc(100vh - 40px);
   background: rgba(255, 255, 255, 0.95);
@@ -502,10 +502,45 @@ div.leaflet-bottom.leaflet-right {
   border-bottom: 1px solid #dee2e6;
 }
 
+.markers-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 .markers-header h4 {
-  margin: 0 0 10px 0;
+  margin: 0;
   color: #2c3e50;
   font-size: 1.1em;
+}
+
+.toggle-button {
+  background: #ffffff;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #495057;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
+  height: 30px;
+}
+
+.toggle-button:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+  color: #2c3e50;
+}
+
+.toggle-button:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
 }
 
 .markers-header small {
@@ -1025,4 +1060,223 @@ div.leaflet-bottom.leaflet-right {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+}
+
+/* 게임 마커 아이콘 스타일 */
+.game-marker-icon {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* 게임 아이콘 토글 패널 스타일 */
+.game-icon-toggle-panel {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 12px 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.game-icon-toggle {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.game-icon-toggle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.game-icon-toggle.active {
+  border-color: currentColor;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 0 1px currentColor;
+}
+
+.game-icon-toggle.inactive {
+  background: rgba(248, 249, 250, 0.8);
+  border-color: #dee2e6;
+}
+
+.game-icon-toggle.inactive:hover {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: #ced4da;
+}
+
+.game-icon-emoji {
+  font-size: 20px;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.game-icon-toggle:hover .game-icon-emoji {
+  transform: scale(1.1);
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .game-icon-toggle-panel {
+    top: 10px;
+    right: 10px;
+    padding: 8px 6px;
+    gap: 6px;
+  }
+  
+  .game-icon-toggle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .game-icon-emoji {
+    font-size: 18px;
+  }
+}
+
+/* 게임 마커 팝업 스타일 */
+.game-marker-popup h4 {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+  font-size: 1.1em;
+}
+
+.marker-details div {
+  margin: 4px 0;
+  font-size: 0.9em;
+}
+
+.marker-details strong {
+  color: #34495e;
+}
+
+.marker-images {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* 게임 마커 설정 패널 스타일 */
+.game-marker-settings {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.game-marker-settings h4 {
+  margin: 0 0 15px 0;
+  color: #2c3e50;
+  font-size: 1.1em;
+}
+
+.game-marker-types {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.game-marker-type-item {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+
+.game-marker-type-item:hover {
+  border-color: #3498db;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.marker-type-header {
+  margin-bottom: 8px;
+}
+
+.marker-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.marker-toggle input[type="checkbox"] {
+  margin: 0;
+}
+
+.marker-type-icon {
+  font-size: 18px;
+  min-width: 24px;
+  text-align: center;
+}
+
+.marker-type-name {
+  color: #2c3e50;
+}
+
+.marker-type-controls {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-top: 8px;
+  border-top: 1px solid #e9ecef;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.control-group label {
+  font-size: 0.85em;
+  color: #6c757d;
+  min-width: 40px;
+}
+
+.color-picker {
+  width: 40px;
+  height: 30px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.icon-input {
+  width: 50px;
+  padding: 4px 6px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.marker-stats {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.marker-stats small {
+  color: #6c757d;
+  font-size: 0.85em;
 }

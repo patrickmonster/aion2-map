@@ -18,6 +18,8 @@ class CustomTileLayer extends L.TileLayer {
     let { selectedMap } = this.gameOptions,
       x = coords.x,
       y = coords.y;
+    // console.log("LOAD ::", x, y);
+    y = y + selectedMap.tilesCountY;
     if (
       x < 0 ||
       y < 0 ||

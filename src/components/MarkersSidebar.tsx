@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { MarkerMemo, MarkerType } from "../types";
 import { ActionButton } from "./ActionButton";
 
@@ -21,6 +21,8 @@ export const MarkersSidebar: React.FC<MarkersSidebarProps> = ({
   onEditMarker,
   onDeleteMarker,
 }) => {
+  const [isExpanded, setIsExpanded] = useState(true);
+
   // 마커 타입으로 필터링
   const filteredMarkers = markers.filter((marker) => {
     if (selectedFilter === "all") return true;
@@ -42,9 +44,18 @@ export const MarkersSidebar: React.FC<MarkersSidebarProps> = ({
   return (
     <div className="markers-sidebar">
       <div className="markers-header">
-        <h4>
-          저장된 메모 ({filteredMarkers.length}/{markers.length})
-        </h4>
+        <div className="markers-header-top">
+          <h4>
+            저장된 핀 ({filteredMarkers.length}/{markers.length})
+          </h4>
+          <button
+            className="toggle-button"
+            onClick={() => setIsExpanded(!isExpanded)}
+            title={isExpanded ? "목록 숨기기" : "목록 보기"}
+          >
+            {isExpanded ? "▲" : "▼"}
+          </button>
+        </div>
         <select
           value={selectedFilter}
           onChange={(e) => onFilterChange(e.target.value)}
@@ -58,43 +69,48 @@ export const MarkersSidebar: React.FC<MarkersSidebarProps> = ({
           ))}
         </select>
       </div>
-      <div className="markers-list">
-        {filteredMarkers.map((marker) => {
-          const markerType = getMarkerType(marker.type);
-          return (
-            <div
-              key={marker.id}
-              className="marker-item"
-              onClick={() => onMoveToMarker(marker.position)}
-            >
-              <div className="marker-header">
-                <div className="marker-date-type">
-                  {markerType && (
-                    <span className="marker-type-icon" title={markerType.name}>
-                      {markerType.icon}
-                    </span>
-                  )}
-                  <small>{marker.createdAt.toLocaleDateString()}</small>
+      {isExpanded && (
+        <div className="markers-list">
+          {filteredMarkers.map((marker) => {
+            const markerType = getMarkerType(marker.type);
+            return (
+              <div
+                key={marker.id}
+                className="marker-item"
+                onClick={() => onMoveToMarker(marker.position)}
+              >
+                <div className="marker-header">
+                  <div className="marker-date-type">
+                    {markerType && (
+                      <span
+                        className="marker-type-icon"
+                        title={markerType.name}
+                      >
+                        {markerType.icon}
+                      </span>
+                    )}
+                    <small>{marker.createdAt.toLocaleDateString()}</small>
+                  </div>
+                  <div
+                    className="marker-actions"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <ActionButton
+                      type="edit"
+                      onClick={() => onEditMarker(marker)}
+                    />
+                    <ActionButton
+                      type="delete"
+                      onClick={() => onDeleteMarker(marker.id)}
+                    />
+                  </div>
                 </div>
-                <div
-                  className="marker-actions"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <ActionButton
-                    type="edit"
-                    onClick={() => onEditMarker(marker)}
-                  />
-                  <ActionButton
-                    type="delete"
-                    onClick={() => onDeleteMarker(marker.id)}
-                  />
-                </div>
+                <div className="marker-memo">{marker.memo}</div>
               </div>
-              <div className="marker-memo">{marker.memo}</div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 };

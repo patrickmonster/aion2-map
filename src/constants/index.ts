@@ -1,5 +1,5 @@
 import L from "leaflet";
-import { MarkerType, AionMapInfo } from "../types";
+import { AionMapInfo, MarkerType } from "../types";
 
 // 기본 마커 타입 데이터
 export const DEFAULT_MARKER_TYPES: MarkerType[] = [
@@ -92,17 +92,4 @@ export const setupLeafletIcons = () => {
 };
 
 // 미리 정의된 아이콘 목록
-export const PREDEFINED_ICONS = [
-  "📍",
-  "⭐",
-  "🎯",
-  "🌿",
-  "🏢",
-  "⚠️",
-  "💎",
-  "🔥",
-  "⚡",
-  "🎪",
-  "🏰",
-  "🗡️",
-];
+export const PREDEFINED_ICONS = ["⭐", "⛏️", "🌿", "🗡️"];

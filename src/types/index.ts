@@ -19,6 +19,34 @@ export interface MarkerMemo {
   type?: string; // 마커 타입 ID
 }
 
+// 게임 마커 데이터 타입
+export interface GameMarker {
+  category: string;
+  id: string;
+  name: string;
+  type: string;
+  x: number;
+  y: number;
+  images?: string[];
+  region?: string;
+}
+
+// 게임 데이터 인터페이스
+export interface GameData {
+  markers: GameMarker[];
+}
+
+// 게임 마커 표시 설정
+export interface GameMarkerSettings {
+  [type: string]: {
+    visible: boolean;
+    color: string;
+    icon: string;
+    readonly: boolean; // 읽기 전용 여부
+    displayName: string; // 한글 표시명
+  };
+}
+
 // 설정 인터페이스
 export interface AppSettings {
   showCoordinates: boolean;
@@ -26,6 +54,7 @@ export interface AppSettings {
   darkMode: boolean;
   markerLimit: number;
   animationSpeed: number;
+  gameMarkers: GameMarkerSettings;
 }
 
 // 게임 옵션 인터페이스

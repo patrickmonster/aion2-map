@@ -2,12 +2,14 @@ import React, { useEffect, useState } from "react";
 import { PREDEFINED_ICONS } from "../constants";
 import { AppSettings, MarkerType } from "../types";
 import { ActionButton } from "./ActionButton";
+import { GameMarkerSettingsPanel } from "./GameMarkerSettingsPanel";
 
 interface SettingsModalProps {
   isOpen: boolean;
   settings: AppSettings;
   markerTypes: MarkerType[];
   markers: any[];
+  availableTypes?: string[];
   onClose: () => void;
   onExportMarkers: () => void;
   onImportMarkers: (event: React.ChangeEvent<HTMLInputElement>) => void;
@@ -15,6 +17,7 @@ interface SettingsModalProps {
   onEditMarkerType: (markerType: MarkerType) => void;
   onDeleteMarkerType: (typeId: string) => void;
   onAddMarkerType: () => void;
+  onToggleGameMarkerType?: (type: string) => void;
 }
 
 export const SettingsModal: React.FC<SettingsModalProps> = ({
@@ -22,6 +25,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   settings,
   markerTypes,
   markers,
+  availableTypes = [],
   onClose,
   onExportMarkers,
   onImportMarkers,
@@ -29,6 +33,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   onEditMarkerType,
   onDeleteMarkerType,
   onAddMarkerType,
+  onToggleGameMarkerType,
 }) => {
   useEffect(() => {
     if (!isOpen) return;
@@ -126,6 +131,17 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
               + 새 마커 타입 추가
             </button>
           </div>
+
+          {/* 게임 마커 설정 섹션 */}
+          {availableTypes.length > 0 && onToggleGameMarkerType && (
+            <div className="settings-section">
+              <GameMarkerSettingsPanel
+                availableTypes={availableTypes}
+                gameMarkerSettings={settings.gameMarkers}
+                onToggleMarkerType={onToggleGameMarkerType}
+              />
+            </div>
+          )}
 
           <div className="settings-section">
             <h4>정보</h4>
