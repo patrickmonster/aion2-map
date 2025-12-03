@@ -46,12 +46,12 @@ export const GameMarkers: React.FC<GameMarkersProps> = ({
             >
               <Popup>
                 <div className="game-marker-popup">
-                  <h4>{marker.name || "Unknown Location"}</h4>
+                  <h4>{marker.name || marker.id || "Unknown Location"}</h4>
                   <div className="marker-details">
                     <div>
                       <strong>타입:</strong>{" "}
                       {gameMarkerSettings[marker.type]?.displayName ||
-                        marker.type}
+                        marker.type}{" "}
                     </div>
                     <div>
                       <strong>카테고리:</strong> {marker.category}
