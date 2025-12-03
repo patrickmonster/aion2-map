@@ -1133,6 +1133,26 @@ div.leaflet-bottom.leaflet-right {
   transform: scale(1.1);
 }
 
+/* 토글 구분선 */
+.toggle-separator {
+  width: 80%;
+  height: 1px;
+  background: #dee2e6;
+  margin: 4px auto;
+  border-radius: 1px;
+}
+
+/* 지역 툴팁 스타일 */
+.region-tooltip {
+  background: rgba(52, 152, 219, 0.9) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  padding: 4px 8px !important;
+}
+
 /* 반응형 디자인 */
 @media (max-width: 768px) {
   .game-icon-toggle-panel {
@@ -1149,6 +1169,10 @@ div.leaflet-bottom.leaflet-right {
   
   .game-icon-emoji {
     font-size: 18px;
+  }
+  
+  .toggle-separator {
+    margin: 2px auto;
   }
 }
 

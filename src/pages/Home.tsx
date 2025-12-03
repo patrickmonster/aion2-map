@@ -8,6 +8,7 @@ import "./Home.css";
 import { setupLeafletIcons } from "../constants";
 import {
   useGameData,
+  useGameRegions,
   useMarkers,
   useMarkerTypes,
   useSettings,
@@ -19,6 +20,7 @@ import { MarkerMemo, MarkerType } from "../types";
 import {
   GameIconToggle,
   GameMarkers,
+  GameRegions,
   MapContainerComponent,
   MarkersSidebar,
   MarkerTypeForm,
@@ -39,12 +41,19 @@ const Map: React.FC = () => {
   const { markers, saveMarker, deleteMarker, deleteAllMarkers, importMarkers } =
     useMarkers();
   const { markerTypes, saveMarkerType, deleteMarkerType } = useMarkerTypes();
-  const { settings, toggleGameMarkerType, initializeGameMarkerType } =
-    useSettings();
+  const {
+    settings,
+    toggleGameMarkerType,
+    initializeGameMarkerType,
+    updateSetting,
+  } = useSettings();
 
   // 게임 데이터 로드
   const { gameData, getAvailableTypes, getDefaultConfigForType } =
     useGameData(selectedMap);
+
+  // 지역 데이터 로드 (독립적)
+  const { regions, hasRegions } = useGameRegions(selectedMap);
 
   // UI 상태 관리
   const [showMemoDialog, setShowMemoDialog] = useState(false);
@@ -285,11 +294,16 @@ const Map: React.FC = () => {
       />
 
       {/* 게임 아이콘 토글 패널 */}
-      {gameData && settings.gameMarkers && getAvailableTypes().length > 0 && (
+      {(getAvailableTypes().length > 0 || hasRegions) && (
         <GameIconToggle
           availableTypes={getAvailableTypes()}
           gameMarkerSettings={settings.gameMarkers}
           onToggleMarkerType={toggleGameMarkerType}
+          showRegions={settings.showRegions}
+          hasRegions={hasRegions}
+          onToggleRegions={() =>
+            updateSetting("showRegions", !settings.showRegions)
+          }
         />
       )}
 
@@ -298,6 +312,11 @@ const Map: React.FC = () => {
         onMapClick={handleMapClick}
         mapRef={mapRef}
       >
+        {/* 게임 지역들 렌더링 */}
+        {regions.length > 0 && (
+          <GameRegions regions={regions} visible={settings.showRegions} />
+        )}
+
         {/* 게임 마커들 렌더링 */}
         {gameData && settings.gameMarkers && (
           <GameMarkers

@@ -59,6 +59,7 @@ const DEFAULT_SETTINGS: AppSettings = {
   darkMode: false,
   markerLimit: 100,
   animationSpeed: 1.0,
+  showRegions: true, // 기본적으로 지역 표시 활성화
   gameMarkers: DEFAULT_GAME_MARKERS,
 };
 

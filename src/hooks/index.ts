@@ -1,4 +1,4 @@
-export { useGameData } from "./useGameData";
+export { useGameData, useGameRegions } from "./useGameData";
 export { useMarkers } from "./useMarkers";
 export { useMarkerTypes } from "./useMarkerTypes";
 export { useSettings } from "./useSettings";

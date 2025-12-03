@@ -31,9 +31,23 @@ export interface GameMarker {
   region?: string;
 }
 
+// 지역 데이터 타입
+export interface GameRegion {
+  id: string;
+  name: string;
+  type: string;
+  borders: [number, number][][]; // 지역 경계 좌표들
+}
+
+// 지역 데이터 인터페이스
+export interface RegionsData {
+  regions: GameRegion[];
+}
+
 // 게임 데이터 인터페이스
 export interface GameData {
   markers: GameMarker[];
+  regions?: GameRegion[];
 }
 
 // 게임 마커 표시 설정
@@ -54,6 +68,7 @@ export interface AppSettings {
   darkMode: boolean;
   markerLimit: number;
   animationSpeed: number;
+  showRegions: boolean;
   gameMarkers: GameMarkerSettings;
 }
 
