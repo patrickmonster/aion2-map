@@ -26,7 +26,7 @@ const DEFAULT_GAME_MARKERS: GameMarkerSettings = {
   monolithMaterial: {
     visible: true,
     color: "#9b59b6",
-    icon: "💎",
+    icon: "🪶",
     readonly: true,
     displayName: "닭털",
   },
@@ -62,6 +62,11 @@ const DEFAULT_SETTINGS: AppSettings = {
   gameMarkers: DEFAULT_GAME_MARKERS,
 };
 
+// gameMarkers의 visible 상태만 저장
+type GameMarkerVisibilitySettings = {
+  [key: string]: boolean;
+};
+
 // 설정 관리 훅
 export const useSettings = () => {
   const [settings, setSettings] = useState<AppSettings>(DEFAULT_SETTINGS);
@@ -69,17 +74,35 @@ export const useSettings = () => {
   // 로컬스토리지에서 설정 데이터 로드
   useEffect(() => {
     const savedSettings = localStorage.getItem("aion2-map-settings");
+    const savedGameMarkerVisibility = localStorage.getItem(
+      "aion2-map-game-markers-visibility"
+    );
+
     if (savedSettings) {
       try {
         const parsed = JSON.parse(savedSettings);
+        let gameMarkers = { ...DEFAULT_GAME_MARKERS };
+
+        // gameMarkers visibility 설정 복원
+        if (savedGameMarkerVisibility) {
+          const visibilitySettings: GameMarkerVisibilitySettings = JSON.parse(
+            savedGameMarkerVisibility
+          );
+          Object.keys(gameMarkers).forEach((key) => {
+            if (key in visibilitySettings) {
+              gameMarkers[key] = {
+                ...gameMarkers[key],
+                visible: visibilitySettings[key],
+              };
+            }
+          });
+        }
+
         // 기본 설정과 병합하여 누락된 속성들을 보완
         const mergedSettings = {
           ...DEFAULT_SETTINGS,
           ...parsed,
-          gameMarkers: {
-            ...DEFAULT_GAME_MARKERS,
-            // ...parsed.gameMarkers,
-          },
+          gameMarkers,
         };
         setSettings(mergedSettings);
       } catch (error) {
@@ -91,7 +114,23 @@ export const useSettings = () => {
   // 설정 저장
   const saveSettings = useCallback((newSettings: AppSettings) => {
     setSettings(newSettings);
-    localStorage.setItem("aion2-map-settings", JSON.stringify(newSettings));
+
+    // gameMarkers visible 상태만 별도 저장
+    const visibilitySettings: GameMarkerVisibilitySettings = {};
+    Object.keys(newSettings.gameMarkers || {}).forEach((key) => {
+      visibilitySettings[key] = newSettings.gameMarkers[key]?.visible ?? true;
+    });
+
+    // gameMarkers를 제외한 설정만 저장
+    const { gameMarkers, ...settingsWithoutGameMarkers } = newSettings;
+    localStorage.setItem(
+      "aion2-map-settings",
+      JSON.stringify(settingsWithoutGameMarkers)
+    );
+    localStorage.setItem(
+      "aion2-map-game-markers-visibility",
+      JSON.stringify(visibilitySettings)
+    );
   }, []);
 
   // 개별 설정 업데이트
@@ -99,7 +138,25 @@ export const useSettings = () => {
     <K extends keyof AppSettings>(key: K, value: AppSettings[K]) => {
       setSettings((prev) => {
         const newSettings = { ...prev, [key]: value };
-        localStorage.setItem("aion2-map-settings", JSON.stringify(newSettings));
+
+        // gameMarkers visible 상태만 별도 저장
+        const visibilitySettings: GameMarkerVisibilitySettings = {};
+        Object.keys(newSettings.gameMarkers || {}).forEach((markerKey) => {
+          visibilitySettings[markerKey] =
+            newSettings.gameMarkers[markerKey]?.visible ?? true;
+        });
+
+        // gameMarkers를 제외한 설정만 저장
+        const { gameMarkers, ...settingsWithoutGameMarkers } = newSettings;
+        localStorage.setItem(
+          "aion2-map-settings",
+          JSON.stringify(settingsWithoutGameMarkers)
+        );
+        localStorage.setItem(
+          "aion2-map-game-markers-visibility",
+          JSON.stringify(visibilitySettings)
+        );
+
         return newSettings;
       });
     },
@@ -118,7 +175,35 @@ export const useSettings = () => {
         },
       };
       const newSettings = { ...prev, gameMarkers: newGameMarkers };
-      localStorage.setItem("aion2-map-settings", JSON.stringify(newSettings));
+
+      // visible 상태만 별도 저장
+      const visibilitySettings: GameMarkerVisibilitySettings = {};
+      Object.keys(newGameMarkers).forEach((key) => {
+        visibilitySettings[key] = newGameMarkers[key]?.visible ?? true;
+      });
+
+      // 기존 설정 로드
+      const savedSettings = localStorage.getItem("aion2-map-settings");
+      let baseSettings = {};
+      if (savedSettings) {
+        try {
+          baseSettings = JSON.parse(savedSettings);
+        } catch (error) {
+          console.error("Failed to parse saved settings:", error);
+        }
+      }
+
+      // gameMarkers를 제외한 설정 저장
+      const { gameMarkers, ...settingsWithoutGameMarkers } = newSettings;
+      localStorage.setItem(
+        "aion2-map-settings",
+        JSON.stringify({ ...baseSettings, ...settingsWithoutGameMarkers })
+      );
+      localStorage.setItem(
+        "aion2-map-game-markers-visibility",
+        JSON.stringify(visibilitySettings)
+      );
+
       return newSettings;
     });
   }, []);
@@ -148,7 +233,35 @@ export const useSettings = () => {
           },
         };
         const newSettings = { ...prev, gameMarkers: newGameMarkers };
-        localStorage.setItem("aion2-map-settings", JSON.stringify(newSettings));
+
+        // visible 상태만 별도 저장
+        const visibilitySettings: GameMarkerVisibilitySettings = {};
+        Object.keys(newGameMarkers).forEach((key) => {
+          visibilitySettings[key] = newGameMarkers[key]?.visible ?? true;
+        });
+
+        // 기존 설정 로드
+        const savedSettings = localStorage.getItem("aion2-map-settings");
+        let baseSettings = {};
+        if (savedSettings) {
+          try {
+            baseSettings = JSON.parse(savedSettings);
+          } catch (error) {
+            console.error("Failed to parse saved settings:", error);
+          }
+        }
+
+        // gameMarkers를 제외한 설정 저장
+        const { gameMarkers, ...settingsWithoutGameMarkers } = newSettings;
+        localStorage.setItem(
+          "aion2-map-settings",
+          JSON.stringify({ ...baseSettings, ...settingsWithoutGameMarkers })
+        );
+        localStorage.setItem(
+          "aion2-map-game-markers-visibility",
+          JSON.stringify(visibilitySettings)
+        );
+
         return newSettings;
       });
     },
