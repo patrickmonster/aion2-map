@@ -107,7 +107,9 @@
     {
       "category": "collection",
       "id": "fafa4dee-f162-45b5-a133-da33e65a6d75",
-      "images": ["markers_images/kVflWdAOcAhyvDzSgaRCNw"],
+      "images": [
+        "markers_images/kVflWdAOcAhyvDzSgaRCNw"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -117,7 +119,9 @@
     {
       "category": "collection",
       "id": "e85734e4-2094-4e96-b34a-f4308830e316",
-      "images": ["markers_images/icAWh6sSYtBxoFI8cHtrtg"],
+      "images": [
+        "markers_images/icAWh6sSYtBxoFI8cHtrtg"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -127,7 +131,9 @@
     {
       "category": "collection",
       "id": "5da3e6f7-98ba-403a-b9ed-88489aff58c0",
-      "images": ["markers_images/IF2VChWlI3jwjF8F7Rh3YA"],
+      "images": [
+        "markers_images/IF2VChWlI3jwjF8F7Rh3YA"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -137,7 +143,9 @@
     {
       "category": "collection",
       "id": "9e59e556-2aad-4a5f-83ed-eb6c4fa95d45",
-      "images": ["markers_images/SKwRXYMJMTHoD-O4qf-zgw"],
+      "images": [
+        "markers_images/SKwRXYMJMTHoD-O4qf-zgw"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -147,7 +155,9 @@
     {
       "category": "collection",
       "id": "573240ac-6206-4baa-b382-245a7a7e2ba1",
-      "images": ["markers_images/1tzfNUnooeZ5DOPCwdIwEw"],
+      "images": [
+        "markers_images/1tzfNUnooeZ5DOPCwdIwEw"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -157,7 +167,9 @@
     {
       "category": "collection",
       "id": "4b6a2ccb-5c75-4c8e-8a1e-9743f4ac4d27",
-      "images": ["markers_images/ODGbEfKWj3P_8nPqPAHUTQ"],
+      "images": [
+        "markers_images/ODGbEfKWj3P_8nPqPAHUTQ"
+      ],
       "name": "",
       "region": "CalderonCanyon",
       "type": "monolithMaterial",
@@ -167,7 +179,9 @@
     {
       "category": "collection",
       "id": "5dc7e989-9dc5-4b52-9c47-898559a75fef",
-      "images": ["markers_images/SdeFems4NrOq9oEu9E_-1g"],
+      "images": [
+        "markers_images/SdeFems4NrOq9oEu9E_-1g"
+      ],
       "name": "",
       "region": "CalderonCanyon",
       "type": "monolithMaterial",
@@ -177,7 +191,9 @@
     {
       "category": "collection",
       "id": "760be2e7-77da-4b3f-8f78-3981ff9402dd",
-      "images": ["markers_images/7o9lxpAiGLoS_NPCIgOf-Q"],
+      "images": [
+        "markers_images/7o9lxpAiGLoS_NPCIgOf-Q"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -187,7 +203,9 @@
     {
       "category": "collection",
       "id": "e4c12bc3-5790-47ea-a1c7-1d8d93d16a4d",
-      "images": ["markers_images/k4gSiHLhU0YLuwoqDICFgA"],
+      "images": [
+        "markers_images/k4gSiHLhU0YLuwoqDICFgA"
+      ],
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
@@ -197,7 +215,9 @@
     {
       "category": "collection",
       "id": "6d3aced4-23f1-48f5-963a-901f7d1568d9",
-      "images": ["markers_images/g9paFWbejVKdF625iculqA"],
+      "images": [
+        "markers_images/g9paFWbejVKdF625iculqA"
+      ],
       "name": "",
       "region": "CalderonCanyon",
       "type": "monolithMaterial",
@@ -207,7 +227,9 @@
     {
       "category": "collection",
       "id": "90c25ebc-07b9-4305-bbcd-e8d6abe66820",
-      "images": ["markers_images/gEZbWEbjhtpn6KLF1oj_Wg"],
+      "images": [
+        "markers_images/gEZbWEbjhtpn6KLF1oj_Wg"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -217,7 +239,9 @@
     {
       "category": "collection",
       "id": "2c543fc8-7df0-45e2-8f78-0441c3c94a0e",
-      "images": ["markers_images/IPvOlCR2_zO3UhaCIYQh8w"],
+      "images": [
+        "markers_images/IPvOlCR2_zO3UhaCIYQh8w"
+      ],
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
@@ -227,7 +251,9 @@
     {
       "category": "collection",
       "id": "fcf4ba29-3f66-4a56-a8e3-332016c1383a",
-      "images": ["markers_images/jQ85KZ9TInQihtBGgyBPpg"],
+      "images": [
+        "markers_images/jQ85KZ9TInQihtBGgyBPpg"
+      ],
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
@@ -237,7 +263,9 @@
     {
       "category": "collection",
       "id": "887d4212-b36a-4e0a-8177-08975b9accaa",
-      "images": ["markers_images/YI58W5boEB275VZpsBnxpw"],
+      "images": [
+        "markers_images/YI58W5boEB275VZpsBnxpw"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -247,7 +275,9 @@
     {
       "category": "collection",
       "id": "fbe50f10-5b94-4072-b2bb-7b43a15a58c2",
-      "images": ["markers_images/n0x8tRuxaE-RWmtnBb3bcw"],
+      "images": [
+        "markers_images/n0x8tRuxaE-RWmtnBb3bcw"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -257,7 +287,9 @@
     {
       "category": "collection",
       "id": "0aec4e03-4f42-4f00-beed-9a9b8e69f0d4",
-      "images": ["markers_images/wdW_IYTYgEWBjrIpSZXVdw"],
+      "images": [
+        "markers_images/wdW_IYTYgEWBjrIpSZXVdw"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -267,7 +299,9 @@
     {
       "category": "collection",
       "id": "2cb1335b-d4bb-4283-abe3-fdd7dbe8406c",
-      "images": ["markers_images/uXBB7RMrSDD67q9W5nBJRg"],
+      "images": [
+        "markers_images/uXBB7RMrSDD67q9W5nBJRg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -277,7 +311,9 @@
     {
       "category": "collection",
       "id": "1f8fe861-3932-493d-aa55-8968b017c582",
-      "images": ["markers_images/e9_dJZUUGxxVhA69W0AJpg"],
+      "images": [
+        "markers_images/e9_dJZUUGxxVhA69W0AJpg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -287,7 +323,9 @@
     {
       "category": "collection",
       "id": "cc8842ea-b213-4297-ba5a-2670bd7fee5a",
-      "images": ["markers_images/3D7PYibpP44F0BMNb45IZQ"],
+      "images": [
+        "markers_images/3D7PYibpP44F0BMNb45IZQ"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -297,7 +335,9 @@
     {
       "category": "collection",
       "id": "bd12ca8e-53c7-4847-a9de-4fcf5251e1db",
-      "images": ["markers_images/NMbp5XFi3eda02X7AHhgvg"],
+      "images": [
+        "markers_images/NMbp5XFi3eda02X7AHhgvg"
+      ],
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
@@ -307,7 +347,9 @@
     {
       "category": "collection",
       "id": "a4742f73-c258-4219-8604-872a96de307c",
-      "images": ["markers_images/u2KYrvttKb-XaJASt3elvQ"],
+      "images": [
+        "markers_images/u2KYrvttKb-XaJASt3elvQ"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -317,7 +359,9 @@
     {
       "category": "collection",
       "id": "5463e84d-df43-400b-8fad-4afa5f07336d",
-      "images": ["markers_images/Uv26_kdOZJCcUrD2BoHc4w"],
+      "images": [
+        "markers_images/Uv26_kdOZJCcUrD2BoHc4w"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -327,7 +371,9 @@
     {
       "category": "collection",
       "id": "aed1cd8a-ec45-450d-b5b4-a9e760d56cfe",
-      "images": ["markers_images/E9XZLLc7rMeKYxbj5_4GJg"],
+      "images": [
+        "markers_images/E9XZLLc7rMeKYxbj5_4GJg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -337,7 +383,9 @@
     {
       "category": "collection",
       "id": "bf275ca1-1b25-40d3-8aa9-e9d4a98715dd",
-      "images": ["markers_images/2roBBqmBnrvswZ26NieiGw"],
+      "images": [
+        "markers_images/2roBBqmBnrvswZ26NieiGw"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -347,7 +395,9 @@
     {
       "category": "collection",
       "id": "cb07236f-c207-4556-8cac-49b902ebd739",
-      "images": ["markers_images/S6zj6Wz9b0n4ctbgsYeV_g"],
+      "images": [
+        "markers_images/S6zj6Wz9b0n4ctbgsYeV_g"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -357,7 +407,9 @@
     {
       "category": "collection",
       "id": "ca85d11b-1712-4747-976c-eb8f2f37513d",
-      "images": ["markers_images/Dz-bEwSPzN_fabZsFI7Cyw"],
+      "images": [
+        "markers_images/Dz-bEwSPzN_fabZsFI7Cyw"
+      ],
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
@@ -367,7 +419,9 @@
     {
       "category": "collection",
       "id": "768fb5b2-5bd2-4eb3-af2f-02d37fc9df9d",
-      "images": ["markers_images/ma9_rFk9IYVNyfWVfEDX-A"],
+      "images": [
+        "markers_images/ma9_rFk9IYVNyfWVfEDX-A"
+      ],
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
@@ -377,7 +431,9 @@
     {
       "category": "collection",
       "id": "f935f5bc-1230-4f73-86eb-e084693fd670",
-      "images": ["markers_images/sPhknA-RXyv5bmzLyMe85Q"],
+      "images": [
+        "markers_images/sPhknA-RXyv5bmzLyMe85Q"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -387,7 +443,9 @@
     {
       "category": "collection",
       "id": "c8240864-e395-4ce9-a8ba-28d06bfe02d7",
-      "images": ["markers_images/K0r9NElW27RIoD0qbXv72w"],
+      "images": [
+        "markers_images/K0r9NElW27RIoD0qbXv72w"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -397,7 +455,9 @@
     {
       "category": "collection",
       "id": "489799f5-9781-4ddb-98ff-2e29733a1ee8",
-      "images": ["markers_images/OQ3Od6Qn5rBVyvlV6z6MPA"],
+      "images": [
+        "markers_images/OQ3Od6Qn5rBVyvlV6z6MPA"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -407,7 +467,9 @@
     {
       "category": "collection",
       "id": "7a96c12a-6c37-49f1-99c5-9ab1a9db4c85",
-      "images": ["markers_images/OZG1qD-GRoztbF4ASWOQ2w"],
+      "images": [
+        "markers_images/OZG1qD-GRoztbF4ASWOQ2w"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -417,7 +479,9 @@
     {
       "category": "collection",
       "id": "7371eaaf-d689-4174-ba8c-c419f667cc7e",
-      "images": ["markers_images/lR71kDIJ2LAYq0ArENIrgQ"],
+      "images": [
+        "markers_images/lR71kDIJ2LAYq0ArENIrgQ"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -427,7 +491,9 @@
     {
       "category": "collection",
       "id": "27ef6b26-d72a-4aae-84fb-916fd3f568db",
-      "images": ["markers_images/sdS7fYcBpLPq0_mgfgdvDw"],
+      "images": [
+        "markers_images/sdS7fYcBpLPq0_mgfgdvDw"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -437,7 +503,9 @@
     {
       "category": "collection",
       "id": "bda33658-3487-4f7b-9080-3b31b2d3d6c5",
-      "images": ["markers_images/zlyJ_uFqQPeFoEDZ4xa5GQ"],
+      "images": [
+        "markers_images/zlyJ_uFqQPeFoEDZ4xa5GQ"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -447,7 +515,9 @@
     {
       "category": "collection",
       "id": "34203a52-ea72-4f6c-a02d-269c08b3345b",
-      "images": ["markers_images/8FxCpWzkj3cVXzCYR2BScw"],
+      "images": [
+        "markers_images/8FxCpWzkj3cVXzCYR2BScw"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -457,7 +527,9 @@
     {
       "category": "collection",
       "id": "60c1df5a-2385-45e8-bbb0-8946bc9d7845",
-      "images": ["markers_images/WGzebBYs0q_LAxQiba7EEQ"],
+      "images": [
+        "markers_images/WGzebBYs0q_LAxQiba7EEQ"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -467,7 +539,9 @@
     {
       "category": "collection",
       "id": "0ab731c1-b9a2-4299-b17b-315e7ee509ab",
-      "images": ["markers_images/lligW6HLMxpJ0RbCnzbUFQ"],
+      "images": [
+        "markers_images/lligW6HLMxpJ0RbCnzbUFQ"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -477,7 +551,9 @@
     {
       "category": "collection",
       "id": "395da3d3-708d-4f42-ba79-4acbb15cf047",
-      "images": ["markers_images/vVVi0qGY4NN30tB260LIOA"],
+      "images": [
+        "markers_images/vVVi0qGY4NN30tB260LIOA"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -487,7 +563,9 @@
     {
       "category": "collection",
       "id": "bbc58f52-ce98-4321-b016-ff079f843039",
-      "images": ["markers_images/KUgveSOzwBDVtbhsmPYq7w"],
+      "images": [
+        "markers_images/KUgveSOzwBDVtbhsmPYq7w"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -497,7 +575,9 @@
     {
       "category": "collection",
       "id": "4726c5ff-23c5-43c3-9695-01105f9292e3",
-      "images": ["markers_images/MSjUoE9NnQMm6r--BsLO5A"],
+      "images": [
+        "markers_images/MSjUoE9NnQMm6r--BsLO5A"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -507,7 +587,9 @@
     {
       "category": "collection",
       "id": "4238ef06-f608-4c6d-929c-d2906e96b466",
-      "images": ["markers_images/oiNIn84jk2nVvX1fctcEZw"],
+      "images": [
+        "markers_images/oiNIn84jk2nVvX1fctcEZw"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -517,7 +599,9 @@
     {
       "category": "collection",
       "id": "285593aa-6797-405d-a6ea-6bcbd6438bcf",
-      "images": ["markers_images/DO2NAkJo1LX8GyHcAqekCA"],
+      "images": [
+        "markers_images/DO2NAkJo1LX8GyHcAqekCA"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -527,7 +611,9 @@
     {
       "category": "collection",
       "id": "7edd3871-ff14-4e51-ad25-951d1b468b71",
-      "images": ["markers_images/CUeYbNCWtHBBzrXUVxLEOw"],
+      "images": [
+        "markers_images/CUeYbNCWtHBBzrXUVxLEOw"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -537,7 +623,9 @@
     {
       "category": "collection",
       "id": "635102fb-d4ef-4a17-bf35-d0ee50e6fb47",
-      "images": ["markers_images/i4il5stWzI8VmOVbWiaZKw"],
+      "images": [
+        "markers_images/i4il5stWzI8VmOVbWiaZKw"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -547,7 +635,9 @@
     {
       "category": "collection",
       "id": "5bef35e7-5068-49d8-a0de-c6552b019589",
-      "images": ["markers_images/8DNC8fu8EfDB6Y1ZRRnfOg"],
+      "images": [
+        "markers_images/8DNC8fu8EfDB6Y1ZRRnfOg"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -557,7 +647,9 @@
     {
       "category": "collection",
       "id": "e79d8ec2-089c-4c82-a0f4-57016b7a5a06",
-      "images": ["markers_images/oCIL5CBvun25Lanc2LyYjg"],
+      "images": [
+        "markers_images/oCIL5CBvun25Lanc2LyYjg"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -567,7 +659,9 @@
     {
       "category": "collection",
       "id": "c60b80c1-e19d-49d1-8355-45e42ce3c370",
-      "images": ["markers_images/O3eEFrBhasWieOaeoTtnhg"],
+      "images": [
+        "markers_images/O3eEFrBhasWieOaeoTtnhg"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -577,7 +671,9 @@
     {
       "category": "collection",
       "id": "fec3e7d3-effa-48ac-ba56-25fc17249ccd",
-      "images": ["markers_images/l7lKB_NL7JZdPRm_djUyWQ"],
+      "images": [
+        "markers_images/l7lKB_NL7JZdPRm_djUyWQ"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -587,7 +683,9 @@
     {
       "category": "collection",
       "id": "96f9f989-d008-4f22-9daa-a4f82f521b60",
-      "images": ["markers_images/18JkaFaAw5VG5C0U19s4pA"],
+      "images": [
+        "markers_images/18JkaFaAw5VG5C0U19s4pA"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -597,7 +695,9 @@
     {
       "category": "collection",
       "id": "8300f25e-6989-4d80-b1ba-811b51243764",
-      "images": ["markers_images/CDQW_iwRla7SXH1nmVuPpw"],
+      "images": [
+        "markers_images/CDQW_iwRla7SXH1nmVuPpw"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -607,7 +707,9 @@
     {
       "category": "collection",
       "id": "0d6f5cf4-b9e7-41b6-8aa9-6740ed0e1c95",
-      "images": ["markers_images/_9dhoWQPIErqCUbaLJ78Sg"],
+      "images": [
+        "markers_images/_9dhoWQPIErqCUbaLJ78Sg"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -881,7 +983,9 @@
     {
       "category": "collection",
       "id": "9651805f-055d-4e8f-b81c-0254e95147b3",
-      "images": ["markers_images/bZr5t3sThqdkXwcHrxQhoA"],
+      "images": [
+        "markers_images/bZr5t3sThqdkXwcHrxQhoA"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -891,7 +995,9 @@
     {
       "category": "collection",
       "id": "0a638b8e-8ceb-4175-bd3b-0c3170921071",
-      "images": ["markers_images/v_1s4TltTOOm_3H70QSAgg"],
+      "images": [
+        "markers_images/v_1s4TltTOOm_3H70QSAgg"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -1013,7 +1119,9 @@
     {
       "category": "collection",
       "id": "0131bf6e-8c7b-4ead-87cf-81fbdbd16a22",
-      "images": ["markers_images/YuHKgHUKUcWlEPHTSz3Zxg"],
+      "images": [
+        "markers_images/YuHKgHUKUcWlEPHTSz3Zxg"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -1023,7 +1131,9 @@
     {
       "category": "collection",
       "id": "bcba9d8a-078e-4beb-bd45-35644eea22c4",
-      "images": ["markers_images/cCewgjkM5s5SvYAaevz5Mg"],
+      "images": [
+        "markers_images/cCewgjkM5s5SvYAaevz5Mg"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -1033,7 +1143,9 @@
     {
       "category": "collection",
       "id": "8231e237-f07a-45f3-bba4-e5825cd57259",
-      "images": ["markers_images/LEBXT6S2gpt8HzkJC5nEhQ"],
+      "images": [
+        "markers_images/LEBXT6S2gpt8HzkJC5nEhQ"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -1043,7 +1155,9 @@
     {
       "category": "collection",
       "id": "72f3b02d-9c31-46b6-bd22-20649718fce8",
-      "images": ["markers_images/vrz-PBoOW1Eek-8YAttYXQ"],
+      "images": [
+        "markers_images/vrz-PBoOW1Eek-8YAttYXQ"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -1053,7 +1167,9 @@
     {
       "category": "collection",
       "id": "ee5444f6-4bce-49bb-98d8-20c9e7fc2dab",
-      "images": ["markers_images/-nH97EHpCwX457G0Qx_8Vg"],
+      "images": [
+        "markers_images/-nH97EHpCwX457G0Qx_8Vg"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -1063,7 +1179,9 @@
     {
       "category": "collection",
       "id": "9f53c552-a87f-4ced-9424-51098b7096fe",
-      "images": ["markers_images/RR_mtZGxpY8UvQFjDuyRjg"],
+      "images": [
+        "markers_images/RR_mtZGxpY8UvQFjDuyRjg"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -1073,7 +1191,9 @@
     {
       "category": "collection",
       "id": "6a26a428-9b4e-461c-8bf4-4e6effdbcaf5",
-      "images": ["markers_images/Ra7XZYI2uKejU2uK5A_yQg"],
+      "images": [
+        "markers_images/Ra7XZYI2uKejU2uK5A_yQg"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -1083,7 +1203,9 @@
     {
       "category": "collection",
       "id": "258cca24-5bc2-4730-b5d8-e68936d388d3",
-      "images": ["markers_images/notTYr7EBYbY0msAkrfptw"],
+      "images": [
+        "markers_images/notTYr7EBYbY0msAkrfptw"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -1093,7 +1215,9 @@
     {
       "category": "collection",
       "id": "3a46acd5-9e46-40ca-95c2-9a0b85f1989c",
-      "images": ["markers_images/fzWgD5SvJJohRupz4UpDLw"],
+      "images": [
+        "markers_images/fzWgD5SvJJohRupz4UpDLw"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -1103,7 +1227,9 @@
     {
       "category": "collection",
       "id": "9f37e284-9ae5-486b-b810-9bbab6c45adc",
-      "images": ["markers_images/L9sRLywoxIMLv_k_x1HYXA"],
+      "images": [
+        "markers_images/L9sRLywoxIMLv_k_x1HYXA"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -1113,7 +1239,9 @@
     {
       "category": "collection",
       "id": "56472aa0-b98b-490c-9b29-d851449f0be2",
-      "images": ["markers_images/ZEixir0VBmM0abQy0dYcmA"],
+      "images": [
+        "markers_images/ZEixir0VBmM0abQy0dYcmA"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -1123,7 +1251,9 @@
     {
       "category": "collection",
       "id": "e611ff2d-822b-4015-bfd7-31d55f6e093a",
-      "images": ["markers_images/JFNjOP3wiXUBm1VISmW1TQ"],
+      "images": [
+        "markers_images/JFNjOP3wiXUBm1VISmW1TQ"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -1133,7 +1263,9 @@
     {
       "category": "collection",
       "id": "bfd47d25-6d1e-4ade-8b90-65439846a62f",
-      "images": ["markers_images/6gqsZ_R8dDfndAWdbw7W-g"],
+      "images": [
+        "markers_images/6gqsZ_R8dDfndAWdbw7W-g"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -1143,7 +1275,9 @@
     {
       "category": "collection",
       "id": "77e8d2eb-f51d-4f36-bb81-a43658b2ff20",
-      "images": ["markers_images/6-iqGBenRjOh1_0OoVxqww"],
+      "images": [
+        "markers_images/6-iqGBenRjOh1_0OoVxqww"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -1161,7 +1295,9 @@
     {
       "category": "collection",
       "id": "94de95dc-d4f8-427a-b6bf-e8f67a7e1267",
-      "images": ["markers_images/ZahkuNI3fy3xgVyxWNI9XA"],
+      "images": [
+        "markers_images/ZahkuNI3fy3xgVyxWNI9XA"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1179,7 +1315,9 @@
     {
       "category": "collection",
       "id": "c2e3af59-df32-4d6b-b1e8-97666303faab",
-      "images": ["markers_images/cA2pk-oY1tiv6aE38OuwKA"],
+      "images": [
+        "markers_images/cA2pk-oY1tiv6aE38OuwKA"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1189,7 +1327,9 @@
     {
       "category": "collection",
       "id": "fb72475e-a0ea-4b4b-95ba-d93b01718a0c",
-      "images": ["markers_images/Bn7fD7DN63xJRAgV0lZtdA"],
+      "images": [
+        "markers_images/Bn7fD7DN63xJRAgV0lZtdA"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1295,7 +1435,9 @@
     {
       "category": "collection",
       "id": "4242a157-e0e5-4601-932f-08dde362e30b",
-      "images": ["markers_images/kVyrceHlHX-q8jVNz-Ngzw"],
+      "images": [
+        "markers_images/kVyrceHlHX-q8jVNz-Ngzw"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1305,7 +1447,9 @@
     {
       "category": "collection",
       "id": "ff104f1b-7822-4ad3-8514-7ff0cf8a5219",
-      "images": ["markers_images/jKm9qmCrs0Zq2_fKCNdH1A"],
+      "images": [
+        "markers_images/jKm9qmCrs0Zq2_fKCNdH1A"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1315,7 +1459,9 @@
     {
       "category": "collection",
       "id": "1d95b05a-f782-44af-8aa9-1db647bf92d2",
-      "images": ["markers_images/qi2znsrb19s1NJXKSEVEdQ"],
+      "images": [
+        "markers_images/qi2znsrb19s1NJXKSEVEdQ"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1325,7 +1471,9 @@
     {
       "category": "collection",
       "id": "8b5c0219-d709-482c-ba36-f4403488e368",
-      "images": ["markers_images/-nUhKSAzMGyVXDf81XZqJQ"],
+      "images": [
+        "markers_images/-nUhKSAzMGyVXDf81XZqJQ"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1335,7 +1483,9 @@
     {
       "category": "collection",
       "id": "bce39255-140e-4525-a6ee-2a63ee40b83a",
-      "images": ["markers_images/Mmht3WL2ziDl8ITQC6iGQg"],
+      "images": [
+        "markers_images/Mmht3WL2ziDl8ITQC6iGQg"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1345,7 +1495,9 @@
     {
       "category": "collection",
       "id": "8289223e-8714-4959-9101-a69362847bcc",
-      "images": ["markers_images/vVy5Pm8jYrsd4T2oXchUCw"],
+      "images": [
+        "markers_images/vVy5Pm8jYrsd4T2oXchUCw"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1355,7 +1507,9 @@
     {
       "category": "collection",
       "id": "c948aef9-1352-45e8-98d3-c89864b236d9",
-      "images": ["markers_images/lhSCjO_lyDrFF7k-8Fk-pw"],
+      "images": [
+        "markers_images/lhSCjO_lyDrFF7k-8Fk-pw"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1365,7 +1519,9 @@
     {
       "category": "collection",
       "id": "1580e0f2-229c-4af6-94cd-f553c1ab6b08",
-      "images": ["markers_images/PRMVrLlCv7vxXTwd55Bhdw"],
+      "images": [
+        "markers_images/PRMVrLlCv7vxXTwd55Bhdw"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1375,7 +1531,9 @@
     {
       "category": "collection",
       "id": "6a030f1f-759e-4870-9287-3bd97dc57cac",
-      "images": ["markers_images/GzZeFutlhCxN-i_NdhXw9w"],
+      "images": [
+        "markers_images/GzZeFutlhCxN-i_NdhXw9w"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1385,7 +1543,9 @@
     {
       "category": "collection",
       "id": "f0449945-1ad1-4367-9368-114afa4dd316",
-      "images": ["markers_images/TPCFvRbxgLz2xw20meaeVw"],
+      "images": [
+        "markers_images/TPCFvRbxgLz2xw20meaeVw"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1395,7 +1555,9 @@
     {
       "category": "collection",
       "id": "6c165d5c-bafd-41aa-874c-7235d06ff6b1",
-      "images": ["markers_images/dWbTMRZRuYA8WZpgRk95Ow"],
+      "images": [
+        "markers_images/dWbTMRZRuYA8WZpgRk95Ow"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1405,7 +1567,9 @@
     {
       "category": "collection",
       "id": "c6256d0e-6048-48ad-97cd-65bfe26db838",
-      "images": ["markers_images/OamT65784WhCtT82wMNSlw"],
+      "images": [
+        "markers_images/OamT65784WhCtT82wMNSlw"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1415,7 +1579,9 @@
     {
       "category": "collection",
       "id": "a7c17fee-2b09-447d-94fa-7e90b7c96ed8",
-      "images": ["markers_images/0voCB-0G7KK5Yg_pV4CupQ"],
+      "images": [
+        "markers_images/0voCB-0G7KK5Yg_pV4CupQ"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1425,7 +1591,9 @@
     {
       "category": "collection",
       "id": "89919dcb-bbf2-49d3-895d-d2d90967de9c",
-      "images": ["markers_images/88txrCcq9kXpEZ83guHKDQ"],
+      "images": [
+        "markers_images/88txrCcq9kXpEZ83guHKDQ"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1435,7 +1603,9 @@
     {
       "category": "collection",
       "id": "ab59f3e8-298b-4baa-af16-bddbb0a342a9",
-      "images": ["markers_images/jHy3yQy7OeLJP8GbtVJt7Q"],
+      "images": [
+        "markers_images/jHy3yQy7OeLJP8GbtVJt7Q"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1445,7 +1615,9 @@
     {
       "category": "collection",
       "id": "de686d65-88e7-4b24-bcc8-1ab8e428666e",
-      "images": ["markers_images/pfLRzs6u_SgutUx2H-_3JQ"],
+      "images": [
+        "markers_images/pfLRzs6u_SgutUx2H-_3JQ"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1455,7 +1627,9 @@
     {
       "category": "collection",
       "id": "41927a53-665a-4313-83a1-f2033f7ae795",
-      "images": ["markers_images/8sI89D17f-vPMqdcsdRX8Q"],
+      "images": [
+        "markers_images/8sI89D17f-vPMqdcsdRX8Q"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1465,7 +1639,9 @@
     {
       "category": "collection",
       "id": "dd726dc1-a848-45e4-9a81-35dd778f5e55",
-      "images": ["markers_images/WRUZZzGOKb72YuYMIT_djg"],
+      "images": [
+        "markers_images/WRUZZzGOKb72YuYMIT_djg"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1475,7 +1651,9 @@
     {
       "category": "collection",
       "id": "75fa636a-0e1a-4308-ae9f-9fa415c7c278",
-      "images": ["markers_images/iazIFK1hJyMBhZBeYOJZOg"],
+      "images": [
+        "markers_images/iazIFK1hJyMBhZBeYOJZOg"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1485,7 +1663,9 @@
     {
       "category": "collection",
       "id": "5871d5f9-c136-46d3-977b-2b0a8aa5daf9",
-      "images": ["markers_images/5B7ZMfamgF5omtIJBCHf8A"],
+      "images": [
+        "markers_images/5B7ZMfamgF5omtIJBCHf8A"
+      ],
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
@@ -1495,7 +1675,9 @@
     {
       "category": "collection",
       "id": "22896723-375c-4878-8b7e-7c918e77061a",
-      "images": ["markers_images/nWEn0JbNm8NW9e87FE1tFA"],
+      "images": [
+        "markers_images/nWEn0JbNm8NW9e87FE1tFA"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1505,7 +1687,9 @@
     {
       "category": "collection",
       "id": "e28f5c22-12fc-4157-ab1a-a9585d757eb6",
-      "images": ["markers_images/hxorFMX5-D2TKacebYFeng"],
+      "images": [
+        "markers_images/hxorFMX5-D2TKacebYFeng"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1515,7 +1699,9 @@
     {
       "category": "collection",
       "id": "1fc9e60f-20bd-446f-b337-4b104ec2f5e2",
-      "images": ["markers_images/UZ1tQNNEDPdIamnMNrW61w"],
+      "images": [
+        "markers_images/UZ1tQNNEDPdIamnMNrW61w"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1525,7 +1711,9 @@
     {
       "category": "collection",
       "id": "f1e6768d-9e83-4a18-807a-1dfc23b1c1ec",
-      "images": ["markers_images/pCnOUNu4DPXZE49_iPj8rQ"],
+      "images": [
+        "markers_images/pCnOUNu4DPXZE49_iPj8rQ"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1535,7 +1723,9 @@
     {
       "category": "collection",
       "id": "c24dd6fc-0210-42fa-ba64-96e8e9c49eb2",
-      "images": ["markers_images/YkV1MitnlKQmMTgbSpjzLw"],
+      "images": [
+        "markers_images/YkV1MitnlKQmMTgbSpjzLw"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1545,7 +1735,9 @@
     {
       "category": "collection",
       "id": "da1a9e5e-c2d7-4c62-8298-d4c50317ff63",
-      "images": ["markers_images/8ICJP-znAz6FgSnxyYdMVQ"],
+      "images": [
+        "markers_images/8ICJP-znAz6FgSnxyYdMVQ"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1555,7 +1747,9 @@
     {
       "category": "collection",
       "id": "85efff25-11dc-476f-9569-fdea0bdb1166",
-      "images": ["markers_images/CzY_kxkIbitXl102JpUE9A"],
+      "images": [
+        "markers_images/CzY_kxkIbitXl102JpUE9A"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1565,7 +1759,9 @@
     {
       "category": "collection",
       "id": "60c7cbb4-3804-427e-8930-c06dab405f38",
-      "images": ["markers_images/MbSfuEOG7XKdULTzpE9bbg"],
+      "images": [
+        "markers_images/MbSfuEOG7XKdULTzpE9bbg"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1575,7 +1771,9 @@
     {
       "category": "collection",
       "id": "88b68f31-5abb-4746-bd3e-64e2f372f65d",
-      "images": ["markers_images/PNDA29ziSlogMMxPsdSlqQ"],
+      "images": [
+        "markers_images/PNDA29ziSlogMMxPsdSlqQ"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1585,7 +1783,9 @@
     {
       "category": "collection",
       "id": "9f5c273f-8c71-4390-b674-7ab88dd59898",
-      "images": ["markers_images/SdQLfPRyELbJSC39vfUJaw"],
+      "images": [
+        "markers_images/SdQLfPRyELbJSC39vfUJaw"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1595,7 +1795,9 @@
     {
       "category": "collection",
       "id": "607fbba0-3b1e-4838-a7e6-3dd2b9fd9be2",
-      "images": ["markers_images/FREqM7xImSW2p-U6I8RTDQ"],
+      "images": [
+        "markers_images/FREqM7xImSW2p-U6I8RTDQ"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1605,7 +1807,9 @@
     {
       "category": "collection",
       "id": "734e8a6d-857d-4dd8-9df6-dc42aef677d4",
-      "images": ["markers_images/aZe28C2AXaQnswC68ax89A"],
+      "images": [
+        "markers_images/aZe28C2AXaQnswC68ax89A"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1615,7 +1819,9 @@
     {
       "category": "collection",
       "id": "520ce937-c1cb-4125-bd84-bbf2039f0a68",
-      "images": ["markers_images/lLGDaaHBchH6C0YA4TjEzQ"],
+      "images": [
+        "markers_images/lLGDaaHBchH6C0YA4TjEzQ"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1625,7 +1831,9 @@
     {
       "category": "collection",
       "id": "e4bc314d-ec45-41d2-904a-e5052c313f64",
-      "images": ["markers_images/mAphUqa5NRW3zINy83lNEA"],
+      "images": [
+        "markers_images/mAphUqa5NRW3zINy83lNEA"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1635,7 +1843,9 @@
     {
       "category": "collection",
       "id": "c0bf9bfa-8ba1-4f2f-a679-a9ecfb95f31b",
-      "images": ["markers_images/Wq4NYZaorvnMfme2-g7gxw"],
+      "images": [
+        "markers_images/Wq4NYZaorvnMfme2-g7gxw"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -1645,7 +1855,9 @@
     {
       "category": "collection",
       "id": "9a7edf02-ccb1-48dd-a228-642b74ebd6a1",
-      "images": ["markers_images/2C-6H1NzhjotBSEf_auwNA"],
+      "images": [
+        "markers_images/2C-6H1NzhjotBSEf_auwNA"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -1655,7 +1867,9 @@
     {
       "category": "collection",
       "id": "805cc700-71ba-42f9-97af-f47540fc264a",
-      "images": ["markers_images/RRRT7FuIjhDPSc-kpLaICQ"],
+      "images": [
+        "markers_images/RRRT7FuIjhDPSc-kpLaICQ"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -1697,7 +1911,9 @@
     {
       "category": "collection",
       "id": "a10e93f4-c390-4ff2-847e-d65fab20f17b",
-      "images": ["markers_images/WKBbawYHAYSyQ1GF6XpDKw"],
+      "images": [
+        "markers_images/WKBbawYHAYSyQ1GF6XpDKw"
+      ],
       "name": "",
       "region": "SouthernGribadeHighland",
       "type": "monolithMaterial",
@@ -1707,7 +1923,9 @@
     {
       "category": "collection",
       "id": "7c871b8e-4d54-4b8e-9d9f-10218a67f6ac",
-      "images": ["markers_images/ecfg_tyl6Y6ShU3f1IA2uQ"],
+      "images": [
+        "markers_images/ecfg_tyl6Y6ShU3f1IA2uQ"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -1717,7 +1935,9 @@
     {
       "category": "collection",
       "id": "888f7d35-85b5-4e36-afd3-48f8815f20ea",
-      "images": ["markers_images/tNGjsWaadyjlT6_V90Gfpg"],
+      "images": [
+        "markers_images/tNGjsWaadyjlT6_V90Gfpg"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -1727,7 +1947,9 @@
     {
       "category": "collection",
       "id": "c0178d01-b2ec-44e5-8dd5-3155b24918c7",
-      "images": ["markers_images/BsGjMsK9B1z6KdJ6gE8riQ"],
+      "images": [
+        "markers_images/BsGjMsK9B1z6KdJ6gE8riQ"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -1737,7 +1959,9 @@
     {
       "category": "collection",
       "id": "42ce358d-f33a-488d-818c-a7cceecef4ab",
-      "images": ["markers_images/imuSr96KOPuDuegfQIOfVw"],
+      "images": [
+        "markers_images/imuSr96KOPuDuegfQIOfVw"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -1747,7 +1971,9 @@
     {
       "category": "collection",
       "id": "676d8bdd-cfee-455a-be7f-bb938217b6a4",
-      "images": ["markers_images/yoEh7gGLFYGsm8OC2GyrQQ"],
+      "images": [
+        "markers_images/yoEh7gGLFYGsm8OC2GyrQQ"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -1757,7 +1983,9 @@
     {
       "category": "collection",
       "id": "0299edb9-bf76-4113-a625-f38261721ccd",
-      "images": ["markers_images/eZgoAVvoe3KVAv3YRMWm7g"],
+      "images": [
+        "markers_images/eZgoAVvoe3KVAv3YRMWm7g"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -1767,7 +1995,9 @@
     {
       "category": "collection",
       "id": "27cb5008-99db-40c5-9a44-b517126be55f",
-      "images": ["markers_images/3iRPrCOjj63EtQ6LIqObZg"],
+      "images": [
+        "markers_images/3iRPrCOjj63EtQ6LIqObZg"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -1777,7 +2007,9 @@
     {
       "category": "collection",
       "id": "dc5156dc-2417-4f39-af09-bd8cfffada08",
-      "images": ["markers_images/ck8a3n3ZnPvXfWyVySD5Cg"],
+      "images": [
+        "markers_images/ck8a3n3ZnPvXfWyVySD5Cg"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -1787,7 +2019,9 @@
     {
       "category": "collection",
       "id": "712a12bf-b1db-4946-b67f-967c2c9aaedf",
-      "images": ["markers_images/K05LwtTlCt-8F2a4YokUzQ"],
+      "images": [
+        "markers_images/K05LwtTlCt-8F2a4YokUzQ"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -1797,7 +2031,9 @@
     {
       "category": "collection",
       "id": "aa1e00b4-4c29-44fe-8dd5-b74c83644caf",
-      "images": ["markers_images/Aq5FnyMivBxb7FBnf6aoAQ"],
+      "images": [
+        "markers_images/Aq5FnyMivBxb7FBnf6aoAQ"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -1807,7 +2043,9 @@
     {
       "category": "collection",
       "id": "818b3ca9-9728-45d9-aa82-6bf99a671871",
-      "images": ["markers_images/6jGxVOkDHKtd7qi6IuSj9Q"],
+      "images": [
+        "markers_images/6jGxVOkDHKtd7qi6IuSj9Q"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -1817,7 +2055,9 @@
     {
       "category": "collection",
       "id": "9ee32d84-4f6e-46df-9aa0-8c73cf34abcc",
-      "images": ["markers_images/cdUo_hK8r-Jy2eqqQzoPqw"],
+      "images": [
+        "markers_images/cdUo_hK8r-Jy2eqqQzoPqw"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -1827,7 +2067,9 @@
     {
       "category": "collection",
       "id": "5b6df1c4-c944-49d9-8f45-4d82363ca83a",
-      "images": ["markers_images/CPaQXd97VRoaxDNFnCgP7g"],
+      "images": [
+        "markers_images/CPaQXd97VRoaxDNFnCgP7g"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -1837,7 +2079,9 @@
     {
       "category": "collection",
       "id": "f29d24f1-9832-4cae-87b5-c36040471299",
-      "images": ["markers_images/NR1sWe7lOSF-omflt4LDGg"],
+      "images": [
+        "markers_images/NR1sWe7lOSF-omflt4LDGg"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -1847,7 +2091,9 @@
     {
       "category": "collection",
       "id": "daf6bf33-2ef8-485d-8550-8916265c00df",
-      "images": ["markers_images/-xE00n1WgOzyCt3RhA-zQw"],
+      "images": [
+        "markers_images/-xE00n1WgOzyCt3RhA-zQw"
+      ],
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
@@ -1857,7 +2103,9 @@
     {
       "category": "collection",
       "id": "33e5679d-d245-4f55-9cfc-bea8e7d50180",
-      "images": ["markers_images/4lMw5jUZlH0qI0fsIJAM8g"],
+      "images": [
+        "markers_images/4lMw5jUZlH0qI0fsIJAM8g"
+      ],
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
@@ -1867,7 +2115,9 @@
     {
       "category": "collection",
       "id": "545cf119-1a1c-446a-8bd9-a808bee74724",
-      "images": ["markers_images/FiS9D1XS5DHOcP856YtvaA"],
+      "images": [
+        "markers_images/FiS9D1XS5DHOcP856YtvaA"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -1877,7 +2127,9 @@
     {
       "category": "collection",
       "id": "ba551a00-3ad6-4cf8-8992-6570d5b20a9d",
-      "images": ["markers_images/pTERPhC93NgjKMMlI3htcw"],
+      "images": [
+        "markers_images/pTERPhC93NgjKMMlI3htcw"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -1887,7 +2139,9 @@
     {
       "category": "collection",
       "id": "6009a797-0bac-464f-9759-4815a7b16f23",
-      "images": ["markers_images/Tenuj8Ik-TjbxZwoA5B4wg"],
+      "images": [
+        "markers_images/Tenuj8Ik-TjbxZwoA5B4wg"
+      ],
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
@@ -1897,7 +2151,9 @@
     {
       "category": "collection",
       "id": "bbd9b2d3-2757-4222-b121-9877f1507e81",
-      "images": ["markers_images/87B8HbChx53nmsM_YVMEFQ"],
+      "images": [
+        "markers_images/87B8HbChx53nmsM_YVMEFQ"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -1907,7 +2163,9 @@
     {
       "category": "collection",
       "id": "1e205a34-a946-446c-8a9f-441475264632",
-      "images": ["markers_images/QmASp-bdvNIRkYsg0CqysA"],
+      "images": [
+        "markers_images/QmASp-bdvNIRkYsg0CqysA"
+      ],
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
@@ -1917,7 +2175,9 @@
     {
       "category": "collection",
       "id": "a1836646-1f0e-4afc-b6ba-9ca5a29f40d9",
-      "images": ["markers_images/KA2sHYyaiZzSQU99e9QX7g"],
+      "images": [
+        "markers_images/KA2sHYyaiZzSQU99e9QX7g"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -1927,7 +2187,9 @@
     {
       "category": "collection",
       "id": "7a355e23-fcdd-4a0c-ab83-5ad357f0e274",
-      "images": ["markers_images/wOW3gKrYUjmgUh9mg9cWiA"],
+      "images": [
+        "markers_images/wOW3gKrYUjmgUh9mg9cWiA"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -1937,7 +2199,9 @@
     {
       "category": "collection",
       "id": "4c26caf4-bed2-4753-9dad-047d8045d8f8",
-      "images": ["markers_images/kBYljdjzLZZzKTkzm1Iy_g"],
+      "images": [
+        "markers_images/kBYljdjzLZZzKTkzm1Iy_g"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -1947,7 +2211,9 @@
     {
       "category": "collection",
       "id": "cfcba25f-aab8-4d6a-ba3f-831baae69602",
-      "images": ["markers_images/SCXg0NdsnTRXeLXqsYXPDA"],
+      "images": [
+        "markers_images/SCXg0NdsnTRXeLXqsYXPDA"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -1957,7 +2223,9 @@
     {
       "category": "collection",
       "id": "73e978f2-6a4a-4460-8be4-ce965d07461d",
-      "images": ["markers_images/PVtuYduTVyu8shs34XTgqw"],
+      "images": [
+        "markers_images/PVtuYduTVyu8shs34XTgqw"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -1967,7 +2235,9 @@
     {
       "category": "collection",
       "id": "73379d0d-72de-44fb-9b79-94fb7276a831",
-      "images": ["markers_images/XVse3BWa0r-I0r3TLNsi6w"],
+      "images": [
+        "markers_images/XVse3BWa0r-I0r3TLNsi6w"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -1977,7 +2247,9 @@
     {
       "category": "collection",
       "id": "8403f607-2f11-44f9-bb9e-fe64958e5012",
-      "images": ["markers_images/165deL7urso9LTvD_XXP1Q"],
+      "images": [
+        "markers_images/165deL7urso9LTvD_XXP1Q"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -1987,7 +2259,9 @@
     {
       "category": "collection",
       "id": "cc80ef23-ef29-4728-98d4-65a6699e62f9",
-      "images": ["markers_images/TrHXkCD76vZxPM5qUvVASg"],
+      "images": [
+        "markers_images/TrHXkCD76vZxPM5qUvVASg"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -1997,7 +2271,9 @@
     {
       "category": "collection",
       "id": "5e30cc0f-06bf-4ac4-920d-fb1d5b9a3bf4",
-      "images": ["markers_images/-OzbW1rt6iDWLy-YzFJOwg"],
+      "images": [
+        "markers_images/-OzbW1rt6iDWLy-YzFJOwg"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2007,7 +2283,9 @@
     {
       "category": "collection",
       "id": "49e051b1-2484-4082-9ffe-1bfe925489dc",
-      "images": ["markers_images/UbF1G1etI0tTPq9D4nRAaw"],
+      "images": [
+        "markers_images/UbF1G1etI0tTPq9D4nRAaw"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2017,7 +2295,9 @@
     {
       "category": "collection",
       "id": "866041ae-8269-4df6-981c-24d9dc6d77fe",
-      "images": ["markers_images/o8MHKVwZWCegw5xIOo0K0A"],
+      "images": [
+        "markers_images/o8MHKVwZWCegw5xIOo0K0A"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2027,7 +2307,9 @@
     {
       "category": "collection",
       "id": "bfc15d98-4539-4010-b96b-16a7b48c4c50",
-      "images": ["markers_images/S8vKVFyss81cZ5UBPXfxUQ"],
+      "images": [
+        "markers_images/S8vKVFyss81cZ5UBPXfxUQ"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2037,7 +2319,9 @@
     {
       "category": "collection",
       "id": "7b308db8-6e79-4ad6-84bb-40cb121de3b1",
-      "images": ["markers_images/Epr7vsbdJJUkJCc4Siyrxw"],
+      "images": [
+        "markers_images/Epr7vsbdJJUkJCc4Siyrxw"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2047,7 +2331,9 @@
     {
       "category": "collection",
       "id": "cb5b0a63-bc94-4c86-8c58-0ea82bc22c69",
-      "images": ["markers_images/z8TlQPK6fAOOWSux6B_95A"],
+      "images": [
+        "markers_images/z8TlQPK6fAOOWSux6B_95A"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2057,7 +2343,9 @@
     {
       "category": "collection",
       "id": "0292b1be-da42-4da9-bca9-f80900761a2d",
-      "images": ["markers_images/432LbtRjgo5WiFGP18VyGQ"],
+      "images": [
+        "markers_images/432LbtRjgo5WiFGP18VyGQ"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2067,7 +2355,9 @@
     {
       "category": "collection",
       "id": "f92f3534-c5ae-4cd7-b9f9-402b2dc05b80",
-      "images": ["markers_images/uJhmWapRUs89b0iXG5R_Ig"],
+      "images": [
+        "markers_images/uJhmWapRUs89b0iXG5R_Ig"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2077,7 +2367,9 @@
     {
       "category": "collection",
       "id": "9aae38e3-c12b-43b4-9068-8df886b70192",
-      "images": ["markers_images/BDUfSMoAuQJ0PMF2pxSJ3g"],
+      "images": [
+        "markers_images/BDUfSMoAuQJ0PMF2pxSJ3g"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2087,7 +2379,9 @@
     {
       "category": "collection",
       "id": "aca7a880-d405-4a56-a4fd-6a8ee1f3c024",
-      "images": ["markers_images/lfb8ixaXH-9h2Q9EAK1zQQ"],
+      "images": [
+        "markers_images/lfb8ixaXH-9h2Q9EAK1zQQ"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2097,7 +2391,9 @@
     {
       "category": "collection",
       "id": "c9def8ce-ed9a-44b8-bab6-b0a1a15cd343",
-      "images": ["markers_images/SCJ-NqioyFKrpNhPToFNcA"],
+      "images": [
+        "markers_images/SCJ-NqioyFKrpNhPToFNcA"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2107,7 +2403,9 @@
     {
       "category": "collection",
       "id": "9c0705b8-d7f4-4b14-bdd5-3d824371c702",
-      "images": ["markers_images/hYOJIKOeoKy8Fydw0mE7GA"],
+      "images": [
+        "markers_images/hYOJIKOeoKy8Fydw0mE7GA"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2117,7 +2415,9 @@
     {
       "category": "collection",
       "id": "7045c002-2fb1-48b2-8f53-0b3d9af2d06d",
-      "images": ["markers_images/K8R4urTBEzm1xQH6sunFOQ"],
+      "images": [
+        "markers_images/K8R4urTBEzm1xQH6sunFOQ"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2127,7 +2427,9 @@
     {
       "category": "collection",
       "id": "abd3074c-deb4-44f1-94f2-befe86d359ee",
-      "images": ["markers_images/mF7ixBX7brVeRcfCZr2NQg"],
+      "images": [
+        "markers_images/mF7ixBX7brVeRcfCZr2NQg"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2137,7 +2439,9 @@
     {
       "category": "collection",
       "id": "80d4db0a-081f-4702-9ed3-7e86afc74128",
-      "images": ["markers_images/nv4E0DkHKcewOEQW_N7K8Q"],
+      "images": [
+        "markers_images/nv4E0DkHKcewOEQW_N7K8Q"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2147,7 +2451,9 @@
     {
       "category": "collection",
       "id": "184e5120-c978-4d8c-9467-f70430fae7ab",
-      "images": ["markers_images/GeRzTcoI_txbwotaXYKADg"],
+      "images": [
+        "markers_images/GeRzTcoI_txbwotaXYKADg"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2157,7 +2463,9 @@
     {
       "category": "collection",
       "id": "7eda7d39-ed71-4979-a359-5f2398960ad2",
-      "images": ["markers_images/sBspizdrADbS1L3M_rzfWw"],
+      "images": [
+        "markers_images/sBspizdrADbS1L3M_rzfWw"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2167,7 +2475,9 @@
     {
       "category": "collection",
       "id": "19b196de-6691-48fa-b600-b3ba89d4f7ad",
-      "images": ["markers_images/TOq7BouBldhHLbjHK51vIA"],
+      "images": [
+        "markers_images/TOq7BouBldhHLbjHK51vIA"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2177,7 +2487,9 @@
     {
       "category": "collection",
       "id": "7495e721-f3c0-4961-b9f9-fd089df09da6",
-      "images": ["markers_images/9BHajZzRlsZVAkV07trjTw"],
+      "images": [
+        "markers_images/9BHajZzRlsZVAkV07trjTw"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2187,7 +2499,9 @@
     {
       "category": "collection",
       "id": "1551f689-4950-4bdd-ba8f-a87878244dee",
-      "images": ["markers_images/LdKpdUb1X1P2BDG4PLfjDQ"],
+      "images": [
+        "markers_images/LdKpdUb1X1P2BDG4PLfjDQ"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2197,7 +2511,9 @@
     {
       "category": "collection",
       "id": "b30f37dd-6325-416f-8c26-95665f3bb7b6",
-      "images": ["markers_images/uwJ3StqHUVJODyc-3FLHng"],
+      "images": [
+        "markers_images/uwJ3StqHUVJODyc-3FLHng"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2207,7 +2523,9 @@
     {
       "category": "collection",
       "id": "ce2d7ce6-5ef0-4bce-8082-100b0277168d",
-      "images": ["markers_images/o4lp37JDNP4rf3Qnx41p6w"],
+      "images": [
+        "markers_images/o4lp37JDNP4rf3Qnx41p6w"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2217,7 +2535,9 @@
     {
       "category": "collection",
       "id": "92d9e45f-f384-400f-8975-b5568d5b9f5d",
-      "images": ["markers_images/q1ouh9wf4ZJZ61K63BJBFw"],
+      "images": [
+        "markers_images/q1ouh9wf4ZJZ61K63BJBFw"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2227,7 +2547,9 @@
     {
       "category": "collection",
       "id": "0203703d-99dd-43b9-9dd3-e40ea6e60b40",
-      "images": ["markers_images/3Jh6LWaj13H1pvFVIySj2g"],
+      "images": [
+        "markers_images/3Jh6LWaj13H1pvFVIySj2g"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2237,7 +2559,9 @@
     {
       "category": "collection",
       "id": "b978a957-afec-47d2-9abd-c8e852340f9c",
-      "images": ["markers_images/LFiCwBBMYkIRPKVIu6W-1g"],
+      "images": [
+        "markers_images/LFiCwBBMYkIRPKVIu6W-1g"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2247,7 +2571,9 @@
     {
       "category": "collection",
       "id": "5303d292-51be-4ea4-86fc-7ad770f30d99",
-      "images": ["markers_images/nAL_Yo6eJeKxEhWIOFZwcQ"],
+      "images": [
+        "markers_images/nAL_Yo6eJeKxEhWIOFZwcQ"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2257,7 +2583,9 @@
     {
       "category": "collection",
       "id": "76bf80d5-3d26-4a4e-88fb-90781df6865d",
-      "images": ["markers_images/IrEZ9WKnwawyhudHDTykUw"],
+      "images": [
+        "markers_images/IrEZ9WKnwawyhudHDTykUw"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2267,7 +2595,9 @@
     {
       "category": "collection",
       "id": "9038212b-4f72-42e3-9be1-c652e4a96f41",
-      "images": ["markers_images/_7pc7GU2WT-6_1fK9pYLOg"],
+      "images": [
+        "markers_images/_7pc7GU2WT-6_1fK9pYLOg"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2277,7 +2607,9 @@
     {
       "category": "collection",
       "id": "0dfd281a-c20e-44dd-8106-26a10d0fe046",
-      "images": ["markers_images/8RAVJiT7Quma2T6gH8uvIQ"],
+      "images": [
+        "markers_images/8RAVJiT7Quma2T6gH8uvIQ"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2287,7 +2619,9 @@
     {
       "category": "collection",
       "id": "21876c7a-e366-472f-9d76-4ed58abba47d",
-      "images": ["markers_images/LYgfsY7UhJuj87khrrjw3A"],
+      "images": [
+        "markers_images/LYgfsY7UhJuj87khrrjw3A"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2297,7 +2631,9 @@
     {
       "category": "collection",
       "id": "e6b5212c-6661-49b1-ac46-21abc51f6c4e",
-      "images": ["markers_images/xjwRbZRhw-T-Xv_XRKB9zQ"],
+      "images": [
+        "markers_images/xjwRbZRhw-T-Xv_XRKB9zQ"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2307,7 +2643,9 @@
     {
       "category": "collection",
       "id": "02a33a51-6096-4937-9891-edbf8320cf97",
-      "images": ["markers_images/P1zVvKeP0hXa2iA3qEjt6Q"],
+      "images": [
+        "markers_images/P1zVvKeP0hXa2iA3qEjt6Q"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2317,7 +2655,9 @@
     {
       "category": "collection",
       "id": "86883e34-1e2e-4a82-a47d-b2611f1203c2",
-      "images": ["markers_images/c5XsWt3Mk5ptiIChKWSQaA"],
+      "images": [
+        "markers_images/c5XsWt3Mk5ptiIChKWSQaA"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2327,7 +2667,9 @@
     {
       "category": "collection",
       "id": "093a15d0-adfd-44e2-9314-75ba572b5e6c",
-      "images": ["markers_images/4vNafD6TuP2MT-abFBXV7A"],
+      "images": [
+        "markers_images/4vNafD6TuP2MT-abFBXV7A"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2337,7 +2679,9 @@
     {
       "category": "collection",
       "id": "60bb6800-5c8d-4b03-9c47-e1d0a48efe96",
-      "images": ["markers_images/UweWk-eUIegKzvkbS-S6KA"],
+      "images": [
+        "markers_images/UweWk-eUIegKzvkbS-S6KA"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -2347,7 +2691,9 @@
     {
       "category": "collection",
       "id": "671edd19-738c-4c0c-a000-234d44df1e49",
-      "images": ["markers_images/R2TOiNGvOjLXEcsG0wzyLw"],
+      "images": [
+        "markers_images/R2TOiNGvOjLXEcsG0wzyLw"
+      ],
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
@@ -2357,7 +2703,9 @@
     {
       "category": "collection",
       "id": "a3cf47bd-94af-4e31-82c1-434469a7e462",
-      "images": ["markers_images/3-IN5IZVkxERDe0aGTLYcg"],
+      "images": [
+        "markers_images/3-IN5IZVkxERDe0aGTLYcg"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2367,7 +2715,9 @@
     {
       "category": "collection",
       "id": "6c024dea-c02f-4d2e-9cf1-5896d79333aa",
-      "images": ["markers_images/H9Q0k09fw2_KiyoKQx4hfw"],
+      "images": [
+        "markers_images/H9Q0k09fw2_KiyoKQx4hfw"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2377,7 +2727,9 @@
     {
       "category": "collection",
       "id": "1f74fa11-5a17-4db1-98a1-e7b6fdf4ebbe",
-      "images": ["markers_images/GdnJTJ53kFBOBW-3hOoVRA"],
+      "images": [
+        "markers_images/GdnJTJ53kFBOBW-3hOoVRA"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2387,7 +2739,9 @@
     {
       "category": "collection",
       "id": "253b978b-733d-4cd2-9d41-cb3cc5711092",
-      "images": ["markers_images/I7nT49Btma0AcWE-aj12eQ"],
+      "images": [
+        "markers_images/I7nT49Btma0AcWE-aj12eQ"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2397,7 +2751,9 @@
     {
       "category": "collection",
       "id": "551cc62a-1c27-4322-818e-130e0cd34f6b",
-      "images": ["markers_images/3jzJgFTgJmVbYfNFnzyqbA"],
+      "images": [
+        "markers_images/3jzJgFTgJmVbYfNFnzyqbA"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2407,7 +2763,9 @@
     {
       "category": "collection",
       "id": "57d85b6b-ede6-46f4-beb6-6b818df82b04",
-      "images": ["markers_images/WT_CBChIix6Ugpa-VBt_rQ"],
+      "images": [
+        "markers_images/WT_CBChIix6Ugpa-VBt_rQ"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2417,7 +2775,9 @@
     {
       "category": "collection",
       "id": "8a75aa67-f773-489d-a41c-de772e4ecaa1",
-      "images": ["markers_images/i5-R-QBpk7WGxObt6CAkuQ"],
+      "images": [
+        "markers_images/i5-R-QBpk7WGxObt6CAkuQ"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -2427,7 +2787,9 @@
     {
       "category": "collection",
       "id": "2736a146-9686-4cd7-a449-ff198c4e3137",
-      "images": ["markers_images/X_aYwEwTVD0AT46IsIu0XA"],
+      "images": [
+        "markers_images/X_aYwEwTVD0AT46IsIu0XA"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -2437,7 +2799,9 @@
     {
       "category": "collection",
       "id": "cda794c6-b972-485c-a2f4-3c31630f36ce",
-      "images": ["markers_images/xeaMiuICDp2tXfpK9iPg6Q"],
+      "images": [
+        "markers_images/xeaMiuICDp2tXfpK9iPg6Q"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -2447,7 +2811,9 @@
     {
       "category": "collection",
       "id": "3f2432d4-69cc-47f6-a5de-fc76620f3752",
-      "images": ["markers_images/lT09i60e6JCI8oM0S4bYrw"],
+      "images": [
+        "markers_images/lT09i60e6JCI8oM0S4bYrw"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -2457,7 +2823,9 @@
     {
       "category": "collection",
       "id": "d68db4a8-f3f5-4a08-8c95-4309606c19d5",
-      "images": ["markers_images/eqGhIah7o2rfQLogjTGh9w"],
+      "images": [
+        "markers_images/eqGhIah7o2rfQLogjTGh9w"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -2467,7 +2835,9 @@
     {
       "category": "collection",
       "id": "8c31d621-4dfc-4ea4-afef-4e7789aa5583",
-      "images": ["markers_images/jVPgoJFRWDGuDloHJRBMgg"],
+      "images": [
+        "markers_images/jVPgoJFRWDGuDloHJRBMgg"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -2477,7 +2847,9 @@
     {
       "category": "collection",
       "id": "3eb5be55-7566-47a2-8945-19d6b3bbb6be",
-      "images": ["markers_images/wvEQezyCBIJVTQqubu6g_Q"],
+      "images": [
+        "markers_images/wvEQezyCBIJVTQqubu6g_Q"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -2487,7 +2859,9 @@
     {
       "category": "collection",
       "id": "bffc247a-a516-4671-a237-5c466dc15880",
-      "images": ["markers_images/yBnVcfV6zc8h9w_KwlPNEA"],
+      "images": [
+        "markers_images/yBnVcfV6zc8h9w_KwlPNEA"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -2497,7 +2871,9 @@
     {
       "category": "collection",
       "id": "f919d95b-aa24-4054-b5e7-bb2003d3322e",
-      "images": ["markers_images/kQGFJM6FF6_ap-H3_79yvA"],
+      "images": [
+        "markers_images/kQGFJM6FF6_ap-H3_79yvA"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -2507,7 +2883,9 @@
     {
       "category": "collection",
       "id": "c6f86fc6-2e73-425b-ad10-1b0e21041c70",
-      "images": ["markers_images/Projjzbalx5ctvuaFs3V3g"],
+      "images": [
+        "markers_images/Projjzbalx5ctvuaFs3V3g"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2517,7 +2895,9 @@
     {
       "category": "collection",
       "id": "7faf60f7-23ef-4a75-b11b-9b00204b12b3",
-      "images": ["markers_images/-BT0YgiGrBlBrVtbPdfmDw"],
+      "images": [
+        "markers_images/-BT0YgiGrBlBrVtbPdfmDw"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2527,7 +2907,9 @@
     {
       "category": "collection",
       "id": "82cfb8c8-90d7-48a0-a9a2-a2683554a503",
-      "images": ["markers_images/YCy52xXxwnpsTjhwGFoLVA"],
+      "images": [
+        "markers_images/YCy52xXxwnpsTjhwGFoLVA"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2537,7 +2919,9 @@
     {
       "category": "collection",
       "id": "b2af811f-07b8-496e-9007-606df248e516",
-      "images": ["markers_images/EsFWfktMGcIiZARBmVl-Dg"],
+      "images": [
+        "markers_images/EsFWfktMGcIiZARBmVl-Dg"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2547,7 +2931,9 @@
     {
       "category": "collection",
       "id": "34460c88-b287-493b-902f-4a715c3eff16",
-      "images": ["markers_images/gYCbtbklzMjLPEQj41SS9g"],
+      "images": [
+        "markers_images/gYCbtbklzMjLPEQj41SS9g"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2557,7 +2943,9 @@
     {
       "category": "collection",
       "id": "a1893f52-0524-43c9-addc-a197d8a6baa8",
-      "images": ["markers_images/xKpzErgMPqIuMBlsmnTMGw"],
+      "images": [
+        "markers_images/xKpzErgMPqIuMBlsmnTMGw"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2567,7 +2955,9 @@
     {
       "category": "collection",
       "id": "3eef3663-e785-4cc8-ae77-bb15989b8c17",
-      "images": ["markers_images/xf-rxHFom-8jkFE_Rx69dg"],
+      "images": [
+        "markers_images/xf-rxHFom-8jkFE_Rx69dg"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2577,7 +2967,9 @@
     {
       "category": "collection",
       "id": "34e816d2-83d0-450d-8e5e-797a802e6417",
-      "images": ["markers_images/y8tG3FqXX3rEAZUi5zTrjg"],
+      "images": [
+        "markers_images/y8tG3FqXX3rEAZUi5zTrjg"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -2587,7 +2979,9 @@
     {
       "category": "collection",
       "id": "b2316662-4f9b-41c5-9603-f62f9392f3c4",
-      "images": ["markers_images/zbCQ28px0Iqc5ilJMcR5rg"],
+      "images": [
+        "markers_images/zbCQ28px0Iqc5ilJMcR5rg"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -2597,7 +2991,9 @@
     {
       "category": "collection",
       "id": "2568a844-411b-4a8e-876b-872c15a9e119",
-      "images": ["markers_images/HDGpjNOygktkvjT1XSuX-g"],
+      "images": [
+        "markers_images/HDGpjNOygktkvjT1XSuX-g"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -2607,7 +3003,9 @@
     {
       "category": "collection",
       "id": "8e8572fb-2ccf-4d78-8a25-63964160797f",
-      "images": ["markers_images/l2ug5KbPX7YEyrKwi2r3VQ"],
+      "images": [
+        "markers_images/l2ug5KbPX7YEyrKwi2r3VQ"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -2617,7 +3015,9 @@
     {
       "category": "collection",
       "id": "497c9dec-4515-4c34-a561-b444253be341",
-      "images": ["markers_images/kZZ_5prUwSm9Cc6NdTfkGA"],
+      "images": [
+        "markers_images/kZZ_5prUwSm9Cc6NdTfkGA"
+      ],
       "name": "",
       "region": "SouthernGribadeHighland",
       "type": "monolithMaterial",
@@ -2627,7 +3027,9 @@
     {
       "category": "collection",
       "id": "19c38d90-8e42-44fb-b530-d9e4765326c1",
-      "images": ["markers_images/RH7xc6fXotKf-jVVUnDzMQ"],
+      "images": [
+        "markers_images/RH7xc6fXotKf-jVVUnDzMQ"
+      ],
       "name": "",
       "region": "SouthernGribadeHighland",
       "type": "monolithMaterial",
@@ -2637,7 +3039,9 @@
     {
       "category": "collection",
       "id": "e1664ea3-c29b-4f4d-95a4-00c41ff90433",
-      "images": ["markers_images/oEISzCkZ7ZRg42OZRyRF0w"],
+      "images": [
+        "markers_images/oEISzCkZ7ZRg42OZRyRF0w"
+      ],
       "name": "",
       "region": "SouthernGribadeHighland",
       "type": "monolithMaterial",
@@ -2647,7 +3051,9 @@
     {
       "category": "collection",
       "id": "0e2ee7f6-fbca-4b7a-aa10-c02eb3a169e2",
-      "images": ["markers_images/aKsbj4C6ojdP28pkSMUieA"],
+      "images": [
+        "markers_images/aKsbj4C6ojdP28pkSMUieA"
+      ],
       "name": "",
       "region": "SouthernGribadeHighland",
       "type": "monolithMaterial",
@@ -2657,7 +3063,9 @@
     {
       "category": "collection",
       "id": "b7db553e-1614-4952-9f11-c103ebd0b490",
-      "images": ["markers_images/FV1kHAj1Eqfukz28lDq0UQ"],
+      "images": [
+        "markers_images/FV1kHAj1Eqfukz28lDq0UQ"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -2667,7 +3075,9 @@
     {
       "category": "collection",
       "id": "2d214fca-9e8b-4917-ac7a-34aa1c2cf815",
-      "images": ["markers_images/Kl76SqFnJrQyubnQDg6LNA"],
+      "images": [
+        "markers_images/Kl76SqFnJrQyubnQDg6LNA"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -2677,7 +3087,9 @@
     {
       "category": "collection",
       "id": "146b8aca-e4f4-461a-a47b-de52e567ae76",
-      "images": ["markers_images/NoT3MBc-CjZgxGRfm-0Fww"],
+      "images": [
+        "markers_images/NoT3MBc-CjZgxGRfm-0Fww"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -2687,7 +3099,9 @@
     {
       "category": "collection",
       "id": "6ce02bca-7001-46d3-a413-f1b975acebdd",
-      "images": ["markers_images/_ciMPRJf-ze_s15Cud8X3w"],
+      "images": [
+        "markers_images/_ciMPRJf-ze_s15Cud8X3w"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -2697,7 +3111,9 @@
     {
       "category": "collection",
       "id": "7cb9d403-4001-4ed9-9a52-839d7cf7c12a",
-      "images": ["markers_images/5rXWGV_4zROOxeIVf3sO9Q"],
+      "images": [
+        "markers_images/5rXWGV_4zROOxeIVf3sO9Q"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2707,7 +3123,9 @@
     {
       "category": "collection",
       "id": "58bb6b7a-34f8-4bf7-94da-0fd9e416d059",
-      "images": ["markers_images/DSA_SEedZ_eYakFKlFkBSQ"],
+      "images": [
+        "markers_images/DSA_SEedZ_eYakFKlFkBSQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2717,7 +3135,9 @@
     {
       "category": "collection",
       "id": "15827890-55e2-45ae-9438-2b3bc64932f8",
-      "images": ["markers_images/XJB4PbIX4pbHENu__o1Nmg"],
+      "images": [
+        "markers_images/XJB4PbIX4pbHENu__o1Nmg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2727,7 +3147,9 @@
     {
       "category": "collection",
       "id": "b5b512a3-10b9-436e-a83e-f27ae90564cd",
-      "images": ["markers_images/EbkFRf2tG-ctj0kTBgQylQ"],
+      "images": [
+        "markers_images/EbkFRf2tG-ctj0kTBgQylQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2737,7 +3159,9 @@
     {
       "category": "collection",
       "id": "95676ce5-208e-4ffd-b2c2-8db830ba3ad3",
-      "images": ["markers_images/79NHCDxBUTd_6OeQgyt3ow"],
+      "images": [
+        "markers_images/79NHCDxBUTd_6OeQgyt3ow"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2747,7 +3171,9 @@
     {
       "category": "collection",
       "id": "d7f428dc-8917-4089-ae0e-8bc41bdcd61a",
-      "images": ["markers_images/Jv8PVKLPHZhLZ2Q5GwJ8Mg"],
+      "images": [
+        "markers_images/Jv8PVKLPHZhLZ2Q5GwJ8Mg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2757,7 +3183,9 @@
     {
       "category": "collection",
       "id": "ca221cdb-9499-4c3a-945d-94a1f30e626b",
-      "images": ["markers_images/8ghXouQmmm5t7VkmkXRwzA"],
+      "images": [
+        "markers_images/8ghXouQmmm5t7VkmkXRwzA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2767,7 +3195,9 @@
     {
       "category": "collection",
       "id": "8d50ffbc-e092-4cc0-9340-05a9a172bc29",
-      "images": ["markers_images/ZfAm8EuAeApd_BwxWuVeVA"],
+      "images": [
+        "markers_images/ZfAm8EuAeApd_BwxWuVeVA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2777,7 +3207,9 @@
     {
       "category": "collection",
       "id": "c866f193-ada9-4619-a979-f2664c18a4df",
-      "images": ["markers_images/bXSLTAtmXvXpRgcurzC0yQ"],
+      "images": [
+        "markers_images/bXSLTAtmXvXpRgcurzC0yQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2787,7 +3219,9 @@
     {
       "category": "collection",
       "id": "0b57aec4-7311-4418-8165-fa28becfa889",
-      "images": ["markers_images/LzfJBpNrQpkezXrxLRSkCQ"],
+      "images": [
+        "markers_images/LzfJBpNrQpkezXrxLRSkCQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2797,7 +3231,9 @@
     {
       "category": "collection",
       "id": "01fb58a6-ee3e-41ea-b006-08f0687fa1cf",
-      "images": ["markers_images/4SkOtw0MePLQplEeNSj5RQ"],
+      "images": [
+        "markers_images/4SkOtw0MePLQplEeNSj5RQ"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -2807,7 +3243,9 @@
     {
       "category": "collection",
       "id": "3bb8fc37-b389-4f65-8aa6-19373aef4926",
-      "images": ["markers_images/1sCz2qiW64QvO-XhDOh1iA"],
+      "images": [
+        "markers_images/1sCz2qiW64QvO-XhDOh1iA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2817,7 +3255,9 @@
     {
       "category": "collection",
       "id": "b2ccee53-2c95-4259-bd02-dd68951e8d96",
-      "images": ["markers_images/Gi0lhRZbPKe0jXoNoRS7KA"],
+      "images": [
+        "markers_images/Gi0lhRZbPKe0jXoNoRS7KA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2827,7 +3267,9 @@
     {
       "category": "collection",
       "id": "e2cd5341-23a0-4042-b139-66463393b1e7",
-      "images": ["markers_images/NmBUAFfQy0WdbgRoUL9_FA"],
+      "images": [
+        "markers_images/NmBUAFfQy0WdbgRoUL9_FA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2837,7 +3279,9 @@
     {
       "category": "collection",
       "id": "fe1e262c-34d1-41fb-a1f5-d1a63f841093",
-      "images": ["markers_images/nBJXEVd6fjs46NCsRCxBfA"],
+      "images": [
+        "markers_images/nBJXEVd6fjs46NCsRCxBfA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2847,7 +3291,9 @@
     {
       "category": "collection",
       "id": "2469f61e-0f54-4f06-9639-517cf1af72c5",
-      "images": ["markers_images/ozYquTsN6lTYCIIokAfBhw"],
+      "images": [
+        "markers_images/ozYquTsN6lTYCIIokAfBhw"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2857,7 +3303,9 @@
     {
       "category": "collection",
       "id": "31d6ef02-d9b1-46d1-b4ab-ec520531ec78",
-      "images": ["markers_images/SK1r7T97AJmCrObPUYzvZA"],
+      "images": [
+        "markers_images/SK1r7T97AJmCrObPUYzvZA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2867,7 +3315,9 @@
     {
       "category": "collection",
       "id": "47c7863f-8cf7-4f9e-8a7c-67cb9fadeffb",
-      "images": ["markers_images/uQ7M82rzT5skaZMlPKA7GA"],
+      "images": [
+        "markers_images/uQ7M82rzT5skaZMlPKA7GA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2877,7 +3327,9 @@
     {
       "category": "collection",
       "id": "25e0f76b-1387-46f3-94e3-36842a2ad8b6",
-      "images": ["markers_images/w98zmQo34nDSrpY_GcN0nw"],
+      "images": [
+        "markers_images/w98zmQo34nDSrpY_GcN0nw"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2887,7 +3339,9 @@
     {
       "category": "collection",
       "id": "22cf94ec-e1a6-4e34-8455-4fb00e28010e",
-      "images": ["markers_images/7FbPahtb1VHi_BHKr_IXGw"],
+      "images": [
+        "markers_images/7FbPahtb1VHi_BHKr_IXGw"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2897,7 +3351,9 @@
     {
       "category": "collection",
       "id": "290f97d7-9a5c-4bb1-903b-db2630302519",
-      "images": ["markers_images/qKRZAPsK5Wmk30PKF3IeAw"],
+      "images": [
+        "markers_images/qKRZAPsK5Wmk30PKF3IeAw"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2907,7 +3363,9 @@
     {
       "category": "collection",
       "id": "f6e01dc2-4386-46ab-b402-9011b14e320d",
-      "images": ["markers_images/9xFI6awAxIu7gvzwlzQl3A"],
+      "images": [
+        "markers_images/9xFI6awAxIu7gvzwlzQl3A"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2917,7 +3375,9 @@
     {
       "category": "collection",
       "id": "fd4731d7-6907-43e2-892e-215e50a628cf",
-      "images": ["markers_images/Rm3CGp0NUr50RsCQI_MAuA"],
+      "images": [
+        "markers_images/Rm3CGp0NUr50RsCQI_MAuA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2927,7 +3387,9 @@
     {
       "category": "collection",
       "id": "0ca210a4-cb87-4180-bff9-a7efd6d22052",
-      "images": ["markers_images/avX17EKXGhzTrYE8tiKRqw"],
+      "images": [
+        "markers_images/avX17EKXGhzTrYE8tiKRqw"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2937,7 +3399,9 @@
     {
       "category": "collection",
       "id": "33d9f73e-b3d3-447a-9fc9-3d94ddf23f05",
-      "images": ["markers_images/Tbye8gmjqXg_nz4FgEuHiw"],
+      "images": [
+        "markers_images/Tbye8gmjqXg_nz4FgEuHiw"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2947,7 +3411,9 @@
     {
       "category": "collection",
       "id": "2367a1b2-d85c-4b01-b559-eaf864c66f80",
-      "images": ["markers_images/FbHYecV9F6wvCjkldMezbg"],
+      "images": [
+        "markers_images/FbHYecV9F6wvCjkldMezbg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2957,7 +3423,9 @@
     {
       "category": "collection",
       "id": "6107dfcd-73c0-46e8-a797-2050bb9cacdc",
-      "images": ["markers_images/CcmbU0R4a1OFVegAxHPI_A"],
+      "images": [
+        "markers_images/CcmbU0R4a1OFVegAxHPI_A"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2967,7 +3435,9 @@
     {
       "category": "collection",
       "id": "7423177d-a58b-402c-b14d-fd7b6aeae9b3",
-      "images": ["markers_images/EK6giZU-dWML3v6mw1H9Iw"],
+      "images": [
+        "markers_images/EK6giZU-dWML3v6mw1H9Iw"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -2977,7 +3447,9 @@
     {
       "category": "collection",
       "id": "0731e733-3233-45ac-8365-354177fdb431",
-      "images": ["markers_images/n-By1skU4kKsXmFrf6aaHA"],
+      "images": [
+        "markers_images/n-By1skU4kKsXmFrf6aaHA"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -2987,7 +3459,9 @@
     {
       "category": "collection",
       "id": "082747b8-4048-4e4d-8e33-dc91789584cc",
-      "images": ["markers_images/A4nXRIRirLEPfl75ZFCqPg"],
+      "images": [
+        "markers_images/A4nXRIRirLEPfl75ZFCqPg"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -2997,7 +3471,9 @@
     {
       "category": "collection",
       "id": "f7773bc1-f529-4822-bf5d-04aeaf563242",
-      "images": ["markers_images/xg7W0rq8HPTQ57DXsrrsuw"],
+      "images": [
+        "markers_images/xg7W0rq8HPTQ57DXsrrsuw"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -3007,7 +3483,9 @@
     {
       "category": "collection",
       "id": "c5a26e1c-ad26-4190-95f7-212b8d8846b0",
-      "images": ["markers_images/Uv8xItoOvZHjEM1ERDLjBQ"],
+      "images": [
+        "markers_images/Uv8xItoOvZHjEM1ERDLjBQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3017,7 +3495,9 @@
     {
       "category": "collection",
       "id": "f745904a-c2ec-4461-8fe8-5105f6e6b829",
-      "images": ["markers_images/-4fdg0Xjohc7hRoog_IVDw"],
+      "images": [
+        "markers_images/-4fdg0Xjohc7hRoog_IVDw"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3027,7 +3507,9 @@
     {
       "category": "collection",
       "id": "2611ea28-a0d5-43a4-ae40-5e925a08f7a7",
-      "images": ["markers_images/BlYLtE91_-gXPMrwbwXb1g"],
+      "images": [
+        "markers_images/BlYLtE91_-gXPMrwbwXb1g"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -3037,7 +3519,9 @@
     {
       "category": "collection",
       "id": "354c770a-c147-4e45-9d52-a36bcac74818",
-      "images": ["markers_images/AOUjAGpMGpTfWT8z_SgPUQ"],
+      "images": [
+        "markers_images/AOUjAGpMGpTfWT8z_SgPUQ"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -3047,7 +3531,9 @@
     {
       "category": "collection",
       "id": "a5820e83-7c89-4ca2-8b20-531ce714bc4e",
-      "images": ["markers_images/Nk5x8FYocWCgAyGa0MNsiA"],
+      "images": [
+        "markers_images/Nk5x8FYocWCgAyGa0MNsiA"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -3057,7 +3543,9 @@
     {
       "category": "collection",
       "id": "dac73018-fe1e-4711-88d3-34fda3a0f2dd",
-      "images": ["markers_images/BoeOy0E-xixaHefQfHnGSw"],
+      "images": [
+        "markers_images/BoeOy0E-xixaHefQfHnGSw"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -3067,7 +3555,9 @@
     {
       "category": "collection",
       "id": "a26a853c-d805-4810-823b-813e737978a2",
-      "images": ["markers_images/Z7U6n-7BKWtjtrOx-aLKKw"],
+      "images": [
+        "markers_images/Z7U6n-7BKWtjtrOx-aLKKw"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -3077,7 +3567,9 @@
     {
       "category": "collection",
       "id": "687f6431-e817-4003-8fd6-3b06aa1c9218",
-      "images": ["markers_images/VMRf48ilV9K7LEdQby_NeA"],
+      "images": [
+        "markers_images/VMRf48ilV9K7LEdQby_NeA"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -3087,7 +3579,9 @@
     {
       "category": "collection",
       "id": "2fd27b36-b523-426b-bac9-6a1598a44542",
-      "images": ["markers_images/QpIAJMX8Zgsi8Kzk0WZMuA"],
+      "images": [
+        "markers_images/QpIAJMX8Zgsi8Kzk0WZMuA"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -3097,7 +3591,9 @@
     {
       "category": "collection",
       "id": "7ae33efb-4ce6-429e-98c3-504331853883",
-      "images": ["markers_images/MDrFsOv6O7xSpX0pzib1mg"],
+      "images": [
+        "markers_images/MDrFsOv6O7xSpX0pzib1mg"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -3107,7 +3603,9 @@
     {
       "category": "collection",
       "id": "94aa237f-7145-4124-ab1d-96050116f2af",
-      "images": ["markers_images/TNo9DLiSSSEeaWrjf-xqUg"],
+      "images": [
+        "markers_images/TNo9DLiSSSEeaWrjf-xqUg"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -3117,7 +3615,9 @@
     {
       "category": "collection",
       "id": "6cf7e713-3afa-4747-ba8b-d3250ddbe24f",
-      "images": ["markers_images/3KQc8YgPBoIyVbNVWYYrOQ"],
+      "images": [
+        "markers_images/3KQc8YgPBoIyVbNVWYYrOQ"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -3127,7 +3627,9 @@
     {
       "category": "collection",
       "id": "f05e7a0c-35db-4107-92e5-11937f9f295f",
-      "images": ["markers_images/91gVss4NC6L80VFg5Yyk-w"],
+      "images": [
+        "markers_images/91gVss4NC6L80VFg5Yyk-w"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -3137,7 +3639,9 @@
     {
       "category": "collection",
       "id": "75073360-3f63-459a-ac49-804e34569169",
-      "images": ["markers_images/ENUWcEB_bRlFdzL6jkE0Kw"],
+      "images": [
+        "markers_images/ENUWcEB_bRlFdzL6jkE0Kw"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -3147,7 +3651,9 @@
     {
       "category": "collection",
       "id": "a31992c0-87fa-43a1-b043-d1013316940b",
-      "images": ["markers_images/pObRLeEAEK8IqNlHBpg4mA"],
+      "images": [
+        "markers_images/pObRLeEAEK8IqNlHBpg4mA"
+      ],
       "name": "",
       "region": "MahindelCliff",
       "type": "monolithMaterial",
@@ -3157,7 +3663,9 @@
     {
       "category": "collection",
       "id": "ad801746-a42d-4519-a050-1458d2530713",
-      "images": ["markers_images/pDm7g_lmOqndBbsrrdlqeQ"],
+      "images": [
+        "markers_images/pDm7g_lmOqndBbsrrdlqeQ"
+      ],
       "name": "",
       "region": "MahindelCliff",
       "type": "monolithMaterial",
@@ -3167,7 +3675,9 @@
     {
       "category": "collection",
       "id": "ba827051-5553-4192-9b2c-c0679acd0e55",
-      "images": ["markers_images/O9rffvdgu4k9PNtUGjXfvA"],
+      "images": [
+        "markers_images/O9rffvdgu4k9PNtUGjXfvA"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -3177,7 +3687,9 @@
     {
       "category": "collection",
       "id": "31bdbb4f-38a5-457d-9218-2be63e0be69e",
-      "images": ["markers_images/2geCwZ6V8ijc6OFq7UROKQ"],
+      "images": [
+        "markers_images/2geCwZ6V8ijc6OFq7UROKQ"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -3187,7 +3699,9 @@
     {
       "category": "collection",
       "id": "48031138-3d78-4695-b182-0c98228a9460",
-      "images": ["markers_images/8C7Ei_bizaG-BGmXx8CElw"],
+      "images": [
+        "markers_images/8C7Ei_bizaG-BGmXx8CElw"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -3197,7 +3711,9 @@
     {
       "category": "collection",
       "id": "2e9d75b4-36c1-41e2-8ec7-5942bae24339",
-      "images": ["markers_images/2KWUK8lLZ4Yj1jD3pTyuhg"],
+      "images": [
+        "markers_images/2KWUK8lLZ4Yj1jD3pTyuhg"
+      ],
       "name": "",
       "region": "MahindelCliff",
       "type": "monolithMaterial",
@@ -3207,7 +3723,9 @@
     {
       "category": "collection",
       "id": "00d43445-f6b0-4c3c-af39-ebd65b821bb7",
-      "images": ["markers_images/S7Z40DQiGV-7syIjHmStCA"],
+      "images": [
+        "markers_images/S7Z40DQiGV-7syIjHmStCA"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3217,7 +3735,9 @@
     {
       "category": "collection",
       "id": "51b9d694-63f9-49fe-813c-2ba4c10263cf",
-      "images": ["markers_images/HUCkzHbSDQVVXjcGhJcf_g"],
+      "images": [
+        "markers_images/HUCkzHbSDQVVXjcGhJcf_g"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3227,7 +3747,9 @@
     {
       "category": "collection",
       "id": "6ac608e1-5237-4e82-9f99-4c07dceec39d",
-      "images": ["markers_images/PM27cwtmB01jwRyfNoLdGQ"],
+      "images": [
+        "markers_images/PM27cwtmB01jwRyfNoLdGQ"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3237,7 +3759,9 @@
     {
       "category": "collection",
       "id": "dfc5f61f-6699-40ff-9df2-ad5b7902b591",
-      "images": ["markers_images/kK7-XRLHSMU71QiSleWnkg"],
+      "images": [
+        "markers_images/kK7-XRLHSMU71QiSleWnkg"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3247,7 +3771,9 @@
     {
       "category": "collection",
       "id": "6f558670-041e-4b89-9139-55cc1c52de5d",
-      "images": ["markers_images/AhiMHC3ZzhKMgseKXM9P4w"],
+      "images": [
+        "markers_images/AhiMHC3ZzhKMgseKXM9P4w"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3257,7 +3783,9 @@
     {
       "category": "collection",
       "id": "670ba1bb-ff42-4dfd-b956-b3254b138c27",
-      "images": ["markers_images/zET40phG0SnPdPhW8mLCUw"],
+      "images": [
+        "markers_images/zET40phG0SnPdPhW8mLCUw"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3267,7 +3795,9 @@
     {
       "category": "collection",
       "id": "1b329d8c-9e38-4a0e-a4c1-d810d347c16b",
-      "images": ["markers_images/HX58bSfduY-80uhGJ-pkDg"],
+      "images": [
+        "markers_images/HX58bSfduY-80uhGJ-pkDg"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3277,7 +3807,9 @@
     {
       "category": "collection",
       "id": "0aef47f1-e218-44da-b6cb-6627bd9df591",
-      "images": ["markers_images/DnEFfVCbnvTQS-GhHSnqdg"],
+      "images": [
+        "markers_images/DnEFfVCbnvTQS-GhHSnqdg"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3287,7 +3819,9 @@
     {
       "category": "collection",
       "id": "28ce0287-07e5-4e7c-a33a-b773aa33489f",
-      "images": ["markers_images/FfB_Fo6UTyzdy2FNtt7qNQ"],
+      "images": [
+        "markers_images/FfB_Fo6UTyzdy2FNtt7qNQ"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3297,7 +3831,9 @@
     {
       "category": "collection",
       "id": "68528078-4f12-4ac5-b405-edfba907d304",
-      "images": ["markers_images/vsMtW4XRzLTfmdg9QFhj6g"],
+      "images": [
+        "markers_images/vsMtW4XRzLTfmdg9QFhj6g"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3307,7 +3843,9 @@
     {
       "category": "collection",
       "id": "32eaa99d-baf5-4955-8638-e02799cb2018",
-      "images": ["markers_images/g52aEhDvjWehF77PI7fpAA"],
+      "images": [
+        "markers_images/g52aEhDvjWehF77PI7fpAA"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3317,7 +3855,9 @@
     {
       "category": "collection",
       "id": "9fe0662a-f7b9-4d56-b372-d2d1f8a8bd40",
-      "images": ["markers_images/2sj0Oq5W2fW6LsPwjGxYSA"],
+      "images": [
+        "markers_images/2sj0Oq5W2fW6LsPwjGxYSA"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3327,7 +3867,9 @@
     {
       "category": "collection",
       "id": "4f03a060-3f1b-4c23-8347-24b74c19c5cf",
-      "images": ["markers_images/Ouv4Q3r_xsqmqDdh5XnyYQ"],
+      "images": [
+        "markers_images/Ouv4Q3r_xsqmqDdh5XnyYQ"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3337,7 +3879,9 @@
     {
       "category": "collection",
       "id": "0b02e942-3623-4065-a0ca-7d90b3dec761",
-      "images": ["markers_images/DPWCmmyWF74bCjPvJDVb9w"],
+      "images": [
+        "markers_images/DPWCmmyWF74bCjPvJDVb9w"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3360,7 +3904,9 @@
     {
       "category": "collection",
       "id": "2557daad-b238-4827-b380-f298a6f37bed",
-      "images": ["markers_images/VrF1DZvE3DTFDDt5B9bOiQ"],
+      "images": [
+        "markers_images/VrF1DZvE3DTFDDt5B9bOiQ"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3370,7 +3916,9 @@
     {
       "category": "collection",
       "id": "6f3ad7cd-16bd-4a4d-b679-64ccb52cff31",
-      "images": ["markers_images/YJjfQVfX7hFJResHX0BZYQ"],
+      "images": [
+        "markers_images/YJjfQVfX7hFJResHX0BZYQ"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3380,7 +3928,9 @@
     {
       "category": "collection",
       "id": "1aede1ef-3d34-4c92-b4b0-05797ee7f20e",
-      "images": ["markers_images/tbFXmCJyen5fBxYiiQhazg"],
+      "images": [
+        "markers_images/tbFXmCJyen5fBxYiiQhazg"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3390,7 +3940,9 @@
     {
       "category": "collection",
       "id": "cb3ef74d-13f1-4bcf-b7bb-095d9ae75785",
-      "images": ["markers_images/EO-RKT0mYo9Mmg3KJiKWrw"],
+      "images": [
+        "markers_images/EO-RKT0mYo9Mmg3KJiKWrw"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3400,7 +3952,9 @@
     {
       "category": "collection",
       "id": "72befd1a-f520-4c0c-ad97-13954f6a3e2e",
-      "images": ["markers_images/tO35Zz23wWttpv7rnScoyw"],
+      "images": [
+        "markers_images/tO35Zz23wWttpv7rnScoyw"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -3419,7 +3973,9 @@
     {
       "category": "collection",
       "id": "fad21d7e-2e31-47ae-b153-46f798e0769a",
-      "images": ["markers_images/cNifn2WtoEwNdVy97-nw_w"],
+      "images": [
+        "markers_images/cNifn2WtoEwNdVy97-nw_w"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3429,7 +3985,9 @@
     {
       "category": "collection",
       "id": "b4ecc213-57d6-48c9-8e95-55487655881e",
-      "images": ["markers_images/rdkn_1O9LFmqT0y2DcUYhg"],
+      "images": [
+        "markers_images/rdkn_1O9LFmqT0y2DcUYhg"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3439,7 +3997,9 @@
     {
       "category": "collection",
       "id": "20c28a62-1033-4546-ae18-5717c2b0b85b",
-      "images": ["markers_images/Mql7eG7ewYrdH3FdQMedkQ"],
+      "images": [
+        "markers_images/Mql7eG7ewYrdH3FdQMedkQ"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3449,7 +4009,9 @@
     {
       "category": "collection",
       "id": "23ff554c-ffdd-4b71-892d-a69cca72417f",
-      "images": ["markers_images/Sr1f-qDMrSepEQVzaI1t-Q"],
+      "images": [
+        "markers_images/Sr1f-qDMrSepEQVzaI1t-Q"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -3459,7 +4021,9 @@
     {
       "category": "collection",
       "id": "29726c1e-1591-413f-b1e4-1684b939f11e",
-      "images": ["markers_images/ZE1HBU6crTELkehehRQDIg"],
+      "images": [
+        "markers_images/ZE1HBU6crTELkehehRQDIg"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3469,7 +4033,9 @@
     {
       "category": "collection",
       "id": "5fc8b4d9-52bc-44ea-bd03-ed562cf9e206",
-      "images": ["markers_images/MCCZ4N5ORqtkN0_g29k-3Q"],
+      "images": [
+        "markers_images/MCCZ4N5ORqtkN0_g29k-3Q"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3479,7 +4045,9 @@
     {
       "category": "collection",
       "id": "41cc3a28-6d98-49c2-9278-503fc339114e",
-      "images": ["markers_images/Hlo0bjE2cvoMgros9wDUbw"],
+      "images": [
+        "markers_images/Hlo0bjE2cvoMgros9wDUbw"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3489,7 +4057,9 @@
     {
       "category": "collection",
       "id": "e16a325e-fa4f-4b48-8c71-f55ba6158daa",
-      "images": ["markers_images/VCIXQmFxVrhCC006O0xt0A"],
+      "images": [
+        "markers_images/VCIXQmFxVrhCC006O0xt0A"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3499,7 +4069,9 @@
     {
       "category": "collection",
       "id": "19f87eda-81bf-44c7-ac59-b44528d95f36",
-      "images": ["markers_images/VYl_wvXkOxPiDT9NEU-BdA"],
+      "images": [
+        "markers_images/VYl_wvXkOxPiDT9NEU-BdA"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -3509,7 +4081,9 @@
     {
       "category": "collection",
       "id": "bea7b5a3-645a-4a76-8139-276fdc60bd75",
-      "images": ["markers_images/JAUPA9JTxhYTeiqG2WudWw"],
+      "images": [
+        "markers_images/JAUPA9JTxhYTeiqG2WudWw"
+      ],
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
@@ -3519,7 +4093,9 @@
     {
       "category": "collection",
       "id": "8f8a1e8e-2b3b-40ba-9c0f-9ec511a3cad6",
-      "images": ["markers_images/YPIm8rNNGzR3pmrhvGuaWQ"],
+      "images": [
+        "markers_images/YPIm8rNNGzR3pmrhvGuaWQ"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -3529,7 +4105,9 @@
     {
       "category": "collection",
       "id": "62989cbb-58d9-4cfc-9c7e-7724cf5431fd",
-      "images": ["markers_images/NaiFU3frZ850-T-XDyD-DQ"],
+      "images": [
+        "markers_images/NaiFU3frZ850-T-XDyD-DQ"
+      ],
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
@@ -3539,7 +4117,9 @@
     {
       "category": "collection",
       "id": "a85fd9e0-f79c-482d-8465-9fb8e599c7a2",
-      "images": ["markers_images/PejYHzzNWsHgRMEso236rQ"],
+      "images": [
+        "markers_images/PejYHzzNWsHgRMEso236rQ"
+      ],
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
@@ -3549,7 +4129,9 @@
     {
       "category": "collection",
       "id": "8eb2850e-9d54-424f-a8e1-d165d9efbd0c",
-      "images": ["markers_images/oBw0G8O__h-pN-QUTbkcAg"],
+      "images": [
+        "markers_images/oBw0G8O__h-pN-QUTbkcAg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3559,7 +4141,9 @@
     {
       "category": "collection",
       "id": "c78a748e-dc6f-4c81-b877-b557104873bc",
-      "images": ["markers_images/jtIq3lMVuQhXt7u74J_KcQ"],
+      "images": [
+        "markers_images/jtIq3lMVuQhXt7u74J_KcQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3569,7 +4153,9 @@
     {
       "category": "collection",
       "id": "231e5085-4160-40ce-8f3f-73a8ed38e8ff",
-      "images": ["markers_images/A2FWPc8oq8CMkDanvidiWQ"],
+      "images": [
+        "markers_images/A2FWPc8oq8CMkDanvidiWQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3579,7 +4165,9 @@
     {
       "category": "collection",
       "id": "6ed7c067-b6b5-4043-84cf-59d6cc302f9c",
-      "images": ["markers_images/XebOA7XA7569P6jp0ijmzQ"],
+      "images": [
+        "markers_images/XebOA7XA7569P6jp0ijmzQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3589,7 +4177,9 @@
     {
       "category": "collection",
       "id": "5e48b2e0-1b2e-4869-b51c-959fdc017a47",
-      "images": ["markers_images/dPUsiiYWA5CNUIMuz0mIrg"],
+      "images": [
+        "markers_images/dPUsiiYWA5CNUIMuz0mIrg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3599,7 +4189,9 @@
     {
       "category": "collection",
       "id": "c58a463e-9e57-4549-8675-36d6311153ca",
-      "images": ["markers_images/ldev2FiPldrgj8vKY9chWg"],
+      "images": [
+        "markers_images/ldev2FiPldrgj8vKY9chWg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3609,7 +4201,9 @@
     {
       "category": "collection",
       "id": "fe0d9096-7f1a-432b-b7d0-8b10b1b16717",
-      "images": ["markers_images/fPAJggLYdalzZWsXiPCmmA"],
+      "images": [
+        "markers_images/fPAJggLYdalzZWsXiPCmmA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3619,7 +4213,9 @@
     {
       "category": "collection",
       "id": "bfc15b18-461d-4155-9010-4a51153278fe",
-      "images": ["markers_images/zCm1vAiZScwVt91s9ELGwg"],
+      "images": [
+        "markers_images/zCm1vAiZScwVt91s9ELGwg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3629,7 +4225,9 @@
     {
       "category": "collection",
       "id": "593ad967-2073-4817-935d-e675f8e3faae",
-      "images": ["markers_images/itBS_ck-td-DepJlRvzM-A"],
+      "images": [
+        "markers_images/itBS_ck-td-DepJlRvzM-A"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3639,7 +4237,9 @@
     {
       "category": "collection",
       "id": "dff63ed0-be7f-4c29-8579-78c1e62a594d",
-      "images": ["markers_images/91hwhwieyMjWw10LA1n_OQ"],
+      "images": [
+        "markers_images/91hwhwieyMjWw10LA1n_OQ"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -3649,7 +4249,9 @@
     {
       "category": "collection",
       "id": "057f8918-5854-4d1c-aa2e-82d0f18fcaf3",
-      "images": ["markers_images/eqzTGO_7oDZNjMcp98d8Aw"],
+      "images": [
+        "markers_images/eqzTGO_7oDZNjMcp98d8Aw"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3659,7 +4261,9 @@
     {
       "category": "collection",
       "id": "4df26971-f6b3-450d-ab47-b00cb5083bd8",
-      "images": ["markers_images/GO4AdtEe_Rh1aSgjqASx9A"],
+      "images": [
+        "markers_images/GO4AdtEe_Rh1aSgjqASx9A"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -3669,7 +4273,9 @@
     {
       "category": "collection",
       "id": "021f56e4-661d-4ec1-b2b8-d412021d522e",
-      "images": ["markers_images/lsdxWA71rx_lfc2XFDzTAw"],
+      "images": [
+        "markers_images/lsdxWA71rx_lfc2XFDzTAw"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -3679,7 +4285,9 @@
     {
       "category": "collection",
       "id": "b3434650-8a59-456b-9dbf-96a269d622cc",
-      "images": ["markers_images/SWYQTXJv_tOv4CDnKt9Ukg"],
+      "images": [
+        "markers_images/SWYQTXJv_tOv4CDnKt9Ukg"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -3689,7 +4297,9 @@
     {
       "category": "collection",
       "id": "0b386ec5-e829-4603-842c-33f425e31858",
-      "images": ["markers_images/g2wn3wMDXr8KEl9fSqeaGg"],
+      "images": [
+        "markers_images/g2wn3wMDXr8KEl9fSqeaGg"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -3699,7 +4309,9 @@
     {
       "category": "collection",
       "id": "5aaf424e-9344-4190-9c15-69cb9e6cd387",
-      "images": ["markers_images/YCGjZ875iP60PMums4PaGw"],
+      "images": [
+        "markers_images/YCGjZ875iP60PMums4PaGw"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -3709,7 +4321,9 @@
     {
       "category": "collection",
       "id": "98ac7270-7ce8-4414-8918-44df00111ef8",
-      "images": ["markers_images/3Thtlsb_pNJJbrepuJcjuw"],
+      "images": [
+        "markers_images/3Thtlsb_pNJJbrepuJcjuw"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -3719,7 +4333,9 @@
     {
       "category": "collection",
       "id": "8ef0f731-11ca-4a83-84fb-282e10045382",
-      "images": ["markers_images/DFOs70D4zk5jQnIM08Cl8g"],
+      "images": [
+        "markers_images/DFOs70D4zk5jQnIM08Cl8g"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -3729,7 +4345,9 @@
     {
       "category": "collection",
       "id": "3a32bc15-39be-4f9a-b7e7-d3713a716104",
-      "images": ["markers_images/zcC25jc1_8Uq-LclbzczKw"],
+      "images": [
+        "markers_images/zcC25jc1_8Uq-LclbzczKw"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -3739,7 +4357,9 @@
     {
       "category": "collection",
       "id": "28f4805a-22cf-48c2-97c2-2f87c0a7d5a5",
-      "images": ["markers_images/0km3NiZpRxkPeWFuIsjVhw"],
+      "images": [
+        "markers_images/0km3NiZpRxkPeWFuIsjVhw"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -3749,7 +4369,9 @@
     {
       "category": "collection",
       "id": "c4c7154c-2f83-4356-90e3-13e336fecc27",
-      "images": ["markers_images/dMcr3UDanHBNfrvqkCiDoQ"],
+      "images": [
+        "markers_images/dMcr3UDanHBNfrvqkCiDoQ"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -3759,7 +4381,9 @@
     {
       "category": "collection",
       "id": "6b6d8b1e-4418-44ac-b1d6-95fd37c63716",
-      "images": ["markers_images/vKjyiaRCv2iUw01CUzZgXg"],
+      "images": [
+        "markers_images/vKjyiaRCv2iUw01CUzZgXg"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -3769,7 +4393,9 @@
     {
       "category": "collection",
       "id": "075a358b-79fb-4ad6-a694-7004f0a04374",
-      "images": ["markers_images/Y_mqW9nzO5KI_RuffKTB_Q"],
+      "images": [
+        "markers_images/Y_mqW9nzO5KI_RuffKTB_Q"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3779,7 +4405,9 @@
     {
       "category": "collection",
       "id": "7a4383c6-10f3-4a48-9bcc-9471fb912aaf",
-      "images": ["markers_images/PYiSd1ln-20LJYzLmrY9Ag"],
+      "images": [
+        "markers_images/PYiSd1ln-20LJYzLmrY9Ag"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3789,7 +4417,9 @@
     {
       "category": "collection",
       "id": "f1c016ed-4d75-4045-a40d-d4c2c7aa7fd1",
-      "images": ["markers_images/5F61-Q7aSld0hUTo27ijgw"],
+      "images": [
+        "markers_images/5F61-Q7aSld0hUTo27ijgw"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3799,7 +4429,9 @@
     {
       "category": "collection",
       "id": "66992eaa-57a2-4918-b457-bbff1a2e72c6",
-      "images": ["markers_images/SrpEzNQvYJH4O5lW9YS_qQ"],
+      "images": [
+        "markers_images/SrpEzNQvYJH4O5lW9YS_qQ"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3809,7 +4441,9 @@
     {
       "category": "collection",
       "id": "ddd7f22b-b419-4785-b975-74f2c6221889",
-      "images": ["markers_images/Bmud7uMwwCBQqNS74jNPIA"],
+      "images": [
+        "markers_images/Bmud7uMwwCBQqNS74jNPIA"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3819,7 +4453,9 @@
     {
       "category": "collection",
       "id": "2207e908-689b-4ae9-99d2-1ddd64b306e0",
-      "images": ["markers_images/AdJ-VkPQhghmbbQFA_7f2g"],
+      "images": [
+        "markers_images/AdJ-VkPQhghmbbQFA_7f2g"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3829,7 +4465,9 @@
     {
       "category": "collection",
       "id": "c423d98e-376d-4784-8c78-aeca4a623049",
-      "images": ["markers_images/qnKaluE4oy34ORW8PlkG9Q"],
+      "images": [
+        "markers_images/qnKaluE4oy34ORW8PlkG9Q"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3839,7 +4477,9 @@
     {
       "category": "collection",
       "id": "581e2f3a-e5ba-4c5b-a073-c8a30a54ab2c",
-      "images": ["markers_images/hFQOvaJ0EjSPusXo-sdvsA"],
+      "images": [
+        "markers_images/hFQOvaJ0EjSPusXo-sdvsA"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3849,7 +4489,9 @@
     {
       "category": "collection",
       "id": "0a2dcf85-7353-4c42-b4f9-efed57ec9330",
-      "images": ["markers_images/EIruz9JxT085I63tiz91cQ"],
+      "images": [
+        "markers_images/EIruz9JxT085I63tiz91cQ"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3859,7 +4501,9 @@
     {
       "category": "collection",
       "id": "ae0afdd6-fe8d-4c8e-b465-28446dd964f1",
-      "images": ["markers_images/aIKjbLFZ3BiNjKwH90gukw"],
+      "images": [
+        "markers_images/aIKjbLFZ3BiNjKwH90gukw"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -3869,7 +4513,9 @@
     {
       "category": "collection",
       "id": "10f2fe9a-150d-4f33-8562-774e0cf0ed89",
-      "images": ["markers_images/6fXtC3NnDi2yD53LWBTsBw"],
+      "images": [
+        "markers_images/6fXtC3NnDi2yD53LWBTsBw"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -3879,7 +4525,9 @@
     {
       "category": "collection",
       "id": "2c8cc93a-7b51-4f3e-94f5-7b99dc7a5646",
-      "images": ["markers_images/vzkl_UnChueXnkHZIiolHw"],
+      "images": [
+        "markers_images/vzkl_UnChueXnkHZIiolHw"
+      ],
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
@@ -3889,7 +4537,9 @@
     {
       "category": "collection",
       "id": "86aa7211-616b-4576-87d6-cd38c0f05507",
-      "images": ["markers_images/1x2YzPASbHP9sQQV-MAxAg"],
+      "images": [
+        "markers_images/1x2YzPASbHP9sQQV-MAxAg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -3899,7 +4549,9 @@
     {
       "category": "collection",
       "id": "70849981-81eb-443b-b4d3-3a890e27a010",
-      "images": ["markers_images/yR46kxsDiZqXI80I1vLYhg"],
+      "images": [
+        "markers_images/yR46kxsDiZqXI80I1vLYhg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -3909,7 +4561,9 @@
     {
       "category": "collection",
       "id": "40c84d25-b16c-49eb-9a33-d7b5e5a21439",
-      "images": ["markers_images/wrJbopwITTCYgpYCQIeblw"],
+      "images": [
+        "markers_images/wrJbopwITTCYgpYCQIeblw"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -3919,7 +4573,9 @@
     {
       "category": "collection",
       "id": "ab0a28d0-bbc6-4f3a-9063-6a7916c1cedd",
-      "images": ["markers_images/Umfji4mTDYxAGAknxbe-jA"],
+      "images": [
+        "markers_images/Umfji4mTDYxAGAknxbe-jA"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -3929,7 +4585,9 @@
     {
       "category": "collection",
       "id": "1adce88e-f1d7-4fa2-9354-ca6eb578deb4",
-      "images": ["markers_images/Q6OYvgi8ZI0maWB5vIuZYA"],
+      "images": [
+        "markers_images/Q6OYvgi8ZI0maWB5vIuZYA"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -3939,7 +4597,9 @@
     {
       "category": "collection",
       "id": "e2a9dcba-7737-4df2-9e9b-581291054801",
-      "images": ["markers_images/08EuMWyu6zNYp_IQmy6HOQ"],
+      "images": [
+        "markers_images/08EuMWyu6zNYp_IQmy6HOQ"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -3973,7 +4633,9 @@
     {
       "category": "collection",
       "id": "1890dd30-6da6-4a40-b88c-fc861e77cd2d",
-      "images": ["markers_images/cWIO04vkwkekHzUct-O5yw"],
+      "images": [
+        "markers_images/cWIO04vkwkekHzUct-O5yw"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -3983,7 +4645,9 @@
     {
       "category": "collection",
       "id": "352366af-7985-4fda-9953-83025629a880",
-      "images": ["markers_images/H3kiP659YaPrTvgkR4UHUg"],
+      "images": [
+        "markers_images/H3kiP659YaPrTvgkR4UHUg"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -3993,7 +4657,9 @@
     {
       "category": "collection",
       "id": "6be521c2-f501-4fdb-b5e9-999a44ba0cdf",
-      "images": ["markers_images/oBmyjx_N_FsJPvrqbpnaYA"],
+      "images": [
+        "markers_images/oBmyjx_N_FsJPvrqbpnaYA"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4011,7 +4677,9 @@
     {
       "category": "collection",
       "id": "0194645a-91a3-4bbe-8844-6905bc8073bb",
-      "images": ["markers_images/Dd8WrQKiHceqSds7pLHrqg"],
+      "images": [
+        "markers_images/Dd8WrQKiHceqSds7pLHrqg"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4021,7 +4689,9 @@
     {
       "category": "collection",
       "id": "1dca8c0d-4b36-4f91-a2ed-52e3ae318af9",
-      "images": ["markers_images/yVuG4yNrBM-QEl_wrvR29w"],
+      "images": [
+        "markers_images/yVuG4yNrBM-QEl_wrvR29w"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4039,7 +4709,9 @@
     {
       "category": "collection",
       "id": "9e5fa4a5-2fd1-48a8-962a-673bbc904751",
-      "images": ["markers_images/3I6UXtxR9rxaDKMkeYlFcQ"],
+      "images": [
+        "markers_images/3I6UXtxR9rxaDKMkeYlFcQ"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4049,7 +4721,9 @@
     {
       "category": "collection",
       "id": "a5cdc28a-e850-4725-9bf6-344bba25f2a0",
-      "images": ["markers_images/XrjnY5UrkPMl6vAmxz1DXg"],
+      "images": [
+        "markers_images/XrjnY5UrkPMl6vAmxz1DXg"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4059,7 +4733,9 @@
     {
       "category": "collection",
       "id": "9ca4ef64-e94b-4707-99ed-27c221b98cd8",
-      "images": ["markers_images/FXjG6FY9ZVBslDTbFbzkow"],
+      "images": [
+        "markers_images/FXjG6FY9ZVBslDTbFbzkow"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4069,7 +4745,9 @@
     {
       "category": "collection",
       "id": "72e9f317-865f-4f36-bde6-cbcdf35d42b3",
-      "images": ["markers_images/Wp4iJTTH_BxKlLBCtMD_-g"],
+      "images": [
+        "markers_images/Wp4iJTTH_BxKlLBCtMD_-g"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4079,7 +4757,9 @@
     {
       "category": "collection",
       "id": "67083816-4dfe-4d87-a2d3-35eb877e326f",
-      "images": ["markers_images/qEJdZnfEsixL-j0_97W4qw"],
+      "images": [
+        "markers_images/qEJdZnfEsixL-j0_97W4qw"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4089,7 +4769,9 @@
     {
       "category": "collection",
       "id": "15b6a4b5-fbfe-4eee-ba10-611338b87353",
-      "images": ["markers_images/78QuaPp_EjRCvpwnMgWN4w"],
+      "images": [
+        "markers_images/78QuaPp_EjRCvpwnMgWN4w"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4099,7 +4781,9 @@
     {
       "category": "collection",
       "id": "e73ce63f-4eaf-4797-af0e-6871e79fde39",
-      "images": ["markers_images/BIVi9loir4C0rPJQptgapw"],
+      "images": [
+        "markers_images/BIVi9loir4C0rPJQptgapw"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4109,7 +4793,9 @@
     {
       "category": "collection",
       "id": "68bae65e-09ad-41ca-8e89-7fd1914dff3f",
-      "images": ["markers_images/FO6psjbti-QQ7VkyFlj0xg"],
+      "images": [
+        "markers_images/FO6psjbti-QQ7VkyFlj0xg"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -4231,7 +4917,9 @@
     {
       "category": "collection",
       "id": "5c0cf5a8-6ecf-46e3-bae7-15307ad3ddeb",
-      "images": ["markers_images/nGpqzAp0CG-2CV63sfSJAw"],
+      "images": [
+        "markers_images/nGpqzAp0CG-2CV63sfSJAw"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4241,7 +4929,9 @@
     {
       "category": "collection",
       "id": "bdca89a6-58b0-435b-a179-a3f7bd1be58f",
-      "images": ["markers_images/eLv3cK_JLxFGtzImHKvwZg"],
+      "images": [
+        "markers_images/eLv3cK_JLxFGtzImHKvwZg"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4259,7 +4949,9 @@
     {
       "category": "collection",
       "id": "1427de23-ccb2-43ab-a92a-aa137e610157",
-      "images": ["markers_images/tzfpjXNsbjaoDHIshZ6FkA"],
+      "images": [
+        "markers_images/tzfpjXNsbjaoDHIshZ6FkA"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4269,7 +4961,9 @@
     {
       "category": "collection",
       "id": "6dedd5cc-581a-4cb3-b2f3-1f62305e2352",
-      "images": ["markers_images/QqXL5g9yYMH9126ALdeXAQ"],
+      "images": [
+        "markers_images/QqXL5g9yYMH9126ALdeXAQ"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4287,7 +4981,9 @@
     {
       "category": "collection",
       "id": "3140ad22-c8e6-46db-b1cd-e28afca1c8e7",
-      "images": ["markers_images/2lX_7BQSWKV3v79v2M4GyQ"],
+      "images": [
+        "markers_images/2lX_7BQSWKV3v79v2M4GyQ"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4297,7 +4993,9 @@
     {
       "category": "collection",
       "id": "a5bb9c5c-03d7-48b6-b72f-d7f948e179ee",
-      "images": ["markers_images/LYSVOjMTKnykgE6ebnKbHw"],
+      "images": [
+        "markers_images/LYSVOjMTKnykgE6ebnKbHw"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4315,7 +5013,9 @@
     {
       "category": "collection",
       "id": "ee90c6a4-594f-4a5d-a627-248a4c7d5e5c",
-      "images": ["markers_images/tvBGVC5Q6LH7jCONMl8-mA"],
+      "images": [
+        "markers_images/tvBGVC5Q6LH7jCONMl8-mA"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4333,7 +5033,9 @@
     {
       "category": "collection",
       "id": "46131658-7ff5-470a-8adc-521e7f0527e2",
-      "images": ["markers_images/GVkw5b1-y9ZViqCB9IuPQQ"],
+      "images": [
+        "markers_images/GVkw5b1-y9ZViqCB9IuPQQ"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4343,7 +5045,9 @@
     {
       "category": "collection",
       "id": "ca39e44c-2527-4e80-8abe-c711361ae40a",
-      "images": ["markers_images/AfQZBh4xxsrUrDNVwt12tQ"],
+      "images": [
+        "markers_images/AfQZBh4xxsrUrDNVwt12tQ"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4353,7 +5057,9 @@
     {
       "category": "collection",
       "id": "b054860e-ae15-43e6-a438-21898acf6e2d",
-      "images": ["markers_images/JmJH0Vc4wVIxFCPC14yxRw"],
+      "images": [
+        "markers_images/JmJH0Vc4wVIxFCPC14yxRw"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4363,7 +5069,9 @@
     {
       "category": "collection",
       "id": "4be944a1-6345-41d9-9870-d32f65fbeb8d",
-      "images": ["markers_images/3RyhHAbuo7aC9v0XJqVRdw"],
+      "images": [
+        "markers_images/3RyhHAbuo7aC9v0XJqVRdw"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4373,7 +5081,9 @@
     {
       "category": "collection",
       "id": "12823612-69b2-4f31-92fe-7fb44fdb8d14",
-      "images": ["markers_images/-wvdLJW4MRHRTa4Wgo4Bag"],
+      "images": [
+        "markers_images/-wvdLJW4MRHRTa4Wgo4Bag"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4391,7 +5101,9 @@
     {
       "category": "collection",
       "id": "6465a468-c4cf-4d17-b244-9e9bbbd0e52c",
-      "images": ["markers_images/E7rjKVsCv7MCFtCkkYPKUg"],
+      "images": [
+        "markers_images/E7rjKVsCv7MCFtCkkYPKUg"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4401,7 +5113,9 @@
     {
       "category": "collection",
       "id": "08986edf-9779-48be-9e46-647c606bf1fc",
-      "images": ["markers_images/yzSC-R-72-z_4mUC7sBSnw"],
+      "images": [
+        "markers_images/yzSC-R-72-z_4mUC7sBSnw"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4411,7 +5125,9 @@
     {
       "category": "collection",
       "id": "0575146c-b178-4518-97ad-b3cb0f91e3b8",
-      "images": ["markers_images/usWfIRvz8AtJx6IVK5bJVg"],
+      "images": [
+        "markers_images/usWfIRvz8AtJx6IVK5bJVg"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4421,7 +5137,9 @@
     {
       "category": "collection",
       "id": "ce9b9a31-6237-41c0-9a19-7a5d1b9f81dd",
-      "images": ["markers_images/qLyiZwQarcIzyixcAsUFKw"],
+      "images": [
+        "markers_images/qLyiZwQarcIzyixcAsUFKw"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4439,7 +5157,9 @@
     {
       "category": "collection",
       "id": "6307640b-5c21-462b-b9c3-2cbb40a6dc7f",
-      "images": ["markers_images/rJyEO4y1VeUhvIp5MHcLNg"],
+      "images": [
+        "markers_images/rJyEO4y1VeUhvIp5MHcLNg"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4449,7 +5169,9 @@
     {
       "category": "collection",
       "id": "46f64b6f-b8d3-440d-9675-c19cf23178ff",
-      "images": ["markers_images/kSZUjT6Bvkln5mibEPHJ-A"],
+      "images": [
+        "markers_images/kSZUjT6Bvkln5mibEPHJ-A"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4459,7 +5181,9 @@
     {
       "category": "collection",
       "id": "0d1a6ff8-e13f-4bc4-b45d-b78d155d2df3",
-      "images": ["markers_images/9KWfNa5mt3KJkyc07BT7dw"],
+      "images": [
+        "markers_images/9KWfNa5mt3KJkyc07BT7dw"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4469,7 +5193,9 @@
     {
       "category": "collection",
       "id": "16635b3d-892c-412b-8a7a-657b1aa68f70",
-      "images": ["markers_images/g8KOAjxDtRhJ4uE1AWi70A"],
+      "images": [
+        "markers_images/g8KOAjxDtRhJ4uE1AWi70A"
+      ],
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
@@ -4495,7 +5221,9 @@
     {
       "category": "collection",
       "id": "1e650025-aa61-4c16-9e6d-7821e0785320",
-      "images": ["markers_images/BdC335GRZIVjhK81xIoKIg"],
+      "images": [
+        "markers_images/BdC335GRZIVjhK81xIoKIg"
+      ],
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
@@ -4505,7 +5233,9 @@
     {
       "category": "collection",
       "id": "f7f0f235-907f-47d2-beac-080b0475f037",
-      "images": ["markers_images/n9kF-MDmJ_WrnWXyrzszIA"],
+      "images": [
+        "markers_images/n9kF-MDmJ_WrnWXyrzszIA"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4515,7 +5245,9 @@
     {
       "category": "collection",
       "id": "d8f8c2ea-d0b3-4ec8-8205-8a69c3cccdb5",
-      "images": ["markers_images/P_1oNThWYNPySxuLm2KWpw"],
+      "images": [
+        "markers_images/P_1oNThWYNPySxuLm2KWpw"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4533,7 +5265,9 @@
     {
       "category": "collection",
       "id": "00808947-b618-4236-bf84-af183696125f",
-      "images": ["markers_images/kDEW03dLne3MedMWtQsYFA"],
+      "images": [
+        "markers_images/kDEW03dLne3MedMWtQsYFA"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4543,7 +5277,9 @@
     {
       "category": "collection",
       "id": "30a87eb1-4338-47f8-bf91-7b83455df1dc",
-      "images": ["markers_images/ZNG1krHQUH5bT4D_yXfsJw"],
+      "images": [
+        "markers_images/ZNG1krHQUH5bT4D_yXfsJw"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4561,7 +5297,9 @@
     {
       "category": "collection",
       "id": "3a975594-e28d-4752-ad62-713bcd26acd9",
-      "images": ["markers_images/oKqmozAFGnLmktrOG-t5Zg"],
+      "images": [
+        "markers_images/oKqmozAFGnLmktrOG-t5Zg"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4571,7 +5309,9 @@
     {
       "category": "collection",
       "id": "91d02a00-bcf6-4299-9f9d-ead570d37398",
-      "images": ["markers_images/mfYU0TAkGb6Ej9dQAqaDKQ"],
+      "images": [
+        "markers_images/mfYU0TAkGb6Ej9dQAqaDKQ"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4589,7 +5329,9 @@
     {
       "category": "collection",
       "id": "1ee33890-c9d1-46ec-beb6-8444848dc9b4",
-      "images": ["markers_images/kILLmHfca3VdhiVfrtYxgg"],
+      "images": [
+        "markers_images/kILLmHfca3VdhiVfrtYxgg"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4599,7 +5341,9 @@
     {
       "category": "collection",
       "id": "fdcf42db-c42c-4369-a456-5f6672ff7128",
-      "images": ["markers_images/0e40miRGbcMUBfCjudGs0g"],
+      "images": [
+        "markers_images/0e40miRGbcMUBfCjudGs0g"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4609,7 +5353,9 @@
     {
       "category": "collection",
       "id": "fc38da21-30db-4fd4-8164-ac5154e9d213",
-      "images": ["markers_images/ut_6X2oOaateHITDIMecxg"],
+      "images": [
+        "markers_images/ut_6X2oOaateHITDIMecxg"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4627,7 +5373,9 @@
     {
       "category": "collection",
       "id": "796d83b3-06ef-48df-9084-c6604e6f8e28",
-      "images": ["markers_images/kH0FisnQyANJ9AxkUPyhLw"],
+      "images": [
+        "markers_images/kH0FisnQyANJ9AxkUPyhLw"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4637,7 +5385,9 @@
     {
       "category": "collection",
       "id": "adecfc95-d1ef-47b8-92a1-0a815ba73c7e",
-      "images": ["markers_images/Y4n8rN8PnCHrhXxTj-Cr4g"],
+      "images": [
+        "markers_images/Y4n8rN8PnCHrhXxTj-Cr4g"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4647,7 +5397,9 @@
     {
       "category": "collection",
       "id": "f1f58354-0c75-469f-af0f-c6a6711f0683",
-      "images": ["markers_images/JlU-A1otLmrMb8jqayt7kQ"],
+      "images": [
+        "markers_images/JlU-A1otLmrMb8jqayt7kQ"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4681,7 +5433,9 @@
     {
       "category": "collection",
       "id": "86c3ec07-21e2-4f2e-95ff-02d79942b109",
-      "images": ["markers_images/hwqDLB-MJL3-dXhMVZiisA"],
+      "images": [
+        "markers_images/hwqDLB-MJL3-dXhMVZiisA"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4691,7 +5445,9 @@
     {
       "category": "collection",
       "id": "49676761-10d8-4484-861c-cfd87ae3067d",
-      "images": ["markers_images/nv_cPV3a4NvYUsjqu0Wx3A"],
+      "images": [
+        "markers_images/nv_cPV3a4NvYUsjqu0Wx3A"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4701,7 +5457,9 @@
     {
       "category": "collection",
       "id": "523e6fe5-be11-45bc-be95-ddba43bb687a",
-      "images": ["markers_images/p-njVSemk3yXod5p5uD71A"],
+      "images": [
+        "markers_images/p-njVSemk3yXod5p5uD71A"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -4711,7 +5469,9 @@
     {
       "category": "collection",
       "id": "6f8f09f2-09af-4479-bb4d-c341e7f38138",
-      "images": ["markers_images/EgbmFN0XuJTYsRPivrQgmQ"],
+      "images": [
+        "markers_images/EgbmFN0XuJTYsRPivrQgmQ"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -4745,7 +5505,9 @@
     {
       "category": "collection",
       "id": "8339e22f-5e5a-4a45-893d-61dea0b8776d",
-      "images": ["markers_images/okDtofiS9KVt9bmjo0SnTw"],
+      "images": [
+        "markers_images/okDtofiS9KVt9bmjo0SnTw"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -4755,7 +5517,9 @@
     {
       "category": "collection",
       "id": "44226ea9-c2ab-480e-a003-096c9b733edd",
-      "images": ["markers_images/CL_h48Mx3buQdYrf6VWcUw"],
+      "images": [
+        "markers_images/CL_h48Mx3buQdYrf6VWcUw"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4765,7 +5529,9 @@
     {
       "category": "collection",
       "id": "7c4deb06-9b44-4ec8-8bb7-fa510dda746c",
-      "images": ["markers_images/EvaYJ-GZayum6Nu6uz0U7g"],
+      "images": [
+        "markers_images/EvaYJ-GZayum6Nu6uz0U7g"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -4783,7 +5549,9 @@
     {
       "category": "collection",
       "id": "f1483f7e-ed6a-4c38-815c-936e1d17b127",
-      "images": ["markers_images/YJc1BJJAzsHsgEfihpJR3A"],
+      "images": [
+        "markers_images/YJc1BJJAzsHsgEfihpJR3A"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4793,7 +5561,9 @@
     {
       "category": "collection",
       "id": "e734b514-da03-4fa3-8fce-92806578bab2",
-      "images": ["markers_images/y3vMza-6JessXjRlQjL06w"],
+      "images": [
+        "markers_images/y3vMza-6JessXjRlQjL06w"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -4819,7 +5589,9 @@
     {
       "category": "collection",
       "id": "82c70ac7-ec72-4812-a809-3a4da763250d",
-      "images": ["markers_images/3GenjhgBtwNj3-cZxqTJMQ"],
+      "images": [
+        "markers_images/3GenjhgBtwNj3-cZxqTJMQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -4853,7 +5625,9 @@
     {
       "category": "collection",
       "id": "9490fa57-89c3-4922-a6c0-471361b6ab08",
-      "images": ["markers_images/jTkzE5QzZGrSXjy6jW0TeA"],
+      "images": [
+        "markers_images/jTkzE5QzZGrSXjy6jW0TeA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -4863,7 +5637,9 @@
     {
       "category": "collection",
       "id": "9b7b46ab-9c38-470b-b089-30e4c3a0426e",
-      "images": ["markers_images/Umdv8cjdjhFic5WXT5zkGA"],
+      "images": [
+        "markers_images/Umdv8cjdjhFic5WXT5zkGA"
+      ],
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
@@ -4873,7 +5649,9 @@
     {
       "category": "collection",
       "id": "27ad8ef2-aec4-4269-80e4-f648b36b09c7",
-      "images": ["markers_images/V0t0crIfFgznOy7TjvJ2Eg"],
+      "images": [
+        "markers_images/V0t0crIfFgznOy7TjvJ2Eg"
+      ],
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
@@ -4883,7 +5661,9 @@
     {
       "category": "collection",
       "id": "ff6b219c-ae22-44e2-b865-3307601bf3b9",
-      "images": ["markers_images/rhjuWQgCzR_U4tpQ4F2zdw"],
+      "images": [
+        "markers_images/rhjuWQgCzR_U4tpQ4F2zdw"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -4893,7 +5673,9 @@
     {
       "category": "collection",
       "id": "69f54e37-e3af-4702-a70b-df33c419b23e",
-      "images": ["markers_images/YZwQINip6YT1nSj6jw0Blg"],
+      "images": [
+        "markers_images/YZwQINip6YT1nSj6jw0Blg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -4903,7 +5685,9 @@
     {
       "category": "collection",
       "id": "763b23af-bb01-441d-af93-3273eff29538",
-      "images": ["markers_images/F6ZfQEYmLdAlcOaFbO4RCg"],
+      "images": [
+        "markers_images/F6ZfQEYmLdAlcOaFbO4RCg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -4913,7 +5697,9 @@
     {
       "category": "collection",
       "id": "07c8313a-e0fa-4436-898f-b77adf8baf36",
-      "images": ["markers_images/H8XjIEw9hCNFOx37FcFllg"],
+      "images": [
+        "markers_images/H8XjIEw9hCNFOx37FcFllg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -4923,7 +5709,9 @@
     {
       "category": "collection",
       "id": "e933a944-5d07-48b3-993c-ef1d76d87dda",
-      "images": ["markers_images/b7h_c4un6ORvc4LLB_3LFw"],
+      "images": [
+        "markers_images/b7h_c4un6ORvc4LLB_3LFw"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -4933,7 +5721,9 @@
     {
       "category": "collection",
       "id": "77e846f4-7c6c-47b2-9faa-7da0d5f156f4",
-      "images": ["markers_images/swap_wNDSiqwzkEtGCA0ow"],
+      "images": [
+        "markers_images/swap_wNDSiqwzkEtGCA0ow"
+      ],
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
@@ -4943,7 +5733,9 @@
     {
       "category": "collection",
       "id": "c5fe89e6-cf72-469b-b6ba-6bb7adf9b552",
-      "images": ["markers_images/d3KboR28_p3RTUeaNn88Ww"],
+      "images": [
+        "markers_images/d3KboR28_p3RTUeaNn88Ww"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -4953,7 +5745,9 @@
     {
       "category": "collection",
       "id": "2830e3b7-a6c2-4380-9416-3939829d4a2c",
-      "images": ["markers_images/ciSLSnxSvTWjAQ_BzVHwOg"],
+      "images": [
+        "markers_images/ciSLSnxSvTWjAQ_BzVHwOg"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -4987,7 +5781,9 @@
     {
       "category": "collection",
       "id": "db468eb4-7920-45b8-a71a-5de8a7d82074",
-      "images": ["markers_images/EHw9KzGj0pqNkKUK7FiBWQ"],
+      "images": [
+        "markers_images/EHw9KzGj0pqNkKUK7FiBWQ"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -4997,7 +5793,9 @@
     {
       "category": "collection",
       "id": "6ea25009-5cd9-4cdd-9c6b-18a0a96f767e",
-      "images": ["markers_images/5OnJQEreaH82bWqTy5WRqA"],
+      "images": [
+        "markers_images/5OnJQEreaH82bWqTy5WRqA"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -5031,7 +5829,9 @@
     {
       "category": "collection",
       "id": "a2cdef58-96a5-4afe-822a-9406dca71020",
-      "images": ["markers_images/chH0lhbu2VNzJDzc_A6eSg"],
+      "images": [
+        "markers_images/chH0lhbu2VNzJDzc_A6eSg"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5041,7 +5841,9 @@
     {
       "category": "collection",
       "id": "a42f3770-86fb-401a-afa7-c3d9ab4dc7e0",
-      "images": ["markers_images/ilkziJvNHeskjM2aNfyNcg"],
+      "images": [
+        "markers_images/ilkziJvNHeskjM2aNfyNcg"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5059,7 +5861,9 @@
     {
       "category": "collection",
       "id": "0cffe26f-33f0-4182-bfdd-c91328becd47",
-      "images": ["markers_images/NIyo54zYVy9ISw_ISGdoiw"],
+      "images": [
+        "markers_images/NIyo54zYVy9ISw_ISGdoiw"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -5069,7 +5873,9 @@
     {
       "category": "collection",
       "id": "d19cd710-9106-4a06-8aa3-38a176acb256",
-      "images": ["markers_images/VOuXlwvxnBYLSIlm3D7gEA"],
+      "images": [
+        "markers_images/VOuXlwvxnBYLSIlm3D7gEA"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5087,7 +5893,9 @@
     {
       "category": "collection",
       "id": "e3914c1a-2b1a-4caf-8510-3616e3566815",
-      "images": ["markers_images/bludfXbWJbPxezEKLtE3Aw"],
+      "images": [
+        "markers_images/bludfXbWJbPxezEKLtE3Aw"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5097,7 +5905,9 @@
     {
       "category": "collection",
       "id": "0a793620-ebf2-4802-92f6-01dd59262b27",
-      "images": ["markers_images/bMGx-JjkUuYvm3EQugAqug"],
+      "images": [
+        "markers_images/bMGx-JjkUuYvm3EQugAqug"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5115,7 +5925,9 @@
     {
       "category": "collection",
       "id": "5f7c7829-f2e8-4a64-80c4-561650e58b05",
-      "images": ["markers_images/KmFagbw8WiODG1JzFNjTBQ"],
+      "images": [
+        "markers_images/KmFagbw8WiODG1JzFNjTBQ"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5125,7 +5937,9 @@
     {
       "category": "collection",
       "id": "9b56fe6c-30bc-494a-ab05-e8793c3076f9",
-      "images": ["markers_images/xOhnF_lvUfJo4O17KOwGJQ"],
+      "images": [
+        "markers_images/xOhnF_lvUfJo4O17KOwGJQ"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5143,7 +5957,9 @@
     {
       "category": "collection",
       "id": "0f753c71-1274-4674-b7f2-25083882dfd8",
-      "images": ["markers_images/TZy0BF1_wjUhLksleF6fvQ"],
+      "images": [
+        "markers_images/TZy0BF1_wjUhLksleF6fvQ"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -5153,7 +5969,9 @@
     {
       "category": "collection",
       "id": "847200a2-1a57-4531-b87f-e92b740b60bb",
-      "images": ["markers_images/GQfKsL-RlVUDLjv8dAWiLQ"],
+      "images": [
+        "markers_images/GQfKsL-RlVUDLjv8dAWiLQ"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5172,7 +5990,9 @@
     {
       "category": "collection",
       "id": "6b6a5c83-df2b-425a-9ad7-a554b957e266",
-      "images": ["markers_images/J6oxhmtUd8aJ4K6ccDPSZg"],
+      "images": [
+        "markers_images/J6oxhmtUd8aJ4K6ccDPSZg"
+      ],
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
@@ -5182,7 +6002,9 @@
     {
       "category": "collection",
       "id": "5f63c570-e031-44fb-86cb-ad3b643176ad",
-      "images": ["markers_images/Y2tVF--qCxg3sIZu8dY2Ig"],
+      "images": [
+        "markers_images/Y2tVF--qCxg3sIZu8dY2Ig"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5200,7 +6022,9 @@
     {
       "category": "collection",
       "id": "8fe950b7-af52-4986-99da-9ac854ce5934",
-      "images": ["markers_images/nghfaA8JzeeB_z6WRjPz3Q"],
+      "images": [
+        "markers_images/nghfaA8JzeeB_z6WRjPz3Q"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5250,7 +6074,9 @@
     {
       "category": "collection",
       "id": "e587b09a-b7f1-4900-b292-de72ea78ad34",
-      "images": ["markers_images/H56jxF4GPQy1a0Bb9F1EWQ"],
+      "images": [
+        "markers_images/H56jxF4GPQy1a0Bb9F1EWQ"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -5260,7 +6086,9 @@
     {
       "category": "collection",
       "id": "8f8f7375-d410-40d2-8253-374dc546cd7a",
-      "images": ["markers_images/lgG6wHdz6G6jKFI2r5BWRQ"],
+      "images": [
+        "markers_images/lgG6wHdz6G6jKFI2r5BWRQ"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -5270,7 +6098,9 @@
     {
       "category": "collection",
       "id": "83b44b75-e8d9-49de-916b-add23b273c10",
-      "images": ["markers_images/7OQDBzPTMrl4BDO8O6QULQ"],
+      "images": [
+        "markers_images/7OQDBzPTMrl4BDO8O6QULQ"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -5280,7 +6110,9 @@
     {
       "category": "collection",
       "id": "83fe7e84-9e86-4ffc-ad87-8f18449ba307",
-      "images": ["markers_images/18rsUYSAEiXUL7fmOItjiw"],
+      "images": [
+        "markers_images/18rsUYSAEiXUL7fmOItjiw"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -5290,7 +6122,9 @@
     {
       "category": "collection",
       "id": "8c7495e8-706c-4f29-b0f5-70787f5adc97",
-      "images": ["markers_images/ksgSbtlpPtfzX5HgEIMEpA"],
+      "images": [
+        "markers_images/ksgSbtlpPtfzX5HgEIMEpA"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -5300,7 +6134,9 @@
     {
       "category": "collection",
       "id": "fa03ac10-a197-4ce3-be50-71b86a341620",
-      "images": ["markers_images/9ER-H6XNOlxR8Umvb0oRsQ"],
+      "images": [
+        "markers_images/9ER-H6XNOlxR8Umvb0oRsQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -5310,7 +6146,9 @@
     {
       "category": "collection",
       "id": "ced7c8b3-a267-46d8-a301-b2f3b49ab841",
-      "images": ["markers_images/gkaC0G_uC2urEIYjaW7gZQ"],
+      "images": [
+        "markers_images/gkaC0G_uC2urEIYjaW7gZQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -5320,7 +6158,9 @@
     {
       "category": "collection",
       "id": "e71262f2-f1bd-4fba-a1b9-0ccf27326935",
-      "images": ["markers_images/QoHeP3ZMuBPPo9cM9Xy0Mg"],
+      "images": [
+        "markers_images/QoHeP3ZMuBPPo9cM9Xy0Mg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -5330,7 +6170,9 @@
     {
       "category": "collection",
       "id": "1c74877e-861a-4492-a470-e99fec809d2a",
-      "images": ["markers_images/DhX54ejj_eFOiA9yfszT3A"],
+      "images": [
+        "markers_images/DhX54ejj_eFOiA9yfszT3A"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -5340,7 +6182,9 @@
     {
       "category": "collection",
       "id": "f46b4d5a-3ecb-4bc5-8a8d-6a7d4fee7b4e",
-      "images": ["markers_images/YP_kYUHJSL9jHP0Me5M1_w"],
+      "images": [
+        "markers_images/YP_kYUHJSL9jHP0Me5M1_w"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5350,7 +6194,9 @@
     {
       "category": "collection",
       "id": "18c7780d-ddf4-4978-bbc3-cd065e0167bd",
-      "images": ["markers_images/GINHMMcF8hLKxFVMjiJ_8g"],
+      "images": [
+        "markers_images/GINHMMcF8hLKxFVMjiJ_8g"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5360,7 +6206,9 @@
     {
       "category": "collection",
       "id": "5819f734-fff8-4bef-9d1e-f92752e58047",
-      "images": ["markers_images/SVwRl_DXZqc9qFV5yvNNhw"],
+      "images": [
+        "markers_images/SVwRl_DXZqc9qFV5yvNNhw"
+      ],
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
@@ -5370,7 +6218,9 @@
     {
       "category": "collection",
       "id": "17f9fec4-2a90-4b09-8245-14e951ede182",
-      "images": ["markers_images/JXfe54_l_gWY43aP-gURAA"],
+      "images": [
+        "markers_images/JXfe54_l_gWY43aP-gURAA"
+      ],
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
@@ -5380,7 +6230,9 @@
     {
       "category": "collection",
       "id": "647fb76a-e60a-4289-aa92-5279ce022413",
-      "images": ["markers_images/WbqcY_BNNc65aK-aV6KaBA"],
+      "images": [
+        "markers_images/WbqcY_BNNc65aK-aV6KaBA"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -5390,7 +6242,9 @@
     {
       "category": "collection",
       "id": "ae5c76d8-5d6d-4b64-b84e-28ec50a4e85a",
-      "images": ["markers_images/OYeZ0iSdXe_3irgZmn0uCA"],
+      "images": [
+        "markers_images/OYeZ0iSdXe_3irgZmn0uCA"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5400,7 +6254,9 @@
     {
       "category": "collection",
       "id": "d14d338d-a452-4397-8c01-3f282df586be",
-      "images": ["markers_images/L3Ht-jKNFZ3U1CQKNp2COw"],
+      "images": [
+        "markers_images/L3Ht-jKNFZ3U1CQKNp2COw"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5410,7 +6266,9 @@
     {
       "category": "collection",
       "id": "bfeb8d1c-d384-4aba-bca3-089e471ceb3d",
-      "images": ["markers_images/cWhgODpHr-7ZNxRP-OXN6w"],
+      "images": [
+        "markers_images/cWhgODpHr-7ZNxRP-OXN6w"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5420,7 +6278,9 @@
     {
       "category": "collection",
       "id": "ac358896-ebee-4fc9-857f-ee72401ab33b",
-      "images": ["markers_images/82Q8EQIX6LkJCRGLG5xx4A"],
+      "images": [
+        "markers_images/82Q8EQIX6LkJCRGLG5xx4A"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5430,7 +6290,9 @@
     {
       "category": "collection",
       "id": "b7914b20-0f9c-4d75-a610-025371f9bcb3",
-      "images": ["markers_images/qGwr1-xxFzEV7fv5mBvnkA"],
+      "images": [
+        "markers_images/qGwr1-xxFzEV7fv5mBvnkA"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5440,7 +6302,9 @@
     {
       "category": "collection",
       "id": "479b1091-6235-432c-98d3-c7aecc7fd604",
-      "images": ["markers_images/Qc5h4QiA8Ir59cOLYThZjQ"],
+      "images": [
+        "markers_images/Qc5h4QiA8Ir59cOLYThZjQ"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5450,7 +6314,9 @@
     {
       "category": "collection",
       "id": "680beeff-5670-4d1c-adb0-89e60f3ed83b",
-      "images": ["markers_images/lsiH6rKE_xnzWEKf5oAJBA"],
+      "images": [
+        "markers_images/lsiH6rKE_xnzWEKf5oAJBA"
+      ],
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
@@ -5460,7 +6326,9 @@
     {
       "category": "collection",
       "id": "2307dbe1-b72f-4da1-88d5-22dc0c31784b",
-      "images": ["markers_images/4IeblZvsXlo5ow6dQ4xmqQ"],
+      "images": [
+        "markers_images/4IeblZvsXlo5ow6dQ4xmqQ"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5470,7 +6338,9 @@
     {
       "category": "collection",
       "id": "6a7fb19a-0dd1-4456-a4ed-e4731f1f0845",
-      "images": ["markers_images/pGr5nB9TnK_IDHmz3ICFYg"],
+      "images": [
+        "markers_images/pGr5nB9TnK_IDHmz3ICFYg"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5480,7 +6350,9 @@
     {
       "category": "collection",
       "id": "c5d5bf6f-1b41-4c74-b4aa-16a87f7b0d70",
-      "images": ["markers_images/TBtRWtE1n7dQZ3d8dPLniw"],
+      "images": [
+        "markers_images/TBtRWtE1n7dQZ3d8dPLniw"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5490,7 +6362,9 @@
     {
       "category": "collection",
       "id": "cac8949e-7415-4c12-9d8b-ebd326e540a0",
-      "images": ["markers_images/vxjUo626mWqCiZrdZ7A64A"],
+      "images": [
+        "markers_images/vxjUo626mWqCiZrdZ7A64A"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5500,7 +6374,9 @@
     {
       "category": "collection",
       "id": "67dc40f3-8a7a-499e-a084-b72857703a92",
-      "images": ["markers_images/urFtwWH1vvqptDO15vifIw"],
+      "images": [
+        "markers_images/urFtwWH1vvqptDO15vifIw"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5510,7 +6386,9 @@
     {
       "category": "collection",
       "id": "3c3b3ed4-f64e-476d-9722-12ba2be84a4c",
-      "images": ["markers_images/_augPTbgyB4hlRIc4UUy1w"],
+      "images": [
+        "markers_images/_augPTbgyB4hlRIc4UUy1w"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -5520,7 +6398,9 @@
     {
       "category": "collection",
       "id": "e310248d-9a46-4baa-ad24-1f40baf4a17b",
-      "images": ["markers_images/tZMGJKUncFRP3og2__MaxA"],
+      "images": [
+        "markers_images/tZMGJKUncFRP3og2__MaxA"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -5530,7 +6410,9 @@
     {
       "category": "collection",
       "id": "699e5743-2bd1-4272-a064-054e58af4acf",
-      "images": ["markers_images/1A311ySejAFYyEvUSfjqjg"],
+      "images": [
+        "markers_images/1A311ySejAFYyEvUSfjqjg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -5540,7 +6422,9 @@
     {
       "category": "collection",
       "id": "c8b7e269-5a5c-48e2-8079-a79819c5b9f0",
-      "images": ["markers_images/PHLy6w6fdn1isOA1nqPxqw"],
+      "images": [
+        "markers_images/PHLy6w6fdn1isOA1nqPxqw"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -5550,7 +6434,9 @@
     {
       "category": "collection",
       "id": "1253a27b-73da-4928-b2bb-0cafc1728d87",
-      "images": ["markers_images/RvyUMOqG7-t7g45NEg2OMg"],
+      "images": [
+        "markers_images/RvyUMOqG7-t7g45NEg2OMg"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -5560,7 +6446,9 @@
     {
       "category": "collection",
       "id": "6dad0829-d5fa-4e9a-8cd4-831339a5b066",
-      "images": ["markers_images/_hg0LOf3A5pS4DIq9f-5ZQ"],
+      "images": [
+        "markers_images/_hg0LOf3A5pS4DIq9f-5ZQ"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5570,7 +6458,9 @@
     {
       "category": "collection",
       "id": "8ef93837-3efb-4f7c-9860-4174ba56121a",
-      "images": ["markers_images/6eFO9QJ_aSv0LZhyP7veng"],
+      "images": [
+        "markers_images/6eFO9QJ_aSv0LZhyP7veng"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5580,7 +6470,9 @@
     {
       "category": "collection",
       "id": "cd886a55-6868-42da-92d4-a75662c6ca21",
-      "images": ["markers_images/b5GrZoWhiVE_VWvCIg-Rkw"],
+      "images": [
+        "markers_images/b5GrZoWhiVE_VWvCIg-Rkw"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5590,7 +6482,9 @@
     {
       "category": "collection",
       "id": "4f8bef18-c4ef-4a1f-91d5-d4817b21d1b6",
-      "images": ["markers_images/pslrKQWntkXGpS31M8uxIA"],
+      "images": [
+        "markers_images/pslrKQWntkXGpS31M8uxIA"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5600,7 +6494,9 @@
     {
       "category": "collection",
       "id": "b356803a-e2cf-47de-a01a-38d395d08881",
-      "images": ["markers_images/CcVVjyqdBUzq2kqAO1X4yw"],
+      "images": [
+        "markers_images/CcVVjyqdBUzq2kqAO1X4yw"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5610,7 +6506,9 @@
     {
       "category": "collection",
       "id": "ab2ad7cd-bcdb-4453-acfa-0b9511aa0865",
-      "images": ["markers_images/su0yv5Crult9YKwat3r06g"],
+      "images": [
+        "markers_images/su0yv5Crult9YKwat3r06g"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5620,7 +6518,9 @@
     {
       "category": "collection",
       "id": "cdc7902e-79e2-408b-ab61-221b163dbaf9",
-      "images": ["markers_images/9uxuR7fR80pGgEvN7gun4w"],
+      "images": [
+        "markers_images/9uxuR7fR80pGgEvN7gun4w"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5630,7 +6530,9 @@
     {
       "category": "collection",
       "id": "c2f75460-20ac-4307-ae65-07041f00acb0",
-      "images": ["markers_images/74nWclJ0NkWskU_Y08qE8A"],
+      "images": [
+        "markers_images/74nWclJ0NkWskU_Y08qE8A"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5640,7 +6542,9 @@
     {
       "category": "collection",
       "id": "2c799b83-c439-4ffc-a4a0-1cbcedc07464",
-      "images": ["markers_images/1hmDX2SI7YFx7sPJb6MZtg"],
+      "images": [
+        "markers_images/1hmDX2SI7YFx7sPJb6MZtg"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5650,7 +6554,9 @@
     {
       "category": "collection",
       "id": "390aeb55-b16f-44cf-beac-23dede781111",
-      "images": ["markers_images/ARyZdXcbGliIplMJ8dVHfQ"],
+      "images": [
+        "markers_images/ARyZdXcbGliIplMJ8dVHfQ"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -5660,7 +6566,9 @@
     {
       "category": "collection",
       "id": "476ab9dc-9be3-4c29-b279-2c336b74cf00",
-      "images": ["markers_images/_q9Q-k6mTsxqht2--PwR3g"],
+      "images": [
+        "markers_images/_q9Q-k6mTsxqht2--PwR3g"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -5670,7 +6578,9 @@
     {
       "category": "collection",
       "id": "01a2418d-04fc-4b7d-b570-472252d5179f",
-      "images": ["markers_images/tXlPhFh9jpYSpLn2YyiFYQ"],
+      "images": [
+        "markers_images/tXlPhFh9jpYSpLn2YyiFYQ"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -5680,7 +6590,9 @@
     {
       "category": "collection",
       "id": "2340b591-37f0-4d4b-9519-43f180cd0568",
-      "images": ["markers_images/Vio9nUkKDhoFsISg-vzyzg"],
+      "images": [
+        "markers_images/Vio9nUkKDhoFsISg-vzyzg"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5690,7 +6602,9 @@
     {
       "category": "collection",
       "id": "b6567c44-4337-4f4e-b9d5-3d45632e5536",
-      "images": ["markers_images/o3HDDEvoR8ThaoGPDWNgww"],
+      "images": [
+        "markers_images/o3HDDEvoR8ThaoGPDWNgww"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -5700,7 +6614,9 @@
     {
       "category": "collection",
       "id": "1e70ef06-6fa2-4fd0-bbec-867467485e05",
-      "images": ["markers_images/6ZRXEiu2kf4JGjsNH5uLzg"],
+      "images": [
+        "markers_images/6ZRXEiu2kf4JGjsNH5uLzg"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -5710,7 +6626,9 @@
     {
       "category": "collection",
       "id": "a36c0d10-cabd-4e3a-9642-caa5e4567b54",
-      "images": ["markers_images/SqnliRT6oXEmvyKg14KRtQ"],
+      "images": [
+        "markers_images/SqnliRT6oXEmvyKg14KRtQ"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5720,7 +6638,9 @@
     {
       "category": "collection",
       "id": "e612abec-3e21-4c9a-82ff-0b411b3c7d35",
-      "images": ["markers_images/wrPuXKya7Tf33gO-ah0xwQ"],
+      "images": [
+        "markers_images/wrPuXKya7Tf33gO-ah0xwQ"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -5730,7 +6650,9 @@
     {
       "category": "collection",
       "id": "f72dd674-7aff-4211-b0c4-51a6bd2889ba",
-      "images": ["markers_images/hAyD6Jxyp9bsqmRkJ38PIg"],
+      "images": [
+        "markers_images/hAyD6Jxyp9bsqmRkJ38PIg"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -5740,7 +6662,9 @@
     {
       "category": "collection",
       "id": "7138ff9b-2c72-47ae-815a-8db71e65dd8f",
-      "images": ["markers_images/zgxZLNw3hJ-LsA4iGjPkZQ"],
+      "images": [
+        "markers_images/zgxZLNw3hJ-LsA4iGjPkZQ"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -5750,7 +6674,9 @@
     {
       "category": "collection",
       "id": "f3746ac2-cc78-465f-a531-f6781810490d",
-      "images": ["markers_images/IG6dofumHzi1sswS82HQuw"],
+      "images": [
+        "markers_images/IG6dofumHzi1sswS82HQuw"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -5760,7 +6686,9 @@
     {
       "category": "collection",
       "id": "3e5c385b-638d-4176-8f08-e629bc258512",
-      "images": ["markers_images/bmKEvkfi9d4Anl_6SlXGwA"],
+      "images": [
+        "markers_images/bmKEvkfi9d4Anl_6SlXGwA"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -5770,7 +6698,9 @@
     {
       "category": "collection",
       "id": "80867393-f482-4c68-9322-c27a7520746a",
-      "images": ["markers_images/r6HVQVUwE7YG5zJA_0sQgg"],
+      "images": [
+        "markers_images/r6HVQVUwE7YG5zJA_0sQgg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -5780,7 +6710,9 @@
     {
       "category": "collection",
       "id": "5e05e60d-0dee-4e8a-a1de-315642dea2be",
-      "images": ["markers_images/7hc9ITliFMtwmK2B3cblkw"],
+      "images": [
+        "markers_images/7hc9ITliFMtwmK2B3cblkw"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5790,7 +6722,9 @@
     {
       "category": "collection",
       "id": "bd070796-4aa3-4e1a-af88-1ab3aab78ddf",
-      "images": ["markers_images/Jr2ZfFiHJ1xXyC1PaRiYYw"],
+      "images": [
+        "markers_images/Jr2ZfFiHJ1xXyC1PaRiYYw"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5800,7 +6734,9 @@
     {
       "category": "collection",
       "id": "e3e40fb0-32a6-4684-950e-e5a7bfd27a08",
-      "images": ["markers_images/e2U4cB33xY0F6GB66xkVYg"],
+      "images": [
+        "markers_images/e2U4cB33xY0F6GB66xkVYg"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -5810,7 +6746,9 @@
     {
       "category": "collection",
       "id": "595a62a0-8416-4aef-8351-d98dfcea052d",
-      "images": ["markers_images/RgaWc-hwzV8vwSWI90Rczg"],
+      "images": [
+        "markers_images/RgaWc-hwzV8vwSWI90Rczg"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -5820,7 +6758,9 @@
     {
       "category": "collection",
       "id": "18be76da-48f6-4278-9103-645b33350228",
-      "images": ["markers_images/kWryXD0LJssHlMpusafS-g"],
+      "images": [
+        "markers_images/kWryXD0LJssHlMpusafS-g"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -5830,7 +6770,9 @@
     {
       "category": "collection",
       "id": "f343a737-d4d2-4fca-9186-288bb9956e25",
-      "images": ["markers_images/hfngTVnxUssrkAjN81rFxQ"],
+      "images": [
+        "markers_images/hfngTVnxUssrkAjN81rFxQ"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -5840,7 +6782,9 @@
     {
       "category": "collection",
       "id": "e2675320-e384-4deb-8e34-e4fd7884c237",
-      "images": ["markers_images/i2vQCjTs9UhZkcbbds7OpQ"],
+      "images": [
+        "markers_images/i2vQCjTs9UhZkcbbds7OpQ"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -5850,7 +6794,9 @@
     {
       "category": "collection",
       "id": "ae9fa318-41c1-4bbf-8bbd-3316f84c5176",
-      "images": ["markers_images/BvR9tDwYNM9i_7vj16kldQ"],
+      "images": [
+        "markers_images/BvR9tDwYNM9i_7vj16kldQ"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5860,7 +6806,9 @@
     {
       "category": "collection",
       "id": "c49a12d5-2ac5-4b95-b24c-6cdd5b4be2b7",
-      "images": ["markers_images/RSmw6FHFVV52jqJ7hF-CkA"],
+      "images": [
+        "markers_images/RSmw6FHFVV52jqJ7hF-CkA"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5870,7 +6818,9 @@
     {
       "category": "collection",
       "id": "43428bac-0646-420a-8942-054563a3f6ab",
-      "images": ["markers_images/yFu0RR9xWA1uJbsk440a5g"],
+      "images": [
+        "markers_images/yFu0RR9xWA1uJbsk440a5g"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -5880,7 +6830,9 @@
     {
       "category": "collection",
       "id": "40bddf33-da98-48c2-838e-7beb01588eaa",
-      "images": ["markers_images/Mqhgq3-LOGtWLeBKbRU2Ig"],
+      "images": [
+        "markers_images/Mqhgq3-LOGtWLeBKbRU2Ig"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -5890,7 +6842,9 @@
     {
       "category": "collection",
       "id": "b22d8a9a-2a0e-4df1-82fa-b6a45f453066",
-      "images": ["markers_images/zUjJW361FmIR5e3xFIjySw"],
+      "images": [
+        "markers_images/zUjJW361FmIR5e3xFIjySw"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -5900,7 +6854,9 @@
     {
       "category": "collection",
       "id": "1a1e0455-f1d8-4d5d-a433-bd474ea9f9f4",
-      "images": ["markers_images/sjMRXmNA6hRd-ibCs7FZjw"],
+      "images": [
+        "markers_images/sjMRXmNA6hRd-ibCs7FZjw"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -5910,7 +6866,9 @@
     {
       "category": "collection",
       "id": "b9d2a7cd-d926-4514-a876-e2ddac60ca27",
-      "images": ["markers_images/bdKh68lpf3e8yxNdwMN6lA"],
+      "images": [
+        "markers_images/bdKh68lpf3e8yxNdwMN6lA"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -5920,7 +6878,9 @@
     {
       "category": "collection",
       "id": "fa7b0c49-e259-4007-bcd3-963a1658fd66",
-      "images": ["markers_images/xTcV6ZtHoYkD6h85fzJm1A"],
+      "images": [
+        "markers_images/xTcV6ZtHoYkD6h85fzJm1A"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -5930,7 +6890,9 @@
     {
       "category": "collection",
       "id": "5894e40c-8242-4c92-96b0-7085dc236dc2",
-      "images": ["markers_images/xnyqnGmrJIhVQO30Relx9Q"],
+      "images": [
+        "markers_images/xnyqnGmrJIhVQO30Relx9Q"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -5940,7 +6902,9 @@
     {
       "category": "collection",
       "id": "a78aec48-a6e9-4620-83fd-ff3e99bb9ff3",
-      "images": ["markers_images/zSSUooHVYbrh5apsxAJM_w"],
+      "images": [
+        "markers_images/zSSUooHVYbrh5apsxAJM_w"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -5950,7 +6914,9 @@
     {
       "category": "collection",
       "id": "bd0f03c5-a8d5-443a-b89f-fc4028b44ac1",
-      "images": ["markers_images/5LB_OCgGVoHod3d9ZQad0A"],
+      "images": [
+        "markers_images/5LB_OCgGVoHod3d9ZQad0A"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -5960,7 +6926,9 @@
     {
       "category": "collection",
       "id": "6e508a85-6e7f-4f11-aa56-4513f02e0018",
-      "images": ["markers_images/pLStSfbSF474TZEG4UUV-A"],
+      "images": [
+        "markers_images/pLStSfbSF474TZEG4UUV-A"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -5970,7 +6938,9 @@
     {
       "category": "collection",
       "id": "a36977c7-8a16-4a02-9cae-e3ae243efb33",
-      "images": ["markers_images/R_f3MBnqL9wW8En46h3UIw"],
+      "images": [
+        "markers_images/R_f3MBnqL9wW8En46h3UIw"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -5980,7 +6950,9 @@
     {
       "category": "collection",
       "id": "46c7bf5f-2162-40c1-ad28-8bb5f6a5460d",
-      "images": ["markers_images/BotTZe2XjQAnBp2OsZ48HA"],
+      "images": [
+        "markers_images/BotTZe2XjQAnBp2OsZ48HA"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -5990,7 +6962,9 @@
     {
       "category": "collection",
       "id": "5d120932-37e9-424d-ae8b-7b4900f4c514",
-      "images": ["markers_images/nzhGsW-QQQ1WLy0RQdX57g"],
+      "images": [
+        "markers_images/nzhGsW-QQQ1WLy0RQdX57g"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6000,7 +6974,9 @@
     {
       "category": "collection",
       "id": "dbed7f39-5e2b-495b-8ea7-df52b7ecac79",
-      "images": ["markers_images/9IWZd8syrgFNOpUWPREO7Q"],
+      "images": [
+        "markers_images/9IWZd8syrgFNOpUWPREO7Q"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6010,7 +6986,9 @@
     {
       "category": "collection",
       "id": "d6aae110-7c3e-4dc2-a912-6068b1e02e2d",
-      "images": ["markers_images/xiFUHuM8vRY7kJjzKG32DA"],
+      "images": [
+        "markers_images/xiFUHuM8vRY7kJjzKG32DA"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6020,7 +6998,9 @@
     {
       "category": "collection",
       "id": "1970e779-b677-4e14-a0ec-b96b79ab0d95",
-      "images": ["markers_images/B4RZUcYvi6UvL1lHSZWTxw"],
+      "images": [
+        "markers_images/B4RZUcYvi6UvL1lHSZWTxw"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6030,7 +7010,9 @@
     {
       "category": "collection",
       "id": "0548dd29-bc54-4b43-83bf-dcd213dcd42c",
-      "images": ["markers_images/eUPtoi3uKfGZEMQiwo-4Jw"],
+      "images": [
+        "markers_images/eUPtoi3uKfGZEMQiwo-4Jw"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6040,7 +7022,9 @@
     {
       "category": "collection",
       "id": "33955f19-2b57-47e7-b10d-3c5b2bc1f383",
-      "images": ["markers_images/Il7VuPrE5FrPO1gDBihf2g"],
+      "images": [
+        "markers_images/Il7VuPrE5FrPO1gDBihf2g"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6050,7 +7034,9 @@
     {
       "category": "collection",
       "id": "47588a69-9c29-4736-891c-c380385e8196",
-      "images": ["markers_images/c2u3cPFypDkhf45925SJ-w"],
+      "images": [
+        "markers_images/c2u3cPFypDkhf45925SJ-w"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -6060,7 +7046,9 @@
     {
       "category": "collection",
       "id": "9367340a-aa73-4985-91dd-f7bd5c0d6555",
-      "images": ["markers_images/-2QEwYdB1OX0L8LQuvHX0w"],
+      "images": [
+        "markers_images/-2QEwYdB1OX0L8LQuvHX0w"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6070,7 +7058,9 @@
     {
       "category": "collection",
       "id": "efc7fe44-9ddb-4a26-a86d-9b4c06e0e901",
-      "images": ["markers_images/9vwqpN91b3L6AfTQ9qZQmg"],
+      "images": [
+        "markers_images/9vwqpN91b3L6AfTQ9qZQmg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -6080,7 +7070,9 @@
     {
       "category": "collection",
       "id": "a8116279-9215-4d18-8949-1cae727248e5",
-      "images": ["markers_images/nmWEXgyWezVdc9GtNoK69A"],
+      "images": [
+        "markers_images/nmWEXgyWezVdc9GtNoK69A"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6090,7 +7082,9 @@
     {
       "category": "collection",
       "id": "a55eb5d3-91e4-4c08-874a-694cf00a49f1",
-      "images": ["markers_images/Xf8r5wTdRwF1XcG5KJ5Z0A"],
+      "images": [
+        "markers_images/Xf8r5wTdRwF1XcG5KJ5Z0A"
+      ],
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
@@ -6100,7 +7094,9 @@
     {
       "category": "collection",
       "id": "018131cb-3437-4696-b4a4-8b9440052c36",
-      "images": ["markers_images/jAx7QMyelG7Ryc_79wEVnA"],
+      "images": [
+        "markers_images/jAx7QMyelG7Ryc_79wEVnA"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -6110,7 +7106,9 @@
     {
       "category": "collection",
       "id": "cdd0f336-900e-457d-bcf6-246c8e7a1189",
-      "images": ["markers_images/797yoIA9GK_qR_j6H5j_lw"],
+      "images": [
+        "markers_images/797yoIA9GK_qR_j6H5j_lw"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -6120,7 +7118,9 @@
     {
       "category": "collection",
       "id": "819db3f8-98d0-4606-8a02-37c1a4fa3b9e",
-      "images": ["markers_images/QYISC3kcHWjb9pqUs6MSFQ"],
+      "images": [
+        "markers_images/QYISC3kcHWjb9pqUs6MSFQ"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -6130,7 +7130,9 @@
     {
       "category": "collection",
       "id": "063d16b2-31d9-45bd-8492-833ecf71415e",
-      "images": ["markers_images/8ELdH9S4lqt9pSmy81M4Yg"],
+      "images": [
+        "markers_images/8ELdH9S4lqt9pSmy81M4Yg"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -6140,7 +7142,9 @@
     {
       "category": "collection",
       "id": "5fbdcf70-3f22-47cb-ae24-4636bb0e3a95",
-      "images": ["markers_images/VLsh6I1bu_-0-dM_InWajA"],
+      "images": [
+        "markers_images/VLsh6I1bu_-0-dM_InWajA"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -6150,7 +7154,9 @@
     {
       "category": "collection",
       "id": "1a4cd092-21ff-482c-8a81-1eaee9e75ffc",
-      "images": ["markers_images/pUKCkIfQBHVKcV0iJ95AEg"],
+      "images": [
+        "markers_images/pUKCkIfQBHVKcV0iJ95AEg"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -6160,7 +7166,9 @@
     {
       "category": "collection",
       "id": "e7a49d43-f9f2-445f-9fdd-75ac80080e0c",
-      "images": ["markers_images/k5VQYyuB7dFzfpZGtPYfNg"],
+      "images": [
+        "markers_images/k5VQYyuB7dFzfpZGtPYfNg"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -6170,7 +7178,9 @@
     {
       "category": "collection",
       "id": "18b928af-a11d-4786-8a7f-6b6a9fed285b",
-      "images": ["markers_images/KYw74WxZ3nPwZqjso63xMg"],
+      "images": [
+        "markers_images/KYw74WxZ3nPwZqjso63xMg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -6180,7 +7190,9 @@
     {
       "category": "collection",
       "id": "921a0925-c81a-4b15-b5f7-534de605ba4d",
-      "images": ["markers_images/uFXO6U9X1jON9Y87cyvW3g"],
+      "images": [
+        "markers_images/uFXO6U9X1jON9Y87cyvW3g"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6190,7 +7202,9 @@
     {
       "category": "collection",
       "id": "b44fce44-8ed2-4707-9aa6-23c4ea495ce4",
-      "images": ["markers_images/4pR_Z_YmkeFAN_8rrMYI0Q"],
+      "images": [
+        "markers_images/4pR_Z_YmkeFAN_8rrMYI0Q"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6200,7 +7214,9 @@
     {
       "category": "collection",
       "id": "5d49f34f-d3b7-45b5-a00e-bdc73bb3acc1",
-      "images": ["markers_images/Qw0lzI6Y8EQFO2NJMDnO2A"],
+      "images": [
+        "markers_images/Qw0lzI6Y8EQFO2NJMDnO2A"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -6210,7 +7226,9 @@
     {
       "category": "collection",
       "id": "68fb4e0f-75c6-4d36-8948-32ca42c625d4",
-      "images": ["markers_images/cpSysl8OVPxmQvxx-jU9MA"],
+      "images": [
+        "markers_images/cpSysl8OVPxmQvxx-jU9MA"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -6220,7 +7238,9 @@
     {
       "category": "collection",
       "id": "2dbe657c-6ff6-43c9-9b66-496e0ebeaaee",
-      "images": ["markers_images/Va221q0VZ3RnDKPegQOJVQ"],
+      "images": [
+        "markers_images/Va221q0VZ3RnDKPegQOJVQ"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6230,7 +7250,9 @@
     {
       "category": "collection",
       "id": "3defd56b-a4e5-46ef-ada7-e9e243e0246a",
-      "images": ["markers_images/NCDCns43xZqyvv8DaflGbg"],
+      "images": [
+        "markers_images/NCDCns43xZqyvv8DaflGbg"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -6240,7 +7262,9 @@
     {
       "category": "collection",
       "id": "dc207a63-692f-45f2-89ca-0baeff8a9dae",
-      "images": ["markers_images/kR2cdYd2VpsuHykM4cAipA"],
+      "images": [
+        "markers_images/kR2cdYd2VpsuHykM4cAipA"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -6250,7 +7274,9 @@
     {
       "category": "collection",
       "id": "bcc694b2-a71b-4918-8d30-9fee26a073a4",
-      "images": ["markers_images/27X_bDt-wV347_yN72dRdg"],
+      "images": [
+        "markers_images/27X_bDt-wV347_yN72dRdg"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -6260,7 +7286,9 @@
     {
       "category": "collection",
       "id": "f0883c34-b114-4c5f-bbd2-23f221fbce4b",
-      "images": ["markers_images/j3m3gYzzctL3OyRpmexilQ"],
+      "images": [
+        "markers_images/j3m3gYzzctL3OyRpmexilQ"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -6270,7 +7298,9 @@
     {
       "category": "collection",
       "id": "4ccd805f-19bb-49a2-83be-651f747a24b0",
-      "images": ["markers_images/G59ZsUXjQYHXBSLH64TR_Q"],
+      "images": [
+        "markers_images/G59ZsUXjQYHXBSLH64TR_Q"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -6280,7 +7310,9 @@
     {
       "category": "collection",
       "id": "fbd7aa05-c0ab-408b-aa2c-56d7d7b236a4",
-      "images": ["markers_images/x4yL9B1EiecrWKFd2_yygA"],
+      "images": [
+        "markers_images/x4yL9B1EiecrWKFd2_yygA"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -6290,7 +7322,9 @@
     {
       "category": "collection",
       "id": "fc1f0b2f-3b56-4608-a594-c2f896106bee",
-      "images": ["markers_images/fYKVrYc1BZeGTsYdQj_s5g"],
+      "images": [
+        "markers_images/fYKVrYc1BZeGTsYdQj_s5g"
+      ],
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
@@ -6300,7 +7334,9 @@
     {
       "category": "collection",
       "id": "6e7b3767-0349-458f-8b34-e9f31da50f39",
-      "images": ["markers_images/Qzu0aDyjYtRT3CGux-HqEA"],
+      "images": [
+        "markers_images/Qzu0aDyjYtRT3CGux-HqEA"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -6310,7 +7346,9 @@
     {
       "category": "collection",
       "id": "3c58158e-562e-4136-8b3a-c8bf53b6c0a1",
-      "images": ["markers_images/VaaiKMumZzzlXlNcC6Jnqw"],
+      "images": [
+        "markers_images/VaaiKMumZzzlXlNcC6Jnqw"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -6320,7 +7358,9 @@
     {
       "category": "collection",
       "id": "e584e0f1-4581-44d8-aaf1-5dfb055e018d",
-      "images": ["markers_images/zPpGjE8jJCjL-NPGJUiO2g"],
+      "images": [
+        "markers_images/zPpGjE8jJCjL-NPGJUiO2g"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -6330,7 +7370,9 @@
     {
       "category": "collection",
       "id": "c1d44a7f-53ad-4eec-a6a4-ad8fe63e04ff",
-      "images": ["markers_images/-lndqKHJ9Pc6mnxjki_rEw"],
+      "images": [
+        "markers_images/-lndqKHJ9Pc6mnxjki_rEw"
+      ],
       "name": "",
       "region": "MahindelCliff",
       "type": "monolithMaterial",
@@ -6340,7 +7382,9 @@
     {
       "category": "collection",
       "id": "e7352dff-1e59-46bd-99e9-0f723ad15c92",
-      "images": ["markers_images/BH1gJw72NN_Bu8VG1JJQWA"],
+      "images": [
+        "markers_images/BH1gJw72NN_Bu8VG1JJQWA"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -6350,7 +7394,9 @@
     {
       "category": "collection",
       "id": "5af6bce1-230e-4347-81bf-3219a0919ae4",
-      "images": ["markers_images/0mkfVNnTohYJcHApDqfMpQ"],
+      "images": [
+        "markers_images/0mkfVNnTohYJcHApDqfMpQ"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6360,7 +7406,9 @@
     {
       "category": "collection",
       "id": "fc2d1369-0df9-4c44-9654-8628c2ce077b",
-      "images": ["markers_images/D5C26Ot-FZ2SnKc5wHVrlQ"],
+      "images": [
+        "markers_images/D5C26Ot-FZ2SnKc5wHVrlQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -6370,7 +7418,9 @@
     {
       "category": "collection",
       "id": "030cfef8-8bc2-4f5d-aa8e-dc9f4774ec56",
-      "images": ["markers_images/bJ4dTneFHmrWpQ2Ye0zEjA"],
+      "images": [
+        "markers_images/bJ4dTneFHmrWpQ2Ye0zEjA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -6380,7 +7430,9 @@
     {
       "category": "collection",
       "id": "036efbcb-bef5-43d8-8e92-a943d495143a",
-      "images": ["markers_images/dLFupXlLH5x0vQsTUeJjng"],
+      "images": [
+        "markers_images/dLFupXlLH5x0vQsTUeJjng"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -6390,7 +7442,9 @@
     {
       "category": "collection",
       "id": "9343a064-1a42-4c20-b71f-e6d723cc8639",
-      "images": ["markers_images/PVswjut0QDoIw3QJjKDA2Q"],
+      "images": [
+        "markers_images/PVswjut0QDoIw3QJjKDA2Q"
+      ],
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
@@ -6400,7 +7454,9 @@
     {
       "category": "collection",
       "id": "01508a37-3f79-49e9-93d5-7f3b8f0016a9",
-      "images": ["markers_images/ZQPJ18yfExgdtjM-VCAwVQ"],
+      "images": [
+        "markers_images/ZQPJ18yfExgdtjM-VCAwVQ"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -6410,7 +7466,9 @@
     {
       "category": "collection",
       "id": "fd6b8ebe-20f2-42f9-93bc-7821a06d035f",
-      "images": ["markers_images/212JCPumom5RTkE_0PKbMg"],
+      "images": [
+        "markers_images/212JCPumom5RTkE_0PKbMg"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6420,7 +7478,9 @@
     {
       "category": "collection",
       "id": "80b01dff-0f11-446c-bcb6-7df02817e890",
-      "images": ["markers_images/TliMAT9XWnCjgCIiX-ldcQ"],
+      "images": [
+        "markers_images/TliMAT9XWnCjgCIiX-ldcQ"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6430,7 +7490,9 @@
     {
       "category": "collection",
       "id": "e4a8fd90-8abe-4855-8365-f36eb751424f",
-      "images": ["markers_images/2n2RfA3XWR41KgN2npOwow"],
+      "images": [
+        "markers_images/2n2RfA3XWR41KgN2npOwow"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6440,7 +7502,9 @@
     {
       "category": "collection",
       "id": "b6a1189b-123b-4168-a8e1-74a9c6aa620c",
-      "images": ["markers_images/cRrlezTe0Fk6kCLnqH114g"],
+      "images": [
+        "markers_images/cRrlezTe0Fk6kCLnqH114g"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6450,7 +7514,9 @@
     {
       "category": "collection",
       "id": "dd5aa1d0-ce85-4f1b-8b53-08dd5c232437",
-      "images": ["markers_images/n2c3JyaDzFgHXCNeCqfd5Q"],
+      "images": [
+        "markers_images/n2c3JyaDzFgHXCNeCqfd5Q"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -6460,7 +7526,9 @@
     {
       "category": "collection",
       "id": "05b46e19-5c58-44d2-a0b2-cbd47b14ee8b",
-      "images": ["markers_images/LmejPYnYIzivZBRtvzjVLA"],
+      "images": [
+        "markers_images/LmejPYnYIzivZBRtvzjVLA"
+      ],
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
@@ -6470,7 +7538,9 @@
     {
       "category": "collection",
       "id": "6cf2ae9c-d917-48be-b681-0abb1324f679",
-      "images": ["markers_images/3whU4jS-uE4pA_neRWuhSQ"],
+      "images": [
+        "markers_images/3whU4jS-uE4pA_neRWuhSQ"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6480,7 +7550,9 @@
     {
       "category": "collection",
       "id": "4b1b39d3-6ddd-45fb-b3b5-af88d00f7bc1",
-      "images": ["markers_images/SfiRpqifJQt-02sYW1vQKA"],
+      "images": [
+        "markers_images/SfiRpqifJQt-02sYW1vQKA"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6490,7 +7562,9 @@
     {
       "category": "collection",
       "id": "03ad5f65-fec0-41d8-848c-51a0b3dd3eb7",
-      "images": ["markers_images/mUOzbX1pj2MkRjl4F9-3fw"],
+      "images": [
+        "markers_images/mUOzbX1pj2MkRjl4F9-3fw"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6500,7 +7574,9 @@
     {
       "category": "collection",
       "id": "a48315ba-ac01-452f-8c5b-ea8e7e9c8c2b",
-      "images": ["markers_images/-YpbIlv9Obvytw3WjrG3Xg"],
+      "images": [
+        "markers_images/-YpbIlv9Obvytw3WjrG3Xg"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6510,7 +7586,9 @@
     {
       "category": "collection",
       "id": "08643e7e-8be8-4579-85f5-f36a1ea28d5a",
-      "images": ["markers_images/Mthu5njpb6yr5NwI85B7XA"],
+      "images": [
+        "markers_images/Mthu5njpb6yr5NwI85B7XA"
+      ],
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
@@ -6520,7 +7598,9 @@
     {
       "category": "collection",
       "id": "5f667f88-124f-47fa-a0fa-817044df829b",
-      "images": ["markers_images/xluZWid5CFAXvqv0VEcHFw"],
+      "images": [
+        "markers_images/xluZWid5CFAXvqv0VEcHFw"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -6530,7 +7610,9 @@
     {
       "category": "collection",
       "id": "83393736-a6d2-4763-8337-a1041e75b41e",
-      "images": ["markers_images/HOXw6RC9L3cI52KelBS-CA"],
+      "images": [
+        "markers_images/HOXw6RC9L3cI52KelBS-CA"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -6540,7 +7622,9 @@
     {
       "category": "collection",
       "id": "1aa237b2-d7f9-4fea-9031-39e9e6c8abc3",
-      "images": ["markers_images/BxjEHUixw9CuPcA-iURqoA"],
+      "images": [
+        "markers_images/BxjEHUixw9CuPcA-iURqoA"
+      ],
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
@@ -6550,7 +7634,9 @@
     {
       "category": "collection",
       "id": "83857bc4-b83c-4087-9ac4-962beb03da09",
-      "images": ["markers_images/QaxbExrWDE-8GNgnDbahzQ"],
+      "images": [
+        "markers_images/QaxbExrWDE-8GNgnDbahzQ"
+      ],
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
@@ -6560,7 +7646,9 @@
     {
       "category": "collection",
       "id": "d4ae6035-380b-484f-b3b9-51289c2bc315",
-      "images": ["markers_images/sSDUZOodE-Nk6BZxN6BTdQ"],
+      "images": [
+        "markers_images/sSDUZOodE-Nk6BZxN6BTdQ"
+      ],
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
@@ -6570,7 +7658,9 @@
     {
       "category": "collection",
       "id": "0c8e0471-5db4-4684-9da5-7f608b45ad66",
-      "images": ["markers_images/pkl6DBvn5JR23_tXC9pSZg"],
+      "images": [
+        "markers_images/pkl6DBvn5JR23_tXC9pSZg"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -6580,7 +7670,9 @@
     {
       "category": "collection",
       "id": "006d09e6-81a0-46fc-a3f8-732c7e833eb5",
-      "images": ["markers_images/AwGPOaDqH-qHbZ4Ef5hOnw"],
+      "images": [
+        "markers_images/AwGPOaDqH-qHbZ4Ef5hOnw"
+      ],
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
@@ -6590,7 +7682,9 @@
     {
       "category": "collection",
       "id": "40a55d3e-2bc4-4f7f-ab09-467290b34993",
-      "images": ["markers_images/AYlPa5NZ_3h-n7JgFl6mLQ"],
+      "images": [
+        "markers_images/AYlPa5NZ_3h-n7JgFl6mLQ"
+      ],
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
@@ -6600,7 +7694,9 @@
     {
       "category": "collection",
       "id": "5c58ef94-8852-4581-828b-ee557ebfc17e",
-      "images": ["markers_images/9cq4bN5A9BqpgrWX0I9xzg"],
+      "images": [
+        "markers_images/9cq4bN5A9BqpgrWX0I9xzg"
+      ],
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
@@ -6610,7 +7706,9 @@
     {
       "category": "collection",
       "id": "1f855018-b775-4faf-9282-ee65c876eb83",
-      "images": ["markers_images/Am-j8OUIEoCsbOmUwdnE-Q"],
+      "images": [
+        "markers_images/Am-j8OUIEoCsbOmUwdnE-Q"
+      ],
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
@@ -6620,7 +7718,9 @@
     {
       "category": "collection",
       "id": "e49910f0-92a8-46c1-8672-245a9724d0d0",
-      "images": ["markers_images/mAe21l49-dP5vj5tSt0spg"],
+      "images": [
+        "markers_images/mAe21l49-dP5vj5tSt0spg"
+      ],
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
@@ -6710,7 +7810,9 @@
     {
       "category": "collection",
       "id": "b1cf4fac-9673-4020-a022-fd67e36322c9",
-      "images": ["markers_images/EKfC4bvzT3IpM8hSgMReqQ"],
+      "images": [
+        "markers_images/EKfC4bvzT3IpM8hSgMReqQ"
+      ],
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
@@ -6733,7 +7835,9 @@
     {
       "category": "collection",
       "id": "92c71366-d258-429a-b638-2a9aef879815",
-      "images": ["markers_images/6_2ThG4XLuaVFeW6H3JmHQ"],
+      "images": [
+        "markers_images/6_2ThG4XLuaVFeW6H3JmHQ"
+      ],
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
@@ -6743,7 +7847,9 @@
     {
       "category": "collection",
       "id": "c0c39717-87c7-459a-a25e-6891d8d9bdcd",
-      "images": ["markers_images/s8gDvBWW4UWMyrpoi02ybw"],
+      "images": [
+        "markers_images/s8gDvBWW4UWMyrpoi02ybw"
+      ],
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
@@ -7139,7 +8245,9 @@
     {
       "category": "collection",
       "id": "400bdd68-5512-41b5-bea8-a234b0930ec3",
-      "images": ["markers_images/owedC3xJQXj9WwoeYHpM4A"],
+      "images": [
+        "markers_images/owedC3xJQXj9WwoeYHpM4A"
+      ],
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
@@ -7221,7 +8329,9 @@
     {
       "category": "collection",
       "id": "e42a9d56-e1d4-4726-af36-6094a12934f7",
-      "images": ["markers_images/4fkHjoRwppKHu4iaDrMblg"],
+      "images": [
+        "markers_images/4fkHjoRwppKHu4iaDrMblg"
+      ],
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
@@ -7455,7 +8565,9 @@
     {
       "category": "collection",
       "id": "81f447f2-b7f5-4a37-94e4-3dafe9c60ec7",
-      "images": ["markers_images/HaLdPrYWlKBv-wxUsUUmoA"],
+      "images": [
+        "markers_images/HaLdPrYWlKBv-wxUsUUmoA"
+      ],
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
@@ -7729,8 +8841,8 @@
       "name": "불멸의 가르투아",
       "type": "fieldboss",
       "category": "location",
-      "x": 2083,
-      "y": 808.5,
+      "x": 2075.69,
+      "y": 1801.61,
       "region": "불멸의 섬",
       "images": []
     }
