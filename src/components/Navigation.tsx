@@ -5,12 +5,16 @@ interface NavigationProps {
   selectedMap: string;
   onMapChange: (mapName: string) => void;
   onSettingsClick: () => void;
+  isAdminMode?: boolean;
+  onJsonEditorClick?: () => void;
 }
 
 export const Navigation: React.FC<NavigationProps> = ({
   selectedMap,
   onMapChange,
   onSettingsClick,
+  isAdminMode = false,
+  onJsonEditorClick,
 }) => {
   return (
     <div className="map-selector-top">
@@ -30,6 +34,15 @@ export const Navigation: React.FC<NavigationProps> = ({
             </option>
           ))}
         </select>
+        {isAdminMode && onJsonEditorClick && (
+          <button
+            className="admin-btn"
+            onClick={onJsonEditorClick}
+            title="JSON 에디터 (관리자)"
+          >
+            📝
+          </button>
+        )}
         <button className="settings-btn" onClick={onSettingsClick} title="설정">
           ⚙️
         </button>

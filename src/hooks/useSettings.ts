@@ -1,57 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
-import { AppSettings, GameMarkerSettings } from "../types";
-
-const DEFAULT_GAME_MARKERS: GameMarkerSettings = {
-  seal: {
-    visible: true,
-    color: "#e74c3c",
-    icon: "🔒",
-    readonly: true,
-    displayName: "봉인던전",
-  },
-  teleport: {
-    visible: true,
-    color: "#3498db",
-    icon: "🌀",
-    readonly: true,
-    displayName: "귀환석",
-  },
-  occupation: {
-    visible: true,
-    color: "#f39c12",
-    icon: "⚔️",
-    readonly: true,
-    displayName: "점령지",
-  },
-  monolithMaterial: {
-    visible: true,
-    color: "#9b59b6",
-    icon: "🪶",
-    readonly: true,
-    displayName: "닭털",
-  },
-  battlefield: {
-    visible: true,
-    color: "#c0392b",
-    icon: "⚡",
-    readonly: true,
-    displayName: "전장",
-  },
-  hiddenCube: {
-    visible: true,
-    color: "#8e44ad",
-    icon: "🧊",
-    readonly: true,
-    displayName: "히든 큐브",
-  },
-  village: {
-    visible: true,
-    color: "#27ae60",
-    icon: "🏘️",
-    readonly: true,
-    displayName: "마을",
-  },
-};
+import { DEFAULT_GAME_MARKERS } from "../constants";
+import { AppSettings } from "../types";
 
 const DEFAULT_SETTINGS: AppSettings = {
   showCoordinates: true,

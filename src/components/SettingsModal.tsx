@@ -146,7 +146,21 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
           <div className="settings-section">
             <h4>정보</h4>
             <div className="info-text">
-              <p>버전: 1.0.0</p>
+              <p>버전: 1.0.2</p>
+              <p>제작자: Patrickmonster</p>
+            </div>
+          </div>
+          <div className="settings-section">
+            <h4>변경이력</h4>
+            <div className="info-text">
+              <ul>
+                <li>
+                  v1.0.2 - 임페투시움 광장 상단의 깃털 일부 수정 / 필드 보스
+                  추가 / 관리자 수정화면 추가
+                </li>
+                <li>v1.0.1 - 마커 타입 관리 기능 추가 및 UI 개선</li>
+                <li>v1.0.0 - 초기 릴리스: 기본 마커 기능 및 설정 모달 추가</li>
+              </ul>
             </div>
           </div>
         </div>

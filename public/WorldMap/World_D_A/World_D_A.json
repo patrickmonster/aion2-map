@@ -5,104 +5,104 @@
       "id": "8e309163-a01a-4682-8479-5e8f19ae7231",
       "name": "RuinsoftheAncientCityofRoah",
       "type": "seal",
-      "x": 5213.0,
-      "y": 6025.0
+      "x": 5213,
+      "y": 6025
     },
     {
       "category": "location",
       "id": "ec7f4d72-2bba-49a8-8e2b-2b8cf443ed51",
       "name": "OdyliumMarauder",
       "type": "seal",
-      "x": 5829.0,
-      "y": 3229.0
+      "x": 5829,
+      "y": 3229
     },
     {
       "category": "location",
       "id": "72e047ef-af6f-46d9-bd2d-fd9ecfaa7856",
       "name": "LiraryofPatience",
       "type": "seal",
-      "x": 5941.0,
-      "y": 4899.0
+      "x": 5941,
+      "y": 4899
     },
     {
       "category": "location",
       "id": "cc7b11bf-208d-4668-ac50-7d756e5eb8e7",
       "name": "LagtaFafniteStorage",
       "type": "seal",
-      "x": 4047.0,
-      "y": 2701.0
+      "x": 4047,
+      "y": 2701
     },
     {
       "category": "location",
       "id": "d5781101-b19d-4698-83ba-c1ca7816da13",
       "name": "AsceticsCave",
       "type": "seal",
-      "x": 5422.0,
-      "y": 2175.0
+      "x": 5422,
+      "y": 2175
     },
     {
       "category": "location",
       "id": "34dd73dd-c8ec-4e0b-baa4-bfbe047f3563",
       "name": "DestructionArchonsArmory",
       "type": "seal",
-      "x": 5991.0,
-      "y": 2869.0
+      "x": 5991,
+      "y": 2869
     },
     {
       "category": "location",
       "id": "94a17c2c-37b1-426f-953f-3ec4b0427be8",
       "name": "DenofExiles",
       "type": "seal",
-      "x": 5308.0,
-      "y": 2629.0
+      "x": 5308,
+      "y": 2629
     },
     {
       "category": "location",
       "id": "ba026444-bdf3-4c90-ab2f-1caea7f9d5c4",
       "name": "RockCave",
       "type": "seal",
-      "x": 6156.0,
-      "y": 3280.0
+      "x": 6156,
+      "y": 3280
     },
     {
       "category": "location",
       "id": "efe4f6ef-c301-4bb3-a8ce-8ac4183c25f6",
       "name": "LonelyRockChasm",
       "type": "seal",
-      "x": 5398.0,
-      "y": 3214.0
+      "x": 5398,
+      "y": 3214
     },
     {
       "category": "location",
       "id": "343d2b81-5a80-48d0-a054-d91f6d77877d",
       "name": "FanaticsDen",
       "type": "seal",
-      "x": 2306.0,
-      "y": 3936.0
+      "x": 2306,
+      "y": 3936
     },
     {
       "category": "location",
       "id": "9741e91b-805f-4ffc-a81e-fb5c8cd7e646",
       "name": "WorshipersUndergroundCave",
       "type": "seal",
-      "x": 4377.0,
-      "y": 4527.0
+      "x": 4377,
+      "y": 4527
     },
     {
       "category": "location",
       "id": "0b337911-8fc6-4d78-85c6-69a3756910a1",
       "name": "FinalHaven",
       "type": "seal",
-      "x": 5496.0,
-      "y": 5465.0
+      "x": 5496,
+      "y": 5465
     },
     {
       "category": "location",
       "id": "341920c1-722c-46fc-a252-f32313b6b9e2",
       "name": "SkurvLaborerDen",
       "type": "seal",
-      "x": 4947.0,
-      "y": 5939.0
+      "x": 4947,
+      "y": 5939
     },
     {
       "category": "collection",
@@ -111,8 +111,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3224.0,
-      "y": 5334.0
+      "x": 3224,
+      "y": 5334
     },
     {
       "category": "collection",
@@ -121,8 +121,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3254.0,
-      "y": 5415.0
+      "x": 3254,
+      "y": 5415
     },
     {
       "category": "collection",
@@ -131,8 +131,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3273.0,
-      "y": 5475.0
+      "x": 3273,
+      "y": 5475
     },
     {
       "category": "collection",
@@ -141,8 +141,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3600.0,
-      "y": 4887.0
+      "x": 3600,
+      "y": 4887
     },
     {
       "category": "collection",
@@ -151,8 +151,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3240.0,
-      "y": 4802.0
+      "x": 3240,
+      "y": 4802
     },
     {
       "category": "collection",
@@ -161,8 +161,8 @@
       "name": "",
       "region": "CalderonCanyon",
       "type": "monolithMaterial",
-      "x": 3109.0,
-      "y": 4701.0
+      "x": 3109,
+      "y": 4701
     },
     {
       "category": "collection",
@@ -171,8 +171,8 @@
       "name": "",
       "region": "CalderonCanyon",
       "type": "monolithMaterial",
-      "x": 3365.0,
-      "y": 4565.0
+      "x": 3365,
+      "y": 4565
     },
     {
       "category": "collection",
@@ -181,8 +181,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3153.0,
-      "y": 4990.0
+      "x": 3153,
+      "y": 4990
     },
     {
       "category": "collection",
@@ -191,8 +191,8 @@
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
-      "x": 3018.0,
-      "y": 4476.0
+      "x": 3018,
+      "y": 4476
     },
     {
       "category": "collection",
@@ -201,8 +201,8 @@
       "name": "",
       "region": "CalderonCanyon",
       "type": "monolithMaterial",
-      "x": 2923.0,
-      "y": 4714.0
+      "x": 2923,
+      "y": 4714
     },
     {
       "category": "collection",
@@ -211,8 +211,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 2901.0,
-      "y": 4738.0
+      "x": 2901,
+      "y": 4738
     },
     {
       "category": "collection",
@@ -221,8 +221,8 @@
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
-      "x": 2871.0,
-      "y": 4744.0
+      "x": 2871,
+      "y": 4744
     },
     {
       "category": "collection",
@@ -231,8 +231,8 @@
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
-      "x": 2811.0,
-      "y": 4678.0
+      "x": 2811,
+      "y": 4678
     },
     {
       "category": "collection",
@@ -241,8 +241,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2740.0,
-      "y": 4854.0
+      "x": 2740,
+      "y": 4854
     },
     {
       "category": "collection",
@@ -251,8 +251,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2648.0,
-      "y": 5008.0
+      "x": 2648,
+      "y": 5008
     },
     {
       "category": "collection",
@@ -261,8 +261,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2528.0,
-      "y": 4966.0
+      "x": 2528,
+      "y": 4966
     },
     {
       "category": "collection",
@@ -271,8 +271,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2481.0,
-      "y": 4586.0
+      "x": 2481,
+      "y": 4586
     },
     {
       "category": "collection",
@@ -281,8 +281,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2560.0,
-      "y": 4476.0
+      "x": 2560,
+      "y": 4476
     },
     {
       "category": "collection",
@@ -291,8 +291,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2642.0,
-      "y": 4475.0
+      "x": 2642,
+      "y": 4475
     },
     {
       "category": "collection",
@@ -301,8 +301,8 @@
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
-      "x": 2199.0,
-      "y": 4599.0
+      "x": 2199,
+      "y": 4599
     },
     {
       "category": "collection",
@@ -311,8 +311,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2041.0,
-      "y": 4582.0
+      "x": 2041,
+      "y": 4582
     },
     {
       "category": "collection",
@@ -321,8 +321,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2614.0,
-      "y": 4224.0
+      "x": 2614,
+      "y": 4224
     },
     {
       "category": "collection",
@@ -331,8 +331,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2608.0,
-      "y": 4267.0
+      "x": 2608,
+      "y": 4267
     },
     {
       "category": "collection",
@@ -341,8 +341,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2578.0,
-      "y": 4265.0
+      "x": 2578,
+      "y": 4265
     },
     {
       "category": "collection",
@@ -351,8 +351,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3395.0,
-      "y": 4004.0
+      "x": 3395,
+      "y": 4004
     },
     {
       "category": "collection",
@@ -361,8 +361,8 @@
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
-      "x": 2879.0,
-      "y": 4334.0
+      "x": 2879,
+      "y": 4334
     },
     {
       "category": "collection",
@@ -371,8 +371,8 @@
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
-      "x": 2884.0,
-      "y": 4366.0
+      "x": 2884,
+      "y": 4366
     },
     {
       "category": "collection",
@@ -381,8 +381,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3611.0,
-      "y": 4044.0
+      "x": 3611,
+      "y": 4044
     },
     {
       "category": "collection",
@@ -391,8 +391,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3145.0,
-      "y": 3997.0
+      "x": 3145,
+      "y": 3997
     },
     {
       "category": "collection",
@@ -401,8 +401,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3267.0,
-      "y": 3807.0
+      "x": 3267,
+      "y": 3807
     },
     {
       "category": "collection",
@@ -411,8 +411,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3574.0,
-      "y": 4112.0
+      "x": 3574,
+      "y": 4112
     },
     {
       "category": "collection",
@@ -421,8 +421,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3636.0,
-      "y": 3984.0
+      "x": 3636,
+      "y": 3984
     },
     {
       "category": "collection",
@@ -431,8 +431,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3593.0,
-      "y": 4015.0
+      "x": 3593,
+      "y": 4015
     },
     {
       "category": "collection",
@@ -441,8 +441,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3628.0,
-      "y": 4018.0
+      "x": 3628,
+      "y": 4018
     },
     {
       "category": "collection",
@@ -451,8 +451,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3578.0,
-      "y": 4047.0
+      "x": 3578,
+      "y": 4047
     },
     {
       "category": "collection",
@@ -461,8 +461,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3552.0,
-      "y": 4036.0
+      "x": 3552,
+      "y": 4036
     },
     {
       "category": "collection",
@@ -471,8 +471,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3711.0,
-      "y": 4001.0
+      "x": 3711,
+      "y": 4001
     },
     {
       "category": "collection",
@@ -481,8 +481,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3718.0,
-      "y": 3816.0
+      "x": 3718,
+      "y": 3816
     },
     {
       "category": "collection",
@@ -491,8 +491,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3333.0,
-      "y": 3569.0
+      "x": 3333,
+      "y": 3569
     },
     {
       "category": "collection",
@@ -501,8 +501,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3792.0,
-      "y": 3576.0
+      "x": 3792,
+      "y": 3576
     },
     {
       "category": "collection",
@@ -511,8 +511,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3817.0,
-      "y": 3713.0
+      "x": 3817,
+      "y": 3713
     },
     {
       "category": "collection",
@@ -521,8 +521,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3963.0,
-      "y": 3798.0
+      "x": 3963,
+      "y": 3798
     },
     {
       "category": "collection",
@@ -531,8 +531,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3971.0,
-      "y": 3917.0
+      "x": 3971,
+      "y": 3917
     },
     {
       "category": "collection",
@@ -541,8 +541,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3236.0,
-      "y": 5291.0
+      "x": 3236,
+      "y": 5291
     },
     {
       "category": "collection",
@@ -551,8 +551,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 4023.0,
-      "y": 3861.0
+      "x": 4023,
+      "y": 3861
     },
     {
       "category": "collection",
@@ -561,8 +561,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3846.0,
-      "y": 4019.0
+      "x": 3846,
+      "y": 4019
     },
     {
       "category": "collection",
@@ -571,8 +571,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4077.0,
-      "y": 4179.0
+      "x": 4077,
+      "y": 4179
     },
     {
       "category": "collection",
@@ -581,8 +581,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4126.0,
-      "y": 4233.0
+      "x": 4126,
+      "y": 4233
     },
     {
       "category": "collection",
@@ -591,8 +591,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4234.0,
-      "y": 4286.0
+      "x": 4234,
+      "y": 4286
     },
     {
       "category": "collection",
@@ -601,8 +601,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4505.0,
-      "y": 4403.0
+      "x": 4505,
+      "y": 4403
     },
     {
       "category": "collection",
@@ -611,272 +611,272 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4302.0,
-      "y": 4553.0
+      "x": 4302,
+      "y": 4553
     },
     {
       "category": "location",
       "id": "31d7ac06-8e90-4e57-8b79-a25de2527d7c",
       "name": "WarriorsRest",
       "type": "seal",
-      "x": 6074.0,
-      "y": 2454.0
+      "x": 6074,
+      "y": 2454
     },
     {
       "category": "location",
       "id": "e246663b-9a36-4b9d-bb0d-e616c91ffd9c",
       "name": "PiratesTreasureStorage",
       "type": "seal",
-      "x": 5614.0,
-      "y": 3150.0
+      "x": 5614,
+      "y": 3150
     },
     {
       "category": "location",
       "id": "0bace87e-f17c-4d1d-9046-93dc3b615a6f",
       "name": "SpiderCave",
       "type": "seal",
-      "x": 5676.0,
-      "y": 3631.0
+      "x": 5676,
+      "y": 3631
     },
     {
       "category": "location",
       "id": "0e083a3f-8876-43f5-8b76-553c1e8a0fa4",
       "name": "DratonaAssemblyArea",
       "type": "seal",
-      "x": 5401.0,
-      "y": 5021.0
+      "x": 5401,
+      "y": 5021
     },
     {
       "category": "location",
       "id": "d85d465c-5a0f-4e16-8870-900ea0cf8b9b",
       "name": "LibraryofForesight",
       "type": "seal",
-      "x": 3651.0,
-      "y": 3691.0
+      "x": 3651,
+      "y": 3691
     },
     {
       "category": "location",
       "id": "609bf69f-76a0-4006-9f72-41ccfe76c4fc",
       "name": "TwistedPit",
       "type": "seal",
-      "x": 4730.0,
-      "y": 5847.0
+      "x": 4730,
+      "y": 5847
     },
     {
       "category": "location",
       "id": "765a8405-353f-48d1-95c2-fe8fb90c7d20",
       "name": "LamnahBase",
       "type": "seal",
-      "x": 4166.0,
-      "y": 4688.0
+      "x": 4166,
+      "y": 4688
     },
     {
       "category": "location",
       "id": "08ec5d72-f1a2-4035-b28d-a05b8919de8c",
       "name": "UnstableCave",
       "type": "seal",
-      "x": 4346.0,
-      "y": 5110.0
+      "x": 4346,
+      "y": 5110
     },
     {
       "category": "location",
       "id": "331c004b-aebb-4abf-8101-36580153c62c",
       "name": "LibraryofWisdom",
       "type": "seal",
-      "x": 5553.0,
-      "y": 4594.0
+      "x": 5553,
+      "y": 4594
     },
     {
       "category": "location",
       "id": "41648081-a48f-4541-bbb6-0f42e1161f97",
       "name": "FungieHabitat",
       "type": "seal",
-      "x": 5884.0,
-      "y": 3818.0
+      "x": 5884,
+      "y": 3818
     },
     {
       "category": "location",
       "id": "3bf373d0-0c89-4b99-94fe-474d8998f918",
       "name": "AllCuringCave",
       "type": "seal",
-      "x": 5193.0,
-      "y": 5469.0
+      "x": 5193,
+      "y": 5469
     },
     {
       "category": "location",
       "id": "0f05fbef-e58f-41c9-b214-18ece980d0ca",
       "name": "DranaDepository",
       "type": "seal",
-      "x": 4760.0,
-      "y": 5469.0
+      "x": 4760,
+      "y": 5469
     },
     {
       "category": "location",
       "id": "173e0fdf-4429-45b4-9b2a-bf0f4d0436df",
       "name": "VictimsCave",
       "type": "seal",
-      "x": 3584.0,
-      "y": 3781.0
+      "x": 3584,
+      "y": 3781
     },
     {
       "category": "location",
       "id": "48752c20-489a-4ee0-866a-71bf34649086",
       "name": "KumbahumsCave",
       "type": "seal",
-      "x": 4809.0,
-      "y": 2276.0
+      "x": 4809,
+      "y": 2276
     },
     {
       "category": "location",
       "id": "70a6a737-5ae5-4572-a57a-b3d87138f47c",
       "name": "OssuaryoftheNoble",
       "type": "seal",
-      "x": 2397.0,
-      "y": 5227.0
+      "x": 2397,
+      "y": 5227
     },
     {
       "category": "location",
       "id": "72b48ee2-df4f-4137-a62c-f7c38b6cd1e9",
       "name": "HowlingDen",
       "type": "seal",
-      "x": 3903.0,
-      "y": 3587.0
+      "x": 3903,
+      "y": 3587
     },
     {
       "category": "location",
       "id": "852607d4-f6b1-4385-bf8c-b4b7d93086fd",
       "name": "FortunetellersGrave",
       "type": "seal",
-      "x": 3755.0,
-      "y": 3825.0
+      "x": 3755,
+      "y": 3825
     },
     {
       "category": "location",
       "id": "d4f409a1-99bc-4f8e-96fa-091569958def",
       "name": "WatchersTemporaryOutpost",
       "type": "seal",
-      "x": 2918.0,
-      "y": 4604.0
+      "x": 2918,
+      "y": 4604
     },
     {
       "category": "location",
       "id": "f1c160a7-fc8b-4585-ba89-3dd538290598",
       "name": "PrisonofOblivion",
       "type": "seal",
-      "x": 3315.0,
-      "y": 3662.0
+      "x": 3315,
+      "y": 3662
     },
     {
       "category": "location",
       "id": "910497bf-b46d-48d7-87e5-60a2f68cb046",
       "name": "BloodsoakedConfessional",
       "type": "seal",
-      "x": 4007.0,
-      "y": 3808.0
+      "x": 4007,
+      "y": 3808
     },
     {
       "category": "location",
       "id": "ce0f06a6-5342-4b36-b6e8-54fc6b65d4f4",
       "name": "AbandonedArchonJail",
       "type": "seal",
-      "x": 3310.0,
-      "y": 3956.0
+      "x": 3310,
+      "y": 3956
     },
     {
       "category": "location",
       "id": "0523579b-bed0-4987-9e2b-25508a54f20e",
       "name": "TreasureHunterResidence",
       "type": "seal",
-      "x": 3409.0,
-      "y": 5066.0
+      "x": 3409,
+      "y": 5066
     },
     {
       "category": "location",
       "id": "566677b4-ac87-4e01-88e4-662d2f2f815a",
       "name": "OldGraveyard",
       "type": "seal",
-      "x": 2424.0,
-      "y": 4906.0
+      "x": 2424,
+      "y": 4906
     },
     {
       "category": "location",
       "id": "2a7c9ac4-2a8c-40be-8c04-8dfe146f2bbf",
       "name": "LostRuins",
       "type": "seal",
-      "x": 2510.0,
-      "y": 5428.0
+      "x": 2510,
+      "y": 5428
     },
     {
       "category": "location",
       "id": "5200c4cd-763a-4c91-9ff1-484c1d19ce18",
       "name": "DuskPit",
       "type": "seal",
-      "x": 2817.0,
-      "y": 4877.0
+      "x": 2817,
+      "y": 4877
     },
     {
       "category": "location",
       "id": "179e623f-ec45-4f2c-bc4b-51988c814084",
       "name": "PredatorsLair",
       "type": "seal",
-      "x": 4662.0,
-      "y": 4651.0
+      "x": 4662,
+      "y": 4651
     },
     {
       "category": "location",
       "id": "375f8289-8b80-457f-b0a5-9481c953f64a",
       "name": "TrickstersDen",
       "type": "seal",
-      "x": 3436.0,
-      "y": 4784.0
+      "x": 3436,
+      "y": 4784
     },
     {
       "category": "location",
       "id": "6d4b3d17-5458-4cab-819a-3a32c56969b4",
       "name": "AbandonedMemorialRoom",
       "type": "seal",
-      "x": 3993.0,
-      "y": 4393.0
+      "x": 3993,
+      "y": 4393
     },
     {
       "category": "location",
       "id": "5f39e9b8-7ad9-4866-ac48-72c495f7ce4c",
       "name": "LatrimaOutpost",
       "type": "occupation",
-      "x": 4907.0,
-      "y": 5681.0
+      "x": 4907,
+      "y": 5681
     },
     {
       "category": "location",
       "id": "ce13755f-2a90-4546-b5d3-de77fed48745",
       "name": "GranachsHideout",
       "type": "occupation",
-      "x": 6052.0,
-      "y": 3757.0
+      "x": 6052,
+      "y": 3757
     },
     {
       "category": "location",
       "id": "e014a82d-359f-4a28-83bf-bb47abe1a18e",
       "name": "DetlefThievesCamp",
       "type": "occupation",
-      "x": 5158.0,
-      "y": 3042.0
+      "x": 5158,
+      "y": 3042
     },
     {
       "category": "location",
       "id": "f0552f16-f87b-41d6-88c9-e6c1cc97e4ec",
       "name": "ForestMarauderCampsite",
       "type": "occupation",
-      "x": 4926.0,
-      "y": 5119.0
+      "x": 4926,
+      "y": 5119
     },
     {
       "category": "location",
       "id": "8477e9f3-e5af-48ea-9a88-27d79efe09cf",
       "name": "CorruptedForesterRuins",
       "type": "occupation",
-      "x": 4091.0,
-      "y": 3886.0
+      "x": 4091,
+      "y": 3886
     },
     {
       "category": "collection",
@@ -885,8 +885,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4723.0,
-      "y": 4308.0
+      "x": 4723,
+      "y": 4308
     },
     {
       "category": "collection",
@@ -895,120 +895,120 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4847.0,
-      "y": 4399.0
+      "x": 4847,
+      "y": 4399
     },
     {
       "category": "location",
       "id": "54e8b48d-848e-4b6c-b05a-1f72d4c0b22f",
       "name": "TaygaBreedingGround",
       "type": "seal",
-      "x": 4950.0,
-      "y": 2622.0
+      "x": 4950,
+      "y": 2622
     },
     {
       "category": "location",
       "id": "20f646aa-3ae9-4eaf-ba7d-5f151c294ced",
       "name": "ShulakCave",
       "type": "seal",
-      "x": 4856.0,
-      "y": 3390.0
+      "x": 4856,
+      "y": 3390
     },
     {
       "category": "location",
       "id": "003ac2c3-0a0d-4126-8c63-4ed47db8f51c",
       "name": "EmptyCave",
       "type": "seal",
-      "x": 5104.0,
-      "y": 2985.0
+      "x": 5104,
+      "y": 2985
     },
     {
       "category": "location",
       "id": "cd48586a-32d4-4964-94df-72950f1e6341",
       "name": "PlaceofRest",
       "type": "seal",
-      "x": 5323.0,
-      "y": 2829.0
+      "x": 5323,
+      "y": 2829
     },
     {
       "category": "location",
       "id": "3267c6fe-96b8-47b3-8fce-2f7dd7261602",
       "name": "RiftFissure",
       "type": "seal",
-      "x": 5326.0,
-      "y": 5224.0
+      "x": 5326,
+      "y": 5224
     },
     {
       "category": "location",
       "id": "723d75b1-cb9e-4e94-b82d-57244f9650ef",
       "name": "DestroyedScriptorium",
       "type": "seal",
-      "x": 4914.0,
-      "y": 4991.0
+      "x": 4914,
+      "y": 4991
     },
     {
       "category": "location",
       "id": "8009339a-11d3-4ac5-ad68-4421af926a08",
       "name": "HighPriestsRuins",
       "type": "seal",
-      "x": 4396.0,
-      "y": 5535.0
+      "x": 4396,
+      "y": 5535
     },
     {
       "category": "location",
       "id": "fa7c3130-ad0f-4258-a3e8-bf72aadbf2cc",
       "name": "SmugglersCave",
       "type": "seal",
-      "x": 3125.0,
-      "y": 4628.0
+      "x": 3125,
+      "y": 4628
     },
     {
       "category": "location",
       "id": "a88c5073-0d0f-4775-83cf-18634677129f",
       "name": "BlueDragonsTrap",
       "type": "seal",
-      "x": 2586.0,
-      "y": 4153.0
+      "x": 2586,
+      "y": 4153
     },
     {
       "category": "location",
       "id": "368bcc3a-1aa5-4071-a031-3e757cf9516e",
       "name": "FafniteStorageRoom",
       "type": "seal",
-      "x": 2528.0,
-      "y": 4461.0
+      "x": 2528,
+      "y": 4461
     },
     {
       "category": "location",
       "id": "f211da05-323b-483b-b7c9-395d63c9bfb0",
       "name": "PosisonousPlantHabitat",
       "type": "seal",
-      "x": 2698.0,
-      "y": 5150.0
+      "x": 2698,
+      "y": 5150
     },
     {
       "category": "location",
       "id": "43fef0f1-efbc-497a-ba0a-64549dda5491",
       "name": "AbandonedOnesGrave",
       "type": "seal",
-      "x": 2374.0,
-      "y": 4871.0
+      "x": 2374,
+      "y": 4871
     },
     {
       "category": "location",
       "id": "30f17db1-2f53-43a7-a267-032191dcdd1e",
       "name": "LegionBaseRuins",
       "type": "occupation",
-      "x": 6052.0,
-      "y": 5234.0
+      "x": 6052,
+      "y": 5234
     },
     {
       "category": "location",
       "id": "b94b9ba0-3d35-40ce-9e49-6df864e7da47",
       "name": "BladesTemporaryOutpost",
       "type": "occupation",
-      "x": 3178.0,
-      "y": 3804.0
+      "x": 3178,
+      "y": 3804
     },
     {
       "category": "collection",
@@ -1017,8 +1017,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4157.0,
-      "y": 4577.0
+      "x": 4157,
+      "y": 4577
     },
     {
       "category": "collection",
@@ -1027,8 +1027,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4751.0,
-      "y": 4226.0
+      "x": 4751,
+      "y": 4226
     },
     {
       "category": "collection",
@@ -1037,8 +1037,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4922.0,
-      "y": 4350.0
+      "x": 4922,
+      "y": 4350
     },
     {
       "category": "collection",
@@ -1047,8 +1047,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4280.0,
-      "y": 4754.0
+      "x": 4280,
+      "y": 4754
     },
     {
       "category": "collection",
@@ -1057,8 +1057,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4357.0,
-      "y": 4794.0
+      "x": 4357,
+      "y": 4794
     },
     {
       "category": "collection",
@@ -1067,8 +1067,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4280.0,
-      "y": 4898.0
+      "x": 4280,
+      "y": 4898
     },
     {
       "category": "collection",
@@ -1077,8 +1077,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4451.0,
-      "y": 5081.0
+      "x": 4451,
+      "y": 5081
     },
     {
       "category": "collection",
@@ -1087,8 +1087,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4853.0,
-      "y": 4994.0
+      "x": 4853,
+      "y": 4994
     },
     {
       "category": "collection",
@@ -1097,8 +1097,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4716.0,
-      "y": 4684.0
+      "x": 4716,
+      "y": 4684
     },
     {
       "category": "collection",
@@ -1107,8 +1107,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 5030.0,
-      "y": 4688.0
+      "x": 5030,
+      "y": 4688
     },
     {
       "category": "collection",
@@ -1117,8 +1117,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 5053.0,
-      "y": 4763.0
+      "x": 5053,
+      "y": 4763
     },
     {
       "category": "collection",
@@ -1127,8 +1127,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 4847.0,
-      "y": 5301.0
+      "x": 4847,
+      "y": 5301
     },
     {
       "category": "collection",
@@ -1137,8 +1137,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 4967.0,
-      "y": 5322.0
+      "x": 4967,
+      "y": 5322
     },
     {
       "category": "collection",
@@ -1147,16 +1147,16 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 5120.0,
-      "y": 5355.0
+      "x": 5120,
+      "y": 5355
     },
     {
       "category": "location",
       "id": "c83c3739-92db-43ec-8d43-88982cc06873",
       "name": "逃亡者村庄",
       "type": "teleport",
-      "x": 3197.0,
-      "y": 5341.0
+      "x": 3197,
+      "y": 5341
     },
     {
       "category": "collection",
@@ -1165,16 +1165,16 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3288.0,
-      "y": 5299.0
+      "x": 3288,
+      "y": 5299
     },
     {
       "category": "location",
       "id": "d04928a0-441d-4fc8-8b16-ee311541a51b",
       "name": "逃亡者村庄峭壁",
       "type": "teleport",
-      "x": 3671.0,
-      "y": 5606.0
+      "x": 3671,
+      "y": 5606
     },
     {
       "category": "collection",
@@ -1183,8 +1183,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3183.0,
-      "y": 5466.0
+      "x": 3183,
+      "y": 5466
     },
     {
       "category": "collection",
@@ -1193,104 +1193,104 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3137.0,
-      "y": 5504.0
+      "x": 3137,
+      "y": 5504
     },
     {
       "category": "location",
       "id": "2ecc2987-6731-46f3-9021-e2eb554480d7",
       "name": "ScaleAltar",
       "type": "seal",
-      "x": 4974.0,
-      "y": 3219.0
+      "x": 4974,
+      "y": 3219
     },
     {
       "category": "location",
       "id": "e6696ef8-88ef-4a00-aaee-92301f0d41c6",
       "name": "DarkRootCave",
       "type": "seal",
-      "x": 4486.0,
-      "y": 6080.0
+      "x": 4486,
+      "y": 6080
     },
     {
       "category": "location",
       "id": "5abef03a-b935-4828-b1f7-71d73f93eb6a",
       "name": "ClosedHideout",
       "type": "seal",
-      "x": 4138.0,
-      "y": 4599.0
+      "x": 4138,
+      "y": 4599
     },
     {
       "category": "location",
       "id": "f776d164-35b3-4901-b2db-e9a058274b46",
       "name": "HomishsCamp",
       "type": "seal",
-      "x": 2462.0,
-      "y": 4447.0
+      "x": 2462,
+      "y": 4447
     },
     {
       "category": "location",
       "id": "cf3f58de-77c4-4bdc-a172-51d8796ba3c0",
       "name": "HiddenVeinCave",
       "type": "seal",
-      "x": 2735.0,
-      "y": 5391.0
+      "x": 2735,
+      "y": 5391
     },
     {
       "category": "location",
       "id": "55b55b7c-47d2-4acc-a2f4-b88f07a4402d",
       "name": "BugTunnel",
       "type": "seal",
-      "x": 5941.0,
-      "y": 5439.0
+      "x": 5941,
+      "y": 5439
     },
     {
       "category": "location",
       "id": "98bac74f-0b14-4fb8-81f5-73ff5121867e",
       "name": "ValkasNest",
       "type": "seal",
-      "x": 3842.0,
-      "y": 4900.0
+      "x": 3842,
+      "y": 4900
     },
     {
       "category": "location",
       "id": "1186749d-1646-41d9-abb2-12bfbd25905a",
       "name": "DratonaCave",
       "type": "seal",
-      "x": 3697.0,
-      "y": 5037.0
+      "x": 3697,
+      "y": 5037
     },
     {
       "category": "location",
       "id": "47786588-95ce-4991-a3e4-4338fbeea90a",
       "name": "FlaukeLegionOutpost",
       "type": "occupation",
-      "x": 5293.0,
-      "y": 4678.0
+      "x": 5293,
+      "y": 4678
     },
     {
       "category": "location",
       "id": "ee779b81-9346-4a71-8fd8-c79a19a9c573",
       "name": "LoggersRestRuins",
       "type": "occupation",
-      "x": 3421.0,
-      "y": 3539.0
+      "x": 3421,
+      "y": 3539
     },
     {
       "category": "location",
       "id": "efbc0cd8-23c2-4129-8ba4-548056e41d38",
       "name": "RubekThievesOccupiedTerritory",
       "type": "occupation",
-      "x": 3850.0,
-      "y": 5146.0
+      "x": 3850,
+      "y": 5146
     },
     {
       "category": "location",
       "id": "513377ea-8431-4388-9744-ceec2fa4da8a",
       "name": "SanctumOutskirtsWatch",
       "type": "occupation",
-      "x": 2413.0,
-      "y": 4688.0
+      "x": 2413,
+      "y": 4688
     },
     {
       "category": "collection",
@@ -1299,8 +1299,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3236.0,
-      "y": 5197.0
+      "x": 3236,
+      "y": 5197
     },
     {
       "category": "collection",
@@ -1309,8 +1309,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3160.0,
-      "y": 5228.0
+      "x": 3160,
+      "y": 5228
     },
     {
       "category": "collection",
@@ -1319,8 +1319,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3181.0,
-      "y": 5257.0
+      "x": 3181,
+      "y": 5257
     },
     {
       "category": "collection",
@@ -1329,8 +1329,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3135.0,
-      "y": 5314.0
+      "x": 3135,
+      "y": 5314
     },
     {
       "category": "collection",
@@ -1339,8 +1339,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3115.0,
-      "y": 5340.0
+      "x": 3115,
+      "y": 5340
     },
     {
       "category": "collection",
@@ -1349,8 +1349,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3032.0,
-      "y": 5343.0
+      "x": 3032,
+      "y": 5343
     },
     {
       "category": "collection",
@@ -1359,8 +1359,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3145.0,
-      "y": 5408.0
+      "x": 3145,
+      "y": 5408
     },
     {
       "category": "collection",
@@ -1369,8 +1369,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3208.0,
-      "y": 5527.0
+      "x": 3208,
+      "y": 5527
     },
     {
       "category": "collection",
@@ -1379,8 +1379,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3257.0,
-      "y": 5532.0
+      "x": 3257,
+      "y": 5532
     },
     {
       "category": "collection",
@@ -1389,8 +1389,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3362.0,
-      "y": 5570.0
+      "x": 3362,
+      "y": 5570
     },
     {
       "category": "collection",
@@ -1399,8 +1399,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3458.0,
-      "y": 5540.0
+      "x": 3458,
+      "y": 5540
     },
     {
       "category": "collection",
@@ -1409,8 +1409,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3472.0,
-      "y": 5583.0
+      "x": 3472,
+      "y": 5583
     },
     {
       "category": "collection",
@@ -1419,8 +1419,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3353.0,
-      "y": 5395.0
+      "x": 3353,
+      "y": 5395
     },
     {
       "category": "collection",
@@ -1429,8 +1429,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3366.0,
-      "y": 5461.0
+      "x": 3366,
+      "y": 5461
     },
     {
       "category": "collection",
@@ -1439,8 +1439,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3362.0,
-      "y": 5471.0
+      "x": 3362,
+      "y": 5471
     },
     {
       "category": "collection",
@@ -1449,8 +1449,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 2988.0,
-      "y": 5465.0
+      "x": 2988,
+      "y": 5465
     },
     {
       "category": "collection",
@@ -1459,8 +1459,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 2958.0,
-      "y": 5458.0
+      "x": 2958,
+      "y": 5458
     },
     {
       "category": "collection",
@@ -1469,8 +1469,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 2930.0,
-      "y": 5458.0
+      "x": 2930,
+      "y": 5458
     },
     {
       "category": "collection",
@@ -1479,8 +1479,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3220.0,
-      "y": 5382.0
+      "x": 3220,
+      "y": 5382
     },
     {
       "category": "collection",
@@ -1489,8 +1489,8 @@
       "name": "",
       "region": "SafeHaven",
       "type": "monolithMaterial",
-      "x": 3923.0,
-      "y": 5549.0
+      "x": 3923,
+      "y": 5549
     },
     {
       "category": "collection",
@@ -1499,8 +1499,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3302.0,
-      "y": 4696.0
+      "x": 3302,
+      "y": 4696
     },
     {
       "category": "collection",
@@ -1509,8 +1509,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3365.0,
-      "y": 5017.0
+      "x": 3365,
+      "y": 5017
     },
     {
       "category": "collection",
@@ -1519,8 +1519,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3725.0,
-      "y": 4912.0
+      "x": 3725,
+      "y": 4912
     },
     {
       "category": "collection",
@@ -1529,8 +1529,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3808.0,
-      "y": 5078.0
+      "x": 3808,
+      "y": 5078
     },
     {
       "category": "collection",
@@ -1539,8 +1539,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3779.0,
-      "y": 4728.0
+      "x": 3779,
+      "y": 4728
     },
     {
       "category": "collection",
@@ -1549,8 +1549,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3655.0,
-      "y": 4794.0
+      "x": 3655,
+      "y": 4794
     },
     {
       "category": "collection",
@@ -1559,8 +1559,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3323.0,
-      "y": 4827.0
+      "x": 3323,
+      "y": 4827
     },
     {
       "category": "collection",
@@ -1569,8 +1569,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3469.0,
-      "y": 4682.0
+      "x": 3469,
+      "y": 4682
     },
     {
       "category": "collection",
@@ -1579,8 +1579,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3481.0,
-      "y": 4800.0
+      "x": 3481,
+      "y": 4800
     },
     {
       "category": "collection",
@@ -1589,8 +1589,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 2871.0,
-      "y": 4865.0
+      "x": 2871,
+      "y": 4865
     },
     {
       "category": "collection",
@@ -1599,8 +1599,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3544.0,
-      "y": 4645.0
+      "x": 3544,
+      "y": 4645
     },
     {
       "category": "collection",
@@ -1609,8 +1609,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3415.0,
-      "y": 5000.0
+      "x": 3415,
+      "y": 5000
     },
     {
       "category": "collection",
@@ -1619,8 +1619,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3543.0,
-      "y": 4973.0
+      "x": 3543,
+      "y": 4973
     },
     {
       "category": "collection",
@@ -1629,8 +1629,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3581.0,
-      "y": 4981.0
+      "x": 3581,
+      "y": 4981
     },
     {
       "category": "collection",
@@ -1639,8 +1639,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3689.0,
-      "y": 5032.0
+      "x": 3689,
+      "y": 5032
     },
     {
       "category": "collection",
@@ -1649,8 +1649,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2703.0,
-      "y": 4813.0
+      "x": 2703,
+      "y": 4813
     },
     {
       "category": "collection",
@@ -1659,40 +1659,40 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2735.0,
-      "y": 5018.0
+      "x": 2735,
+      "y": 5018
     },
     {
       "category": "location",
       "id": "d9ec9c1a-f0e2-47bf-88ee-fcc36ac7122c",
       "name": "AmurahtaSurveillanceBase",
       "type": "occupation",
-      "x": 5127.0,
-      "y": 2349.0
+      "x": 5127,
+      "y": 2349
     },
     {
       "category": "location",
       "id": "bfc3d2db-954a-4380-aec7-b3dfebfd3bbe",
       "name": "BarahtaExterminationUnitOutpost",
       "type": "occupation",
-      "x": 5968.0,
-      "y": 3097.0
+      "x": 5968,
+      "y": 3097
     },
     {
       "category": "location",
       "id": "c1af9bf8-1edf-4683-b485-0179b51580f2",
       "name": "AndshaForwardBase",
       "type": "occupation",
-      "x": 5829.0,
-      "y": 2538.0
+      "x": 5829,
+      "y": 2538
     },
     {
       "category": "location",
       "id": "040023d2-dce5-4975-81bb-f66d05fa718f",
       "name": "GraverobberDen",
       "type": "occupation",
-      "x": 2772.0,
-      "y": 5175.0
+      "x": 2772,
+      "y": 5175
     },
     {
       "category": "collection",
@@ -1701,8 +1701,8 @@
       "name": "",
       "region": "SouthernGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5527.0,
-      "y": 3125.0
+      "x": 5527,
+      "y": 3125
     },
     {
       "category": "collection",
@@ -1711,8 +1711,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5701.0,
-      "y": 3072.0
+      "x": 5701,
+      "y": 3072
     },
     {
       "category": "collection",
@@ -1721,8 +1721,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5743.0,
-      "y": 3088.0
+      "x": 5743,
+      "y": 3088
     },
     {
       "category": "collection",
@@ -1731,8 +1731,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5685.0,
-      "y": 3109.0
+      "x": 5685,
+      "y": 3109
     },
     {
       "category": "collection",
@@ -1741,8 +1741,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5700.0,
-      "y": 3122.0
+      "x": 5700,
+      "y": 3122
     },
     {
       "category": "collection",
@@ -1751,8 +1751,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5720.0,
-      "y": 3137.0
+      "x": 5720,
+      "y": 3137
     },
     {
       "category": "collection",
@@ -1761,8 +1761,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5692.0,
-      "y": 3132.0
+      "x": 5692,
+      "y": 3132
     },
     {
       "category": "collection",
@@ -1771,8 +1771,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5665.0,
-      "y": 3142.0
+      "x": 5665,
+      "y": 3142
     },
     {
       "category": "collection",
@@ -1781,8 +1781,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5684.0,
-      "y": 3168.0
+      "x": 5684,
+      "y": 3168
     },
     {
       "category": "collection",
@@ -1791,8 +1791,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5661.0,
-      "y": 3159.0
+      "x": 5661,
+      "y": 3159
     },
     {
       "category": "collection",
@@ -1801,8 +1801,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5624.0,
-      "y": 3166.0
+      "x": 5624,
+      "y": 3166
     },
     {
       "category": "collection",
@@ -1811,8 +1811,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4975.0,
-      "y": 2332.0
+      "x": 4975,
+      "y": 2332
     },
     {
       "category": "collection",
@@ -1821,8 +1821,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4986.0,
-      "y": 2662.0
+      "x": 4986,
+      "y": 2662
     },
     {
       "category": "collection",
@@ -1831,8 +1831,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5424.0,
-      "y": 2454.0
+      "x": 5424,
+      "y": 2454
     },
     {
       "category": "collection",
@@ -1841,8 +1841,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 5173.0,
-      "y": 5220.0
+      "x": 5173,
+      "y": 5220
     },
     {
       "category": "collection",
@@ -1851,8 +1851,8 @@
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
-      "x": 5238.0,
-      "y": 5270.0
+      "x": 5238,
+      "y": 5270
     },
     {
       "category": "collection",
@@ -1861,8 +1861,8 @@
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
-      "x": 5481.0,
-      "y": 5255.0
+      "x": 5481,
+      "y": 5255
     },
     {
       "category": "collection",
@@ -1871,8 +1871,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 4012.0,
-      "y": 4251.0
+      "x": 4012,
+      "y": 4251
     },
     {
       "category": "collection",
@@ -1881,8 +1881,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2117.0,
-      "y": 4546.0
+      "x": 2117,
+      "y": 4546
     },
     {
       "category": "collection",
@@ -1891,8 +1891,8 @@
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
-      "x": 2331.0,
-      "y": 4546.0
+      "x": 2331,
+      "y": 4546
     },
     {
       "category": "collection",
@@ -1901,8 +1901,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2396.0,
-      "y": 4516.0
+      "x": 2396,
+      "y": 4516
     },
     {
       "category": "collection",
@@ -1911,8 +1911,8 @@
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
-      "x": 2543.0,
-      "y": 4740.0
+      "x": 2543,
+      "y": 4740
     },
     {
       "category": "collection",
@@ -1921,8 +1921,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2410.0,
-      "y": 4903.0
+      "x": 2410,
+      "y": 4903
     },
     {
       "category": "collection",
@@ -1931,8 +1931,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2427.0,
-      "y": 4916.0
+      "x": 2427,
+      "y": 4916
     },
     {
       "category": "collection",
@@ -1941,8 +1941,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2493.0,
-      "y": 4922.0
+      "x": 2493,
+      "y": 4922
     },
     {
       "category": "collection",
@@ -1951,8 +1951,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2581.0,
-      "y": 4824.0
+      "x": 2581,
+      "y": 4824
     },
     {
       "category": "collection",
@@ -1961,8 +1961,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2619.0,
-      "y": 4838.0
+      "x": 2619,
+      "y": 4838
     },
     {
       "category": "collection",
@@ -1971,8 +1971,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2598.0,
-      "y": 4911.0
+      "x": 2598,
+      "y": 4911
     },
     {
       "category": "collection",
@@ -1981,8 +1981,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1882.0,
-      "y": 2181.0
+      "x": 1882,
+      "y": 2181
     },
     {
       "category": "collection",
@@ -1991,8 +1991,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1872.0,
-      "y": 2112.0
+      "x": 1872,
+      "y": 2112
     },
     {
       "category": "collection",
@@ -2001,8 +2001,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1881.0,
-      "y": 2014.0
+      "x": 1881,
+      "y": 2014
     },
     {
       "category": "collection",
@@ -2011,8 +2011,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1891.0,
-      "y": 2010.0
+      "x": 1891,
+      "y": 2010
     },
     {
       "category": "collection",
@@ -2021,8 +2021,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1892.0,
-      "y": 1966.0
+      "x": 1892,
+      "y": 1966
     },
     {
       "category": "collection",
@@ -2031,8 +2031,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1934.0,
-      "y": 1934.0
+      "x": 1934,
+      "y": 1934
     },
     {
       "category": "collection",
@@ -2041,8 +2041,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1936.0,
-      "y": 1805.0
+      "x": 1936,
+      "y": 1805
     },
     {
       "category": "collection",
@@ -2051,8 +2051,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2063.0,
-      "y": 2011.0
+      "x": 2063,
+      "y": 2011
     },
     {
       "category": "collection",
@@ -2061,8 +2061,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2047.0,
-      "y": 1957.0
+      "x": 2047,
+      "y": 1957
     },
     {
       "category": "collection",
@@ -2071,8 +2071,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2106.0,
-      "y": 1944.0
+      "x": 2106,
+      "y": 1944
     },
     {
       "category": "collection",
@@ -2081,8 +2081,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2099.0,
-      "y": 1883.0
+      "x": 2099,
+      "y": 1883
     },
     {
       "category": "collection",
@@ -2091,8 +2091,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2039.0,
-      "y": 1858.0
+      "x": 2039,
+      "y": 1858
     },
     {
       "category": "collection",
@@ -2101,8 +2101,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2158.0,
-      "y": 1788.0
+      "x": 2158,
+      "y": 1788
     },
     {
       "category": "collection",
@@ -2111,8 +2111,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2078.0,
-      "y": 1771.0
+      "x": 2078,
+      "y": 1771
     },
     {
       "category": "collection",
@@ -2121,8 +2121,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2253.0,
-      "y": 1778.0
+      "x": 2253,
+      "y": 1778
     },
     {
       "category": "collection",
@@ -2131,8 +2131,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2256.0,
-      "y": 1825.0
+      "x": 2256,
+      "y": 1825
     },
     {
       "category": "collection",
@@ -2141,8 +2141,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2273.0,
-      "y": 1909.0
+      "x": 2273,
+      "y": 1909
     },
     {
       "category": "collection",
@@ -2151,8 +2151,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2354.0,
-      "y": 1886.0
+      "x": 2354,
+      "y": 1886
     },
     {
       "category": "collection",
@@ -2161,8 +2161,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2216.0,
-      "y": 2003.0
+      "x": 2216,
+      "y": 2003
     },
     {
       "category": "collection",
@@ -2171,8 +2171,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2313.0,
-      "y": 2009.0
+      "x": 2313,
+      "y": 2009
     },
     {
       "category": "collection",
@@ -2181,8 +2181,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2212.0,
-      "y": 2091.0
+      "x": 2212,
+      "y": 2091
     },
     {
       "category": "collection",
@@ -2191,8 +2191,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1864.0,
-      "y": 1744.0
+      "x": 1864,
+      "y": 1744
     },
     {
       "category": "collection",
@@ -2201,8 +2201,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1836.0,
-      "y": 1650.0
+      "x": 1836,
+      "y": 1650
     },
     {
       "category": "collection",
@@ -2211,8 +2211,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1911.0,
-      "y": 1615.0
+      "x": 1911,
+      "y": 1615
     },
     {
       "category": "collection",
@@ -2221,8 +2221,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1898.0,
-      "y": 1628.0
+      "x": 1898,
+      "y": 1628
     },
     {
       "category": "collection",
@@ -2231,8 +2231,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1986.0,
-      "y": 1629.0
+      "x": 1986,
+      "y": 1629
     },
     {
       "category": "collection",
@@ -2241,8 +2241,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1959.0,
-      "y": 1705.0
+      "x": 1959,
+      "y": 1705
     },
     {
       "category": "collection",
@@ -2251,8 +2251,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1983.0,
-      "y": 1680.0
+      "x": 1983,
+      "y": 1680
     },
     {
       "category": "collection",
@@ -2261,8 +2261,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2094.0,
-      "y": 1665.0
+      "x": 2094,
+      "y": 1665
     },
     {
       "category": "collection",
@@ -2271,8 +2271,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2264.0,
-      "y": 1702.0
+      "x": 2264,
+      "y": 1702
     },
     {
       "category": "collection",
@@ -2281,8 +2281,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2204.0,
-      "y": 1695.0
+      "x": 2204,
+      "y": 1695
     },
     {
       "category": "collection",
@@ -2291,8 +2291,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2207.0,
-      "y": 1654.0
+      "x": 2207,
+      "y": 1654
     },
     {
       "category": "collection",
@@ -2301,8 +2301,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2011.0,
-      "y": 1476.0
+      "x": 2011,
+      "y": 1476
     },
     {
       "category": "collection",
@@ -2311,8 +2311,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2231.0,
-      "y": 1623.0
+      "x": 2231,
+      "y": 1623
     },
     {
       "category": "collection",
@@ -2321,8 +2321,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2168.0,
-      "y": 1663.0
+      "x": 2168,
+      "y": 1663
     },
     {
       "category": "collection",
@@ -2331,8 +2331,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1758.0,
-      "y": 1549.0
+      "x": 1758,
+      "y": 1549
     },
     {
       "category": "collection",
@@ -2341,8 +2341,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2330.0,
-      "y": 1500.0
+      "x": 2330,
+      "y": 1500
     },
     {
       "category": "collection",
@@ -2351,8 +2351,8 @@
       "name": "",
       "region": "DredgionCrashSite",
       "type": "monolithMaterial",
-      "x": 3316.0,
-      "y": 4816.0
+      "x": 3316,
+      "y": 4816
     },
     {
       "category": "collection",
@@ -2361,8 +2361,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 4913.0,
-      "y": 3325.0
+      "x": 4913,
+      "y": 3325
     },
     {
       "category": "collection",
@@ -2371,8 +2371,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5021.0,
-      "y": 3398.0
+      "x": 5021,
+      "y": 3398
     },
     {
       "category": "collection",
@@ -2381,8 +2381,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5029.0,
-      "y": 3216.0
+      "x": 5029,
+      "y": 3216
     },
     {
       "category": "collection",
@@ -2391,8 +2391,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 4926.0,
-      "y": 3500.0
+      "x": 4926,
+      "y": 3500
     },
     {
       "category": "collection",
@@ -2401,8 +2401,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5099.0,
-      "y": 3275.0
+      "x": 5099,
+      "y": 3275
     },
     {
       "category": "collection",
@@ -2411,8 +2411,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5128.0,
-      "y": 3261.0
+      "x": 5128,
+      "y": 3261
     },
     {
       "category": "collection",
@@ -2421,8 +2421,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 5175.0,
-      "y": 3506.0
+      "x": 5175,
+      "y": 3506
     },
     {
       "category": "collection",
@@ -2431,8 +2431,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 5207.0,
-      "y": 3530.0
+      "x": 5207,
+      "y": 3530
     },
     {
       "category": "collection",
@@ -2441,8 +2441,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 5277.0,
-      "y": 3482.0
+      "x": 5277,
+      "y": 3482
     },
     {
       "category": "collection",
@@ -2451,8 +2451,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 5398.0,
-      "y": 3413.0
+      "x": 5398,
+      "y": 3413
     },
     {
       "category": "collection",
@@ -2461,8 +2461,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5518.0,
-      "y": 3303.0
+      "x": 5518,
+      "y": 3303
     },
     {
       "category": "collection",
@@ -2471,8 +2471,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5552.0,
-      "y": 3273.0
+      "x": 5552,
+      "y": 3273
     },
     {
       "category": "collection",
@@ -2481,8 +2481,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5703.0,
-      "y": 3436.0
+      "x": 5703,
+      "y": 3436
     },
     {
       "category": "collection",
@@ -2491,8 +2491,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5732.0,
-      "y": 3284.0
+      "x": 5732,
+      "y": 3284
     },
     {
       "category": "collection",
@@ -2501,8 +2501,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5818.0,
-      "y": 3273.0
+      "x": 5818,
+      "y": 3273
     },
     {
       "category": "collection",
@@ -2511,8 +2511,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5223.0,
-      "y": 3254.0
+      "x": 5223,
+      "y": 3254
     },
     {
       "category": "collection",
@@ -2521,8 +2521,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5297.0,
-      "y": 3197.0
+      "x": 5297,
+      "y": 3197
     },
     {
       "category": "collection",
@@ -2531,8 +2531,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5379.0,
-      "y": 3219.0
+      "x": 5379,
+      "y": 3219
     },
     {
       "category": "collection",
@@ -2541,8 +2541,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5120.0,
-      "y": 3202.0
+      "x": 5120,
+      "y": 3202
     },
     {
       "category": "collection",
@@ -2551,8 +2551,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5372.0,
-      "y": 3160.0
+      "x": 5372,
+      "y": 3160
     },
     {
       "category": "collection",
@@ -2561,8 +2561,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5364.0,
-      "y": 3117.0
+      "x": 5364,
+      "y": 3117
     },
     {
       "category": "collection",
@@ -2571,8 +2571,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5449.0,
-      "y": 3105.0
+      "x": 5449,
+      "y": 3105
     },
     {
       "category": "collection",
@@ -2581,8 +2581,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5154.0,
-      "y": 3084.0
+      "x": 5154,
+      "y": 3084
     },
     {
       "category": "collection",
@@ -2591,8 +2591,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5325.0,
-      "y": 2742.0
+      "x": 5325,
+      "y": 2742
     },
     {
       "category": "collection",
@@ -2601,8 +2601,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5092.0,
-      "y": 2755.0
+      "x": 5092,
+      "y": 2755
     },
     {
       "category": "collection",
@@ -2611,8 +2611,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5074.0,
-      "y": 2709.0
+      "x": 5074,
+      "y": 2709
     },
     {
       "category": "collection",
@@ -2621,8 +2621,8 @@
       "name": "",
       "region": "SouthernGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5709.0,
-      "y": 2993.0
+      "x": 5709,
+      "y": 2993
     },
     {
       "category": "collection",
@@ -2631,8 +2631,8 @@
       "name": "",
       "region": "SouthernGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5355.0,
-      "y": 2893.0
+      "x": 5355,
+      "y": 2893
     },
     {
       "category": "collection",
@@ -2641,8 +2641,8 @@
       "name": "",
       "region": "SouthernGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5509.0,
-      "y": 2757.0
+      "x": 5509,
+      "y": 2757
     },
     {
       "category": "collection",
@@ -2651,8 +2651,8 @@
       "name": "",
       "region": "SouthernGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5649.0,
-      "y": 2910.0
+      "x": 5649,
+      "y": 2910
     },
     {
       "category": "collection",
@@ -2661,8 +2661,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4995.0,
-      "y": 2600.0
+      "x": 4995,
+      "y": 2600
     },
     {
       "category": "collection",
@@ -2671,8 +2671,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5182.0,
-      "y": 2649.0
+      "x": 5182,
+      "y": 2649
     },
     {
       "category": "collection",
@@ -2681,8 +2681,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5312.0,
-      "y": 2649.0
+      "x": 5312,
+      "y": 2649
     },
     {
       "category": "collection",
@@ -2691,8 +2691,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5227.0,
-      "y": 2392.0
+      "x": 5227,
+      "y": 2392
     },
     {
       "category": "collection",
@@ -2701,8 +2701,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5276.0,
-      "y": 2371.0
+      "x": 5276,
+      "y": 2371
     },
     {
       "category": "collection",
@@ -2711,8 +2711,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5346.0,
-      "y": 2496.0
+      "x": 5346,
+      "y": 2496
     },
     {
       "category": "collection",
@@ -2721,8 +2721,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5450.0,
-      "y": 2512.0
+      "x": 5450,
+      "y": 2512
     },
     {
       "category": "collection",
@@ -2731,8 +2731,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5495.0,
-      "y": 2490.0
+      "x": 5495,
+      "y": 2490
     },
     {
       "category": "collection",
@@ -2741,8 +2741,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5509.0,
-      "y": 2479.0
+      "x": 5509,
+      "y": 2479
     },
     {
       "category": "collection",
@@ -2751,8 +2751,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5530.0,
-      "y": 2509.0
+      "x": 5530,
+      "y": 2509
     },
     {
       "category": "collection",
@@ -2761,8 +2761,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5615.0,
-      "y": 2586.0
+      "x": 5615,
+      "y": 2586
     },
     {
       "category": "collection",
@@ -2771,8 +2771,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5676.0,
-      "y": 2575.0
+      "x": 5676,
+      "y": 2575
     },
     {
       "category": "collection",
@@ -2781,8 +2781,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5766.0,
-      "y": 2573.0
+      "x": 5766,
+      "y": 2573
     },
     {
       "category": "collection",
@@ -2791,8 +2791,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5785.0,
-      "y": 2511.0
+      "x": 5785,
+      "y": 2511
     },
     {
       "category": "collection",
@@ -2801,8 +2801,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5914.0,
-      "y": 2714.0
+      "x": 5914,
+      "y": 2714
     },
     {
       "category": "collection",
@@ -2811,8 +2811,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5801.0,
-      "y": 2437.0
+      "x": 5801,
+      "y": 2437
     },
     {
       "category": "collection",
@@ -2821,8 +2821,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5849.0,
-      "y": 2389.0
+      "x": 5849,
+      "y": 2389
     },
     {
       "category": "collection",
@@ -2831,8 +2831,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5826.0,
-      "y": 2323.0
+      "x": 5826,
+      "y": 2323
     },
     {
       "category": "collection",
@@ -2841,8 +2841,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5777.0,
-      "y": 2431.0
+      "x": 5777,
+      "y": 2431
     },
     {
       "category": "collection",
@@ -2851,8 +2851,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5741.0,
-      "y": 2416.0
+      "x": 5741,
+      "y": 2416
     },
     {
       "category": "collection",
@@ -2861,8 +2861,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5691.0,
-      "y": 2411.0
+      "x": 5691,
+      "y": 2411
     },
     {
       "category": "collection",
@@ -2871,8 +2871,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5645.0,
-      "y": 2397.0
+      "x": 5645,
+      "y": 2397
     },
     {
       "category": "collection",
@@ -2881,8 +2881,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5629.0,
-      "y": 2386.0
+      "x": 5629,
+      "y": 2386
     },
     {
       "category": "collection",
@@ -2891,8 +2891,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5584.0,
-      "y": 2373.0
+      "x": 5584,
+      "y": 2373
     },
     {
       "category": "collection",
@@ -2901,8 +2901,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5552.0,
-      "y": 2378.0
+      "x": 5552,
+      "y": 2378
     },
     {
       "category": "collection",
@@ -2911,8 +2911,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5522.0,
-      "y": 2386.0
+      "x": 5522,
+      "y": 2386
     },
     {
       "category": "collection",
@@ -2921,8 +2921,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5391.0,
-      "y": 2387.0
+      "x": 5391,
+      "y": 2387
     },
     {
       "category": "collection",
@@ -2931,8 +2931,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5445.0,
-      "y": 2359.0
+      "x": 5445,
+      "y": 2359
     },
     {
       "category": "collection",
@@ -2941,8 +2941,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5403.0,
-      "y": 2311.0
+      "x": 5403,
+      "y": 2311
     },
     {
       "category": "collection",
@@ -2951,8 +2951,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5510.0,
-      "y": 2327.0
+      "x": 5510,
+      "y": 2327
     },
     {
       "category": "collection",
@@ -2961,8 +2961,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5496.0,
-      "y": 2288.0
+      "x": 5496,
+      "y": 2288
     },
     {
       "category": "collection",
@@ -2971,8 +2971,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5969.0,
-      "y": 2456.0
+      "x": 5969,
+      "y": 2456
     },
     {
       "category": "collection",
@@ -2981,8 +2981,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 6074.0,
-      "y": 2513.0
+      "x": 6074,
+      "y": 2513
     },
     {
       "category": "collection",
@@ -2991,8 +2991,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 6220.0,
-      "y": 2577.0
+      "x": 6220,
+      "y": 2577
     },
     {
       "category": "collection",
@@ -3001,8 +3001,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 6291.0,
-      "y": 2767.0
+      "x": 6291,
+      "y": 2767
     },
     {
       "category": "collection",
@@ -3011,8 +3011,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 6207.0,
-      "y": 2364.0
+      "x": 6207,
+      "y": 2364
     },
     {
       "category": "collection",
@@ -3021,8 +3021,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5941.0,
-      "y": 2283.0
+      "x": 5941,
+      "y": 2283
     },
     {
       "category": "collection",
@@ -3031,8 +3031,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 6010.0,
-      "y": 2947.0
+      "x": 6010,
+      "y": 2947
     },
     {
       "category": "collection",
@@ -3041,8 +3041,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5927.0,
-      "y": 3064.0
+      "x": 5927,
+      "y": 3064
     },
     {
       "category": "collection",
@@ -3051,8 +3051,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5911.0,
-      "y": 3298.0
+      "x": 5911,
+      "y": 3298
     },
     {
       "category": "collection",
@@ -3061,8 +3061,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 6075.0,
-      "y": 3239.0
+      "x": 6075,
+      "y": 3239
     },
     {
       "category": "collection",
@@ -3071,8 +3071,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5962.0,
-      "y": 3096.0
+      "x": 5962,
+      "y": 3096
     },
     {
       "category": "collection",
@@ -3081,8 +3081,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5933.0,
-      "y": 3528.0
+      "x": 5933,
+      "y": 3528
     },
     {
       "category": "collection",
@@ -3091,8 +3091,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 6089.0,
-      "y": 3470.0
+      "x": 6089,
+      "y": 3470
     },
     {
       "category": "collection",
@@ -3101,8 +3101,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 5298.0,
-      "y": 3572.0
+      "x": 5298,
+      "y": 3572
     },
     {
       "category": "collection",
@@ -3111,8 +3111,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 4967.0,
-      "y": 3669.0
+      "x": 4967,
+      "y": 3669
     },
     {
       "category": "collection",
@@ -3121,8 +3121,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 5084.0,
-      "y": 3644.0
+      "x": 5084,
+      "y": 3644
     },
     {
       "category": "collection",
@@ -3131,8 +3131,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 5223.0,
-      "y": 3807.0
+      "x": 5223,
+      "y": 3807
     },
     {
       "category": "collection",
@@ -3141,8 +3141,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 5381.0,
-      "y": 3853.0
+      "x": 5381,
+      "y": 3853
     },
     {
       "category": "collection",
@@ -3151,8 +3151,8 @@
       "name": "",
       "region": "MahindelCliff",
       "type": "monolithMaterial",
-      "x": 5542.0,
-      "y": 4075.0
+      "x": 5542,
+      "y": 4075
     },
     {
       "category": "collection",
@@ -3161,8 +3161,8 @@
       "name": "",
       "region": "MahindelCliff",
       "type": "monolithMaterial",
-      "x": 5444.0,
-      "y": 4245.0
+      "x": 5444,
+      "y": 4245
     },
     {
       "category": "collection",
@@ -3171,8 +3171,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4935.0,
-      "y": 4220.0
+      "x": 4935,
+      "y": 4220
     },
     {
       "category": "collection",
@@ -3181,8 +3181,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4976.0,
-      "y": 4288.0
+      "x": 4976,
+      "y": 4288
     },
     {
       "category": "collection",
@@ -3191,8 +3191,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 5083.0,
-      "y": 4301.0
+      "x": 5083,
+      "y": 4301
     },
     {
       "category": "collection",
@@ -3201,8 +3201,8 @@
       "name": "",
       "region": "MahindelCliff",
       "type": "monolithMaterial",
-      "x": 6055.0,
-      "y": 4061.0
+      "x": 6055,
+      "y": 4061
     },
     {
       "category": "collection",
@@ -3211,8 +3211,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5480.0,
-      "y": 5096.0
+      "x": 5480,
+      "y": 5096
     },
     {
       "category": "collection",
@@ -3221,8 +3221,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5630.0,
-      "y": 5067.0
+      "x": 5630,
+      "y": 5067
     },
     {
       "category": "collection",
@@ -3231,8 +3231,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5437.0,
-      "y": 4968.0
+      "x": 5437,
+      "y": 4968
     },
     {
       "category": "collection",
@@ -3241,8 +3241,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5420.0,
-      "y": 4907.0
+      "x": 5420,
+      "y": 4907
     },
     {
       "category": "collection",
@@ -3251,8 +3251,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5762.0,
-      "y": 4966.0
+      "x": 5762,
+      "y": 4966
     },
     {
       "category": "collection",
@@ -3261,8 +3261,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5817.0,
-      "y": 5184.0
+      "x": 5817,
+      "y": 5184
     },
     {
       "category": "collection",
@@ -3271,8 +3271,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5938.0,
-      "y": 5060.0
+      "x": 5938,
+      "y": 5060
     },
     {
       "category": "collection",
@@ -3281,8 +3281,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5992.0,
-      "y": 4984.0
+      "x": 5992,
+      "y": 4984
     },
     {
       "category": "collection",
@@ -3291,8 +3291,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5980.0,
-      "y": 4876.0
+      "x": 5980,
+      "y": 4876
     },
     {
       "category": "collection",
@@ -3301,8 +3301,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5898.0,
-      "y": 4851.0
+      "x": 5898,
+      "y": 4851
     },
     {
       "category": "collection",
@@ -3311,8 +3311,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5886.0,
-      "y": 4951.0
+      "x": 5886,
+      "y": 4951
     },
     {
       "category": "collection",
@@ -3321,8 +3321,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5667.0,
-      "y": 4777.0
+      "x": 5667,
+      "y": 4777
     },
     {
       "category": "collection",
@@ -3331,8 +3331,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5607.0,
-      "y": 4598.0
+      "x": 5607,
+      "y": 4598
     },
     {
       "category": "collection",
@@ -3341,8 +3341,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5530.0,
-      "y": 4595.0
+      "x": 5530,
+      "y": 4595
     },
     {
       "category": "collection",
@@ -3354,8 +3354,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4591.0,
-      "y": 4336.0
+      "x": 4591,
+      "y": 4336
     },
     {
       "category": "collection",
@@ -3364,8 +3364,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5443.0,
-      "y": 4762.0
+      "x": 5443,
+      "y": 4762
     },
     {
       "category": "collection",
@@ -3374,8 +3374,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4614.0,
-      "y": 4200.0
+      "x": 4614,
+      "y": 4200
     },
     {
       "category": "collection",
@@ -3384,8 +3384,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5443.0,
-      "y": 4712.0
+      "x": 5443,
+      "y": 4712
     },
     {
       "category": "collection",
@@ -3394,8 +3394,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5361.0,
-      "y": 4736.0
+      "x": 5361,
+      "y": 4736
     },
     {
       "category": "collection",
@@ -3404,8 +3404,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4912.0,
-      "y": 4358.0
+      "x": 4912,
+      "y": 4358
     },
     {
       "category": "collection",
@@ -3413,8 +3413,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4892.0,
-      "y": 4467.0
+      "x": 4892,
+      "y": 4467
     },
     {
       "category": "collection",
@@ -3423,8 +3423,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 6118.0,
-      "y": 5495.0
+      "x": 6118,
+      "y": 5495
     },
     {
       "category": "collection",
@@ -3433,8 +3433,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 6160.0,
-      "y": 5464.0
+      "x": 6160,
+      "y": 5464
     },
     {
       "category": "collection",
@@ -3443,8 +3443,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 6001.0,
-      "y": 5278.0
+      "x": 6001,
+      "y": 5278
     },
     {
       "category": "collection",
@@ -3453,8 +3453,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4959.0,
-      "y": 4353.0
+      "x": 4959,
+      "y": 4353
     },
     {
       "category": "collection",
@@ -3463,8 +3463,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 6100.0,
-      "y": 5181.0
+      "x": 6100,
+      "y": 5181
     },
     {
       "category": "collection",
@@ -3473,8 +3473,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 6193.0,
-      "y": 5148.0
+      "x": 6193,
+      "y": 5148
     },
     {
       "category": "collection",
@@ -3483,8 +3483,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5775.0,
-      "y": 5234.0
+      "x": 5775,
+      "y": 5234
     },
     {
       "category": "collection",
@@ -3493,8 +3493,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5808.0,
-      "y": 5367.0
+      "x": 5808,
+      "y": 5367
     },
     {
       "category": "collection",
@@ -3503,8 +3503,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5719.0,
-      "y": 5302.0
+      "x": 5719,
+      "y": 5302
     },
     {
       "category": "collection",
@@ -3513,8 +3513,8 @@
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
-      "x": 5415.0,
-      "y": 5359.0
+      "x": 5415,
+      "y": 5359
     },
     {
       "category": "collection",
@@ -3523,8 +3523,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 5268.0,
-      "y": 5377.0
+      "x": 5268,
+      "y": 5377
     },
     {
       "category": "collection",
@@ -3533,8 +3533,8 @@
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
-      "x": 5313.0,
-      "y": 5237.0
+      "x": 5313,
+      "y": 5237
     },
     {
       "category": "collection",
@@ -3543,8 +3543,8 @@
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
-      "x": 5392.0,
-      "y": 5276.0
+      "x": 5392,
+      "y": 5276
     },
     {
       "category": "collection",
@@ -3583,8 +3583,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5898.0,
-      "y": 2071.0
+      "x": 5898,
+      "y": 2071
     },
     {
       "category": "collection",
@@ -3593,8 +3593,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5759.0,
-      "y": 2117.0
+      "x": 5759,
+      "y": 2117
     },
     {
       "category": "collection",
@@ -3603,8 +3603,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5747.0,
-      "y": 2216.0
+      "x": 5747,
+      "y": 2216
     },
     {
       "category": "collection",
@@ -3613,8 +3613,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5926.0,
-      "y": 2258.0
+      "x": 5926,
+      "y": 2258
     },
     {
       "category": "collection",
@@ -3623,8 +3623,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5510.0,
-      "y": 2257.0
+      "x": 5510,
+      "y": 2257
     },
     {
       "category": "collection",
@@ -3633,8 +3633,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5549.0,
-      "y": 2266.0
+      "x": 5549,
+      "y": 2266
     },
     {
       "category": "collection",
@@ -3643,8 +3643,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2587.0,
-      "y": 5080.0
+      "x": 2587,
+      "y": 5080
     },
     {
       "category": "collection",
@@ -3653,8 +3653,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5364.0,
-      "y": 2289.0
+      "x": 5364,
+      "y": 2289
     },
     {
       "category": "collection",
@@ -3663,8 +3663,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5308.0,
-      "y": 2290.0
+      "x": 5308,
+      "y": 2290
     },
     {
       "category": "collection",
@@ -3673,8 +3673,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2565.0,
-      "y": 4999.0
+      "x": 2565,
+      "y": 4999
     },
     {
       "category": "collection",
@@ -3683,8 +3683,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5249.0,
-      "y": 2241.0
+      "x": 5249,
+      "y": 2241
     },
     {
       "category": "collection",
@@ -3693,8 +3693,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2431.0,
-      "y": 4968.0
+      "x": 2431,
+      "y": 4968
     },
     {
       "category": "collection",
@@ -3703,8 +3703,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2732.0,
-      "y": 4789.0
+      "x": 2732,
+      "y": 4789
     },
     {
       "category": "collection",
@@ -3713,8 +3713,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4988.0,
-      "y": 2626.0
+      "x": 4988,
+      "y": 2626
     },
     {
       "category": "collection",
@@ -3723,8 +3723,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4915.0,
-      "y": 2495.0
+      "x": 4915,
+      "y": 2495
     },
     {
       "category": "collection",
@@ -3733,8 +3733,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5019.0,
-      "y": 2253.0
+      "x": 5019,
+      "y": 2253
     },
     {
       "category": "collection",
@@ -3743,8 +3743,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5130.0,
-      "y": 2128.0
+      "x": 5130,
+      "y": 2128
     },
     {
       "category": "collection",
@@ -3753,8 +3753,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5202.0,
-      "y": 2067.0
+      "x": 5202,
+      "y": 2067
     },
     {
       "category": "collection",
@@ -3763,8 +3763,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5216.0,
-      "y": 1980.0
+      "x": 5216,
+      "y": 1980
     },
     {
       "category": "collection",
@@ -3773,8 +3773,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4230.0,
-      "y": 4553.0
+      "x": 4230,
+      "y": 4553
     },
     {
       "category": "collection",
@@ -3783,8 +3783,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4380.0,
-      "y": 4485.0
+      "x": 4380,
+      "y": 4485
     },
     {
       "category": "collection",
@@ -3793,8 +3793,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4669.0,
-      "y": 4297.0
+      "x": 4669,
+      "y": 4297
     },
     {
       "category": "collection",
@@ -3803,8 +3803,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4518.0,
-      "y": 4089.0
+      "x": 4518,
+      "y": 4089
     },
     {
       "category": "collection",
@@ -3813,8 +3813,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4423.0,
-      "y": 4080.0
+      "x": 4423,
+      "y": 4080
     },
     {
       "category": "collection",
@@ -3823,8 +3823,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4359.0,
-      "y": 4091.0
+      "x": 4359,
+      "y": 4091
     },
     {
       "category": "collection",
@@ -3833,8 +3833,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4425.0,
-      "y": 4182.0
+      "x": 4425,
+      "y": 4182
     },
     {
       "category": "collection",
@@ -3843,8 +3843,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4113.0,
-      "y": 4295.0
+      "x": 4113,
+      "y": 4295
     },
     {
       "category": "collection",
@@ -3853,8 +3853,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4352.0,
-      "y": 4309.0
+      "x": 4352,
+      "y": 4309
     },
     {
       "category": "collection",
@@ -3863,8 +3863,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4334.0,
-      "y": 4327.0
+      "x": 4334,
+      "y": 4327
     },
     {
       "category": "collection",
@@ -3873,8 +3873,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3918.0,
-      "y": 3932.0
+      "x": 3918,
+      "y": 3932
     },
     {
       "category": "collection",
@@ -3883,8 +3883,8 @@
       "name": "",
       "region": "SilentHill",
       "type": "monolithMaterial",
-      "x": 2174.0,
-      "y": 4621.0
+      "x": 2174,
+      "y": 4621
     },
     {
       "category": "collection",
@@ -3893,8 +3893,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2198.0,
-      "y": 4348.0
+      "x": 2198,
+      "y": 4348
     },
     {
       "category": "collection",
@@ -3903,8 +3903,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2349.0,
-      "y": 4387.0
+      "x": 2349,
+      "y": 4387
     },
     {
       "category": "collection",
@@ -3913,8 +3913,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2452.0,
-      "y": 4357.0
+      "x": 2452,
+      "y": 4357
     },
     {
       "category": "collection",
@@ -3923,8 +3923,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2708.0,
-      "y": 4445.0
+      "x": 2708,
+      "y": 4445
     },
     {
       "category": "collection",
@@ -3933,8 +3933,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2753.0,
-      "y": 4474.0
+      "x": 2753,
+      "y": 4474
     },
     {
       "category": "collection",
@@ -3943,32 +3943,32 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2716.0,
-      "y": 4388.0
+      "x": 2716,
+      "y": 4388
     },
     {
       "category": "location",
       "id": "0c0d2a5e-69ae-472a-bdf1-d832e88fd393",
       "name": "加罗利克检查站",
       "type": "teleport",
-      "x": 3137.0,
-      "y": 5106.0
+      "x": 3137,
+      "y": 5106
     },
     {
       "category": "location",
       "id": "cbcc0101-733f-4e9a-a293-e19f5d7074ef",
       "name": "临时调查基地",
       "type": "teleport",
-      "x": 3480.0,
-      "y": 4924.0
+      "x": 3480,
+      "y": 4924
     },
     {
       "category": "location",
       "id": "efab6a62-116f-4094-9504-1b01265c690c",
       "name": "克雷恩营地",
       "type": "teleport",
-      "x": 3113.0,
-      "y": 4813.0
+      "x": 3113,
+      "y": 4813
     },
     {
       "category": "collection",
@@ -3977,8 +3977,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2619.0,
-      "y": 5384.0
+      "x": 2619,
+      "y": 5384
     },
     {
       "category": "collection",
@@ -3987,8 +3987,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2478.0,
-      "y": 5398.0
+      "x": 2478,
+      "y": 5398
     },
     {
       "category": "collection",
@@ -3997,16 +3997,16 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2665.0,
-      "y": 5284.0
+      "x": 2665,
+      "y": 5284
     },
     {
       "category": "location",
       "id": "8604d431-75ee-4f51-a650-a2a0dda4808e",
       "name": "奎灵营地",
       "type": "teleport",
-      "x": 2975.0,
-      "y": 4758.0
+      "x": 2975,
+      "y": 4758
     },
     {
       "category": "collection",
@@ -4015,8 +4015,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2790.0,
-      "y": 5142.0
+      "x": 2790,
+      "y": 5142
     },
     {
       "category": "collection",
@@ -4025,16 +4025,16 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2688.0,
-      "y": 5206.0
+      "x": 2688,
+      "y": 5206
     },
     {
       "category": "location",
       "id": "e99196c6-ce75-4d69-bd11-804612b57af6",
       "name": "守墓人营帐",
       "type": "teleport",
-      "x": 2573.0,
-      "y": 4874.0
+      "x": 2573,
+      "y": 4874
     },
     {
       "category": "collection",
@@ -4043,8 +4043,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2644.0,
-      "y": 5127.0
+      "x": 2644,
+      "y": 5127
     },
     {
       "category": "collection",
@@ -4053,8 +4053,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2561.0,
-      "y": 5228.0
+      "x": 2561,
+      "y": 5228
     },
     {
       "category": "collection",
@@ -4063,8 +4063,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2496.0,
-      "y": 5165.0
+      "x": 2496,
+      "y": 5165
     },
     {
       "category": "collection",
@@ -4073,8 +4073,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2369.0,
-      "y": 5171.0
+      "x": 2369,
+      "y": 5171
     },
     {
       "category": "collection",
@@ -4083,8 +4083,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2465.0,
-      "y": 5075.0
+      "x": 2465,
+      "y": 5075
     },
     {
       "category": "collection",
@@ -4093,8 +4093,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2336.0,
-      "y": 4997.0
+      "x": 2336,
+      "y": 4997
     },
     {
       "category": "collection",
@@ -4103,8 +4103,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2295.0,
-      "y": 5013.0
+      "x": 2295,
+      "y": 5013
     },
     {
       "category": "collection",
@@ -4113,120 +4113,120 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2778.0,
-      "y": 4911.0
+      "x": 2778,
+      "y": 4911
     },
     {
       "category": "location",
       "id": "6b0aad24-d60e-43f1-9cfc-bbc8699160f6",
       "name": "泥泞营地",
       "type": "teleport",
-      "x": 3317.0,
-      "y": 4508.0
+      "x": 3317,
+      "y": 4508
     },
     {
       "category": "location",
       "id": "512c397f-8fe7-477e-b208-4c3be4aa1dc6",
       "name": "临时避难所",
       "type": "teleport",
-      "x": 2560.0,
-      "y": 4230.0
+      "x": 2560,
+      "y": 4230
     },
     {
       "category": "location",
       "id": "f0cd2d1d-c511-46d0-ac8f-d87e1b403a31",
       "name": "闲置火葬场",
       "type": "teleport",
-      "x": 2380.0,
-      "y": 5059.0
+      "x": 2380,
+      "y": 5059
     },
     {
       "category": "location",
       "id": "2cf193b1-f876-466d-8401-8b477c7f7d9d",
       "name": "监视者帐篷",
       "type": "teleport",
-      "x": 3045.0,
-      "y": 4461.0
+      "x": 3045,
+      "y": 4461
     },
     {
       "category": "location",
       "id": "4b3b9d9e-1a67-4f83-97bd-8c7c9df2f6a3",
       "name": "獠牙藏身处",
       "type": "teleport",
-      "x": 2686.0,
-      "y": 4618.0
+      "x": 2686,
+      "y": 4618
     },
     {
       "category": "location",
       "id": "8f531a98-21db-4ee3-bf22-bda775c0ef07",
       "name": "奥达尔之影",
       "type": "teleport",
-      "x": 3590.0,
-      "y": 4092.0
+      "x": 3590,
+      "y": 4092
     },
     {
       "category": "location",
       "id": "482756f6-381c-4c36-bc34-61628a4e52f9",
       "name": "倒塌的缝隙",
       "type": "teleport",
-      "x": 3531.0,
-      "y": 3856.0
+      "x": 3531,
+      "y": 3856
     },
     {
       "category": "location",
       "id": "bce83c68-93c8-4d91-a280-ae7bb4954d3f",
       "name": "以琳休息处",
       "type": "teleport",
-      "x": 3646.0,
-      "y": 3583.0
+      "x": 3646,
+      "y": 3583
     },
     {
       "category": "location",
       "id": "98cd9084-9c40-4ab5-a026-ba01f2c488f9",
       "name": "森林藏身处",
       "type": "teleport",
-      "x": 3975.0,
-      "y": 3939.0
+      "x": 3975,
+      "y": 3939
     },
     {
       "category": "location",
       "id": "7d7e8375-f470-46aa-adb1-11c265fb6e8f",
       "name": "废弃遗址",
       "type": "teleport",
-      "x": 4081.0,
-      "y": 4148.0
+      "x": 4081,
+      "y": 4148
     },
     {
       "category": "location",
       "id": "ab94ef03-23cb-400f-a20b-1e035692ff43",
       "name": "米努亚遗址",
       "type": "teleport",
-      "x": 4384.0,
-      "y": 4114.0
+      "x": 4384,
+      "y": 4114
     },
     {
       "category": "location",
       "id": "4f5e49cf-04d4-48aa-8f56-0e40725ac85e",
       "name": "胜战守护者石像",
       "type": "teleport",
-      "x": 4215.0,
-      "y": 4546.0
+      "x": 4215,
+      "y": 4546
     },
     {
       "category": "location",
       "id": "b1fc4738-5118-4697-bfaa-022da10caa9e",
       "name": "诺尔尼尔集会所",
       "type": "teleport",
-      "x": 4836.0,
-      "y": 4350.0
+      "x": 4836,
+      "y": 4350
     },
     {
       "category": "location",
       "id": "9b5a83d8-754c-4d59-b7df-21de2bfba4dc",
       "name": "引导人休息处",
       "type": "teleport",
-      "x": 4770.0,
-      "y": 4746.0
+      "x": 4770,
+      "y": 4746
     },
     {
       "category": "collection",
@@ -4235,8 +4235,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6337.0,
-      "y": 6568.0
+      "x": 6337,
+      "y": 6568
     },
     {
       "category": "collection",
@@ -4245,16 +4245,16 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6383.0,
-      "y": 6548.0
+      "x": 6383,
+      "y": 6548
     },
     {
       "category": "location",
       "id": "ffe758e2-dae9-44be-8554-43f23f9f885e",
       "name": "褐色树桩",
       "type": "teleport",
-      "x": 4717.0,
-      "y": 4985.0
+      "x": 4717,
+      "y": 4985
     },
     {
       "category": "collection",
@@ -4263,8 +4263,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6415.0,
-      "y": 6520.0
+      "x": 6415,
+      "y": 6520
     },
     {
       "category": "collection",
@@ -4273,16 +4273,16 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6370.0,
-      "y": 6484.0
+      "x": 6370,
+      "y": 6484
     },
     {
       "category": "location",
       "id": "e77a8d0d-32c7-46c3-90ac-2f82550ddf77",
       "name": "恢复之泉",
       "type": "teleport",
-      "x": 4275.0,
-      "y": 4678.0
+      "x": 4275,
+      "y": 4678
     },
     {
       "category": "collection",
@@ -4291,8 +4291,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6373.0,
-      "y": 6416.0
+      "x": 6373,
+      "y": 6416
     },
     {
       "category": "collection",
@@ -4301,16 +4301,16 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6340.0,
-      "y": 6367.0
+      "x": 6340,
+      "y": 6367
     },
     {
       "category": "location",
       "id": "796f5f5a-aa48-4511-a4c6-5602fa48d1fb",
       "name": "寒风避难处",
       "type": "teleport",
-      "x": 4550.0,
-      "y": 5282.0
+      "x": 4550,
+      "y": 5282
     },
     {
       "category": "collection",
@@ -4319,16 +4319,16 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6256.0,
-      "y": 6372.0
+      "x": 6256,
+      "y": 6372
     },
     {
       "category": "location",
       "id": "632e6555-63e3-49ac-8104-fda497751bac",
       "name": "隐身洞穴",
       "type": "teleport",
-      "x": 4706.0,
-      "y": 6079.0
+      "x": 4706,
+      "y": 6079
     },
     {
       "category": "collection",
@@ -4337,8 +4337,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6602.0,
-      "y": 6449.0
+      "x": 6602,
+      "y": 6449
     },
     {
       "category": "collection",
@@ -4347,8 +4347,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6566.0,
-      "y": 6403.0
+      "x": 6566,
+      "y": 6403
     },
     {
       "category": "collection",
@@ -4357,8 +4357,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6558.0,
-      "y": 6355.0
+      "x": 6558,
+      "y": 6355
     },
     {
       "category": "collection",
@@ -4367,8 +4367,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6561.0,
-      "y": 6261.0
+      "x": 6561,
+      "y": 6261
     },
     {
       "category": "collection",
@@ -4377,16 +4377,16 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6506.0,
-      "y": 6369.0
+      "x": 6506,
+      "y": 6369
     },
     {
       "category": "location",
       "id": "e77abaac-0c11-4cb7-b4c3-c510f95cd3b4",
       "name": "巴斯斐尔特瀑布",
       "type": "teleport",
-      "x": 5466.0,
-      "y": 5431.0
+      "x": 5466,
+      "y": 5431
     },
     {
       "category": "collection",
@@ -4395,8 +4395,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6515.0,
-      "y": 6407.0
+      "x": 6515,
+      "y": 6407
     },
     {
       "category": "collection",
@@ -4405,8 +4405,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6470.0,
-      "y": 6125.0
+      "x": 6470,
+      "y": 6125
     },
     {
       "category": "collection",
@@ -4415,8 +4415,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6364.0,
-      "y": 6186.0
+      "x": 6364,
+      "y": 6186
     },
     {
       "category": "collection",
@@ -4425,16 +4425,16 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6369.0,
-      "y": 6242.0
+      "x": 6369,
+      "y": 6242
     },
     {
       "category": "location",
       "id": "630af72c-ab1b-4195-9639-d56ca9df1160",
       "name": "盗墓者营地",
       "type": "teleport",
-      "x": 5504.0,
-      "y": 5050.0
+      "x": 5504,
+      "y": 5050
     },
     {
       "category": "collection",
@@ -4443,8 +4443,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6315.0,
-      "y": 6177.0
+      "x": 6315,
+      "y": 6177
     },
     {
       "category": "collection",
@@ -4453,8 +4453,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6259.0,
-      "y": 6199.0
+      "x": 6259,
+      "y": 6199
     },
     {
       "category": "collection",
@@ -4463,8 +4463,8 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6278.0,
-      "y": 6249.0
+      "x": 6278,
+      "y": 6249
     },
     {
       "category": "collection",
@@ -4473,24 +4473,24 @@
       "name": "",
       "region": "SpiritIsle",
       "type": "monolithMaterial",
-      "x": 6130.0,
-      "y": 6231.0
+      "x": 6130,
+      "y": 6231
     },
     {
       "category": "location",
       "id": "058a9c30-f2cb-437a-a1d0-5acdfc8aeaa0",
       "name": "缝隙洞穴",
       "type": "teleport",
-      "x": 5983.0,
-      "y": 5026.0
+      "x": 5983,
+      "y": 5026
     },
     {
       "category": "location",
       "id": "199e16d5-d8cc-4752-8682-e2840181e3eb",
       "name": "斯拉克摊位",
       "type": "teleport",
-      "x": 5405.0,
-      "y": 4729.0
+      "x": 5405,
+      "y": 4729
     },
     {
       "category": "collection",
@@ -4499,8 +4499,8 @@
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
-      "x": 5451.0,
-      "y": 6341.0
+      "x": 5451,
+      "y": 6341
     },
     {
       "category": "collection",
@@ -4509,8 +4509,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 5198.0,
-      "y": 6010.0
+      "x": 5198,
+      "y": 6010
     },
     {
       "category": "collection",
@@ -4519,16 +4519,16 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4692.0,
-      "y": 5767.0
+      "x": 4692,
+      "y": 5767
     },
     {
       "category": "location",
       "id": "e3f8a5ed-0e86-4029-82b3-715813a4c52b",
       "name": "玛辛戴尔峭壁",
       "type": "teleport",
-      "x": 5503.0,
-      "y": 4267.0
+      "x": 5503,
+      "y": 4267
     },
     {
       "category": "collection",
@@ -4537,8 +4537,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4890.0,
-      "y": 5876.0
+      "x": 4890,
+      "y": 5876
     },
     {
       "category": "collection",
@@ -4547,16 +4547,16 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4838.0,
-      "y": 5935.0
+      "x": 4838,
+      "y": 5935
     },
     {
       "category": "location",
       "id": "25e68d55-af39-4b75-9ae6-dee8fccc8745",
       "name": "钢铁之锤贸易团总部",
       "type": "teleport",
-      "x": 5754.0,
-      "y": 4041.0
+      "x": 5754,
+      "y": 4041
     },
     {
       "category": "collection",
@@ -4565,8 +4565,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4715.0,
-      "y": 5841.0
+      "x": 4715,
+      "y": 5841
     },
     {
       "category": "collection",
@@ -4575,16 +4575,16 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4869.0,
-      "y": 6011.0
+      "x": 4869,
+      "y": 6011
     },
     {
       "category": "location",
       "id": "a170edd9-a6ca-4bdd-bc8b-56d09319bd3b",
       "name": "钢铁之锤作业场",
       "type": "teleport",
-      "x": 5354.0,
-      "y": 3633.0
+      "x": 5354,
+      "y": 3633
     },
     {
       "category": "collection",
@@ -4593,8 +4593,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4724.0,
-      "y": 6069.0
+      "x": 4724,
+      "y": 6069
     },
     {
       "category": "collection",
@@ -4603,8 +4603,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4640.0,
-      "y": 6050.0
+      "x": 4640,
+      "y": 6050
     },
     {
       "category": "collection",
@@ -4613,16 +4613,16 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4642.0,
-      "y": 6028.0
+      "x": 4642,
+      "y": 6028
     },
     {
       "category": "location",
       "id": "ca0d8ff8-53d4-4f0d-9809-d27b00e5de52",
       "name": "废弃营地",
       "type": "teleport",
-      "x": 5162.0,
-      "y": 3331.0
+      "x": 5162,
+      "y": 3331
     },
     {
       "category": "collection",
@@ -4631,8 +4631,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4648.0,
-      "y": 5950.0
+      "x": 4648,
+      "y": 5950
     },
     {
       "category": "collection",
@@ -4641,8 +4641,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4474.0,
-      "y": 5923.0
+      "x": 4474,
+      "y": 5923
     },
     {
       "category": "collection",
@@ -4651,32 +4651,32 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4522.0,
-      "y": 5799.0
+      "x": 4522,
+      "y": 5799
     },
     {
       "category": "location",
       "id": "77e7fdd0-7841-4a59-a7d6-730ea6e7c8d9",
       "name": "阿蒙塔藏身处",
       "type": "teleport",
-      "x": 5837.0,
-      "y": 3473.0
+      "x": 5837,
+      "y": 3473
     },
     {
       "category": "location",
       "id": "423dd28e-38f8-485c-ac6e-78e64b42dc75",
       "name": "钢铁之锤临时交易站",
       "type": "teleport",
-      "x": 5716.0,
-      "y": 2986.0
+      "x": 5716,
+      "y": 2986
     },
     {
       "category": "location",
       "id": "abd39397-188f-4936-8e5b-2684ea2d3056",
       "name": "伊顿湖",
       "type": "teleport",
-      "x": 5501.0,
-      "y": 3116.0
+      "x": 5501,
+      "y": 3116
     },
     {
       "category": "collection",
@@ -4685,8 +4685,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4589.0,
-      "y": 5421.0
+      "x": 4589,
+      "y": 5421
     },
     {
       "category": "collection",
@@ -4695,8 +4695,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4702.0,
-      "y": 5483.0
+      "x": 4702,
+      "y": 5483
     },
     {
       "category": "collection",
@@ -4705,8 +4705,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4555.0,
-      "y": 5290.0
+      "x": 4555,
+      "y": 5290
     },
     {
       "category": "collection",
@@ -4715,32 +4715,32 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4363.0,
-      "y": 5117.0
+      "x": 4363,
+      "y": 5117
     },
     {
       "category": "location",
       "id": "8604b130-2595-495c-9d0c-ad1d0a43015d",
       "name": "库莉卡的地下室",
       "type": "teleport",
-      "x": 4913.0,
-      "y": 2565.0
+      "x": 4913,
+      "y": 2565
     },
     {
       "category": "location",
       "id": "0d3361fa-1fe8-470d-a32c-b3a751b76345",
       "name": "引导人处所",
       "type": "teleport",
-      "x": 6421.0,
-      "y": 6261.0
+      "x": 6421,
+      "y": 6261
     },
     {
       "category": "location",
       "id": "ead85cb3-f90b-436f-8c71-e87466615263",
       "name": "寂静山丘海岸峭壁",
       "type": "teleport",
-      "x": 2054.0,
-      "y": 4574.0
+      "x": 2054,
+      "y": 4574
     },
     {
       "category": "collection",
@@ -4759,8 +4759,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4370.0,
-      "y": 5585.0
+      "x": 4370,
+      "y": 5585
     },
     {
       "category": "collection",
@@ -4769,16 +4769,16 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4436.0,
-      "y": 5357.0
+      "x": 4436,
+      "y": 5357
     },
     {
       "category": "location",
       "id": "866b477b-f740-4cbf-9936-67d03ab39ba1",
       "name": "尽头摊位",
       "type": "teleport",
-      "x": 5351.0,
-      "y": 2323.0
+      "x": 5351,
+      "y": 2323
     },
     {
       "category": "collection",
@@ -4787,8 +4787,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4522.0,
-      "y": 5594.0
+      "x": 4522,
+      "y": 5594
     },
     {
       "category": "collection",
@@ -4797,24 +4797,24 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4683.0,
-      "y": 5515.0
+      "x": 4683,
+      "y": 5515
     },
     {
       "category": "location",
       "id": "3326a25b-ef9c-4bdf-82ec-a197ac6d9873",
       "name": "倒塌的名誉殿堂",
       "type": "teleport",
-      "x": 5444.0,
-      "y": 2471.0
+      "x": 5444,
+      "y": 2471
     },
     {
       "category": "location",
       "id": "e56e5382-a616-4658-8a1a-75246f9ced22",
       "name": "寂静山丘蘑菇岩",
       "type": "teleport",
-      "x": 2199.0,
-      "y": 4671.0
+      "x": 2199,
+      "y": 4671
     },
     {
       "category": "collection",
@@ -4823,32 +4823,32 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 6001.0,
-      "y": 1970.0
+      "x": 6001,
+      "y": 1970
     },
     {
       "category": "location",
       "id": "6c875bc5-5546-42cb-a29f-936e8420169d",
       "name": "简卡卡之坟",
       "type": "teleport",
-      "x": 5391.0,
-      "y": 2895.0
+      "x": 5391,
+      "y": 2895
     },
     {
       "category": "location",
       "id": "ec26d90d-5842-478e-ac16-c01261d1998d",
       "name": "秘密会面点",
       "type": "teleport",
-      "x": 4973.0,
-      "y": 2632.0
+      "x": 4973,
+      "y": 2632
     },
     {
       "category": "location",
       "id": "37ee2bb5-44df-441a-98d5-5e640dd82c61",
       "name": "圣所监视哨所空中岛",
       "type": "teleport",
-      "x": 2696.0,
-      "y": 3761.0
+      "x": 2696,
+      "y": 3761
     },
     {
       "category": "collection",
@@ -4857,8 +4857,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 6008.0,
-      "y": 1853.0
+      "x": 6008,
+      "y": 1853
     },
     {
       "category": "collection",
@@ -4867,8 +4867,8 @@
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
-      "x": 2856.0,
-      "y": 4309.0
+      "x": 2856,
+      "y": 4309
     },
     {
       "category": "collection",
@@ -4877,8 +4877,8 @@
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
-      "x": 2989.0,
-      "y": 4201.0
+      "x": 2989,
+      "y": 4201
     },
     {
       "category": "collection",
@@ -4887,8 +4887,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2716.0,
-      "y": 4293.0
+      "x": 2716,
+      "y": 4293
     },
     {
       "category": "collection",
@@ -4897,8 +4897,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2415.0,
-      "y": 4113.0
+      "x": 2415,
+      "y": 4113
     },
     {
       "category": "collection",
@@ -4907,8 +4907,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2402.0,
-      "y": 4014.0
+      "x": 2402,
+      "y": 4014
     },
     {
       "category": "collection",
@@ -4917,8 +4917,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2298.0,
-      "y": 3971.0
+      "x": 2298,
+      "y": 3971
     },
     {
       "category": "collection",
@@ -4927,8 +4927,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1988.0,
-      "y": 1987.0
+      "x": 1988,
+      "y": 1987
     },
     {
       "category": "collection",
@@ -4937,8 +4937,8 @@
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
-      "x": 5749.0,
-      "y": 5710.0
+      "x": 5749,
+      "y": 5710
     },
     {
       "category": "collection",
@@ -4947,8 +4947,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 5139.0,
-      "y": 5320.0
+      "x": 5139,
+      "y": 5320
     },
     {
       "category": "collection",
@@ -4957,32 +4957,32 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 5138.0,
-      "y": 5212.0
+      "x": 5138,
+      "y": 5212
     },
     {
       "category": "location",
       "id": "607f0ea0-c35a-402f-b4d0-455ad4fb38db",
       "name": "玛斯兰森林乾枯阴影",
       "type": "teleport",
-      "x": 3679.0,
-      "y": 3811.0
+      "x": 3679,
+      "y": 3811
     },
     {
       "category": "location",
       "id": "365d9f9a-51dd-41a0-b08c-6ca116d6292b",
       "name": "孤岛",
       "type": "teleport",
-      "x": 1971.0,
-      "y": 3329.0
+      "x": 1971,
+      "y": 3329
     },
     {
       "category": "location",
       "id": "016c9caa-52b4-409f-a76c-2d5a34952cc2",
       "name": "波涛汹涌的峭壁",
       "type": "teleport",
-      "x": 2891.0,
-      "y": 3469.0
+      "x": 2891,
+      "y": 3469
     },
     {
       "category": "collection",
@@ -4991,8 +4991,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 5081.0,
-      "y": 5439.0
+      "x": 5081,
+      "y": 5439
     },
     {
       "category": "collection",
@@ -5001,32 +5001,32 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 5038.0,
-      "y": 5586.0
+      "x": 5038,
+      "y": 5586
     },
     {
       "category": "location",
       "id": "e09b367e-57fe-4d7c-a1ad-7a3d73946969",
       "name": "巴斯斐尔特瀑布拱形地带",
       "type": "teleport",
-      "x": 5724.0,
-      "y": 5709.0
+      "x": 5724,
+      "y": 5709
     },
     {
       "category": "location",
       "id": "1f34e08b-0013-4200-b81c-68e10896752e",
       "name": "巴斯斐尔特废墟峭壁",
       "type": "teleport",
-      "x": 5673.0,
-      "y": 4553.0
+      "x": 5673,
+      "y": 4553
     },
     {
       "category": "location",
       "id": "9b75392f-ff16-4259-a1e1-2bf8c6663c40",
       "name": "玛斯兰森林峭壁",
       "type": "teleport",
-      "x": 3171.0,
-      "y": 4005.0
+      "x": 3171,
+      "y": 4005
     },
     {
       "category": "collection",
@@ -5035,8 +5035,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 5068.0,
-      "y": 4934.0
+      "x": 5068,
+      "y": 4934
     },
     {
       "category": "collection",
@@ -5045,16 +5045,16 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 5109.0,
-      "y": 4925.0
+      "x": 5109,
+      "y": 4925
     },
     {
       "category": "location",
       "id": "c018133e-61f2-42d6-b62c-d396588739ea",
       "name": "净化之森照射阳光山丘",
       "type": "teleport",
-      "x": 5191.0,
-      "y": 4922.0
+      "x": 5191,
+      "y": 4922
     },
     {
       "category": "collection",
@@ -5063,8 +5063,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 4880.0,
-      "y": 5029.0
+      "x": 4880,
+      "y": 5029
     },
     {
       "category": "collection",
@@ -5073,16 +5073,16 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4271.0,
-      "y": 4984.0
+      "x": 4271,
+      "y": 4984
     },
     {
       "category": "location",
       "id": "e6051ac2-9041-47af-8954-ccd67df5c56e",
       "name": "葛利巴德丘陵地岔路",
       "type": "teleport",
-      "x": 5461.0,
-      "y": 3952.0
+      "x": 5461,
+      "y": 3952
     },
     {
       "category": "collection",
@@ -5091,8 +5091,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4181.0,
-      "y": 4701.0
+      "x": 4181,
+      "y": 4701
     },
     {
       "category": "collection",
@@ -5101,16 +5101,16 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4391.0,
-      "y": 4652.0
+      "x": 4391,
+      "y": 4652
     },
     {
       "category": "location",
       "id": "3af1f44f-25af-4d15-87fb-23af8ae88ae5",
       "name": "激战之丘峭壁尽头",
       "type": "teleport",
-      "x": 5073.0,
-      "y": 5588.0
+      "x": 5073,
+      "y": 5588
     },
     {
       "category": "collection",
@@ -5119,8 +5119,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4495.0,
-      "y": 4708.0
+      "x": 4495,
+      "y": 4708
     },
     {
       "category": "collection",
@@ -5129,16 +5129,16 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4500.0,
-      "y": 4786.0
+      "x": 4500,
+      "y": 4786
     },
     {
       "category": "location",
       "id": "b7a70bb3-5215-4d7d-98cb-f209dc57271c",
       "name": "净化之森海岸峭壁",
       "type": "teleport",
-      "x": 5049.0,
-      "y": 4692.0
+      "x": 5049,
+      "y": 4692
     },
     {
       "category": "collection",
@@ -5147,8 +5147,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 2174.0,
-      "y": 1976.0
+      "x": 2174,
+      "y": 1976
     },
     {
       "category": "collection",
@@ -5157,8 +5157,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4806.0,
-      "y": 4527.0
+      "x": 4806,
+      "y": 4527
     },
     {
       "category": "collection",
@@ -5166,8 +5166,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4796.0,
-      "y": 4758.0
+      "x": 4796,
+      "y": 4758
     },
     {
       "category": "collection",
@@ -5176,8 +5176,8 @@
       "name": "",
       "region": "ImmortalIsle",
       "type": "monolithMaterial",
-      "x": 1840.0,
-      "y": 1394.0
+      "x": 1840,
+      "y": 1394
     },
     {
       "category": "collection",
@@ -5186,16 +5186,16 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4725.0,
-      "y": 4968.0
+      "x": 4725,
+      "y": 4968
     },
     {
       "category": "location",
       "id": "b434614a-2dee-4f4d-b7d5-b2cab87757f6",
       "name": "德拉那克图斯海岸",
       "type": "teleport",
-      "x": 5072.0,
-      "y": 5928.0
+      "x": 5072,
+      "y": 5928
     },
     {
       "category": "collection",
@@ -5204,48 +5204,48 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4938.0,
-      "y": 4972.0
+      "x": 4938,
+      "y": 4972
     },
     {
       "category": "location",
       "id": "c2763a6e-f761-43bd-8e45-53c12cebfbba",
       "name": "葛利巴德丘陵地东部悬崖",
       "type": "teleport",
-      "x": 5823.0,
-      "y": 3204.0
+      "x": 5823,
+      "y": 3204
     },
     {
       "category": "location",
       "id": "69ebaccf-53b9-42ac-b350-fb5ac8579aba",
       "name": "特拉内因丘陵地桥墩下",
       "type": "teleport",
-      "x": 3260.0,
-      "y": 4449.0
+      "x": 3260,
+      "y": 4449
     },
     {
       "category": "location",
       "id": "978251b7-1792-48d9-acc1-703e623d4c97",
       "name": "葛利巴德丘陵地东部尾岛",
       "type": "teleport",
-      "x": 6266.0,
-      "y": 3843.0
+      "x": 6266,
+      "y": 3843
     },
     {
       "category": "location",
       "id": "8cdb6566-7f34-4879-b278-244349999cda",
       "name": "因派图西姆下面的路",
       "type": "teleport",
-      "x": 5192.0,
-      "y": 2169.0
+      "x": 5192,
+      "y": 2169
     },
     {
       "category": "location",
       "id": "6a36d238-f45f-4b79-bd94-a238cf73d779",
       "name": "乌尔通海姆峭壁",
       "type": "teleport",
-      "x": 4587.0,
-      "y": 4126.0
+      "x": 4587,
+      "y": 4126
     },
     {
       "category": "collection",
@@ -5254,8 +5254,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4760.0,
-      "y": 5607.0
+      "x": 4760,
+      "y": 5607
     },
     {
       "category": "collection",
@@ -5264,8 +5264,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4842.0,
-      "y": 5560.0
+      "x": 4842,
+      "y": 5560
     },
     {
       "category": "collection",
@@ -5274,8 +5274,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 4708.0,
-      "y": 5387.0
+      "x": 4708,
+      "y": 5387
     },
     {
       "category": "collection",
@@ -5284,8 +5284,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 4847.0,
-      "y": 5356.0
+      "x": 4847,
+      "y": 5356
     },
     {
       "category": "collection",
@@ -5294,8 +5294,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 4925.0,
-      "y": 5359.0
+      "x": 4925,
+      "y": 5359
     },
     {
       "category": "collection",
@@ -5304,8 +5304,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5661.0,
-      "y": 2267.0
+      "x": 5661,
+      "y": 2267
     },
     {
       "category": "collection",
@@ -5314,8 +5314,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5665.0,
-      "y": 2234.0
+      "x": 5665,
+      "y": 2234
     },
     {
       "category": "collection",
@@ -5324,8 +5324,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5688.0,
-      "y": 2276.0
+      "x": 5688,
+      "y": 2276
     },
     {
       "category": "collection",
@@ -5334,8 +5334,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4778.0,
-      "y": 2240.0
+      "x": 4778,
+      "y": 2240
     },
     {
       "category": "collection",
@@ -5344,8 +5344,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4076.0,
-      "y": 2465.0
+      "x": 4076,
+      "y": 2465
     },
     {
       "category": "collection",
@@ -5354,8 +5354,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 3932.0,
-      "y": 2848.0
+      "x": 3932,
+      "y": 2848
     },
     {
       "category": "collection",
@@ -5364,8 +5364,8 @@
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
-      "x": 3272.0,
-      "y": 4459.0
+      "x": 3272,
+      "y": 4459
     },
     {
       "category": "collection",
@@ -5374,8 +5374,8 @@
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
-      "x": 3008.0,
-      "y": 4316.0
+      "x": 3008,
+      "y": 4316
     },
     {
       "category": "collection",
@@ -5384,8 +5384,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2162.0,
-      "y": 4390.0
+      "x": 2162,
+      "y": 4390
     },
     {
       "category": "collection",
@@ -5394,8 +5394,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4001.0,
-      "y": 2472.0
+      "x": 4001,
+      "y": 2472
     },
     {
       "category": "collection",
@@ -5404,8 +5404,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4139.0,
-      "y": 2431.0
+      "x": 4139,
+      "y": 2431
     },
     {
       "category": "collection",
@@ -5414,8 +5414,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4041.0,
-      "y": 2344.0
+      "x": 4041,
+      "y": 2344
     },
     {
       "category": "collection",
@@ -5424,8 +5424,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4042.0,
-      "y": 2253.0
+      "x": 4042,
+      "y": 2253
     },
     {
       "category": "collection",
@@ -5434,8 +5434,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4173.0,
-      "y": 2323.0
+      "x": 4173,
+      "y": 2323
     },
     {
       "category": "collection",
@@ -5444,8 +5444,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 3892.0,
-      "y": 2308.0
+      "x": 3892,
+      "y": 2308
     },
     {
       "category": "collection",
@@ -5454,8 +5454,8 @@
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
-      "x": 3284.0,
-      "y": 4468.0
+      "x": 3284,
+      "y": 4468
     },
     {
       "category": "collection",
@@ -5464,8 +5464,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4332.0,
-      "y": 2478.0
+      "x": 4332,
+      "y": 2478
     },
     {
       "category": "collection",
@@ -5474,8 +5474,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4033.0,
-      "y": 2593.0
+      "x": 4033,
+      "y": 2593
     },
     {
       "category": "collection",
@@ -5484,8 +5484,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4171.0,
-      "y": 2608.0
+      "x": 4171,
+      "y": 2608
     },
     {
       "category": "collection",
@@ -5494,8 +5494,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4321.0,
-      "y": 2669.0
+      "x": 4321,
+      "y": 2669
     },
     {
       "category": "collection",
@@ -5504,8 +5504,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4048.0,
-      "y": 2436.0
+      "x": 4048,
+      "y": 2436
     },
     {
       "category": "collection",
@@ -5514,8 +5514,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4208.0,
-      "y": 2501.0
+      "x": 4208,
+      "y": 2501
     },
     {
       "category": "collection",
@@ -5524,8 +5524,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5476.0,
-      "y": 4961.0
+      "x": 5476,
+      "y": 4961
     },
     {
       "category": "collection",
@@ -5534,8 +5534,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2754.0,
-      "y": 3781.0
+      "x": 2754,
+      "y": 3781
     },
     {
       "category": "collection",
@@ -5544,8 +5544,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2431.0,
-      "y": 3954.0
+      "x": 2431,
+      "y": 3954
     },
     {
       "category": "collection",
@@ -5554,8 +5554,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2410.0,
-      "y": 5293.0
+      "x": 2410,
+      "y": 5293
     },
     {
       "category": "collection",
@@ -5564,8 +5564,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3726.0,
-      "y": 3742.0
+      "x": 3726,
+      "y": 3742
     },
     {
       "category": "collection",
@@ -5574,8 +5574,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3596.0,
-      "y": 3671.0
+      "x": 3596,
+      "y": 3671
     },
     {
       "category": "collection",
@@ -5584,8 +5584,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3685.0,
-      "y": 3531.0
+      "x": 3685,
+      "y": 3531
     },
     {
       "category": "collection",
@@ -5594,8 +5594,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3807.0,
-      "y": 3618.0
+      "x": 3807,
+      "y": 3618
     },
     {
       "category": "collection",
@@ -5604,8 +5604,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3818.0,
-      "y": 3788.0
+      "x": 3818,
+      "y": 3788
     },
     {
       "category": "collection",
@@ -5614,8 +5614,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3266.0,
-      "y": 3546.0
+      "x": 3266,
+      "y": 3546
     },
     {
       "category": "collection",
@@ -5624,8 +5624,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 4009.0,
-      "y": 3779.0
+      "x": 4009,
+      "y": 3779
     },
     {
       "category": "collection",
@@ -5634,8 +5634,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 4095.0,
-      "y": 3762.0
+      "x": 4095,
+      "y": 3762
     },
     {
       "category": "collection",
@@ -5644,8 +5644,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 4089.0,
-      "y": 3623.0
+      "x": 4089,
+      "y": 3623
     },
     {
       "category": "collection",
@@ -5654,8 +5654,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4808.0,
-      "y": 4225.0
+      "x": 4808,
+      "y": 4225
     },
     {
       "category": "collection",
@@ -5664,8 +5664,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4860.0,
-      "y": 4370.0
+      "x": 4860,
+      "y": 4370
     },
     {
       "category": "collection",
@@ -5674,8 +5674,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4844.0,
-      "y": 4487.0
+      "x": 4844,
+      "y": 4487
     },
     {
       "category": "collection",
@@ -5684,8 +5684,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4919.0,
-      "y": 4570.0
+      "x": 4919,
+      "y": 4570
     },
     {
       "category": "collection",
@@ -5694,8 +5694,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4953.0,
-      "y": 4392.0
+      "x": 4953,
+      "y": 4392
     },
     {
       "category": "collection",
@@ -5704,8 +5704,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4255.0,
-      "y": 5485.0
+      "x": 4255,
+      "y": 5485
     },
     {
       "category": "collection",
@@ -5714,8 +5714,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4830.0,
-      "y": 4650.0
+      "x": 4830,
+      "y": 4650
     },
     {
       "category": "collection",
@@ -5724,8 +5724,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4516.0,
-      "y": 5463.0
+      "x": 4516,
+      "y": 5463
     },
     {
       "category": "collection",
@@ -5734,8 +5734,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 5211.0,
-      "y": 5200.0
+      "x": 5211,
+      "y": 5200
     },
     {
       "category": "collection",
@@ -5744,8 +5744,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5855.0,
-      "y": 5166.0
+      "x": 5855,
+      "y": 5166
     },
     {
       "category": "collection",
@@ -5754,8 +5754,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2027.0,
-      "y": 3397.0
+      "x": 2027,
+      "y": 3397
     },
     {
       "category": "collection",
@@ -5764,8 +5764,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2336.0,
-      "y": 3751.0
+      "x": 2336,
+      "y": 3751
     },
     {
       "category": "collection",
@@ -5774,8 +5774,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2119.0,
-      "y": 4077.0
+      "x": 2119,
+      "y": 4077
     },
     {
       "category": "collection",
@@ -5784,8 +5784,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3347.0,
-      "y": 4191.0
+      "x": 3347,
+      "y": 4191
     },
     {
       "category": "collection",
@@ -5794,8 +5794,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3593.0,
-      "y": 3753.0
+      "x": 3593,
+      "y": 3753
     },
     {
       "category": "collection",
@@ -5804,8 +5804,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3362.0,
-      "y": 3646.0
+      "x": 3362,
+      "y": 3646
     },
     {
       "category": "collection",
@@ -5814,8 +5814,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 4895.0,
-      "y": 4263.0
+      "x": 4895,
+      "y": 4263
     },
     {
       "category": "collection",
@@ -5824,8 +5824,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 6011.0,
-      "y": 5041.0
+      "x": 6011,
+      "y": 5041
     },
     {
       "category": "collection",
@@ -5834,8 +5834,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 4964.0,
-      "y": 5486.0
+      "x": 4964,
+      "y": 5486
     },
     {
       "category": "collection",
@@ -5844,8 +5844,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4669.0,
-      "y": 5808.0
+      "x": 4669,
+      "y": 5808
     },
     {
       "category": "collection",
@@ -5854,8 +5854,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4955.0,
-      "y": 4943.0
+      "x": 4955,
+      "y": 4943
     },
     {
       "category": "collection",
@@ -5864,8 +5864,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4446.0,
-      "y": 5253.0
+      "x": 4446,
+      "y": 5253
     },
     {
       "category": "collection",
@@ -5874,8 +5874,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2327.0,
-      "y": 4183.0
+      "x": 2327,
+      "y": 4183
     },
     {
       "category": "collection",
@@ -5884,8 +5884,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2233.0,
-      "y": 4125.0
+      "x": 2233,
+      "y": 4125
     },
     {
       "category": "collection",
@@ -5894,8 +5894,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2062.0,
-      "y": 4130.0
+      "x": 2062,
+      "y": 4130
     },
     {
       "category": "collection",
@@ -5904,8 +5904,8 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 5052.0,
-      "y": 4331.0
+      "x": 5052,
+      "y": 4331
     },
     {
       "category": "collection",
@@ -5914,8 +5914,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4481.0,
-      "y": 2560.0
+      "x": 4481,
+      "y": 2560
     },
     {
       "category": "collection",
@@ -5924,8 +5924,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4603.0,
-      "y": 2482.0
+      "x": 4603,
+      "y": 2482
     },
     {
       "category": "collection",
@@ -5934,8 +5934,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4717.0,
-      "y": 2604.0
+      "x": 4717,
+      "y": 2604
     },
     {
       "category": "collection",
@@ -5944,8 +5944,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4793.0,
-      "y": 2637.0
+      "x": 4793,
+      "y": 2637
     },
     {
       "category": "collection",
@@ -5954,8 +5954,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4840.0,
-      "y": 2633.0
+      "x": 4840,
+      "y": 2633
     },
     {
       "category": "collection",
@@ -5964,8 +5964,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5022.0,
-      "y": 2537.0
+      "x": 5022,
+      "y": 2537
     },
     {
       "category": "collection",
@@ -5974,8 +5974,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 5114.0,
-      "y": 4808.0
+      "x": 5114,
+      "y": 4808
     },
     {
       "category": "collection",
@@ -5984,8 +5984,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4886.0,
-      "y": 2503.0
+      "x": 4886,
+      "y": 2503
     },
     {
       "category": "collection",
@@ -5994,8 +5994,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4751.0,
-      "y": 2457.0
+      "x": 4751,
+      "y": 2457
     },
     {
       "category": "collection",
@@ -6004,8 +6004,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5032.0,
-      "y": 2434.0
+      "x": 5032,
+      "y": 2434
     },
     {
       "category": "collection",
@@ -6014,8 +6014,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5107.0,
-      "y": 2385.0
+      "x": 5107,
+      "y": 2385
     },
     {
       "category": "collection",
@@ -6024,8 +6024,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5024.0,
-      "y": 2703.0
+      "x": 5024,
+      "y": 2703
     },
     {
       "category": "collection",
@@ -6034,8 +6034,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5202.0,
-      "y": 2604.0
+      "x": 5202,
+      "y": 2604
     },
     {
       "category": "collection",
@@ -6044,8 +6044,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5209.0,
-      "y": 2477.0
+      "x": 5209,
+      "y": 2477
     },
     {
       "category": "collection",
@@ -6054,8 +6054,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5387.0,
-      "y": 4927.0
+      "x": 5387,
+      "y": 4927
     },
     {
       "category": "collection",
@@ -6064,8 +6064,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5079.0,
-      "y": 2208.0
+      "x": 5079,
+      "y": 2208
     },
     {
       "category": "collection",
@@ -6074,8 +6074,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5519.0,
-      "y": 2444.0
+      "x": 5519,
+      "y": 2444
     },
     {
       "category": "collection",
@@ -6084,8 +6084,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4688.0,
-      "y": 4709.0
+      "x": 4688,
+      "y": 4709
     },
     {
       "category": "collection",
@@ -6094,8 +6094,8 @@
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
-      "x": 2867.0,
-      "y": 4509.0
+      "x": 2867,
+      "y": 4509
     },
     {
       "category": "collection",
@@ -6104,8 +6104,8 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2270.0,
-      "y": 4490.0
+      "x": 2270,
+      "y": 4490
     },
     {
       "category": "collection",
@@ -6114,8 +6114,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4042.0,
-      "y": 2699.0
+      "x": 4042,
+      "y": 2699
     },
     {
       "category": "collection",
@@ -6124,8 +6124,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 3767.0,
-      "y": 2470.0
+      "x": 3767,
+      "y": 2470
     },
     {
       "category": "collection",
@@ -6134,8 +6134,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 3764.0,
-      "y": 2560.0
+      "x": 3764,
+      "y": 2560
     },
     {
       "category": "collection",
@@ -6144,8 +6144,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4420.0,
-      "y": 2453.0
+      "x": 4420,
+      "y": 2453
     },
     {
       "category": "collection",
@@ -6154,8 +6154,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4398.0,
-      "y": 2528.0
+      "x": 4398,
+      "y": 2528
     },
     {
       "category": "collection",
@@ -6164,8 +6164,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4366.0,
-      "y": 2513.0
+      "x": 4366,
+      "y": 2513
     },
     {
       "category": "collection",
@@ -6174,8 +6174,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5383.0,
-      "y": 2051.0
+      "x": 5383,
+      "y": 2051
     },
     {
       "category": "collection",
@@ -6184,8 +6184,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4973.0,
-      "y": 1987.0
+      "x": 4973,
+      "y": 1987
     },
     {
       "category": "collection",
@@ -6194,8 +6194,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4723.0,
-      "y": 2394.0
+      "x": 4723,
+      "y": 2394
     },
     {
       "category": "collection",
@@ -6204,8 +6204,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3308.0,
-      "y": 4044.0
+      "x": 3308,
+      "y": 4044
     },
     {
       "category": "collection",
@@ -6214,8 +6214,8 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3822.0,
-      "y": 3830.0
+      "x": 3822,
+      "y": 3830
     },
     {
       "category": "collection",
@@ -6224,8 +6224,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4663.0,
-      "y": 4647.0
+      "x": 4663,
+      "y": 4647
     },
     {
       "category": "collection",
@@ -6234,8 +6234,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4743.0,
-      "y": 5596.0
+      "x": 4743,
+      "y": 5596
     },
     {
       "category": "collection",
@@ -6244,8 +6244,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 5431.0,
-      "y": 3597.0
+      "x": 5431,
+      "y": 3597
     },
     {
       "category": "collection",
@@ -6254,8 +6254,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 6052.0,
-      "y": 2398.0
+      "x": 6052,
+      "y": 2398
     },
     {
       "category": "collection",
@@ -6264,8 +6264,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4898.0,
-      "y": 5980.0
+      "x": 4898,
+      "y": 5980
     },
     {
       "category": "collection",
@@ -6274,8 +6274,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4441.0,
-      "y": 5912.0
+      "x": 4441,
+      "y": 5912
     },
     {
       "category": "collection",
@@ -6284,8 +6284,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4295.0,
-      "y": 5952.0
+      "x": 4295,
+      "y": 5952
     },
     {
       "category": "collection",
@@ -6294,8 +6294,8 @@
       "name": "",
       "region": "Dranactus",
       "type": "monolithMaterial",
-      "x": 4511.0,
-      "y": 5462.0
+      "x": 4511,
+      "y": 5462
     },
     {
       "category": "collection",
@@ -6304,8 +6304,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5840.0,
-      "y": 5363.0
+      "x": 5840,
+      "y": 5363
     },
     {
       "category": "collection",
@@ -6314,8 +6314,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 6177.0,
-      "y": 5125.0
+      "x": 6177,
+      "y": 5125
     },
     {
       "category": "collection",
@@ -6324,8 +6324,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 5897.0,
-      "y": 5124.0
+      "x": 5897,
+      "y": 5124
     },
     {
       "category": "collection",
@@ -6334,8 +6334,8 @@
       "name": "",
       "region": "MahindelCliff",
       "type": "monolithMaterial",
-      "x": 5524.0,
-      "y": 4363.0
+      "x": 5524,
+      "y": 4363
     },
     {
       "category": "collection",
@@ -6344,8 +6344,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 5818.0,
-      "y": 3146.0
+      "x": 5818,
+      "y": 3146
     },
     {
       "category": "collection",
@@ -6354,8 +6354,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 5296.0,
-      "y": 2863.0
+      "x": 5296,
+      "y": 2863
     },
     {
       "category": "collection",
@@ -6364,8 +6364,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5620.0,
-      "y": 1951.0
+      "x": 5620,
+      "y": 1951
     },
     {
       "category": "collection",
@@ -6374,8 +6374,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5760.0,
-      "y": 2235.0
+      "x": 5760,
+      "y": 2235
     },
     {
       "category": "collection",
@@ -6384,8 +6384,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5571.0,
-      "y": 2196.0
+      "x": 5571,
+      "y": 2196
     },
     {
       "category": "collection",
@@ -6394,8 +6394,8 @@
       "name": "",
       "region": "WesternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 4545.0,
-      "y": 2986.0
+      "x": 4545,
+      "y": 2986
     },
     {
       "category": "collection",
@@ -6404,8 +6404,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5844.0,
-      "y": 2267.0
+      "x": 5844,
+      "y": 2267
     },
     {
       "category": "collection",
@@ -6414,8 +6414,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4562.0,
-      "y": 4863.0
+      "x": 4562,
+      "y": 4863
     },
     {
       "category": "collection",
@@ -6424,8 +6424,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4587.0,
-      "y": 5142.0
+      "x": 4587,
+      "y": 5142
     },
     {
       "category": "collection",
@@ -6434,8 +6434,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4519.0,
-      "y": 5273.0
+      "x": 4519,
+      "y": 5273
     },
     {
       "category": "collection",
@@ -6444,8 +6444,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4688.0,
-      "y": 4703.0
+      "x": 4688,
+      "y": 4703
     },
     {
       "category": "collection",
@@ -6454,8 +6454,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 5240.0,
-      "y": 5222.0
+      "x": 5240,
+      "y": 5222
     },
     {
       "category": "collection",
@@ -6464,8 +6464,8 @@
       "name": "",
       "region": "Uruthumheim",
       "type": "monolithMaterial",
-      "x": 4491.0,
-      "y": 3899.0
+      "x": 4491,
+      "y": 3899
     },
     {
       "category": "collection",
@@ -6474,8 +6474,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4668.0,
-      "y": 4826.0
+      "x": 4668,
+      "y": 4826
     },
     {
       "category": "collection",
@@ -6484,8 +6484,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4484.0,
-      "y": 5022.0
+      "x": 4484,
+      "y": 5022
     },
     {
       "category": "collection",
@@ -6494,8 +6494,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4469.0,
-      "y": 4979.0
+      "x": 4469,
+      "y": 4979
     },
     {
       "category": "collection",
@@ -6504,8 +6504,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 4221.0,
-      "y": 4986.0
+      "x": 4221,
+      "y": 4986
     },
     {
       "category": "collection",
@@ -6514,8 +6514,8 @@
       "name": "",
       "region": "PurifyingForest",
       "type": "monolithMaterial",
-      "x": 5188.0,
-      "y": 5007.0
+      "x": 5188,
+      "y": 5007
     },
     {
       "category": "collection",
@@ -6524,8 +6524,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4027.0,
-      "y": 2350.0
+      "x": 4027,
+      "y": 2350
     },
     {
       "category": "collection",
@@ -6534,8 +6534,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5593.0,
-      "y": 2604.0
+      "x": 5593,
+      "y": 2604
     },
     {
       "category": "collection",
@@ -6544,8 +6544,8 @@
       "name": "",
       "region": "BasfeltWaterfall",
       "type": "monolithMaterial",
-      "x": 5686.0,
-      "y": 5844.0
+      "x": 5686,
+      "y": 5844
     },
     {
       "category": "collection",
@@ -6554,8 +6554,8 @@
       "name": "",
       "region": "BlackClawVillage",
       "type": "monolithMaterial",
-      "x": 4914.0,
-      "y": 2252.0
+      "x": 4914,
+      "y": 2252
     },
     {
       "category": "collection",
@@ -6564,8 +6564,8 @@
       "name": "",
       "region": "EasternGribadeHighland",
       "type": "monolithMaterial",
-      "x": 6512.0,
-      "y": 2959.0
+      "x": 6512,
+      "y": 2959
     },
     {
       "category": "collection",
@@ -6574,8 +6574,8 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4548.0,
-      "y": 2209.0
+      "x": 4548,
+      "y": 2209
     },
     {
       "category": "collection",
@@ -6584,8 +6584,8 @@
       "name": "",
       "region": "BasfeltRuins",
       "type": "monolithMaterial",
-      "x": 6202.0,
-      "y": 5312.0
+      "x": 6202,
+      "y": 5312
     },
     {
       "category": "collection",
@@ -6594,8 +6594,8 @@
       "name": "",
       "region": "FafniteDeposit",
       "type": "monolithMaterial",
-      "x": 5275.0,
-      "y": 3518.0
+      "x": 5275,
+      "y": 3518
     },
     {
       "category": "collection",
@@ -6604,8 +6604,8 @@
       "name": "",
       "region": "IdunsLake",
       "type": "monolithMaterial",
-      "x": 5571.0,
-      "y": 3280.0
+      "x": 5571,
+      "y": 3280
     },
     {
       "category": "collection",
@@ -6614,8 +6614,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5667.0,
-      "y": 1612.0
+      "x": 5667,
+      "y": 1612
     },
     {
       "category": "collection",
@@ -6624,88 +6624,88 @@
       "name": "",
       "region": "SanctumOutpost",
       "type": "monolithMaterial",
-      "x": 2477.0,
-      "y": 4294.0
+      "x": 2477,
+      "y": 4294
     },
     {
       "category": "collection",
       "id": "b6bd416a-1b01-4c9b-8053-44e2cea9cc6b",
       "name": "",
       "type": "hiddenCube",
-      "x": 4559.0,
-      "y": 4418.0
+      "x": 4559,
+      "y": 4418
     },
     {
       "category": "collection",
       "id": "f0adeb59-0b28-4ff9-a636-e9f78d10f45f",
       "name": "",
       "type": "hiddenCube",
-      "x": 3900.0,
-      "y": 3602.0
+      "x": 3900,
+      "y": 3602
     },
     {
       "category": "collection",
       "id": "ee30a1f7-4dbd-4140-92a7-ba03cf78a98f",
       "name": "",
       "type": "hiddenCube",
-      "x": 3649.0,
-      "y": 3706.0
+      "x": 3649,
+      "y": 3706
     },
     {
       "category": "collection",
       "id": "96ee3351-0b39-452a-a74c-1f6216f34f05",
       "name": "",
       "type": "hiddenCube",
-      "x": 5137.0,
-      "y": 2771.0
+      "x": 5137,
+      "y": 2771
     },
     {
       "category": "collection",
       "id": "f2f2f5bc-6952-4ed1-8d41-dbd44698ca4a",
       "name": "",
       "type": "hiddenCube",
-      "x": 4928.0,
-      "y": 5863.0
+      "x": 4928,
+      "y": 5863
     },
     {
       "category": "collection",
       "id": "ce26f8b1-d42b-406e-a768-122a52786c03",
       "name": "",
       "type": "hiddenCube",
-      "x": 2684.0,
-      "y": 4235.0
+      "x": 2684,
+      "y": 4235
     },
     {
       "category": "collection",
       "id": "910a7887-6561-4bfc-91b2-b2ab53194eb4",
       "name": "",
       "type": "hiddenCube",
-      "x": 5591.0,
-      "y": 4584.0
+      "x": 5591,
+      "y": 4584
     },
     {
       "category": "collection",
       "id": "bd1deb4d-00ee-47ac-a25a-896f77c92aae",
       "name": "",
       "type": "hiddenCube",
-      "x": 4984.0,
-      "y": 2689.0
+      "x": 4984,
+      "y": 2689
     },
     {
       "category": "collection",
       "id": "fdbf1e06-ed8d-4b3c-a11a-4a5c0c58e919",
       "name": "",
       "type": "hiddenCube",
-      "x": 4566.0,
-      "y": 2933.0
+      "x": 4566,
+      "y": 2933
     },
     {
       "category": "collection",
       "id": "95520e93-756f-4803-84c6-2ad499c5ae24",
       "name": "",
       "type": "hiddenCube",
-      "x": 5662.0,
-      "y": 2581.0
+      "x": 5662,
+      "y": 2581
     },
     {
       "category": "collection",
@@ -6714,8 +6714,8 @@
       "name": "",
       "region": "BattlescarMound",
       "type": "monolithMaterial",
-      "x": 5033.0,
-      "y": 5208.0
+      "x": 5033,
+      "y": 5208
     },
     {
       "category": "collection",
@@ -6727,8 +6727,8 @@
       "name": "",
       "region": "ImpetusiumSquare",
       "type": "monolithMaterial",
-      "x": 5772.0,
-      "y": 2609.0
+      "x": 5772,
+      "y": 2609
     },
     {
       "category": "collection",
@@ -6737,8 +6737,8 @@
       "name": "",
       "region": "NamelessCemetery",
       "type": "monolithMaterial",
-      "x": 2543.0,
-      "y": 5084.0
+      "x": 2543,
+      "y": 5084
     },
     {
       "category": "collection",
@@ -6747,24 +6747,24 @@
       "name": "",
       "region": "MoslanForest",
       "type": "monolithMaterial",
-      "x": 3367.0,
-      "y": 3754.0
+      "x": 3367,
+      "y": 3754
     },
     {
       "category": "collection",
       "id": "76f22d12-36d9-4ed8-a56d-f7c7c852c0f2",
       "name": "",
       "type": "hiddenCube",
-      "x": 4065.0,
-      "y": 5150.0
+      "x": 4065,
+      "y": 5150
     },
     {
       "category": "collection",
       "id": "4927ddd1-f500-4041-8003-57a9be1f6659",
       "name": "",
       "type": "hiddenCube",
-      "x": 3655.0,
-      "y": 5037.0
+      "x": 3655,
+      "y": 5037
     },
     {
       "category": "location",
@@ -6772,8 +6772,8 @@
       "name": "SafeHaven",
       "region": "SafeHaven",
       "type": "village",
-      "x": 3221.0,
-      "y": 5383.0
+      "x": 3221,
+      "y": 5383
     },
     {
       "category": "location",
@@ -6781,8 +6781,8 @@
       "name": "DredgionCrashSite",
       "region": "DredgionCrashSite",
       "type": "battlefield",
-      "x": 3276.0,
-      "y": 4905.0
+      "x": 3276,
+      "y": 4905
     },
     {
       "category": "location",
@@ -6790,8 +6790,8 @@
       "name": "CalderonCanyon",
       "region": "CalderonCanyon",
       "type": "battlefield",
-      "x": 3443.0,
-      "y": 4650.0
+      "x": 3443,
+      "y": 4650
     },
     {
       "category": "location",
@@ -6799,8 +6799,8 @@
       "name": "SanctumOutpost",
       "region": "SanctumOutpost",
       "type": "battlefield",
-      "x": 2428.0,
-      "y": 4242.0
+      "x": 2428,
+      "y": 4242
     },
     {
       "category": "location",
@@ -6808,8 +6808,8 @@
       "name": "TraneinHighland",
       "region": "TraneinHighland",
       "type": "battlefield",
-      "x": 3053.0,
-      "y": 4400.0
+      "x": 3053,
+      "y": 4400
     },
     {
       "category": "location",
@@ -6817,8 +6817,8 @@
       "name": "MoslanForest",
       "region": "MoslanForest",
       "type": "battlefield",
-      "x": 3637.0,
-      "y": 3768.0
+      "x": 3637,
+      "y": 3768
     },
     {
       "category": "location",
@@ -6826,8 +6826,8 @@
       "name": "NamelessCemetery",
       "region": "NamelessCemetery",
       "type": "battlefield",
-      "x": 2585.0,
-      "y": 5104.0
+      "x": 2585,
+      "y": 5104
     },
     {
       "category": "location",
@@ -6835,8 +6835,8 @@
       "name": "SilentHill",
       "region": "SilentHill",
       "type": "battlefield",
-      "x": 2549.0,
-      "y": 4697.0
+      "x": 2549,
+      "y": 4697
     },
     {
       "category": "location",
@@ -6844,8 +6844,8 @@
       "name": "Uruthumheim",
       "region": "Uruthumheim",
       "type": "battlefield",
-      "x": 4317.0,
-      "y": 4344.0
+      "x": 4317,
+      "y": 4344
     },
     {
       "category": "location",
@@ -6853,8 +6853,8 @@
       "name": "NornirAssembly",
       "region": "NornirAssembly",
       "type": "village",
-      "x": 4849.0,
-      "y": 4306.0
+      "x": 4849,
+      "y": 4306
     },
     {
       "category": "location",
@@ -6862,8 +6862,8 @@
       "name": "PurifyingForest",
       "region": "PurifyingForest",
       "type": "battlefield",
-      "x": 4639.0,
-      "y": 4836.0
+      "x": 4639,
+      "y": 4836
     },
     {
       "category": "location",
@@ -6871,8 +6871,8 @@
       "name": "BasfeltRuins",
       "region": "BasfeltRuins",
       "type": "battlefield",
-      "x": 5695.0,
-      "y": 4959.0
+      "x": 5695,
+      "y": 4959
     },
     {
       "category": "location",
@@ -6880,8 +6880,8 @@
       "name": "BasfeltWaterfall",
       "region": "BasfeltWaterfall",
       "type": "village",
-      "x": 5466.0,
-      "y": 5430.0
+      "x": 5466,
+      "y": 5430
     },
     {
       "category": "location",
@@ -6889,8 +6889,8 @@
       "name": "MahindelCliff",
       "region": "MahindelCliff",
       "type": "village",
-      "x": 5502.0,
-      "y": 4275.0
+      "x": 5502,
+      "y": 4275
     },
     {
       "category": "location",
@@ -6898,8 +6898,8 @@
       "name": "WesternGribadeHighland",
       "region": "WesternGribadeHighland",
       "type": "battlefield",
-      "x": 5279.0,
-      "y": 3149.0
+      "x": 5279,
+      "y": 3149
     },
     {
       "category": "location",
@@ -6907,8 +6907,8 @@
       "name": "IdunsLake",
       "region": "IdunsLake",
       "type": "battlefield",
-      "x": 5686.0,
-      "y": 3155.0
+      "x": 5686,
+      "y": 3155
     },
     {
       "category": "location",
@@ -6916,8 +6916,8 @@
       "name": "BlackClawVillage",
       "region": "BlackClawVillage",
       "type": "battlefield",
-      "x": 5017.0,
-      "y": 2555.0
+      "x": 5017,
+      "y": 2555
     },
     {
       "category": "location",
@@ -6925,8 +6925,8 @@
       "name": "SouthernGribadeHighland",
       "region": "SouthernGribadeHighland",
       "type": "battlefield",
-      "x": 5509.0,
-      "y": 3035.0
+      "x": 5509,
+      "y": 3035
     },
     {
       "category": "location",
@@ -6934,8 +6934,8 @@
       "name": "SpiritIsle",
       "region": "SpiritIsle",
       "type": "battlefield",
-      "x": 6326.0,
-      "y": 6399.0
+      "x": 6326,
+      "y": 6399
     },
     {
       "category": "location",
@@ -6943,8 +6943,8 @@
       "name": "ImmortalIsle",
       "region": "ImmortalIsle",
       "type": "battlefield",
-      "x": 2092.0,
-      "y": 1805.0
+      "x": 2092,
+      "y": 1805
     },
     {
       "category": "location",
@@ -6952,8 +6952,8 @@
       "name": "Dranactus",
       "region": "Dranactus",
       "type": "battlefield",
-      "x": 4669.0,
-      "y": 5762.0
+      "x": 4669,
+      "y": 5762
     },
     {
       "category": "location",
@@ -6961,8 +6961,8 @@
       "name": "FafniteDeposit",
       "region": "FafniteDeposit",
       "type": "battlefield",
-      "x": 5403.0,
-      "y": 3698.0
+      "x": 5403,
+      "y": 3698
     },
     {
       "category": "location",
@@ -6970,8 +6970,8 @@
       "name": "LagtaFortress",
       "region": "LagtaFortress",
       "type": "battlefield",
-      "x": 4074.0,
-      "y": 2466.0
+      "x": 4074,
+      "y": 2466
     },
     {
       "category": "location",
@@ -6979,8 +6979,8 @@
       "name": "BattlescarMound",
       "region": "BattlescarMound",
       "type": "battlefield",
-      "x": 4986.0,
-      "y": 5362.0
+      "x": 4986,
+      "y": 5362
     },
     {
       "category": "location",
@@ -6988,8 +6988,8 @@
       "name": "EasternGribadeHighland",
       "region": "EasternGribadeHighland",
       "type": "battlefield",
-      "x": 5923.0,
-      "y": 3462.0
+      "x": 5923,
+      "y": 3462
     },
     {
       "category": "location",
@@ -6997,144 +6997,144 @@
       "name": "ImpetusiumSquare",
       "region": "ImpetusiumSquare",
       "type": "battlefield",
-      "x": 5655.0,
-      "y": 2493.0
+      "x": 5655,
+      "y": 2493
     },
     {
       "category": "collection",
       "id": "29e24b59-b0f3-4b24-b992-c505e67cbd71",
       "name": "",
       "type": "hiddenCube",
-      "x": 5595.0,
-      "y": 2254.0
+      "x": 5595,
+      "y": 2254
     },
     {
       "category": "collection",
       "id": "a3e3fd57-1146-4444-933c-73318038636a",
       "name": "",
       "type": "hiddenCube",
-      "x": 6256.0,
-      "y": 2838.0
+      "x": 6256,
+      "y": 2838
     },
     {
       "category": "collection",
       "id": "1c632203-7b6a-4ac7-8907-567bbd558bf3",
       "name": "",
       "type": "hiddenCube",
-      "x": 4906.0,
-      "y": 5152.0
+      "x": 4906,
+      "y": 5152
     },
     {
       "category": "collection",
       "id": "d9a40a77-8891-4253-a1b6-b95b39b668b9",
       "name": "",
       "type": "hiddenCube",
-      "x": 5534.0,
-      "y": 2376.0
+      "x": 5534,
+      "y": 2376
     },
     {
       "category": "collection",
       "id": "1c3372db-1d80-406e-89ce-e12605c33ac6",
       "name": "",
       "type": "hiddenCube",
-      "x": 1952.0,
-      "y": 2010.0
+      "x": 1952,
+      "y": 2010
     },
     {
       "category": "collection",
       "id": "58289239-d44c-4364-9798-2617d9ef4d29",
       "name": "",
       "type": "hiddenCube",
-      "x": 3866.0,
-      "y": 2554.0
+      "x": 3866,
+      "y": 2554
     },
     {
       "category": "collection",
       "id": "50f50e56-40ae-4a78-a997-8d6937458a06",
       "name": "",
       "type": "hiddenCube",
-      "x": 4047.0,
-      "y": 2375.0
+      "x": 4047,
+      "y": 2375
     },
     {
       "category": "collection",
       "id": "fbaae4c3-f593-4837-8328-0d2464aaf821",
       "name": "",
       "type": "hiddenCube",
-      "x": 4047.0,
-      "y": 2341.0
+      "x": 4047,
+      "y": 2341
     },
     {
       "category": "collection",
       "id": "ce5ef426-d8a0-4df4-9cbc-5281e25dc292",
       "name": "",
       "type": "hiddenCube",
-      "x": 4332.0,
-      "y": 2640.0
+      "x": 4332,
+      "y": 2640
     },
     {
       "category": "collection",
       "id": "70f4670d-7834-4ed0-bd2a-01434728b976",
       "name": "",
       "type": "hiddenCube",
-      "x": 5013.0,
-      "y": 2402.0
+      "x": 5013,
+      "y": 2402
     },
     {
       "category": "collection",
       "id": "f56c7eb6-4832-4322-9c0c-b16c43cc3cdc",
       "name": "",
       "type": "hiddenCube",
-      "x": 4154.0,
-      "y": 4472.0
+      "x": 4154,
+      "y": 4472
     },
     {
       "category": "collection",
       "id": "88863a9f-3f1b-44a3-b3c2-c06d3bde57e4",
       "name": "",
       "type": "hiddenCube",
-      "x": 5919.0,
-      "y": 2660.0
+      "x": 5919,
+      "y": 2660
     },
     {
       "category": "collection",
       "id": "5f23f851-ab68-4d12-b75d-75fbc17a32dc",
       "name": "",
       "type": "hiddenCube",
-      "x": 5539.0,
-      "y": 3261.0
+      "x": 5539,
+      "y": 3261
     },
     {
       "category": "collection",
       "id": "f94e8138-8063-4406-adf4-7707cbb6baaf",
       "name": "",
       "type": "hiddenCube",
-      "x": 4132.0,
-      "y": 3765.0
+      "x": 4132,
+      "y": 3765
     },
     {
       "category": "collection",
       "id": "716cda1f-7a0e-4853-90e5-a5ebdcfc06de",
       "name": "",
       "type": "hiddenCube",
-      "x": 4509.0,
-      "y": 2562.0
+      "x": 4509,
+      "y": 2562
     },
     {
       "category": "collection",
       "id": "3ad802ae-3bb0-4aa3-9778-34bb4b263a7a",
       "name": "",
       "type": "hiddenCube",
-      "x": 4255.0,
-      "y": 4168.0
+      "x": 4255,
+      "y": 4168
     },
     {
       "category": "collection",
       "id": "cdec6034-8998-477e-8de3-c7cbfd3204e6",
       "name": "",
       "type": "hiddenCube",
-      "x": 4136.0,
-      "y": 4273.0
+      "x": 4136,
+      "y": 4273
     },
     {
       "category": "collection",
@@ -7143,80 +7143,80 @@
       "name": "",
       "region": "LagtaFortress",
       "type": "monolithMaterial",
-      "x": 4037.0,
-      "y": 2436.0
+      "x": 4037,
+      "y": 2436
     },
     {
       "category": "collection",
       "id": "457dfe97-e162-4d23-beab-2001d4f69bb7",
       "name": "",
       "type": "hiddenCube",
-      "x": 3371.0,
-      "y": 4072.0
+      "x": 3371,
+      "y": 4072
     },
     {
       "category": "collection",
       "id": "14d047c9-4eda-4e3e-9e86-da3d36097607",
       "name": "",
       "type": "hiddenCube",
-      "x": 2020.0,
-      "y": 3898.0
+      "x": 2020,
+      "y": 3898
     },
     {
       "category": "collection",
       "id": "1832b50f-d318-4f5b-b905-a01d7ead6922",
       "name": "",
       "type": "hiddenCube",
-      "x": 2161.0,
-      "y": 4178.0
+      "x": 2161,
+      "y": 4178
     },
     {
       "category": "collection",
       "id": "9d191a55-978e-41ef-ada3-cb208c43528c",
       "name": "",
       "type": "hiddenCube",
-      "x": 4740.0,
-      "y": 5332.0
+      "x": 4740,
+      "y": 5332
     },
     {
       "category": "collection",
       "id": "7c53d189-9835-4639-b402-f6737cac14b5",
       "name": "",
       "type": "hiddenCube",
-      "x": 6593.0,
-      "y": 6263.0
+      "x": 6593,
+      "y": 6263
     },
     {
       "category": "collection",
       "id": "4d774abb-5349-48af-ad28-160df500b190",
       "name": "",
       "type": "hiddenCube",
-      "x": 5346.0,
-      "y": 4699.0
+      "x": 5346,
+      "y": 4699
     },
     {
       "category": "collection",
       "id": "61c2d78e-d9e2-458b-9506-bb1313695d45",
       "name": "",
       "type": "hiddenCube",
-      "x": 5061.0,
-      "y": 3783.0
+      "x": 5061,
+      "y": 3783
     },
     {
       "category": "collection",
       "id": "9618f1bb-1d51-4eef-a279-c65bf58e7c85",
       "name": "",
       "type": "hiddenCube",
-      "x": 5679.0,
-      "y": 5285.0
+      "x": 5679,
+      "y": 5285
     },
     {
       "category": "collection",
       "id": "fc1d574f-976d-495b-90f9-2b126a992b34",
       "name": "",
       "type": "hiddenCube",
-      "x": 3925.0,
-      "y": 5553.0
+      "x": 3925,
+      "y": 5553
     },
     {
       "category": "collection",
@@ -7225,232 +7225,232 @@
       "name": "",
       "region": "NornirAssembly",
       "type": "monolithMaterial",
-      "x": 5066.0,
-      "y": 4373.0
+      "x": 5066,
+      "y": 4373
     },
     {
       "category": "collection",
       "id": "32878cfe-2699-497f-8541-02acb83f1cf4",
       "name": "",
       "type": "hiddenCube",
-      "x": 5423.0,
-      "y": 3965.0
+      "x": 5423,
+      "y": 3965
     },
     {
       "category": "collection",
       "id": "75f9f2e5-6ce2-4007-af4b-2f20b6632ecb",
       "name": "",
       "type": "hiddenCube",
-      "x": 5866.0,
-      "y": 5400.0
+      "x": 5866,
+      "y": 5400
     },
     {
       "category": "collection",
       "id": "5c22183f-2ccf-4116-8c1f-c0d5a1c3607b",
       "name": "",
       "type": "hiddenCube",
-      "x": 2272.0,
-      "y": 4886.0
+      "x": 2272,
+      "y": 4886
     },
     {
       "category": "collection",
       "id": "7ef80f26-013b-4073-8a0d-75f69a19bd92",
       "name": "",
       "type": "hiddenCube",
-      "x": 1815.0,
-      "y": 4437.0
+      "x": 1815,
+      "y": 4437
     },
     {
       "category": "collection",
       "id": "a7a775b7-edcc-4ff2-9ae1-9cec12730a67",
       "name": "",
       "type": "hiddenCube",
-      "x": 3556.0,
-      "y": 3741.0
+      "x": 3556,
+      "y": 3741
     },
     {
       "category": "collection",
       "id": "12198102-d61d-4c8f-a9b7-44d9d7cb23d7",
       "name": "",
       "type": "hiddenCube",
-      "x": 4664.0,
-      "y": 4465.0
+      "x": 4664,
+      "y": 4465
     },
     {
       "category": "collection",
       "id": "3d900e00-fe51-4d46-857e-48642eee6f40",
       "name": "",
       "type": "hiddenCube",
-      "x": 3979.0,
-      "y": 4889.0
+      "x": 3979,
+      "y": 4889
     },
     {
       "category": "collection",
       "id": "3757f8f0-bdfc-4815-a059-6f779dc4dc07",
       "name": "",
       "type": "hiddenCube",
-      "x": 5250.0,
-      "y": 3353.0
+      "x": 5250,
+      "y": 3353
     },
     {
       "category": "collection",
       "id": "ea9e2229-f837-4a61-8f1d-aa987888ef86",
       "name": "",
       "type": "hiddenCube",
-      "x": 5689.0,
-      "y": 3322.0
+      "x": 5689,
+      "y": 3322
     },
     {
       "category": "collection",
       "id": "db604982-42d9-418f-934f-b1b026eee302",
       "name": "",
       "type": "hiddenCube",
-      "x": 6202.0,
-      "y": 3931.0
+      "x": 6202,
+      "y": 3931
     },
     {
       "category": "collection",
       "id": "23fe65c4-5961-4f0b-b309-cbf08d68fd8b",
       "name": "",
       "type": "hiddenCube",
-      "x": 2202.0,
-      "y": 2009.0
+      "x": 2202,
+      "y": 2009
     },
     {
       "category": "collection",
       "id": "5630ae32-a733-4374-ab67-6a6af1368cc5",
       "name": "",
       "type": "hiddenCube",
-      "x": 5439.0,
-      "y": 2938.0
+      "x": 5439,
+      "y": 2938
     },
     {
       "category": "collection",
       "id": "f478cac1-786a-44a9-a587-78024396f2ab",
       "name": "",
       "type": "hiddenCube",
-      "x": 4510.0,
-      "y": 5812.0
+      "x": 4510,
+      "y": 5812
     },
     {
       "category": "collection",
       "id": "b7dda29d-3e62-47f8-9db3-b4cc87efc503",
       "name": "",
       "type": "hiddenCube",
-      "x": 2233.0,
-      "y": 1668.0
+      "x": 2233,
+      "y": 1668
     },
     {
       "category": "collection",
       "id": "8d6b77bb-d441-4bb4-bb02-0990e7083721",
       "name": "",
       "type": "hiddenCube",
-      "x": 5239.0,
-      "y": 3272.0
+      "x": 5239,
+      "y": 3272
     },
     {
       "category": "collection",
       "id": "10957992-ca35-4a97-8c72-06b208a3e78d",
       "name": "",
       "type": "hiddenCube",
-      "x": 5038.0,
-      "y": 3163.0
+      "x": 5038,
+      "y": 3163
     },
     {
       "category": "collection",
       "id": "4b003f2b-b55a-4d7f-8150-1dc7793b1c98",
       "name": "",
       "type": "hiddenCube",
-      "x": 4992.0,
-      "y": 3551.0
+      "x": 4992,
+      "y": 3551
     },
     {
       "category": "collection",
       "id": "e28d9436-254e-4086-b883-b2e27bf8578d",
       "name": "",
       "type": "hiddenCube",
-      "x": 5653.0,
-      "y": 3650.0
+      "x": 5653,
+      "y": 3650
     },
     {
       "category": "collection",
       "id": "5fe480f8-e7e6-4435-aeae-0ece0bf46044",
       "name": "",
       "type": "hiddenCube",
-      "x": 3567.0,
-      "y": 4955.0
+      "x": 3567,
+      "y": 4955
     },
     {
       "category": "collection",
       "id": "f89424c1-c6e4-4e0d-83d8-fcffc69fcb0f",
       "name": "",
       "type": "hiddenCube",
-      "x": 2932.0,
-      "y": 4178.0
+      "x": 2932,
+      "y": 4178
     },
     {
       "category": "collection",
       "id": "61d8eb9c-2606-41e5-8a9b-15cb58ec9bbc",
       "name": "",
       "type": "hiddenCube",
-      "x": 2864.0,
-      "y": 4142.0
+      "x": 2864,
+      "y": 4142
     },
     {
       "category": "collection",
       "id": "9c6ff87c-649a-43f5-a0d4-fc76daf75623",
       "name": "",
       "type": "hiddenCube",
-      "x": 6168.0,
-      "y": 5206.0
+      "x": 6168,
+      "y": 5206
     },
     {
       "category": "collection",
       "id": "664f2172-a6f0-4552-a1fb-30b2396c0d17",
       "name": "",
       "type": "hiddenCube",
-      "x": 5030.0,
-      "y": 3215.0
+      "x": 5030,
+      "y": 3215
     },
     {
       "category": "collection",
       "id": "3ac3ac8d-9eb2-4b1b-b3e6-02b2712cf727",
       "name": "",
       "type": "hiddenCube",
-      "x": 6118.0,
-      "y": 3480.0
+      "x": 6118,
+      "y": 3480
     },
     {
       "category": "collection",
       "id": "fa166732-e0fd-4e89-93ef-f07213f5019c",
       "name": "",
       "type": "hiddenCube",
-      "x": 2140.0,
-      "y": 1729.0
+      "x": 2140,
+      "y": 1729
     },
     {
       "category": "collection",
       "id": "34fa9bb6-47c3-4da7-89aa-fd96182de64d",
       "name": "",
       "type": "hiddenCube",
-      "x": 5181.0,
-      "y": 3397.0
+      "x": 5181,
+      "y": 3397
     },
     {
       "category": "collection",
       "id": "25a6bff9-ae0e-49a2-b3bd-5f5e2883586a",
       "name": "",
       "type": "hiddenCube",
-      "x": 2178.0,
-      "y": 1654.0
+      "x": 2178,
+      "y": 1654
     },
     {
       "category": "collection",
       "id": "5c5d7931-aa1c-46ae-b852-a9daff8114cd",
       "name": "",
       "type": "hiddenCube",
-      "x": 5082.0,
-      "y": 3323.0
+      "x": 5082,
+      "y": 3323
     },
     {
       "category": "collection",
@@ -7459,40 +7459,280 @@
       "name": "",
       "region": "TraneinHighland",
       "type": "monolithMaterial",
-      "x": 3283.0,
-      "y": 4379.0
+      "x": 3283,
+      "y": 4379
     },
     {
       "category": "location",
       "id": "53bb9b36-06e6-44db-9d93-e1bb893c90a0",
       "name": "",
       "type": "battlefield",
-      "x": 2894.0,
-      "y": 4351.0
+      "x": 2894,
+      "y": 4351
     },
     {
       "category": "collection",
       "id": "1e3e5e7e-0432-438a-9437-0ee019a53fd8",
       "name": "",
       "type": "hiddenCube",
-      "x": 3058.0,
-      "y": 4159.0
+      "x": 3058,
+      "y": 4159
     },
     {
       "category": "collection",
       "id": "2fd5968a-f902-4608-875e-28aaee8b1e40",
       "name": "",
       "type": "hiddenCube",
-      "x": 3058.0,
-      "y": 4159.0
+      "x": 3058,
+      "y": 4159
     },
     {
       "category": "collection",
       "id": "bf184680-43c0-4a6b-8e9d-79bfa909c697",
       "name": "",
       "type": "hiddenCube",
-      "x": 5494.0,
-      "y": 5303.0
+      "x": 5494,
+      "y": 5303
+    },
+    {
+      "id": "new-marker-1764787577011",
+      "name": "검은 전사 아에드",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 2557.98,
+      "y": 5230.86,
+      "region": "방치된 화장터",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787701912",
+      "name": "녹아내린 다나르",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 3235.83,
+      "y": 4653.53,
+      "region": "크레이온 야영지",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787741063",
+      "name": "충실한 라트",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 2256.8,
+      "y": 4267.36,
+      "region": "임시 도처",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787750476",
+      "name": "광전사 발그",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 2326.96,
+      "y": 4073,
+      "region": "임시 도피처",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787848630",
+      "name": "혈전사 란나르",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 3457.2,
+      "y": 3906.51,
+      "region": "무너진 틈",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787848809",
+      "name": "포직사 가르산",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 4060.5,
+      "y": 3685.5,
+      "region": "엘림의 쉼터",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787852319",
+      "name": "기만자 트리드",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 4229.75,
+      "y": 4464.75,
+      "region": "승전 데바의 석상",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787884991",
+      "name": "푸른물결 켈피나",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 4314,
+      "y": 4826.5,
+      "region": "회복의 샘",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787885509",
+      "name": "총감독관 누타",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 4716.05,
+      "y": 5547.96,
+      "region": "찬바람 피난처",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787885639",
+      "name": "창모관 르시나",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 4839.36,
+      "y": 6032.17,
+      "region": "은신 동굴",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788789670",
+      "name": "침묵의 타르탄",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 5300.3,
+      "y": 5170.08,
+      "region": "도굴꾼 야영지",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788828814",
+      "name": "별동대장 링크스",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 5443.6,
+      "y": 5265.21,
+      "region": "도굴꾼 야영지",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788845313",
+      "name": "모독자 노블루드",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 5912.14,
+      "y": 5372.84,
+      "region": "도굴꾼 야영지",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788856802",
+      "name": "망혼의 아칸 악시오스",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 5679.05,
+      "y": 4728.29,
+      "region": "바스펠트 폐허 절벽",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788878402",
+      "name": "중독된 하디룬",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 5331.28,
+      "y": 3767.22,
+      "region": "강철망치 작업장",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788913903",
+      "name": "영혼의 지배자 카샤파",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 5548.5,
+      "y": 3349.5,
+      "region": "이둔의 호수",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788933069",
+      "name": "처형자 바르시엔",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 5339,
+      "y": 3146.5,
+      "region": "이둔의 호수",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788941511",
+      "name": "드라칸 부대병기 구루타",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 5940.09,
+      "y": 3381.24,
+      "region": "그리바데 구릉지 동부 낭떠러지",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788966698",
+      "name": "군단장 라그타",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 3853.5,
+      "y": 2511.5,
+      "region": "라그타 요새",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788997123",
+      "name": "혹암의 비슈베다",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 4123.5,
+      "y": 2670,
+      "region": "라그타 요새",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764789011701",
+      "name": "비전의 카루카",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 4895,
+      "y": 2631.5,
+      "region": "검은 발톱 부락",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764789036989",
+      "name": "백전노장 슈자칸",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 5103.5,
+      "y": 2615,
+      "region": "검은 발톱 부락",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764789057575",
+      "name": "예리한 쉬라크",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 5685.74,
+      "y": 2376.56,
+      "region": "임페투시움 광장",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764789078683",
+      "name": "불멸의 가르투아",
+      "type": "fieldboss",
+      "category": "location",
+      "x": 2083,
+      "y": 808.5,
+      "region": "불멸의 섬",
+      "images": []
     }
   ]
 }

@@ -1,16 +1,6 @@
 import { useEffect, useState } from "react";
+import { DEFAULT_MARKER_CONFIGS } from "../constants";
 import { GameData, GameMarker } from "../types";
-
-// 기본 게임 마커 설정
-const DEFAULT_MARKER_CONFIGS = {
-  seal: { color: "#e74c3c", icon: "🔒" },
-  teleport: { color: "#3498db", icon: "🌀" },
-  occupation: { color: "#f39c12", icon: "⚔️" },
-  monolithMaterial: { color: "#9b59b6", icon: "🪶" },
-  battlefield: { color: "#c0392b", icon: "⚡" },
-  hiddenCube: { color: "#8e44ad", icon: "🧊" },
-  village: { color: "#27ae60", icon: "🏘️" },
-};
 
 export const useGameData = (mapName: string) => {
   const [gameData, setGameData] = useState<GameData | null>(null);

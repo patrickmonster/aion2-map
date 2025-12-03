@@ -1,5 +1,33 @@
 import L from "leaflet";
-import { AionMapInfo, MarkerType } from "../types";
+import { AionMapInfo, GameMarkerSettings, MarkerType } from "../types";
+
+// 게임 마커 기본 설정 (아이콘, 색상 등)
+export const DEFAULT_MARKER_CONFIGS = {
+  seal: { color: "#e74c3c", icon: "🔒", displayName: "봉인던전" },
+  teleport: { color: "#3498db", icon: "🌀", displayName: "귀환석" },
+  occupation: { color: "#f39c12", icon: "⚔️", displayName: "점령지" },
+  monolithMaterial: { color: "#9b59b6", icon: "🪶", displayName: "닭털" },
+  battlefield: { color: "#c0392b", icon: "⚡", displayName: "전장" },
+  hiddenCube: { color: "#8e44ad", icon: "🧊", displayName: "히든 큐브" },
+  village: { color: "#27ae60", icon: "🏘️", displayName: "마을" },
+  fieldboss: { color: "#a10808ff", icon: "👹", displayName: "필드보스" },
+};
+
+// 게임 마커 설정 (visible, readonly 포함)
+export const DEFAULT_GAME_MARKERS: GameMarkerSettings = Object.keys(
+  DEFAULT_MARKER_CONFIGS
+).reduce((acc, key) => {
+  const config =
+    DEFAULT_MARKER_CONFIGS[key as keyof typeof DEFAULT_MARKER_CONFIGS];
+  acc[key] = {
+    visible: true,
+    color: config.color,
+    icon: config.icon,
+    readonly: true,
+    displayName: config.displayName,
+  };
+  return acc;
+}, {} as GameMarkerSettings);
 
 // 기본 마커 타입 데이터
 export const DEFAULT_MARKER_TYPES: MarkerType[] = [
