@@ -1,0 +1,1190 @@
+{
+  "category": "상점",
+  "description": "게임 내 상점 정보 데이터",
+  "items": [
+    {
+      "id": "5sbz325kqxwj3gba5owlz3evxu",
+      "name": "생명의 물약",
+      "type": "인게임재화",
+      "minPrice": 250,
+      "maxPrice": 250,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbz325kqxwj3gba5o4yj3evxu",
+      "name": "생명의 비약",
+      "type": "인게임재화",
+      "minPrice": 1000,
+      "maxPrice": 1000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s4zr3e4uaqoxlf45sk32",
+      "name": "치유 물약",
+      "type": "인게임재화",
+      "minPrice": 630,
+      "maxPrice": 630,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5skyr24iqtwivja",
+      "name": "안누스",
+      "type": "기타",
+      "minPrice": 3400,
+      "maxPrice": 3400,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s43j25artvzdehltw6a",
+      "name": "카렌두라",
+      "type": "기타",
+      "minPrice": 3777,
+      "maxPrice": 4050,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5wi3r3fattv2nla",
+      "name": "푸제리",
+      "type": "기타",
+      "minPrice": 4600,
+      "maxPrice": 4600,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s6zj24lrdwylda",
+      "name": "코니테",
+      "type": "기타",
+      "minPrice": 4000,
+      "maxPrice": 4000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5oqir3e5wtvyxna",
+      "name": "레이담",
+      "type": "기타",
+      "minPrice": 3550,
+      "maxPrice": 3550,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5smkj3mbvtvz3pa",
+      "name": "오크라",
+      "type": "기타",
+      "minPrice": 800,
+      "maxPrice": 800,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5ovkr25fwtwyzda",
+      "name": "모르파",
+      "type": "기타",
+      "minPrice": 3000,
+      "maxPrice": 3000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5or2r25zqqqozg4q5scj2",
+      "name": "루비 원석",
+      "type": "기타",
+      "minPrice": 2200,
+      "maxPrice": 2200,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2j3e5wtwjlbhlvkwoxe44edwjxehmqsoq",
+      "name": "다이아몬드 원석",
+      "type": "기타",
+      "minPrice": 2399,
+      "maxPrice": 2399,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbkz3mmrtwj3nhms22cb3e3sdwijhi",
+      "name": "사파이어 원석",
+      "type": "기타",
+      "minPrice": 3250,
+      "maxPrice": 3250,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5skyj3ekutv3bfhnqoacb24ctdv2zna",
+      "name": "아스바타 나무",
+      "type": "기타",
+      "minPrice": 7880,
+      "maxPrice": 7880,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+      "name": "오리하르콘 광석",
+      "type": "기타",
+      "minPrice": 4800,
+      "maxPrice": 4800,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5smkj24ttq",
+      "name": "오드",
+      "type": "기타",
+      "minPrice": 4599,
+      "maxPrice": 4599,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sf2b3eeudwzlhba5s43j25artvzdehltw6a",
+      "name": "신선한 카렌두라",
+      "type": "기타",
+      "minPrice": 5399,
+      "maxPrice": 5399,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sf2b3eeudwzlhba5skyr24iqtwivja",
+      "name": "신선한 안누스",
+      "type": "기타",
+      "minPrice": 4900,
+      "maxPrice": 4900,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz24pqqqoxbus5soyaihluouoxomeedwjxehmqsoq",
+      "name": "순도 높은 루비 원석",
+      "type": "기타",
+      "minPrice": 3699,
+      "maxPrice": 3699,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz24pqqqoxbus5soyaihlrosozhnu5skyj25kvtvzhhba5snzb3eetu",
+      "name": "순도 높은 다이아몬드 원석",
+      "type": "기타",
+      "minPrice": 3699,
+      "maxPrice": 3699,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz24pqqqoxbus5soyaihmqkwo3dem5so3j3ewwqqozg4q5scj2",
+      "name": "순도 높은 사파이어 원석",
+      "type": "기타",
+      "minPrice": 4000,
+      "maxPrice": 4000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz24pqqqoxbus5soyaihmswcozcve5oyjj3mdqaqoxauy5owli",
+      "name": "순도 높은 아스바타 나무",
+      "type": "기타",
+      "minPrice": 3799,
+      "maxPrice": 3799,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+      "name": "순도 높은 오리하르콘 광석",
+      "type": "기타",
+      "minPrice": 3395,
+      "maxPrice": 3395,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+      "name": "순도 높은 오드",
+      "type": "기타",
+      "minPrice": 4288,
+      "maxPrice": 4288,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz3eitdwzlhba5or2r25zqqqozg4q5scj2",
+      "name": "순수한 루비 원석",
+      "type": "기타",
+      "minPrice": 35000,
+      "maxPrice": 35000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz3eitdwzlhba5of2j3e5wtwjlbhlvkwoxe44edwjxehmqsoq",
+      "name": "순수한 다이아몬드 원석",
+      "type": "기타",
+      "minPrice": 33333,
+      "maxPrice": 33333,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz3eitdwzlhba5sbkz3mmrtwj3nhms22cb3e3sdwijhi",
+      "name": "순수한 사파이어 원석",
+      "type": "기타",
+      "minPrice": 39887,
+      "maxPrice": 39887,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz3eitdwzlhba5skyj3ekutv3bfhnqoacb24ctdv2zna",
+      "name": "순수한 아스바타 나무",
+      "type": "기타",
+      "minPrice": 34000,
+      "maxPrice": 34000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+      "name": "순수한 오리하르콘 광석",
+      "type": "기타",
+      "minPrice": 38777,
+      "maxPrice": 38777,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sejz3eitdwzlhba5smkj24ttq",
+      "name": "순수한 오드",
+      "type": "기타",
+      "minPrice": 36000,
+      "maxPrice": 36000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sykz246qdwzlhba5or2r25zqqqozg4q5scj2",
+      "name": "찬란한 루비 원석",
+      "type": "기타",
+      "minPrice": 65000,
+      "maxPrice": 65000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sykz246qdwzlhba5of2j3e5wtwjlbhlvkwoxe44edwjxehmqsoq",
+      "name": "찬란한 다이아몬드 원석",
+      "type": "기타",
+      "minPrice": 75000,
+      "maxPrice": 75000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sykz246qdwzlhba5sbkz3mmrtwj3nhms22cb3e3sdwijhi",
+      "name": "찬란한 사파이어 원석",
+      "type": "기타",
+      "minPrice": 90000,
+      "maxPrice": 90000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sykz246qdwzlhba5skyj3ekutv3bfhnqoacb24ctdv2zna",
+      "name": "찬란한 아스바타 나무",
+      "type": "기타",
+      "minPrice": 89000,
+      "maxPrice": 89000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+      "name": "찬란한 오리하르콘 광석",
+      "type": "기타",
+      "minPrice": 110000,
+      "maxPrice": 110000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sykz246qdwzlhba5smkj24ttq",
+      "name": "찬란한 오드",
+      "type": "기타",
+      "minPrice": 125555,
+      "maxPrice": 125555,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5oyjj246rtwj3gba5o4yj3evxu",
+      "name": "바람의 비약",
+      "type": "소모품",
+      "minPrice": 8300,
+      "maxPrice": 8300,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sokb25gvtv3hei",
+      "name": "유리병",
+      "type": "인게임재화",
+      "minPrice": 400,
+      "maxPrice": 400,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kz2b2vyreqozhfa5otkz25tse",
+      "name": "고급 유리병",
+      "type": "인게임재화",
+      "minPrice": 1200,
+      "maxPrice": 1200,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5spit3mbvq",
+      "name": "잉크",
+      "type": "인게임재화",
+      "minPrice": 400,
+      "maxPrice": 400,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kz2b2vyreqozhuj5wa2y",
+      "name": "고급 잉크",
+      "type": "인게임재화",
+      "minPrice": 1200,
+      "maxPrice": 1200,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s2zz2vtudvlrcja5spit3mbvq",
+      "name": "최고급 잉크",
+      "type": "인게임재화",
+      "minPrice": 10000,
+      "maxPrice": 10000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s2it25hutwkbha",
+      "name": "촉매제",
+      "type": "인게임재화",
+      "minPrice": 400,
+      "maxPrice": 400,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5wkzr2vyreqozgvj5o4yj24ktaqovmev5wmzj3fatq",
+      "name": "하급 용비늘 강화제",
+      "type": "인게임재화",
+      "minPrice": 4650,
+      "maxPrice": 4650,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5ssjd2vyreqozgvj5o4yj24ktaqovmev5wmzj3fatq",
+      "name": "중급 용비늘 강화제",
+      "type": "인게임재화",
+      "minPrice": 5600,
+      "maxPrice": 5600,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbyd2vyreqozgvj5o4yj24ktaqovmev5wmzj3fatq",
+      "name": "상급 용비늘 강화제",
+      "type": "인게임재화",
+      "minPrice": 6550,
+      "maxPrice": 6550,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s2zz3edqhvlrcja5snkt25zqtvyvgba5kyjl3mzstwkbha",
+      "name": "최상급 용비늘 강화제",
+      "type": "인게임재화",
+      "minPrice": 7450,
+      "maxPrice": 7450,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbyd2vyreqoza455ovil3e5taqoxlf45sk32",
+      "name": "상급 생명의 물약",
+      "type": "소모품",
+      "minPrice": 5600,
+      "maxPrice": 5600,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbyd2vyreqoza455ovil3e5taqoxome5sk32",
+      "name": "상급 생명의 비약",
+      "type": "소모품",
+      "minPrice": 8000,
+      "maxPrice": 8000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbyd2vyreqoxmeu5opiz3e5taqoxome5sk32",
+      "name": "상급 바람의 비약",
+      "type": "소모품",
+      "minPrice": 23000,
+      "maxPrice": 23000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sqjl3eludwj3gba5owlz3evxu",
+      "name": "정신의 물약",
+      "type": "소모품",
+      "minPrice": 8000,
+      "maxPrice": 8000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbyd2vyreqozomy5sokaihlvs6ozfn5",
+      "name": "상급 치유 물약",
+      "type": "소모품",
+      "minPrice": 10499,
+      "maxPrice": 10499,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5styj3elutwj3gba5otyr25ssxwijha",
+      "name": "진실의 마법서",
+      "type": "무기",
+      "minPrice": 8500,
+      "maxPrice": 8500,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5styj3elutwj3gba5oz3j3fdxq",
+      "name": "진실의 보주",
+      "type": "무기",
+      "minPrice": 9999,
+      "maxPrice": 9999,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sqjl25axhwijhja5kyib25dva",
+      "name": "정령석 가루",
+      "type": "기타",
+      "minPrice": 1100,
+      "maxPrice": 1100,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5skyj3ekutv3bfhnqoacb3fcqxwj3na",
+      "name": "아스바타 종이",
+      "type": "기타",
+      "minPrice": 6000,
+      "maxPrice": 6000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbkz3mmrtwj3nhms22cb2vqqdv2hka",
+      "name": "사파이어 가루",
+      "type": "기타",
+      "minPrice": 1800,
+      "maxPrice": 1800,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2j3e5wtwjlbhlvkwoxe44edvlbahluoua",
+      "name": "다이아몬드 가루",
+      "type": "기타",
+      "minPrice": 1333,
+      "maxPrice": 1333,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5or2r25zqqqovmea5or2q",
+      "name": "루비 가루",
+      "type": "기타",
+      "minPrice": 1200,
+      "maxPrice": 1200,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbyd2vyreqovmea5wmlr3e5taqozi545owlr3eetq",
+      "name": "상급 가호의 주문서",
+      "type": "소모품",
+      "minPrice": 9500,
+      "maxPrice": 9500,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sqjl25axhwijhi",
+      "name": "정령석",
+      "type": "기타",
+      "minPrice": 2288,
+      "maxPrice": 2288,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5otyr25auxwj3gba5kzlb3fasu",
+      "name": "마력의 결정",
+      "type": "기타",
+      "minPrice": 6400,
+      "maxPrice": 6400,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sqjz25avdwijhi",
+      "name": "제련석",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+      "name": "장인의 제련석",
+      "type": "기타",
+      "minPrice": 160,
+      "maxPrice": 160,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5styj3elutwj3gba5otyr25ssxwijha",
+      "name": "장인의 진실의 마법서",
+      "type": "무기",
+      "minPrice": 80000,
+      "maxPrice": 80000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5styj3elutwj3gba5oz3j3fdxq",
+      "name": "장인의 진실의 보주",
+      "type": "무기",
+      "minPrice": 88000,
+      "maxPrice": 88000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5wkzr2vyrhv2pchmqsoq",
+      "name": "하급마석",
+      "type": "소모품",
+      "minPrice": 1300,
+      "maxPrice": 1300,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5ssjd2vyreqoxj4i5scj2",
+      "name": "중급 마석",
+      "type": "소모품",
+      "minPrice": 1399,
+      "maxPrice": 1399,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5wkzr2vyreqozgeb5scj2",
+      "name": "하급 영석",
+      "type": "소모품",
+      "minPrice": 37000,
+      "maxPrice": 37000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5ssjd2vyreqozgeb5scj2",
+      "name": "중급 영석",
+      "type": "소모품",
+      "minPrice": 3333,
+      "maxPrice": 3333,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+      "name": "달인의 제련석",
+      "type": "인게임재화",
+      "minPrice": 1600,
+      "maxPrice": 1600,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5styj3elutwj3gba5otyr25ssxwijha",
+      "name": "달인의 진실의 마법서",
+      "type": "무기",
+      "minPrice": 700000,
+      "maxPrice": 700000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5styj3elutwj3gba5oz3j3fdxq",
+      "name": "달인의 진실의 보주",
+      "type": "무기",
+      "minPrice": 690000,
+      "maxPrice": 690000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb25twtwkhpa",
+      "name": "건룡왕의 보주",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb25twtwkhpa",
+      "name": "흑룡왕의 보주",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5spij25duhwjtfpmtwmcb25twtwkhpa",
+      "name": "임룡왕의 보주",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb25twtwkhpa",
+      "name": "기룡왕의 보주",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
+      "name": "건룡왕의 마법서",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
+      "name": "흑룡왕의 마법서",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
+      "name": "암룡왕의 마법서",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
+      "name": "기룡왕의 마법서",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s4zr25kqxwyhaba5wlkl3edqeqozi545owlr3eetq",
+      "name": "치명타 향상 주문서",
+      "type": "무기",
+      "minPrice": 7899,
+      "maxPrice": 7899,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbyd2vyreqozj4i5sr3z3e5taqozi545owlr3eetq",
+      "name": "상급 질주의 주문서",
+      "type": "무기",
+      "minPrice": 9000,
+      "maxPrice": 9000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbyd2vyreqozgvj5k4lb3e5taqozi545owlr3eetq",
+      "name": "상급 용기의 주문서",
+      "type": "무기",
+      "minPrice": 8390,
+      "maxPrice": 8390,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbyd2vyreqoznvj5kzksihmtgco3gmuedwkhphlvs4ozbe4",
+      "name": "상급 충격 완화 주문서",
+      "type": "무기",
+      "minPrice": 10000,
+      "maxPrice": 10000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5k2jd3msrxwj3gba5sr3z25mxdwijha",
+      "name": "광풍의 주문서",
+      "type": "무기",
+      "minPrice": 15000,
+      "maxPrice": 15000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s3kt2vsvhvlhbba5sqib3mvvuqozi545owlr3eetq",
+      "name": "충격계 저항 주문서",
+      "type": "무기",
+      "minPrice": 10000,
+      "maxPrice": 10000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5ssjd2vyreqozc5m5sl3b3e5taqoxj4i5scj2",
+      "name": "중급 심연의 마석",
+      "type": "소모품",
+      "minPrice": 40000,
+      "maxPrice": 40000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5ssjd2vyreqozc5m5sl3b3e5taqozgeb5scj2",
+      "name": "중급 심연의 영석",
+      "type": "소모품",
+      "minPrice": 198800,
+      "maxPrice": 198800,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "두꺼운 용족의 비늘",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2r24lvdwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "단단한 용족의 비늘",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "견고한 용족의 비늘",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "강고한 용족의 비늘",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbz32vqqdwkhpi",
+      "name": "생가죽",
+      "type": "기타",
+      "minPrice": 1300,
+      "maxPrice": 1300,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwjznpnsw2ozie4",
+      "name": "오리하르콘 융해제",
+      "type": "인게임재화",
+      "minPrice": 400,
+      "maxPrice": 400,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5wkzr2vyreqozgvj5kyib3fdxuqozhfa5sl3b3fatq",
+      "name": "하급 용가죽 유연제",
+      "type": "인게임재화",
+      "minPrice": 4650,
+      "maxPrice": 4650,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5ssjd2vyreqozgvj5kyib3fdxuqozhfa5sl3b3fatq",
+      "name": "중급 용가죽 유연제",
+      "type": "인게임재화",
+      "minPrice": 5600,
+      "maxPrice": 5600,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbyd2vyreqozgvj5kyib3fdxuqozhfa5sl3b3fatq",
+      "name": "상급 용가죽 유연제",
+      "type": "인게임재화",
+      "minPrice": 6550,
+      "maxPrice": 6550,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s2zz3edqhvlrcja5snkt2vqqdwkhpja5sokb3exwdwkbha",
+      "name": "최상급 용가죽 유연제",
+      "type": "인게임재화",
+      "minPrice": 7450,
+      "maxPrice": 7450,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5styb25fwtwl3gba5otz33fzta",
+      "name": "지르콘 망치",
+      "type": "인게임재화",
+      "minPrice": 4650,
+      "maxPrice": 4650,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5oo3z3fgsdv2nlba5otz33fzta",
+      "name": "라즐리 망치",
+      "type": "인게임재화",
+      "minPrice": 5600,
+      "maxPrice": 5600,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5owlr3ekutwynjba5otz33fzta",
+      "name": "문스톤 망치",
+      "type": "인게임재화",
+      "minPrice": 6550,
+      "maxPrice": 6550,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s6ir3mmrtv2bchmtw2o3cvyedv2phpmxgma",
+      "name": "켈파레이트 망치",
+      "type": "인게임재화",
+      "minPrice": 7450,
+      "maxPrice": 7450,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sl3b25hrdwkbha",
+      "name": "연마제",
+      "type": "인게임재화",
+      "minPrice": 400,
+      "maxPrice": 400,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbkz3mpvq",
+      "name": "사포",
+      "type": "인게임재화",
+      "minPrice": 400,
+      "maxPrice": 400,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5wflz3mkxtwzlhba5kyib3fdxu",
+      "name": "튼튼한 가죽",
+      "type": "인게임재화",
+      "minPrice": 4110,
+      "maxPrice": 4110,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+      "name": "오리하르콘 주괴",
+      "type": "인게임재화",
+      "minPrice": 8600,
+      "maxPrice": 8600,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5oizb2v2xtwjvnba5snkt3fbwhwj3gba5kyib3fdxu",
+      "name": "두꺼운 용족의 가죽",
+      "type": "기타",
+      "minPrice": 888,
+      "maxPrice": 888,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2r24lvdwzlhba5snkt3fbwhwj3gba5kyib3fdxu",
+      "name": "단단한 용족의 가죽",
+      "type": "기타",
+      "minPrice": 1054,
+      "maxPrice": 1054,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kzkz2vtudwzlhba5snkt3fbwhwj3gba5kyib3fdxu",
+      "name": "견고한 용족의 가죽",
+      "type": "기타",
+      "minPrice": 4000,
+      "maxPrice": 4000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kyjl2vtudwzlhba5snkt3fbwhwj3gba5kyib3fdxu",
+      "name": "강고한 용족의 가죽",
+      "type": "기타",
+      "minPrice": 76500,
+      "maxPrice": 76500,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5owlj24rsdwkpchlscocb24rsdvlvphmtk2cb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+      "name": "무두질된 두꺼운 용족의 가죽",
+      "type": "기타",
+      "minPrice": 6300,
+      "maxPrice": 6300,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5owlj24rsdwkpchlscocb24lvdvyxkhnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+      "name": "무두질된 단단한 용족의 가죽",
+      "type": "기타",
+      "minPrice": 21500,
+      "maxPrice": 21500,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5owlj24rsdwkpchlscocb2vsvtvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+      "name": "무두질된 견고한 용족의 가죽",
+      "type": "기타",
+      "minPrice": 89999,
+      "maxPrice": 89999,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5owlj24rsdwkpchlscocb2vqsxvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+      "name": "무두질된 강고한 용족의 가죽",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o7zi",
+      "name": "두꺼운 용족의 뿔",
+      "type": "기타",
+      "minPrice": 3000,
+      "maxPrice": 3000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2r24lvdwzlhba5snkt3fbwhwj3gba5o7zi",
+      "name": "단단한 용족의 뿔",
+      "type": "기타",
+      "minPrice": 9800,
+      "maxPrice": 9800,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+      "name": "견고한 용족의 뿔",
+      "type": "기타",
+      "minPrice": 37000,
+      "maxPrice": 37000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+      "name": "강고한 용족의 뿔",
+      "type": "기타",
+      "minPrice": 70000,
+      "maxPrice": 70000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sqjz25avdvzbhba5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o7zi",
+      "name": "제련된 두꺼운 용족의 뿔",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sqjz25avdvzbhba5of2r24lvdwzlhba5snkt3fbwhwj3gba5o7zi",
+      "name": "제련된 단단한 용족의 뿔",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sqjz25avdvzbhba5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+      "name": "제련된 견고한 용족의 뿔",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sqjz25avdvzbhba5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+      "name": "제련된 강고한 용족의 뿔",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sbkz3mmrtwj3nhms22cb3e6uxwixhi",
+      "name": "사파이어 장식",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5or2r25zqqqozhvf5sfz2",
+      "name": "루비 장식",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2j3e5wtwjlbhlvkwoxe44edwj5jpmrooq",
+      "name": "다이아몬드 장식",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5skyj25zqtwyhaba5ovkt3e6vq",
+      "name": "아비타 목재",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kyjl3mzstvzbhba5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "강화된 두꺼운 용족의 비늘",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kyjl3mzstvzbhba5of2r24lvdwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "강화된 단단한 용족의 비늘",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kyjl3mzstvzbhba5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "강화된 견고한 용족의 비늘",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kyjl3mzstvzbhba5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "강화된 강고한 용족의 비늘",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5sckj3mdsu",
+      "name": "설탕",
+      "type": "인게임재화",
+      "minPrice": 220,
+      "maxPrice": 220,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "edwindhkxcea",
+      "name": " 소금",
+      "type": "인게임재화",
+      "minPrice": 220,
+      "maxPrice": 220,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5slzr25gqqqozgfe5so3y",
+      "name": "엘름 오일",
+      "type": "인게임재화",
+      "minPrice": 880,
+      "maxPrice": 880,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5kyij3e6uu",
+      "name": "간장",
+      "type": "인게임재화",
+      "minPrice": 440,
+      "maxPrice": 440,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5skyz3mkxdvlbahluw2oxe44edwzxbhmw2ka",
+      "name": "알트가르드 후추",
+      "type": "인게임재화",
+      "minPrice": 880,
+      "maxPrice": 880,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s43j25araqovmea5or2q",
+      "name": "카레 가루",
+      "type": "인게임재화",
+      "minPrice": 440,
+      "maxPrice": 440,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5whjr3ekvtv2dlza5ozij3mewa",
+      "name": "페슬롯 버터",
+      "type": "인게임재화",
+      "minPrice": 880,
+      "maxPrice": 880,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5whjz24evqqoza455ou3i",
+      "name": "펜넬 생면",
+      "type": "인게임재화",
+      "minPrice": 880,
+      "maxPrice": 880,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5s4zr3fgra",
+      "name": "치즈",
+      "type": "인게임재화",
+      "minPrice": 440,
+      "maxPrice": 440,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
+      "name": "빛나는 진실의 마법서",
+      "type": "무기",
+      "minPrice": 80000,
+      "maxPrice": 80000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
+      "name": "장인의 빛나는 진실의 마법서",
+      "type": "무기",
+      "minPrice": 320000,
+      "maxPrice": 320000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
+      "name": "달인의 빛나는 진실의 마법서",
+      "type": "무기",
+      "minPrice": 980000,
+      "maxPrice": 980000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+      "name": "달인의 최상급 제련석",
+      "type": "인게임재화",
+      "minPrice": 1920,
+      "maxPrice": 1920,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5o3ij24fxdwj3gba5sbkz24fsa",
+      "name": "분노의 사념",
+      "type": "기타",
+      "minPrice": 900000,
+      "maxPrice": 900000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5o3ij24fxdwj3gba5sozr3fhqa",
+      "name": "분노의 의지",
+      "type": "기타",
+      "minPrice": 888888,
+      "maxPrice": 888888,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5o3ij24fxdwj3gba5spjb3evqq",
+      "name": "분노의 자아",
+      "type": "기타",
+      "minPrice": 600000,
+      "maxPrice": 600000,
+      "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+      "name": "광기에 찬 분노의 무고",
+      "type": "기타",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-05"
+    }
+  ]
+}

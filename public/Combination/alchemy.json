@@ -1,0 +1,585 @@
+{
+  "category": "계산기",
+  "description": "재료 계산기 데이터",
+  "items": [
+    {
+      "id": "5styj3elutwj3gba5otyr25ssxwijha",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "마력의 결정 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5otyr25auxwj3gba5kzlb3fasu",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5styj3elutwj3gba5otyr25ssxwijha",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "빛나는 진실의 마법서 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihluouoxomeedwjxehmqsoq",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5styj3elutwj3gba5otyr25ssxwijha",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "장인의 빛나는 진실의 마법서 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5or2r25zqqqozg4q5scj2",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "달인의 빛나는 진실의 마법서 외 5개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kyjl3mzstvzbhba5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o4yj24kta",
+          "quantity": 22
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5or2r25zqqqozg4q5scj2",
+          "quantity": 12
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 7
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 10
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "달인의 빛나는 진실의 마법서 외 6개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 9
+        },
+        {
+          "itemId": "5kyjl3mzstvzbhba5of2r24lvdwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+          "quantity": 29
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 8
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 14
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5or2r25zqqqozg4q5scj2",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "달인의 빛나는 진실의 마법서 외 7개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 15
+        },
+        {
+          "itemId": "5kyjl3mzstvzbhba5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+          "quantity": 41
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 11
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5or2r25zqqqozg4q5scj2",
+          "quantity": 36
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "달인의 빛나는 진실의 마법서 외 6개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 50
+        },
+        {
+          "itemId": "5kyjl3mzstvzbhba5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+          "quantity": 122
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 18
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 27
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 42
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5or2r25zqqqozg4q5scj2",
+          "quantity": 121
+        }
+      ]
+    },
+    {
+      "id": "5sbz325kqxwj3gba5o4yj3evxu",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "신선한 안누스 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5sf2b3eeudwzlhba5skyr24iqtwivja",
+          "quantity": 1
+        },
+        {
+          "itemId": "5sokb25gvtv3hei",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sbyd2vyreqoza455ovil3e5taqoxlf45sk32",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "생명의 물약 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5sbz325kqxwj3gba5owlz3evxu",
+          "quantity": 1
+        },
+        {
+          "itemId": "5skyr24iqtwivja",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kz2b2vyreqozhfa5otkz25tse",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sbyd2vyreqoza455ovil3e5taqoxome5sk32",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "생명의 물약 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5sbz325kqxwj3gba5owlz3evxu",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sf2b3eeudwzlhba5skyr24iqtwivja",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kz2b2vyreqozhfa5otkz25tse",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5oyjj246rtwj3gba5o4yj3evxu",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "안누스 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5skyr24iqtwivja",
+          "quantity": 1
+        },
+        {
+          "itemId": "5s43j25artvzdehltw6a",
+          "quantity": 1
+        },
+        {
+          "itemId": "5sokb25gvtv3hei",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sbyd2vyreqoxmeu5opiz3e5taqoxome5sk32",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "바람의 비약 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5oyjj246rtwj3gba5o4yj3evxu",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sf2b3eeudwzlhba5skyr24iqtwivja",
+          "quantity": 1
+        },
+        {
+          "itemId": "5sf2b3eeudwzlhba5s43j25artvzdehltw6a",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kz2b2vyreqozhfa5otkz25tse",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sqjl3eludwj3gba5owlz3evxu",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "카렌두라 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5s43j25artvzdehltw6a",
+          "quantity": 1
+        },
+        {
+          "itemId": "5sqjl25axhwijhja5kyib25dva",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kz2b2vyreqozhfa5otkz25tse",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sbyd2vyreqozomy5sokaihlvs6ozfn5",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "치유 물약 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5s4zr3e4uaqoxlf45sk32",
+          "quantity": 1
+        },
+        {
+          "itemId": "5sf2b3eeudwzlhba5s43j25artvzdehltw6a",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kz2b2vyreqozhfa5otkz25tse",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sbyd2vyreqovmea5wmlr3e5taqozi545owlr3eetq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "다이아몬드 가루 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5of2j3e5wtwjlbhlvkwoxe44edvlbahluoua",
+          "quantity": 3
+        },
+        {
+          "itemId": "5skyj3ekutv3bfhnqoacb24ctdv2zna",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kz2b2vyreqozhuj5wa2y",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5s4zr25kqxwyhaba5wlkl3edqeqozi545owlr3eetq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "루비 가루 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5or2r25zqqqovmea5or2q",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjl25axhwijhja5kyib25dva",
+          "quantity": 2
+        },
+        {
+          "itemId": "5skyj3ekutv3bfhnqoacb3fcqxwj3na",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kz2b2vyreqozhuj5wa2y",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sbyd2vyreqozj4i5sr3z3e5taqozi545owlr3eetq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "루비 가루 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5or2r25zqqqovmea5or2q",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sqjl25axhwijhja5kyib25dva",
+          "quantity": 2
+        },
+        {
+          "itemId": "5skyj3ekutv3bfhnqoacb3fcqxwj3na",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kz2b2vyreqozhuj5wa2y",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sbyd2vyreqozgvj5k4lb3e5taqozi545owlr3eetq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "사파이어 가루 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5sbkz3mmrtwj3nhms22cb2vqqdv2hka",
+          "quantity": 1
+        },
+        {
+          "itemId": "5skyj3ekutv3bfhnqoacb3fcqxwj3na",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kz2b2vyreqozhuj5wa2y",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sbyd2vyreqoznvj5kzksihmtgco3gmuedwkhphlvs4ozbe4",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "루비 가루 외 4개",
+      "ingredient": [
+        {
+          "itemId": "5or2r25zqqqovmea5or2q",
+          "quantity": 1
+        },
+        {
+          "itemId": "5sbkz3mmrtwj3nhms22cb2vqqdv2hka",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2j3e5wtwjlbhlvkwoxe44edvlbahluoua",
+          "quantity": 1
+        },
+        {
+          "itemId": "5skyj3ekutv3bfhnqoacb3fcqxwj3na",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kz2b2vyreqozhuj5wa2y",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5k2jd3msrxwj3gba5sr3z25mxdwijha",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "사파이어 가루 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5sbkz3mmrtwj3nhms22cb2vqqdv2hka",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjl25axhwijhja5kyib25dva",
+          "quantity": 2
+        },
+        {
+          "itemId": "5skyj3ekutv3bfhnqoacb3fcqxwj3na",
+          "quantity": 1
+        },
+        {
+          "itemId": "5s2zz2vtudvlrcja5spit3mbvq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5s3kt2vsvhvlhbba5sqib3mvvuqozi545owlr3eetq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-05T18:39:39.330Z",
+      "materials": "다이아몬드 가루 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5of2j3e5wtwjlbhlvkwoxe44edvlbahluoua",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjl25axhwijhja5kyib25dva",
+          "quantity": 5
+        },
+        {
+          "itemId": "5skyj3ekutv3bfhnqoacb3fcqxwj3na",
+          "quantity": 1
+        },
+        {
+          "itemId": "5s2zz2vtudvlrcja5spit3mbvq",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

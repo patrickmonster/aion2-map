@@ -1,5 +1,6 @@
 export { ActionButton } from "./ActionButton";
 export { AionTileLayer } from "./AionTileLayer";
+export { default as FloatingCalculatorButton } from "./FloatingCalculatorButton";
 export { GameIconToggle } from "./GameIconToggle";
 export { GameMarkers } from "./GameMarkers";
 export { GameMarkerSettingsPanel } from "./GameMarkerSettingsPanel";
@@ -7,6 +8,7 @@ export { default as JsonEditorModal } from "./JsonEditorModal";
 export { MapClickHandler } from "./MapClickHandler";
 export { MapContainerComponent } from "./MapContainerComponent";
 export { MarkersSidebar } from "./MarkersSidebar";
+export { default as MaterialCalculator } from "./MaterialCalculator/index";
 export { MemoDialog } from "./MemoDialog";
 export { Navigation } from "./Navigation";
 export { MarkerTypeForm, SettingsModal } from "./SettingsModal";

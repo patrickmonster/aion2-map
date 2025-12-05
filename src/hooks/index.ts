@@ -1,5 +1,11 @@
+export { useCalculatorData } from "./useCalculatorData";
+export type { CalculatorItemData, ItemOverride } from "./useCalculatorData";
 export { useGameData } from "./useGameData";
 export { useMarkers } from "./useMarkers";
 export { useMarkerTypes } from "./useMarkerTypes";
+export { useRecipeData } from "./useRecipeData";
+export type { Recipe } from "./useRecipeData";
 export { useSettings } from "./useSettings";
+export { useShopData } from "./useShopData";
+export type { ShopItem } from "./useShopData";
 export { useUrlParams } from "./useUrlParams";

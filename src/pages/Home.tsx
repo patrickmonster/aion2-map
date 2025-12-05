@@ -17,12 +17,14 @@ import { MarkerMemo, MarkerType } from "../types";
 
 // 컴포넌트들 import
 import {
+  FloatingCalculatorButton,
   GameIconToggle,
   GameMarkers,
   JsonEditorModal,
   MapContainerComponent,
   MarkersSidebar,
   MarkerTypeForm,
+  MaterialCalculator,
   MemoDialog,
   Navigation,
   SettingsModal,
@@ -44,6 +46,7 @@ interface UIState {
   markerFilter: string;
   showJsonEditor: boolean;
   isAdminMode: boolean;
+  showMaterialCalculator: boolean;
 }
 
 // UI 액션 타입
@@ -62,7 +65,9 @@ type UIAction =
   | { type: "OPEN_JSON_EDITOR" }
   | { type: "CLOSE_JSON_EDITOR" }
   | { type: "SET_ADMIN_MODE"; isAdmin: boolean }
-  | { type: "EDIT_MARKER_DIALOG"; marker: MarkerMemo };
+  | { type: "EDIT_MARKER_DIALOG"; marker: MarkerMemo }
+  | { type: "OPEN_MATERIAL_CALCULATOR" }
+  | { type: "CLOSE_MATERIAL_CALCULATOR" };
 
 // UI 상태 초기값
 const initialUIState: UIState = {
@@ -77,6 +82,7 @@ const initialUIState: UIState = {
   markerFilter: "all",
   showJsonEditor: false,
   isAdminMode: false,
+  showMaterialCalculator: false,
 };
 
 // UI reducer
@@ -135,6 +141,10 @@ const uiReducer = (state: UIState, action: UIAction): UIState => {
         selectedMarkerType: action.marker.type || "default",
         editingMarker: action.marker.id,
       };
+    case "OPEN_MATERIAL_CALCULATOR":
+      return { ...state, showMaterialCalculator: true };
+    case "CLOSE_MATERIAL_CALCULATOR":
+      return { ...state, showMaterialCalculator: false };
     default:
       return state;
   }
@@ -609,6 +619,17 @@ const Map: React.FC = () => {
           gameData={gameData}
         />
       )}
+
+      {/* 재료 계산기 모달 */}
+      <MaterialCalculator
+        isOpen={uiState.showMaterialCalculator}
+        onClose={() => uiDispatch({ type: "CLOSE_MATERIAL_CALCULATOR" })}
+      />
+
+      {/* 재료 계산기 플로팅 버튼 */}
+      <FloatingCalculatorButton
+        onClick={() => uiDispatch({ type: "OPEN_MATERIAL_CALCULATOR" })}
+      />
     </div>
   );
 };
