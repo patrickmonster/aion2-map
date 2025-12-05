@@ -154,6 +154,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
             <h4>변경이력</h4>
             <div className="info-text">
               <ul>
+                <li>v1.0.3 - 재료 계산기 UI 개선 및 버그 수정</li>
                 <li>
                   v1.0.2 - 임페투시움 광장 상단의 깃털 일부 수정 / 필드 보스
                   추가 / 관리자 수정화면 추가
