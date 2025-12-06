@@ -567,6 +567,13 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
       {/* 액션 버튼 */}
       <div className="calculator-header">
         <button
+          className="btn-discord-invite"
+          onClick={() => window.open("https://discord.gg/wDFHrq5PPV", "_blank")}
+          title="디스코드 서버 참여"
+        >
+          💬 디스코드
+        </button>
+        <button
           onClick={() => setIsAddModalOpen(true)}
           className="btn-add-item"
         >

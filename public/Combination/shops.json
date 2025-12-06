@@ -6,7 +6,7 @@
       "id": "5sbz325kqxwj3gba5owlz3evxu",
       "name": "생명의 물약",
       "type": "인게임재화",
-      "minPrice": 250,
+      "minPrice": 10,
       "maxPrice": 250,
       "lastUpdated": "2025-12-05"
     },
@@ -1256,6 +1256,390 @@
       "type": "인게임재화",
       "minPrice": 10000,
       "maxPrice": 10000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+      "name": "오리하르콘 투구",
+      "type": "방어구",
+      "minPrice": 28900,
+      "maxPrice": 28900,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+      "name": "오리하르콘 견갑",
+      "type": "방어구",
+      "minPrice": 29999,
+      "maxPrice": 29999,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+      "name": "오리하르콘 장갑",
+      "type": "방어구",
+      "minPrice": 29000,
+      "maxPrice": 29000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+      "name": "오리하르콘 장화",
+      "type": "방어구",
+      "minPrice": 28888,
+      "maxPrice": 28888,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+      "name": "오리하르콘 망토",
+      "type": "방어구",
+      "minPrice": 31777,
+      "maxPrice": 31777,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+      "name": "오리하르콘 흉갑",
+      "type": "방어구",
+      "minPrice": 29000,
+      "maxPrice": 29000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+      "name": "오리하르콘 각반",
+      "type": "방어구",
+      "minPrice": 34999,
+      "maxPrice": 34999,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+      "name": "장인의 오리하르콘 흉갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+      "name": "장인의 오리하르콘 각반",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+      "name": "장인의 오리하르콘 투구",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+      "name": "장인의 오리하르콘 견갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+      "name": "장인의 오리하르콘 장갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+      "name": "장인의 오리하르콘 장화",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+      "name": "장인의 오리하르콘 망토",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+      "name": "달인의 오리하르콘 흉갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+      "name": "달인의 오리하르콘 각반",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+      "name": "달인의 오리하르콘 투구",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+      "name": "달인의 오리하르콘 견갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+      "name": "달인의 오리하르콘 장갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+      "name": "달인의 오리하르콘 장화",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+      "name": "달인의 오리하르콘 망토",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3m5rhvlbei",
+      "name": "건룡왕의 흉갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb2vqqhv3bga",
+      "name": "건룡왕의 각반",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3mivtvllla",
+      "name": "건룡왕의 투구",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb2vsvtvlbei",
+      "name": "건룡왕의 견갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3e6uxvlbei",
+      "name": "건룡왕의 장갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3e6uxv3bfa",
+      "name": "건룡왕의 장바",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb25htxwynia",
+      "name": "건룡왕의 망토",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3m5rhvlbei",
+      "name": "흑룡왕의 흉갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb2vqqhv3bga",
+      "name": "흑룡왕의 각반",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3mivtvllla",
+      "name": "흑룡왕의 투구",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb2vsvtvlbei",
+      "name": "흑룡왕의 견갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3e6uxvlbei",
+      "name": "흑룡왕의 장갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3e6uxwztfa",
+      "name": "흑룡왕의 장화",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb25htxwynia",
+      "name": "흑룡왕의 망토",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb2vqqhv3bga",
+      "name": "암룡왕의 각반",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3mivtvllla",
+      "name": "암룡왕의 투구",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb2vsvtvlbei",
+      "name": "암룡왕의 견갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3e6uxvlbei",
+      "name": "암룡왕의 장갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3e6uxwztfa",
+      "name": "암룡왕의 장화",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb25htxwynia",
+      "name": "암룡왕의 망토",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3m5rhvlbei",
+      "name": "기룡왕의 흉갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb2vqqhv3bga",
+      "name": "기룡왕의 각반",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3mivtvllla",
+      "name": "기룡왕의 투구",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb2vsvtvlbei",
+      "name": "기룡왕의 견갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3e6uxvlbei",
+      "name": "기룡왕의 장갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3e6uxwztfa",
+      "name": "기룡왕의 장화",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb25htxwynia",
+      "name": "기룡왕의 망토",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
       "lastUpdated": "2025-12-06"
     }
   ]

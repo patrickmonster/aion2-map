@@ -907,8 +907,9 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
-.btn-add-item {
-  background-color: #4caf50;
+
+.btn-discord-invite {
+  background-color: #684caf;
   color: white;
   border: none;
   padding: 10px 16px;
@@ -920,6 +921,35 @@
   display: inline-flex;
   align-items: center;
   gap: 4px;
+  margin-left: 8px;
+}
+
+.btn-discord-invite:hover:not(:disabled) {
+  background-color: #9c27b0;
+  transform: translateY(-1px);
+}
+
+.btn-discord-invite:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+  transform: none;
+}
+
+
+.btn-add-item {
+  background-color: #684caf;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
 }
 
 .btn-add-item:hover {
