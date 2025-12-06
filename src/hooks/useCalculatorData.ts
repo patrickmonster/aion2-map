@@ -24,27 +24,30 @@ export const useCalculatorData = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // 로컬 스토리지에서 계산기 데이터 로드
+  // 로컬 스토리지에서 계산기 데이터 로드 (useStorage 패턴 활용)
   const loadCalculatorData = useCallback(
     (category: string): CalculatorItemData[] => {
       try {
         const key = `aion2-calculate-${category}`;
-        const stored = localStorage.getItem(key);
-        return stored ? JSON.parse(stored) : [];
+        const savedData = localStorage.getItem(key);
+        if (savedData) {
+          const parsedData = JSON.parse(savedData);
+          return Array.isArray(parsedData) ? parsedData : [];
+        }
       } catch (err) {
         console.error(`계산기 데이터 로드 실패 (${category}):`, err);
-        return [];
       }
+      return [];
     },
     []
   );
 
-  // 로컬 스토리지에 계산기 데이터 저장
+  // 로컬 스토리지에 계산기 데이터 저장 (useStorage 패턴 활용)
   const saveCalculatorData = useCallback(
-    (category: string, data: CalculatorItemData[]) => {
+    (category: string, items: CalculatorItemData[]) => {
       try {
         const key = `aion2-calculate-${category}`;
-        localStorage.setItem(key, JSON.stringify(data));
+        localStorage.setItem(key, JSON.stringify(items));
       } catch (err) {
         console.error(`계산기 데이터 저장 실패 (${category}):`, err);
       }
@@ -61,7 +64,7 @@ export const useCalculatorData = () => {
     [loadCalculatorData]
   );
 
-  // 서버에서 새로운 데이터 동기화
+  // 서버에서 새로운 데이터 동기화 (useStorage 활용)
   const syncCalculatorData = useCallback(
     async (
       category: string,
@@ -76,7 +79,7 @@ export const useCalculatorData = () => {
         const localData = loadCalculatorData(category);
         const localItemIds = new Set(localData.map((item) => item.id));
 
-        // 서버에서 레시피 데이터 로드
+        // 서버에서 레시피 데이터 직접 로드 (레시피 구조가 다르므로)
         const basePath = process.env.PUBLIC_URL || "";
         const response = await fetch(`${basePath}/Combination/${recipeFile}`);
 
@@ -85,12 +88,12 @@ export const useCalculatorData = () => {
         }
 
         const recipeJson = await response.json();
-        const serverItems = recipeJson.items || [];
+        const serverRecipes = recipeJson.items || [];
 
         // 로컬에 없는 새로운 아이템들만 추가
         const newItems: CalculatorItemData[] = [];
 
-        for (const recipe of serverItems) {
+        for (const recipe of serverRecipes) {
           if (!localItemIds.has(recipe.id)) {
             // 아이템 정보 가져오기
             const itemInfo = getItemById(recipe.id);
@@ -168,7 +171,7 @@ export const useCalculatorData = () => {
     [loadCalculatorData, saveCalculatorData]
   );
 
-  // 아이템 오버라이드 저장 (임시 수정사항)
+  // 아이템 오버라이드 저장 (임시 수정사항, useStorage 패턴)
   const saveItemOverrides = useCallback(
     (category: string, overrides: Record<string, ItemOverride>) => {
       try {
@@ -181,17 +184,20 @@ export const useCalculatorData = () => {
     []
   );
 
-  // 아이템 오버라이드 로드
+  // 아이템 오버라이드 로드 (useStorage 패턴)
   const loadItemOverrides = useCallback(
     (category: string): Record<string, ItemOverride> => {
       try {
         const key = `aion2-calculate-${category}-overrides`;
-        const stored = localStorage.getItem(key);
-        return stored ? JSON.parse(stored) : {};
+        const savedData = localStorage.getItem(key);
+        if (savedData) {
+          const parsedData = JSON.parse(savedData);
+          return parsedData && typeof parsedData === "object" ? parsedData : {};
+        }
       } catch (err) {
         console.error(`오버라이드 로드 실패 (${category}):`, err);
-        return {};
       }
+      return {};
     },
     []
   );
@@ -212,6 +218,66 @@ export const useCalculatorData = () => {
     }
   }, []);
 
+  // 계산기 데이터 초기화 (useStorage 활용)
+  const initializeCalculatorData = useCallback(
+    async (category: string, getItemById: (id: string) => any) => {
+      setIsLoading(true);
+      setError(null);
+
+      try {
+        // 로컬 데이터 먼저 확인
+        const localData = loadCalculatorData(category);
+        if (localData.length > 0) {
+          return localData;
+        }
+
+        // 로컬에 데이터가 없으면 서버에서 가져와서 초기화
+        const recipeFile = getCategoryFileName(category);
+        const basePath = process.env.PUBLIC_URL || "";
+        const response = await fetch(`${basePath}/Combination/${recipeFile}`);
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const recipeJson = await response.json();
+        const serverRecipes = recipeJson.items || [];
+
+        const initialItems: CalculatorItemData[] = [];
+
+        for (const recipe of serverRecipes) {
+          const itemInfo = getItemById(recipe.id);
+
+          if (itemInfo) {
+            const newItem: CalculatorItemData = {
+              id: recipe.id,
+              name: itemInfo.name,
+              type: itemInfo.type,
+              combo: recipe.combo,
+              cnt: recipe.cnt,
+              materials: recipe.ingredient || [],
+              lastUpdated: new Date().toISOString(),
+              hasUpperGradeCombination: false,
+            };
+            initialItems.push(newItem);
+          }
+        }
+
+        // 로컬에 저장
+        saveCalculatorData(category, initialItems);
+        return initialItems;
+      } catch (err) {
+        const errorMessage = err instanceof Error ? err.message : "초기화 실패";
+        setError(errorMessage);
+        console.error("계산기 데이터 초기화 실패:", err);
+        return [];
+      } finally {
+        setIsLoading(false);
+      }
+    },
+    [loadCalculatorData, saveCalculatorData, getCategoryFileName]
+  );
+
   return {
     loadCalculatorData,
     saveCalculatorData,
@@ -222,6 +288,7 @@ export const useCalculatorData = () => {
     saveItemOverrides,
     loadItemOverrides,
     getCategoryFileName,
+    initializeCalculatorData,
     isLoading,
     error,
   };

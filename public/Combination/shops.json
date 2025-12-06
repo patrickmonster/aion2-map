@@ -1185,6 +1185,78 @@
       "minPrice": 0,
       "maxPrice": 0,
       "lastUpdated": "2025-12-05"
+    },
+    {
+      "id": "5ozyb3mztdv3ffj2edvzhhhltw6o3bva5objqihlwoaozc5aedwlvfhlsska",
+      "name": "변환법: 드라토나 변신 캔디",
+      "type": "인게임재화",
+      "minPrice": 100000,
+      "maxPrice": 100000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ozyb3mztdv3ffj2edwjlbhmtk4oxhn45snlaihlwoaozc5aedwlvfhlsska",
+      "name": "변환법: 아울라우 변신 캔디",
+      "type": "인게임재화",
+      "minPrice": 100000,
+      "maxPrice": 100000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ozyb3mztdv3ffj2edv2znhlvs2cb25tqdwixiba5s5jj24usq",
+      "name": "변환법: 무무 변신 캔디",
+      "type": "인게임재화",
+      "minPrice": 100000,
+      "maxPrice": 100000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ozyb3mztdv3ffj2edvz3phmtw2ozonyedv3hahmroqcb3f2stvzjfa",
+      "name": "변환법: 라이칸 변신 캔디",
+      "type": "인게임재화",
+      "minPrice": 100000,
+      "maxPrice": 100000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5o4iz245xtwjvmhlroeozhmyedwkbfpmrcma",
+      "name": "브라우니의 정수",
+      "type": "인게임재화",
+      "minPrice": 10000,
+      "maxPrice": 10000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5ojzz245xtwynihlqkmozhmyedwkbfpmrcma",
+      "name": "드라토나의 정수",
+      "type": "인게임재화",
+      "minPrice": 10000,
+      "maxPrice": 10000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5skyj3e2xdvz3phmtkyozhmyedwkbfpmrcma",
+      "name": "아울라우의 정수",
+      "type": "인게임재화",
+      "minPrice": 10000,
+      "maxPrice": 10000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5owlj25mwtwj3gba5sqjl3eita",
+      "name": "무무의 정수",
+      "type": "인게임재화",
+      "minPrice": 10000,
+      "maxPrice": 10000,
+      "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5oo3z3e5wtwltohmtwmcb3fasxwirga",
+      "name": "라이칸의 정수",
+      "type": "인게임재화",
+      "minPrice": 10000,
+      "maxPrice": 10000,
+      "lastUpdated": "2025-12-06"
     }
   ]
 }

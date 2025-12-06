@@ -64,7 +64,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
     };
 
     loadShopData();
-  }, [initializeData]);
+  }, []);
 
   // hookShopItems가 변경될 때 shopItems 업데이트
   useEffect(() => {

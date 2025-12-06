@@ -100,12 +100,17 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
     }
   }, []);
 
+  useEffect(() => {
+    const initialize = async () => {
+      await initializeData();
+    };
+    initialize();
+  }, []);
+
   // 데이터 로드 (로컬 데이터 우선)
   useEffect(() => {
     const loadData = async () => {
       // 상점 데이터 초기화
-      await initializeData();
-
       // 로컬 스토리지에서 계산기 데이터 로드
       const category = getTabCategory(activeMainTab);
       const localCalculatorData = loadCalculatorData(category);
@@ -146,6 +151,7 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
           } else {
             const firstMaterial = getItemById(item.materials[0].itemId);
             const firstName = firstMaterial?.name || item.materials[0].itemId;
+
             materialsText = `${firstName} 외 ${item.materials.length - 1}개`;
           }
         }
@@ -171,7 +177,6 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
     };
 
     loadData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     activeMainTab,
     initializeData,

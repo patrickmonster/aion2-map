@@ -15,8 +15,8 @@ const MaterialCalculator: React.FC<MaterialCalculatorProps> = ({
   isOpen,
   onClose,
 }) => {
-  const [activeSideTab, setSideTab] = useState<SideMenuTab>("계산기");
-  const sideTabs: SideMenuTab[] = ["계산기", "상점"];
+  const [activeSideTab, setSideTab] = useState<SideMenuTab>("상점");
+  const sideTabs: SideMenuTab[] = ["상점", "계산기"];
 
   if (!isOpen) return null;
 
@@ -55,7 +55,6 @@ const MaterialCalculator: React.FC<MaterialCalculatorProps> = ({
 
             {/* 사이드 메뉴에 따른 콘텐츠 변경 */}
             {activeSideTab === "계산기" && <CalculatorContent />}
-
             {activeSideTab === "상점" && <ShopContent />}
           </div>
         </div>

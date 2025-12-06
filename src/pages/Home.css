@@ -823,6 +823,36 @@ div.leaflet-bottom.leaflet-right {
   cursor: not-allowed;
 }
 
+.info-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.info-section-header h4 {
+  margin: 0;
+}
+
+.discord-invite-btn {
+  background: #5865f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.discord-invite-btn:hover {
+  background: #4752c4;
+  transform: translateY(-1px);
+}
+
 .info-text {
   color: #666;
   font-size: 14px;

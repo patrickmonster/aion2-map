@@ -144,7 +144,18 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
           )}
 
           <div className="settings-section">
-            <h4>정보</h4>
+            <div className="info-section-header">
+              <h4>정보</h4>
+              <button
+                className="discord-invite-btn"
+                onClick={() =>
+                  window.open("https://discord.gg/wDFHrq5PPV", "_blank")
+                }
+                title="디스코드 서버 참여"
+              >
+                💬 디스코드
+              </button>
+            </div>
             <div className="info-text">
               <p>버전: 1.0.2</p>
               <p>제작자: Patrickmonster</p>
@@ -154,6 +165,9 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
             <h4>변경이력</h4>
             <div className="info-text">
               <ul>
+                <li>
+                  v1.0.4 - 디스코드 서버 참여 버튼 추가 / 재료 계산기 로직 수정
+                </li>
                 <li>v1.0.3 - 재료 계산기 UI 개선 및 버그 수정</li>
                 <li>
                   v1.0.2 - 임페투시움 광장 상단의 깃털 일부 수정 / 필드 보스
