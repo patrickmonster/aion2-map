@@ -4,6 +4,12 @@ import { AppSettings, MarkerType } from "../types";
 import { ActionButton } from "./ActionButton";
 import { GameMarkerSettingsPanel } from "./GameMarkerSettingsPanel";
 
+// 변경이력 타입 정의
+interface UpdateItem {
+  version: string;
+  description: string;
+}
+
 interface SettingsModalProps {
   isOpen: boolean;
   settings: AppSettings;
@@ -35,6 +41,36 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   onAddMarkerType,
   onToggleGameMarkerType,
 }) => {
+  const [updateHistory, setUpdateHistory] = useState<{
+    version: string;
+    updates: UpdateItem[];
+  }>();
+  const [isLoadingUpdates, setIsLoadingUpdates] = useState(false);
+
+  // 변경이력 불러오기
+  useEffect(() => {
+    const fetchUpdateHistory = async () => {
+      if (!isOpen) return;
+
+      setIsLoadingUpdates(true);
+      try {
+        const basePath = process.env.PUBLIC_URL || "";
+        const response = await fetch(`${basePath}/Combination/update.json`);
+        if (response.ok) {
+          const data = await response.json();
+          setUpdateHistory(data);
+        } else {
+          console.error("Failed to fetch update history:", response.status);
+        }
+      } catch (error) {
+        console.error("Error fetching update history:", error);
+      } finally {
+        setIsLoadingUpdates(false);
+      }
+    };
+
+    fetchUpdateHistory();
+  }, [isOpen]);
   useEffect(() => {
     if (!isOpen) return;
 
@@ -157,25 +193,31 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
               </button>
             </div>
             <div className="info-text">
-              <p>버전: 1.0.2</p>
+              {isLoadingUpdates ? (
+                <p>정보 불러오는 중...</p>
+              ) : (
+                <p>버전: {updateHistory?.version}</p>
+              )}
               <p>제작자: Patrickmonster</p>
             </div>
           </div>
           <div className="settings-section">
             <h4>변경이력</h4>
             <div className="info-text">
-              <ul>
-                <li>
-                  v1.0.4 - 디스코드 서버 참여 버튼 추가 / 재료 계산기 로직 수정
-                </li>
-                <li>v1.0.3 - 재료 계산기 UI 개선 및 버그 수정</li>
-                <li>
-                  v1.0.2 - 임페투시움 광장 상단의 깃털 일부 수정 / 필드 보스
-                  추가 / 관리자 수정화면 추가
-                </li>
-                <li>v1.0.1 - 마커 타입 관리 기능 추가 및 UI 개선</li>
-                <li>v1.0.0 - 초기 릴리스: 기본 마커 기능 및 설정 모달 추가</li>
-              </ul>
+              {isLoadingUpdates ? (
+                <p>변경이력을 불러오는 중...</p>
+              ) : (
+                <ul>
+                  {updateHistory?.updates
+                    .slice()
+                    .reverse()
+                    .map((update, index) => (
+                      <li key={index}>
+                        {update.version} - {update.description}
+                      </li>
+                    ))}
+                </ul>
+              )}
             </div>
           </div>
         </div>

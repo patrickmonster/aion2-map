@@ -1,0 +1,28 @@
+{
+  "updates": [
+    {
+      "version": "v1.0.5",
+      "description": "재료변환 여부 기능 추가 / 재료변환 제외 필터 추가 / 변경이력 동적 로드"
+    },
+    {
+      "version": "v1.0.4",
+      "description": "디스코드 서버 참여 버튼 추가 / 재료 계산기 로직 수정"
+    },
+    {
+      "version": "v1.0.3",
+      "description": "재료 계산기 UI 개선 및 버그 수정"
+    },
+    {
+      "version": "v1.0.2",
+      "description": "임페투시움 광장 상단의 깃털 일부 수정 / 필드 보스 추가 / 관리자 수정화면 추가"
+    },
+    {
+      "version": "v1.0.1",
+      "description": "마커 타입 관리 기능 추가 및 UI 개선"
+    },
+    {
+      "version": "v1.0.0",
+      "description": "초기 릴리스: 기본 마커 기능 및 설정 모달 추가"
+    }
+  ]
+}

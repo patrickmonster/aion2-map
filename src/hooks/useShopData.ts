@@ -20,6 +20,7 @@ export interface ShopItem {
   minPrice: number;
   maxPrice: number;
   lastUpdated: string;
+  convert?: boolean;
 }
 
 // JSON 파일 구조

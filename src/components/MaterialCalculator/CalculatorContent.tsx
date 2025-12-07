@@ -56,6 +56,7 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [materialFilter, setMaterialFilter] = useState("");
   const [typeFilter, setTypeFilter] = useState<ItemType>("전체");
+  const [excludeConvert, setExcludeConvert] = useState(false);
 
   // 정렬 상태
   const [sortState, setSortState] = useState<SortState>({
@@ -495,6 +496,10 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
           (material: { itemId: string; quantity: number }) => {
             const materialShopItem = getItemById(material.itemId);
             if (materialShopItem) {
+              // 재료변환 제외 필터가 활성화된 경우, convert가 true인 재료는 제외
+              if (excludeConvert && materialShopItem.convert) {
+                return;
+              }
               materialMinCost += materialShopItem.minPrice * material.quantity;
               materialMaxCost += materialShopItem.maxPrice * material.quantity;
             }
@@ -573,6 +578,7 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
     sortState,
     itemOverrides,
     getItemById,
+    excludeConvert,
   ]);
 
   return (
@@ -655,6 +661,17 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
             label="타입:"
             className="search-select"
           />
+        </div>
+        <div className="search-group">
+          <label className="exclude-convert-label">
+            <input
+              type="checkbox"
+              checked={excludeConvert}
+              onChange={(e) => setExcludeConvert(e.target.checked)}
+              className="exclude-convert-checkbox"
+            />
+            재료변환 제외 (오드 변환 아이템 제외)
+          </label>
         </div>
       </div>
 

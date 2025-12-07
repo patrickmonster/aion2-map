@@ -13,6 +13,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
   // 검색 조건 상태
   const [searchName, setSearchName] = useState("");
   const [searchType, setSearchType] = useState<ItemType>("전체");
+  const [showConvertOnly, setShowConvertOnly] = useState(false);
 
   // 편집 모달 상태
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
@@ -87,9 +88,14 @@ const ShopContent: React.FC<ShopContentProps> = () => {
         return false;
       }
 
+      // 재료변환 필터
+      if (showConvertOnly && !item.convert) {
+        return false;
+      }
+
       return true;
     });
-  }, [shopItems, searchName, searchType]);
+  }, [shopItems, searchName, searchType, showConvertOnly]);
 
   // CRUD 기능들
   const handleAdd = useCallback(() => {
@@ -100,6 +106,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
       minPrice: 0,
       maxPrice: 0,
       lastUpdated: new Date().toISOString().split("T")[0],
+      convert: false,
     });
     setIsAddMode(true);
     setIsEditModalOpen(true);
@@ -205,7 +212,17 @@ const ShopContent: React.FC<ShopContentProps> = () => {
     const exportData: ShopsJsonData = {
       category: "상점",
       description: "게임 내 상점 정보 데이터",
-      items: shopItems,
+      items: shopItems.map((item) => {
+        const exportItem = { ...item };
+        // convert가 true인 경우에만 포함
+        if (item.convert) {
+          exportItem.convert = true;
+        } else {
+          // convert 속성 제거
+          delete exportItem.convert;
+        }
+        return exportItem;
+      }),
     };
 
     const dataStr = JSON.stringify(exportData, null, 2);
@@ -273,6 +290,22 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                   includeAll={true}
                 />
               </div>
+
+              <div className="filter-group">
+                <label className="convert-filter-label">
+                  <input
+                    type="checkbox"
+                    checked={showConvertOnly}
+                    onChange={useCallback(
+                      (e: React.ChangeEvent<HTMLInputElement>) =>
+                        setShowConvertOnly(e.target.checked),
+                      []
+                    )}
+                    className="convert-filter-checkbox"
+                  />
+                  재료변환만 보기
+                </label>
+              </div>
             </div>
           </div>
 
@@ -306,7 +339,10 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                 <tbody>
                   {filteredItems.length > 0 ? (
                     filteredItems.map((item) => (
-                      <tr key={item.id}>
+                      <tr
+                        key={item.id}
+                        className={item.convert ? "convert-item" : ""}
+                      >
                         <td className="item-name">{item.name}</td>
                         <td className="item-type">{item.type}</td>
                         <td className="price">
@@ -540,6 +576,25 @@ const EditModal: React.FC<EditModalProps> = ({
                 min="0"
                 required
               />
+            </div>
+
+            <div className="form-group">
+              <label className="checkbox-label">
+                <input
+                  type="checkbox"
+                  checked={formData.convert || false}
+                  onChange={React.useCallback(
+                    (e: React.ChangeEvent<HTMLInputElement>) =>
+                      setFormData((prev) => ({
+                        ...prev,
+                        convert: e.target.checked,
+                      })),
+                    []
+                  )}
+                  className="form-checkbox"
+                />
+                재료변환 가능
+              </label>
             </div>
           </div>
 
