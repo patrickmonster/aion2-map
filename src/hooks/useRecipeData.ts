@@ -71,6 +71,8 @@ export const useRecipeData = () => {
         return "blacksmith.json";
       case "세공":
         return "handicrafting.json";
+      case "요리":
+        return "food.json";
       default:
         return "alchemy.json";
     }

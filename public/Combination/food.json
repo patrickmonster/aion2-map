@@ -1,0 +1,499 @@
+{
+  "items": [
+    {
+      "id": "5oqir3e5wtvyxnba5sr3z3ekuq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "레이담 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5oqir3e5wtvyxna",
+          "quantity": 1
+        },
+        {
+          "itemId": "5sckj3mdsu",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5ovkr25fwtwyzdba5sykq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "모르파 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5ovkr25fwtwyzda",
+          "quantity": 1
+        },
+        {
+          "itemId": "5sckj3mdsu",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5oqir3e5wtvyxnba5sr3z3ekuq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "레이담 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5oqir3e5wtvyxna",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sckj3mdsu",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5ovkr25fwtwyzdba5sykq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "모르파 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5ovkr25fwtwyzda",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sckj3mdsu",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwj3gba5kz3z3e5xqqozi545sfki",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "레이담 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5oqir3e5wtvyxna",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sckj3mdsu",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5snkt3fbwhwj3gba5of2z3f5utwzlhba5sl3j25huq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwj3gba5wlyr25yrqqozmfi",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "용족의 달콤한 열매 외 4개",
+      "ingredient": [
+        {
+          "itemId": "5snkt3fbwhwj3gba5of2z3f5utwzlhba5sl3j25huq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5ovkr25fwtwyzda",
+          "quantity": 3
+        },
+        {
+          "itemId": "5smkj3mbvtvz3pa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sckj3mdsu",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5wnyj25fwtwlriba5scyb247vtvzhha",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "신선한 열매 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5sf2b3eeudwzlhba5sl3j25huq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5wnyj25fwtwlriba5scyb247vtvzhha",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5s43j25araqovm5a5k4laihlwo3ozhmm",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "싱싱한 생고기 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5sf3d3elwhwzlhba5sbz32vtudvlrma",
+          "quantity": 1
+        },
+        {
+          "itemId": "edwindhkxcea",
+          "quantity": 2
+        },
+        {
+          "itemId": "5s43j25araqovmea5or2q",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5wi3r3fattv2nlba5syjy",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "푸제리 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5wi3r3fattv2nla",
+          "quantity": 1
+        },
+        {
+          "itemId": "5kyij3e6uu",
+          "quantity": 2
+        },
+        {
+          "itemId": "edwindhkxcea",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5s6zj24lrdwyldba5wgiz3ekutwyhaa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "코니테 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5s6zj24lrdwylda",
+          "quantity": 1
+        },
+        {
+          "itemId": "5whjz24evqqoza455ou3i",
+          "quantity": 1
+        },
+        {
+          "itemId": "5s4zr3fgra",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5smkj3mbvtvz3pba5kz2b2vywaqo3cua5k4ya",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "싱싱한 생고기 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5sf3d3elwhwzlhba5sbz32vtudvlrma",
+          "quantity": 1
+        },
+        {
+          "itemId": "5smkj3mbvtvz3pa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5slzr25gqqqozgfe5so3y",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5wi3r3fattv2nlba5k22z3e5wq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "푸제리 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5wi3r3fattv2nla",
+          "quantity": 1
+        },
+        {
+          "itemId": "5sf2b3eeudwzlhba5sl3j25huq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5whjr3ekvtv2dlza5ozij3mewa",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5s43j25araqovm5a5k4laihlwo3ozhmm",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "싱싱한 생고기 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5sf3d3elwhwzlhba5sbz32vtudvlrma",
+          "quantity": 5
+        },
+        {
+          "itemId": "edwindhkxcea",
+          "quantity": 2
+        },
+        {
+          "itemId": "5s43j25araqovmea5or2q",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5wnyj25fwtwlriba5sbzb247vtvzhha",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "신선한 열매 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5sf2b3eeudwzlhba5sl3j25huq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5skyz3mkxdvlbahluw2oxe44edwzxbhmw2ka",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5wi3r3fattv2nlba5syjy",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "푸제리 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5wi3r3fattv2nla",
+          "quantity": 5
+        },
+        {
+          "itemId": "5kyij3e6uu",
+          "quantity": 5
+        },
+        {
+          "itemId": "edwindhkxcea",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5s6zj24lrdwyldba5wgiz3ekutwyhaa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "코니테 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5s6zj24lrdwylda",
+          "quantity": 5
+        },
+        {
+          "itemId": "5whjz24evqqoza455ou3i",
+          "quantity": 3
+        },
+        {
+          "itemId": "5s4zr3fgra",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj3mbvtvz3pba5kz2b2vywaqo3cua5k4ya",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "싱싱한 생고기 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5sf3d3elwhwzlhba5sbz32vtudvlrma",
+          "quantity": 3
+        },
+        {
+          "itemId": "5smkj3mbvtvz3pa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5slzr25gqqqozgfe5so3y",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5wi3r3fattv2nlba5k22z3e5wq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "푸제리 외 2개",
+      "ingredient": [
+        {
+          "itemId": "5wi3r3fattv2nla",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sf2b3eeudwzlhba5sl3j25huq",
+          "quantity": 3
+        },
+        {
+          "itemId": "5whjr3ekvtv2dlza5ozij3mewa",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwj3gba5o4yj3muqqqozg5q5otyd3mewq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "용족의 부드러운 고기 외 4개",
+      "ingredient": [
+        {
+          "itemId": "5snkt3fbwhwj3gba5o3ib24tttvz7lhmtk2cb2vtudvlrma",
+          "quantity": 1
+        },
+        {
+          "itemId": "5s6zj24lrdwylda",
+          "quantity": 3
+        },
+        {
+          "itemId": "5smkj3mbvtvz3pa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5slzr25gqqqozgfe5so3y",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwj3gba5skkr3mrxdvzhhba5wgiz3ekutwyhaa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "용족의 부드러운 고기 외 4개",
+      "ingredient": [
+        {
+          "itemId": "5snkt3fbwhwj3gba5o3ib24tttvz7lhmtk2cb2vtudvlrma",
+          "quantity": 1
+        },
+        {
+          "itemId": "5wi3r3fattv2nla",
+          "quantity": 4
+        },
+        {
+          "itemId": "5s6zj24lrdwylda",
+          "quantity": 2
+        },
+        {
+          "itemId": "5whjz24evqqoza455ou3i",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwj3gba5sylt3ekutwyldhmtw2o3anm",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T07:33:41.019Z",
+      "materials": "용족의 부드러운 고기 외 4개",
+      "ingredient": [
+        {
+          "itemId": "5snkt3fbwhwj3gba5o3ib24tttvz7lhmtk2cb2vtudvlrma",
+          "quantity": 1
+        },
+        {
+          "itemId": "5oqir3e5wtvyxna",
+          "quantity": 3
+        },
+        {
+          "itemId": "5ovkr25fwtwyzda",
+          "quantity": 3
+        },
+        {
+          "itemId": "5skyz3mkxdvlbahluw2oxe44edwzxbhmw2ka",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

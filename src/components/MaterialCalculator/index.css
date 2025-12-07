@@ -1005,6 +1005,33 @@
   transform: none;
 }
 
+.btn-clear-data {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+}
+
+.btn-clear-data:hover:not(:disabled) {
+  background-color: #d32f2f;
+  transform: translateY(-1px);
+}
+
+.btn-clear-data:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+  transform: none;
+}
+
 /* 계산 항목 추가 모달 스타일 */
 .add-item-modal {
   width: 600px;
@@ -1497,4 +1524,139 @@ input:checked + .toggle-slider:before {
 .calculator-table td:nth-child(12),
 .calculator-table td:nth-child(14) {
   text-align: center;
+}
+
+/* 다중 선택 모달 스타일 */
+.search-section {
+  padding: 16px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.search-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #007acc;
+  box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.25);
+}
+
+.select-all-button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #495057;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.select-all-button:hover {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.items-list {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 8px 0;
+}
+
+.item-row {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s;
+}
+
+.item-row:hover {
+  background-color: #f8f9fa;
+}
+
+.item-row.selected {
+  background-color: #e3f2fd;
+  border-left: 3px solid #1976d2;
+}
+
+.item-checkbox {
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.item-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-name {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.item-details {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: #666;
+}
+
+.item-type {
+  background-color: #e9ecef;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.item-price {
+  color: #28a745;
+  font-weight: 500;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+  font-style: italic;
+}
+
+.add-item-modal .modal-content {
+  max-width: 600px;
+  max-height: 80vh;
+}
+
+.add-item-modal .modal-body {
+  padding: 0;
+  max-height: calc(80vh - 140px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-item-modal .modal-actions {
+  padding: 16px 20px;
+  margin-top: 0;
 }

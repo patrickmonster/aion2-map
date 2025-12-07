@@ -1641,6 +1641,766 @@
       "minPrice": 0,
       "maxPrice": 0,
       "lastUpdated": "2025-12-06"
+    },
+    {
+      "id": "5oqir3e5wtvyxnba5sr3z3ekuq",
+      "name": "레이담 주스",
+      "type": "소모품",
+      "minPrice": 3940,
+      "maxPrice": 3940,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wnyj25fwtwlriba5scyb247vtvzhha",
+      "name": "후르츠 셀러드",
+      "type": "소모품",
+      "minPrice": 3997,
+      "maxPrice": 3997,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5ovkr25fwtwyzdba5sykq",
+      "name": "모르파 차",
+      "type": "소모품",
+      "minPrice": 3375,
+      "maxPrice": 3375,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5s43j25araqovm5a5k4laihlwo3ozhmm",
+      "name": "카레 고기 볶음",
+      "type": "소모품",
+      "minPrice": 5000,
+      "maxPrice": 5000,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wi3r3fattv2nlba5syjy",
+      "name": "푸제리 찜",
+      "type": "소모품",
+      "minPrice": 3800,
+      "maxPrice": 3800,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5s6zj24lrdwyldba5wgiz3ekutwyhaa",
+      "name": "코니테 파스타",
+      "type": "소모품",
+      "minPrice": 3850,
+      "maxPrice": 3850,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5smkj3mbvtvz3pba5kz2b2vywaqo3cua5k4ya",
+      "name": "오크라 고기 튀김",
+      "type": "소모품",
+      "minPrice": 9500,
+      "maxPrice": 9500,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wi3r3fattv2nlba5k22z3e5wq",
+      "name": "푸제리 구이",
+      "type": "소모품",
+      "minPrice": 7970,
+      "maxPrice": 7970,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5oqir3e5wtvyxnba5sr3z3ekuq",
+      "name": "달인의 레이담 주스",
+      "type": "소모품",
+      "minPrice": 9400,
+      "maxPrice": 9400,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5ovkr25fwtwyzdba5sykq",
+      "name": "달인의 모르파 차",
+      "type": "소모품",
+      "minPrice": 12000,
+      "maxPrice": 12000,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5s43j25araqovm5a5k4laihlwo3ozhmm",
+      "name": "달인의 카레 고기 볶음",
+      "type": "소모품",
+      "minPrice": 34900,
+      "maxPrice": 34900,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5wnyj25fwtwlriba5sbzb247vtvzhha",
+      "name": "달인의 후르츠 샐러드",
+      "type": "소모품",
+      "minPrice": 5999,
+      "maxPrice": 5999,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5wi3r3fattv2nlba5syjy",
+      "name": "달인의 푸제리 찜",
+      "type": "소모품",
+      "minPrice": 8900,
+      "maxPrice": 8900,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5s6zj24lrdwyldba5wgiz3ekutwyhaa",
+      "name": "달인의 코니테 파스타",
+      "type": "소모품",
+      "minPrice": 9800,
+      "maxPrice": 9800,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj3mbvtvz3pba5kz2b2vywaqo3cua5k4ya",
+      "name": "달인의 오크라 고기 튀김",
+      "type": "소모품",
+      "minPrice": 28000,
+      "maxPrice": 28000,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5wi3r3fattv2nlba5k22z3e5wq",
+      "name": "달인의 푸제리 구이",
+      "type": "소모품",
+      "minPrice": 18999,
+      "maxPrice": 18999,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwj3gba5kz3z3e5xqqozi545sfki",
+      "name": "흑룡의 과일 주스",
+      "type": "소모품",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwj3gba5wlyr25yrqqozmfi",
+      "name": "흑룡의 허브 차",
+      "type": "소모품",
+      "minPrice": 90000,
+      "maxPrice": 90000,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwj3gba5sylt3ekutwyldhmtw2o3anm",
+      "name": "흑룡의 찹스테이크",
+      "type": "소모품",
+      "minPrice": 29900,
+      "maxPrice": 29900,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwj3gba5skkr3mrxdvzhhba5wgiz3ekutwyhaa",
+      "name": "흑룡의 씨푸드 파스타",
+      "type": "소모품",
+      "minPrice": 31000,
+      "maxPrice": 31000,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwj3gba5o4yj3muqqqozg5q5otyd3mewq",
+      "name": "흑룡의 비프 웰링턴",
+      "type": "소모품",
+      "minPrice": 36000,
+      "maxPrice": 36000,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5sf3d3elwhwzlhba5sbz32vtudvlrma",
+      "name": "싱싱한 생고기",
+      "type": "기타",
+      "minPrice": 5169,
+      "maxPrice": 5169,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5snkt3fbwhwj3gba5of2z3f5utwzlhba5sl3j25huq",
+      "name": "용족의 달콤한 열매",
+      "type": "기타",
+      "minPrice": 40000,
+      "maxPrice": 40000,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5sf2b3eeudwzlhba5sl3j25huq",
+      "name": "신선한 열매",
+      "type": "기타",
+      "minPrice": 1200,
+      "maxPrice": 1200,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5snkt3fbwhwj3gba5o3ib24tttvz7lhmtk2cb2vtudvlrma",
+      "name": "용족의 부드러운 고기",
+      "type": "기타",
+      "minPrice": 5800,
+      "maxPrice": 5800,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5skyj3ekutv3bfhnqoacb3mztq",
+      "name": "아스바타 활",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5skyj3ekutv3bfhnqoacb3mztq",
+      "name": "장인의 아스바타 활",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5skyj3ekutv3bfhnqoacb3mztq",
+      "name": "달인의 아스바타 활",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3mztq",
+      "name": "건룡왕의 활",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3mztq",
+      "name": "흑룡왕의 활",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3mztq",
+      "name": "암룡왕의 활",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3mztq",
+      "name": "기룡왕의 활",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5skyj3ekutv3bfhnqoacb25ssxv3jci",
+      "name": "아스바타 법봉",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5skyj3ekutv3bfhnqoacb25ssxv3jci",
+      "name": "장인의 아스바타 법봉",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5skyj3ekutv3bfhnqoacb25ssxv3jci",
+      "name": "달인의 아스바타 법봉",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb25ssxv3jci",
+      "name": "건룡왕의 법봉",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb25ssxv3jci",
+      "name": "흑룡왕의 법봉",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb25ssxv3jci",
+      "name": "암룡왕의 법봉",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb25ssxv3jci",
+      "name": "기룡왕의 법봉",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+      "name": "오리하르콘 대검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+      "name": "장인의 오리하르콘 대검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+      "name": "달인의 오리하르콘 대검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb24mqdvlfaa",
+      "name": "건룡왕의 대검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb24mqdvlfaa",
+      "name": "흑룡왕의 대검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spij25duhwjtfpmtwmcb24mqdvlfaa",
+      "name": "임룡왕의 대검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb24mqdvlfaa",
+      "name": "기룡왕의 대검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+      "name": "오리하르콘 장검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+      "name": "장인의 오리하르콘 장검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+      "name": "달인의 오리하르콘 장검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3e6uxvlfaa",
+      "name": "건룡왕의 장검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3e6uxvlfaa",
+      "name": "흑룡왕의 장검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3e6uxvlfaa",
+      "name": "암룡왕의 장검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3e6uxvlfaa",
+      "name": "기룡왕의 장검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+      "name": "오리하르콘 단검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+      "name": "장인의 오리하르콘 단검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+      "name": "달인의 오리하르콘 단검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb24lvdvlfaa",
+      "name": "건룡왕의 단검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb24lvdvlfaa",
+      "name": "흑룡왕의 단검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb24lvdvlfaa",
+      "name": "암룡왕의 단검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb24lvdvlfaa",
+      "name": "기룡왕의 단검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+      "name": "오리하르콘 전곤",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+      "name": "장인의 오리하르콘 전곤",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+      "name": "달인의 오리하르콘 전곤",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3faqtvlhja",
+      "name": "건룡왕의 전곤",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3faqtvlhja",
+      "name": "흑룡왕의 전곤",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3faqtvlhja",
+      "name": "암룡왕의 전곤",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3faqtvlhja",
+      "name": "기룡왕의 전곤",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+      "name": "오리하르콘 가더",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+      "name": "장인의 오리하르콘 가더",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+      "name": "달인의 오리하르콘 가더",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb2vqqdvy3fa",
+      "name": "건룡왕의 가더",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb2vqqdvy3fa",
+      "name": "흑룡왕의 가더",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb2vqqdvy3fa",
+      "name": "암룡왕의 가더",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb2vqqdvy3fa",
+      "name": "기룡왕의 가더",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+      "name": "빛나는 오리하르콘 투구",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+      "name": "장인의 빛나는 오리하르콘 투구",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+      "name": "달인의 빛나는 오리하르콘 투구",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+      "name": "빛나는 오리하르콘 견갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+      "name": "장인의 빛나는 오리하르콘 견갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+      "name": "달인의 빛나는 오리하르콘 견갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+      "name": "빛나는 오리하르콘 흉갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+      "name": "장인의 빛나는 오리하르콘 흉갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+      "name": "달인의 빛나는 오리하르콘 흉갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+      "name": "빛나는 오리하르콘 각반",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+      "name": "장인의 빛나는 오리하르콘 각반",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+      "name": "달인의 빛나는 오리하르콘 각반",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+      "name": "빛나는 오리하르콘 장갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+      "name": "장인의 빛나는 오리하르콘 장갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+      "name": "달인의 빛나는 오리하르콘 장갑",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+      "name": "빛나는 오리하르콘 망토",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+      "name": "장인의 빛나는 오리하르콘 망토",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+      "name": "달인의 빛나는 오리하르콘 망토",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+      "name": "빛나는 오리하르콘 장화",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+      "name": "장인의 빛나는 오리하르콘 장화",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+      "name": "달인의 빛나는 오리하르콘 장화",
+      "type": "방어구",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2025-12-07"
     }
   ]
 }

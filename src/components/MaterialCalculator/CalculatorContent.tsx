@@ -7,7 +7,7 @@ import EditShopItemModal from "./EditShopItemModal";
 import TypeSelector, { type ItemType } from "./TypeSelector";
 
 // 메인 콘텐츠 탭 타입
-type MainContentTab = "연금" | "갑옷" | "대장" | "세공";
+type MainContentTab = "연금" | "갑옷" | "대장" | "세공" | "요리";
 
 // 정렬 타입 정의
 type SortField =
@@ -42,7 +42,7 @@ interface CalculatorContentProps {
 }
 
 // 상수
-const MAIN_TABS: MainContentTab[] = ["연금", "갑옷", "대장", "세공"];
+const MAIN_TABS: MainContentTab[] = ["연금", "갑옷", "대장", "세공", "요리"];
 const SORT_ICONS = {
   none: " ⇅",
   asc: " ↑",
@@ -81,6 +81,7 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
     deleteCalculatorItem,
     loadItemOverrides,
     saveItemOverrides,
+    clearCalculatorData,
     isLoading: isCalculatorLoading,
   } = useCalculatorData();
 
@@ -95,6 +96,8 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
         return "blacksmith";
       case "세공":
         return "handicrafting";
+      case "요리":
+        return "food";
       default:
         return "alchemy";
     }
@@ -307,6 +310,26 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
     loadCalculatorData,
   ]);
 
+  // 로컬 데이터 삭제 및 동기화 핸들러
+  const handleClearAndSync = useCallback(async () => {
+    if (
+      !window.confirm("로컬 데이터를 모두 삭제하고 다시 동기화하시겠습니까?")
+    ) {
+      return;
+    }
+
+    const category = getTabCategory(activeMainTab);
+
+    // 로컬 데이터 삭제
+    clearCalculatorData(category);
+
+    // 현재 표시된 데이터 초기화
+    setCustomCalculatorItems([]);
+
+    // 동기화 진행
+    await handleSyncData();
+  }, [activeMainTab, clearCalculatorData, getTabCategory, handleSyncData]);
+
   // 정렬 핸들러
   const handleSort = useCallback((field: SortField) => {
     setSortState((prev) => {
@@ -378,35 +401,38 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
     [getItemById]
   );
 
-  // 선택된 아이템을 계산 항목으로 추가
-  const handleAddCalculatorItem = useCallback((selectedShopItem: ShopItem) => {
-    const newCalculatorItem: CalculatorItem = {
-      id: selectedShopItem.id,
-      name: selectedShopItem.name,
-      type: selectedShopItem.type || "기타", // 타입 추가
-      minPrice: selectedShopItem.minPrice,
-      maxPrice: selectedShopItem.maxPrice,
-      materialCost: 0, // 기본값: 재료 없음
-      minProfit: selectedShopItem.minPrice, // 초기값: 재료 없을 때 전체 가격이 이익
-      maxProfit: selectedShopItem.maxPrice, // 초기값: 재료 없을 때 전체 가격이 이익
-      materials: "재료 없음", // 기본값
-      materialCount: 1, // 기본값
-      combo: 25, // 기본값
-      cnt: 1, // 기본값
-      ingredient: [], // 기본값
-      hasUpperGradeCombination: false,
-      lastUpdated: new Date().toISOString().split("T")[0],
-    };
+  // 선택된 아이템들을 계산 항목으로 추가
+  const handleAddCalculatorItem = useCallback(
+    (selectedShopItems: ShopItem[]) => {
+      const newCalculatorItems: CalculatorItem[] = selectedShopItems.map(
+        (selectedShopItem) => ({
+          id: selectedShopItem.id,
+          name: selectedShopItem.name,
+          type: selectedShopItem.type || "기타", // 타입 추가
+          minPrice: selectedShopItem.minPrice,
+          maxPrice: selectedShopItem.maxPrice,
+          materialCost: 0, // 기본값: 재료 없음
+          minProfit: selectedShopItem.minPrice, // 초기값: 재료 없을 때 전체 가격이 이익
+          maxProfit: selectedShopItem.maxPrice, // 초기값: 재료 없을 때 전체 가격이 이익
+          materials: "재료 없음", // 기본값
+          materialCount: 1, // 기본값
+          combo: 25, // 기본값
+          cnt: 1, // 기본값
+          ingredient: [], // 기본값
+          hasUpperGradeCombination: false,
+          lastUpdated: new Date().toISOString().split("T")[0],
+        })
+      );
 
-    setCustomCalculatorItems((prev) => [...prev, newCalculatorItem]);
-    setIsAddModalOpen(false);
-  }, []);
+      setCustomCalculatorItems((prev) => [...prev, ...newCalculatorItems]);
+      setIsAddModalOpen(false);
+    },
+    []
+  );
 
   // JSON 내보내기 함수 (일단 일반 함수로 선언, 나중에 useCallback 적용)
   const handleExportToJSON = () => {
     const exportData = {
-      category: "계산기",
-      description: "재료 계산기 데이터",
       items: allCalculatorItems.map((item) => ({
         id: item.id,
         level: 1,
@@ -585,6 +611,13 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
           disabled={isCalculatorLoading}
         >
           {isCalculatorLoading ? "동기화 중..." : "🔄 데이터 동기화"}
+        </button>
+        <button
+          onClick={handleClearAndSync}
+          className="btn-clear-data"
+          disabled={isCalculatorLoading}
+        >
+          {isCalculatorLoading ? "처리 중..." : "🗑️ 로컬 데이터 삭제"}
         </button>
         <button onClick={handleExportToJSON} className="btn-export-json">
           JSON 내보내기

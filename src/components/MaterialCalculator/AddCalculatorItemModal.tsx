@@ -4,7 +4,7 @@ import type { ShopItem } from "../../hooks";
 interface AddCalculatorItemModalProps {
   shopData: ShopItem[];
   onClose: () => void;
-  onSelect: (item: ShopItem) => void;
+  onSelect: (items: ShopItem[]) => void;
 }
 
 const AddCalculatorItemModal: React.FC<AddCalculatorItemModalProps> = ({
@@ -13,7 +13,7 @@ const AddCalculatorItemModal: React.FC<AddCalculatorItemModalProps> = ({
   onSelect,
 }) => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedItem, setSelectedItem] = useState<ShopItem | null>(null);
+  const [selectedItems, setSelectedItems] = useState<ShopItem[]>([]);
 
   // 필터링된 상점 아이템
   const filteredShopItems = useMemo(() => {
@@ -22,9 +22,42 @@ const AddCalculatorItemModal: React.FC<AddCalculatorItemModalProps> = ({
     );
   }, [shopData, searchQuery]);
 
+  const handleItemToggle = (item: ShopItem) => {
+    setSelectedItems((prev) => {
+      const isSelected = prev.some((selected) => selected.id === item.id);
+      if (isSelected) {
+        return prev.filter((selected) => selected.id !== item.id);
+      } else {
+        return [...prev, item];
+      }
+    });
+  };
+
   const handleSelect = () => {
-    if (selectedItem) {
-      onSelect(selectedItem);
+    if (selectedItems.length > 0) {
+      onSelect(selectedItems);
+    }
+  };
+
+  const handleSelectAll = () => {
+    const visibleItems = filteredShopItems.slice(0, 20);
+    const allSelected = visibleItems.every((item) =>
+      selectedItems.some((selected) => selected.id === item.id)
+    );
+
+    if (allSelected) {
+      // 모두 선택된 상태면 모두 해제
+      setSelectedItems((prev) =>
+        prev.filter(
+          (selected) => !visibleItems.some((item) => item.id === selected.id)
+        )
+      );
+    } else {
+      // 일부 또는 없음이면 모두 선택
+      const newItems = visibleItems.filter(
+        (item) => !selectedItems.some((selected) => selected.id === item.id)
+      );
+      setSelectedItems((prev) => [...prev, ...newItems]);
     }
   };
 
@@ -32,7 +65,7 @@ const AddCalculatorItemModal: React.FC<AddCalculatorItemModalProps> = ({
     <div className="modal-overlay">
       <div className="modal-content add-item-modal">
         <div className="modal-header">
-          <h3>계산 항목 추가</h3>
+          <h3>계산 항목 추가 ({selectedItems.length}개 선택)</h3>
           <button onClick={onClose} className="close-button">
             ×
           </button>
@@ -49,30 +82,56 @@ const AddCalculatorItemModal: React.FC<AddCalculatorItemModalProps> = ({
               placeholder="아이템 이름으로 검색..."
               className="search-input"
             />
+            {filteredShopItems.length > 0 && (
+              <button
+                type="button"
+                onClick={handleSelectAll}
+                className="select-all-button"
+              >
+                {filteredShopItems
+                  .slice(0, 20)
+                  .every((item) =>
+                    selectedItems.some((selected) => selected.id === item.id)
+                  )
+                  ? "모두 해제"
+                  : "모두 선택"}
+              </button>
+            )}
           </div>
 
           <div className="items-list">
             {filteredShopItems.length > 0 ? (
-              filteredShopItems.slice(0, 20).map((item) => (
-                <div
-                  key={item.id}
-                  className={`item-row ${
-                    selectedItem?.id === item.id ? "selected" : ""
-                  }`}
-                  onClick={() => setSelectedItem(item)}
-                >
-                  <div className="item-info">
-                    <div className="item-name">{item.name}</div>
-                    <div className="item-details">
-                      <span className="item-type">{item.type}</span>
-                      <span className="item-price">
-                        {item.minPrice.toLocaleString()} ~{" "}
-                        {item.maxPrice.toLocaleString()}원
-                      </span>
+              filteredShopItems.slice(0, 20).map((item) => {
+                const isSelected = selectedItems.some(
+                  (selected) => selected.id === item.id
+                );
+                return (
+                  <div
+                    key={item.id}
+                    className={`item-row ${isSelected ? "selected" : ""}`}
+                    onClick={() => handleItemToggle(item)}
+                  >
+                    <div className="item-checkbox">
+                      <input
+                        type="checkbox"
+                        checked={isSelected}
+                        onChange={() => handleItemToggle(item)}
+                        onClick={(e) => e.stopPropagation()}
+                      />
+                    </div>
+                    <div className="item-info">
+                      <div className="item-name">{item.name}</div>
+                      <div className="item-details">
+                        <span className="item-type">{item.type}</span>
+                        <span className="item-price">
+                          {item.minPrice.toLocaleString()} ~{" "}
+                          {item.maxPrice.toLocaleString()}원
+                        </span>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))
+                );
+              })
             ) : (
               <div className="no-results">검색 결과가 없습니다.</div>
             )}
@@ -87,9 +146,11 @@ const AddCalculatorItemModal: React.FC<AddCalculatorItemModalProps> = ({
             type="button"
             onClick={handleSelect}
             className="btn-save"
-            disabled={!selectedItem}
+            disabled={selectedItems.length === 0}
           >
-            선택
+            {selectedItems.length > 0
+              ? `${selectedItems.length}개 선택`
+              : "선택"}
           </button>
         </div>
       </div>

@@ -1,5 +1,1633 @@
 {
-  "category": "갑옷",
-  "description": "갑옷 제작 조합법 데이터",
-  "items": []
+  "items": [
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "오리하르콘 주괴 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 1
+        },
+        {
+          "itemId": "5wflz3mkxtwzlhba5kyib3fdxu",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "빛나는 오리하르콘 투구 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "장인의 빛나는 오리하르콘 투구 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3mivtvllla",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 투구 외 5개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24rsdvlvphmtk2cb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 9
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 4
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3mivtvllla",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 투구 외 6개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 3
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24lvdvyxkhnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 12
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3mivtvllla",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 투구 외 6개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 3
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 5
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vsvtvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 17
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3mivtvllla",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 투구 외 8개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 21
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vqsxvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 51
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 7
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 12
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 17
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 51
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 29
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "오리하르콘 주괴 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 1
+        },
+        {
+          "itemId": "5wflz3mkxtwzlhba5kyib3fdxu",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "빛나는 오리하르콘 견갑 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "장인의 빛나는 오리하르콘 견갑 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb2vsvtvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 견갑 외 5개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24rsdvlvphmtk2cb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 9
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 4
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb2vsvtvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 견갑 외 6개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 3
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24lvdvyxkhnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 12
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb2vsvtvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 견갑 외 7개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 7
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vsvtvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 17
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 4
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 9
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 15
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb2vsvtvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 견갑 외 8개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 21
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vqsxvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 51
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 7
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 12
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 17
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 51
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 29
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "오리하르콘 주괴 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 2
+        },
+        {
+          "itemId": "5wflz3mkxtwzlhba5kyib3fdxu",
+          "quantity": 4
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 3
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "빛나는 오리하르콘 흉갑 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 4
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "장인의 빛나는 오리하르콘 흉갑 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3m5rhvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 흉갑 외 5개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 3
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24rsdvlvphmtk2cb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 15
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 7
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3m5rhvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 흉갑 외 6개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 6
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24lvdvyxkhnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 19
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 9
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 14
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3m5rhvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 흉갑 외 8개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 33
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vqsxvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 81
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 12
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 18
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 28
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 13
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 81
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 47
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "오리하르콘 주괴 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 2
+        },
+        {
+          "itemId": "5wflz3mkxtwzlhba5kyib3fdxu",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "빛나는 오리하르콘 각반 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "장인의 빛나는 오리하르콘 각반 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 4
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb2vqqhv3bga",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 각반 외 5개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24rsdvlvphmtk2cb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 11
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb2vqqhv3bga",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 각반 외 6개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 4
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24lvdvyxkhnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 14
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 4
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 7
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 10
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb2vqqhv3bga",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 각반 외 7개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 8
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vsvtvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 20
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 11
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 18
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 11
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb2vqqhv3bga",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 각반 외 8개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 25
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vqsxvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 61
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 9
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 14
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 10
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 61
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 35
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "오리하르콘 주괴 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 1
+        },
+        {
+          "itemId": "5wflz3mkxtwzlhba5kyib3fdxu",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "빛나는 오리하르콘 장갑 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "장인의 빛나는 오리하르콘 장갑 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3e6uxvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 장갑 외 5개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24rsdvlvphmtk2cb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 7
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 4
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3e6uxvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 장갑 외 5개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+          "quantity": 2
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24lvdvyxkhnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 10
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3e6uxvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 장갑 외 7개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 6
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vsvtvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 14
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 7
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 12
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3e6uxvlbei",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 장갑 외 8개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 17
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vqsxvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 41
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 10
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 14
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 41
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 23
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "오리하르콘 주괴 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 1
+        },
+        {
+          "itemId": "5wflz3mkxtwzlhba5kyib3fdxu",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "빛나는 오리하르콘 장화 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "장인의 빛나는 오리하르콘 장화 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3e6uxwztfa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 장화 외 6개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24lvdvyxkhnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 12
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 7
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3e6uxwztfa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 장화 외 7개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 7
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vsvtvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 17
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 4
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 9
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 15
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3e6uxwztfa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 장화 외 8개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 21
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vqsxvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 51
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 8
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 13
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 18
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 51
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 29
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "오리하르콘 주괴 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 1
+        },
+        {
+          "itemId": "5wflz3mkxtwzlhba5kyib3fdxu",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "빛나는 오리하르콘 망토 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "장인의 빛나는 오리하르콘 망토 외 3개",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb25htxwynia",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 망토 외 5개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24rsdvlvphmtk2cb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 7
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 4
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb25htxwynia",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 망토 외 6개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb24lvdvyxkhnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 10
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb25htxwynia",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 망토 외 7개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 6
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vsvtvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 14
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 7
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 12
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb25htxwynia",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2025-12-07T08:30:40.111Z",
+      "materials": "달인의 빛나는 오리하르콘 망토 외 8개",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 17
+        },
+        {
+          "itemId": "5owlj24rsdwkpchlscocb2vqsxvlhihnswocb3e2vhwkdmpmtwmcb2vqqdwkhpi",
+          "quantity": 41
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 10
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 14
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 41
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 23
+        }
+      ]
+    }
+  ]
 }

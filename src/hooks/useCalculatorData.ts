@@ -213,6 +213,8 @@ export const useCalculatorData = () => {
         return "blacksmith.json";
       case "handicrafting":
         return "handicrafting.json";
+      case "food":
+        return "food.json";
       default:
         return "alchemy.json";
     }
@@ -278,6 +280,17 @@ export const useCalculatorData = () => {
     [loadCalculatorData, saveCalculatorData, getCategoryFileName]
   );
 
+  // 로컬 스토리지에서 계산기 데이터 삭제
+  const clearCalculatorData = useCallback((category: string) => {
+    try {
+      const key = `aion2-calculate-${category}`;
+      localStorage.removeItem(key);
+      console.log(`로컬 데이터 삭제 완료: ${key}`);
+    } catch (err) {
+      console.error(`로컬 데이터 삭제 실패 (${category}):`, err);
+    }
+  }, []);
+
   return {
     loadCalculatorData,
     saveCalculatorData,
@@ -289,6 +302,7 @@ export const useCalculatorData = () => {
     loadItemOverrides,
     getCategoryFileName,
     initializeCalculatorData,
+    clearCalculatorData,
     isLoading,
     error,
   };
