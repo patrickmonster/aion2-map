@@ -23,7 +23,7 @@ export interface ShopItem {
 }
 
 // JSON 파일 구조
-interface ShopsJsonData {
+export interface ShopsJsonData {
   category: string;
   description: string;
   items: ShopItem[];

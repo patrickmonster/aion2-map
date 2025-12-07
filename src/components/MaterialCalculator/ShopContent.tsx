@@ -1,15 +1,9 @@
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import type { ShopItem } from "../../hooks";
 import { useShopData } from "../../hooks";
+import { ShopsJsonData } from "../../hooks/useShopData";
 import { encodeBase32 } from "../../utils/base32";
 import TypeSelector, { ItemType } from "./TypeSelector";
-
-// JSON 파일 구조
-interface ShopsJsonData {
-  category: string;
-  description: string;
-  items: ShopItem[];
-}
 
 interface ShopContentProps {
   className?: string;
@@ -64,7 +58,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
     };
 
     loadShopData();
-  }, []);
+  }, [initializeData]);
 
   // hookShopItems가 변경될 때 shopItems 업데이트
   useEffect(() => {

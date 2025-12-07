@@ -38,7 +38,7 @@ export const useStorage = <T>({
     } finally {
       setIsLoading(false);
     }
-  }, []);
+  }, [url]);
 
   // localStorage에서 데이터 로드
   const loadLocalData = useCallback((): T => {
@@ -52,16 +52,19 @@ export const useStorage = <T>({
       console.error("로컬 데이터 로드 실패:", err);
     }
     return {} as T;
-  }, []);
+  }, [localKey]);
 
   // localStorage에 데이터 저장
-  const saveLocalData = useCallback((items: T) => {
-    try {
-      localStorage.setItem(localKey, JSON.stringify(items));
-    } catch (err) {
-      console.error("로컬 데이터 저장 실패:", err);
-    }
-  }, []);
+  const saveLocalData = useCallback(
+    (items: T) => {
+      try {
+        localStorage.setItem(localKey, JSON.stringify(items));
+      } catch (err) {
+        console.error("데이터 저장 실패:", err);
+      }
+    },
+    [localKey]
+  );
 
   // 초기 데이터 로드
   const initializeData = useCallback(async () => {
@@ -80,7 +83,7 @@ export const useStorage = <T>({
     } catch (err) {
       console.error("데이터 초기화 실패:", err);
     }
-  }, [loadLocalData, loadServerData]);
+  }, [data, loadLocalData, loadServerData]);
 
   return {
     data,

@@ -108,7 +108,7 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
       await initializeData();
     };
     initialize();
-  }, []);
+  }, [initializeData]);
 
   // 데이터 로드 (로컬 데이터 우선)
   useEffect(() => {
@@ -182,10 +182,10 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
     loadData();
   }, [
     activeMainTab,
-    initializeData,
     getTabCategory,
     loadCalculatorData,
     loadItemOverrides,
+    getItemById,
   ]);
 
   // shopItems가 변경될 때 shopData 업데이트
