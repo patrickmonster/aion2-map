@@ -183,12 +183,12 @@ const Map: React.FC = () => {
 
   // 메모 저장 함수
   const handleSaveMemo = useCallback(() => {
-    if (!uiState.currentPosition || !uiState.memoText.trim()) return;
+    if (!uiState.currentPosition) return;
 
     const newMarker: MarkerMemo = {
       id: uiState.editingMarker || Date.now().toString(),
       position: uiState.currentPosition,
-      memo: uiState.memoText.trim(),
+      memo: uiState.memoText.trim(), // 빈 문자열도 허용
       mapName: selectedMap,
       type: uiState.selectedMarkerType,
       createdAt: new Date(),

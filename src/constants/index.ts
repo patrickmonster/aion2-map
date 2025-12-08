@@ -6,11 +6,50 @@ export const DEFAULT_MARKER_CONFIGS = {
   seal: { color: "#e74c3c", icon: "🔒", displayName: "봉인던전" },
   teleport: { color: "#3498db", icon: "🌀", displayName: "귀환석" },
   occupation: { color: "#f39c12", icon: "⚔️", displayName: "점령지" },
-  monolithMaterial: { color: "#9b59b6", icon: "🪶", displayName: "닭털" },
+  monolithMaterial: { color: "#9b59b6", icon: "🪶", displayName: "깃털" },
   battlefield: { color: "#c0392b", icon: "⚡", displayName: "전장" },
+  creatureIntellect: {
+    color: "#6c5ce7",
+    icon: "🧠",
+    displayName: "지능형 몬스터",
+  },
+  gatheringRubyGemstone: {
+    color: "#e17055",
+    icon: "💠",
+    displayName: "루비 보석",
+  },
+  gatheringOrichalcumOre: {
+    color: "#fdcb6e",
+    icon: "⛏️",
+    displayName: "오리하르콘 광석",
+  },
+  creatureTrans: { color: "#74b9ff", icon: "🔮", displayName: "변이 몬스터" },
+  creatureFeral: { color: "#fd79a8", icon: "🐺", displayName: "야생 몬스터" },
+  gatheringTargena: { color: "#00b894", icon: "🌱", displayName: "카렌두라" },
+  rift: { color: "#636e72", icon: "🌌", displayName: "균열" },
+  creatureNature: { color: "#2ecc71", icon: "🌿", displayName: "자원" },
   hiddenCube: { color: "#8e44ad", icon: "🧊", displayName: "히든 큐브" },
   village: { color: "#27ae60", icon: "🏘️", displayName: "마을" },
   fieldboss: { color: "#a10808ff", icon: "👹", displayName: "필드보스" },
+  boss: { color: "#dc143c", icon: "💀", displayName: "보스" },
+  gatheringCoriolus: {
+    color: "#ff7675",
+    icon: "🍄",
+    displayName: "모르파",
+  },
+  gatheringDiamondGemstone: {
+    color: "#b2bec3",
+    icon: "💎",
+    displayName: "다이아몬드 보석",
+  },
+  gatheringKukuru: { color: "#6c5ce7", icon: "🌾", displayName: "오크라" },
+  gatheringMela: { color: "#fd79a8", icon: "🌸", displayName: "레이담" },
+  gatheringOdyle: { color: "#00cec9", icon: "💧", displayName: "오드" },
+  gatheringYggdrasilLog: {
+    color: "#8b4513",
+    icon: "🪵",
+    displayName: "아스바타 원목",
+  },
 };
 
 // 게임 마커 설정 (visible, readonly 포함)

@@ -12,6 +12,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "js-yaml": "^4.1.1",
     "leaflet": "^1.9.4",
     "ol": "^10.7.0",
     "react": "^19.2.0",
@@ -25,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "convert:yaml": "node convert-yaml-to-json.js"
   },
   "eslintConfig": {
     "extends": [

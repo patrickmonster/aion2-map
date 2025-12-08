@@ -83,12 +83,18 @@ export const MemoDialog: React.FC<MemoDialogProps> = ({
             </label>
           </div>
 
-          <textarea
+          <input
+            type="text"
             value={memoText}
             onChange={(e) => onMemoTextChange(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                onSave();
+              }
+            }}
             placeholder="메모를 입력하세요..."
-            className="memo-textarea"
-            rows={4}
+            className="memo-input"
             autoFocus
           />
         </div>
@@ -96,11 +102,7 @@ export const MemoDialog: React.FC<MemoDialogProps> = ({
           <button className="cancel-btn" onClick={onClose}>
             취소
           </button>
-          <button
-            className="save-btn"
-            onClick={onSave}
-            disabled={!memoText.trim()}
-          >
+          <button className="save-btn" onClick={onSave}>
             {isEditing ? "수정" : "저장"}
           </button>
         </div>
