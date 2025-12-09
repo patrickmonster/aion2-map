@@ -47,6 +47,16 @@
       "last 1 safari version"
     ]
   },
+  "prettier": {
+    "trailingComma": "es5",
+    "arrowParens": "avoid",
+    "endOfLine": "lf",
+    "singleQuote": true,
+    "semi": true,
+    "bracketSpacing": true,
+    "printWidth": 200,
+    "tabWidth": 2
+  },
   "devDependencies": {
     "@types/leaflet": "^1.9.21",
     "@types/ol": "^6.5.3",

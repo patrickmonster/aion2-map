@@ -28,3 +28,130 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* 게임 마커 그룹 토글 스타일 */
+.game-icon-toggle-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.marker-group {
+  border: 1px solid #e1e5e9;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e1e5e9;
+  padding: 8px 12px;
+}
+
+.group-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #495057;
+  padding: 0;
+  flex: 1;
+  text-align: left;
+}
+
+.group-toggle:hover {
+  color: #007bff;
+}
+
+.group-arrow {
+  font-size: 12px;
+  color: #6c757d;
+  transition: transform 0.2s ease;
+}
+
+.group-title {
+  user-select: none;
+}
+
+.group-all-toggle {
+  background: none;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.group-all-toggle.all-active {
+  background: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.group-all-toggle.some-active {
+  background: #fff3cd;
+  border-color: #ffc107;
+  color: #856404;
+}
+
+.group-all-toggle.all-inactive {
+  background: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+.group-all-toggle:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.group-markers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 12px;
+  background: #fff;
+}
+
+.game-icon-toggle {
+  background: none;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.game-icon-toggle.active {
+  border-color: #007bff;
+  background: rgba(0, 123, 255, 0.1);
+}
+
+.game-icon-toggle.inactive {
+  border-color: #dee2e6;
+  background: #f8f9fa;
+}
+
+.game-icon-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.game-icon-emoji {
+  font-size: 18px;
+  transition: all 0.2s ease;
+}

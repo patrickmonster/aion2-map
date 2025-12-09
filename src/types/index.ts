@@ -1,4 +1,20 @@
-import L from "leaflet";
+import L from 'leaflet';
+
+// 마커 카테고리 타입
+export type MarkerCategory = '채집' | '몬스터' | '던전/전장' | '기타';
+
+// 마커 설정 인터페이스
+export interface MarkerConfig {
+  color: string;
+  icon: string;
+  displayName: string;
+  category: MarkerCategory;
+}
+
+// 그룹별 표시 설정
+export interface GroupVisibility {
+  [category: string]: boolean;
+}
 
 // 마커 타입 인터페이스
 export interface MarkerType {
@@ -44,6 +60,7 @@ export interface GameMarkerSettings {
     icon: string;
     readonly: boolean; // 읽기 전용 여부
     displayName: string; // 한글 표시명
+    category: MarkerCategory; // 카테고리 추가
   };
 }
 
