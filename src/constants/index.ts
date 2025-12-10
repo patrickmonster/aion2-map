@@ -52,8 +52,7 @@ export const DEFAULT_MARKER_CONFIGS: Record<string, MarkerConfig> = {
   creatureNature: { color: '#2ecc71', icon: '🌿', displayName: '자연', category: '몬스터' },
   creatureTrans: { color: '#74b9ff', icon: '🔮', displayName: '변이 몬스터', category: '몬스터' },
   creatureFeral: { color: '#fd79a8', icon: '🐺', displayName: '야생 몬스터', category: '몬스터' },
-  fieldboss: { color: '#a10808ff', icon: '👹', displayName: '필드보스', category: '몬스터' },
-  boss: { color: '#dc143c', icon: '💀', displayName: '보스', category: '몬스터' },
+  boss: { color: '#dc143c', icon: '💀', displayName: '필드보스', category: '몬스터' },
 
   // 던전/전장
   seal: { color: '#e74c3c', icon: '🔒', displayName: '봉인던전', category: '던전/전장' },

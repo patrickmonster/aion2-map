@@ -1,6 +1,246 @@
 {
   "markers": [
     {
+      "id": "new-marker-1764787577011",
+      "name": "검은 전사 아에드",
+      "type": "boss",
+      "category": "location",
+      "x": 2557.98,
+      "y": 5230.86,
+      "region": "방치된 화장터",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787701912",
+      "name": "녹아내린 다나르",
+      "type": "boss",
+      "category": "location",
+      "x": 3235.83,
+      "y": 4653.53,
+      "region": "크레이온 야영지",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787741063",
+      "name": "충실한 라트",
+      "type": "boss",
+      "category": "location",
+      "x": 4267.36,
+      "y": 2256.8,
+      "region": "임시 도처",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787750476",
+      "name": "광전사 발그",
+      "type": "boss",
+      "category": "location",
+      "x": 2326.96,
+      "y": 4073,
+      "region": "임시 도피처",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787848630",
+      "name": "혈전사 란나르",
+      "type": "boss",
+      "category": "location",
+      "x": 3457.2,
+      "y": 3906.51,
+      "region": "무너진 틈",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787848809",
+      "name": "포직사 가르산",
+      "type": "boss",
+      "category": "location",
+      "x": 4060.5,
+      "y": 3685.5,
+      "region": "엘림의 쉼터",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787852319",
+      "name": "기만자 트리드",
+      "type": "boss",
+      "category": "location",
+      "x": 4229.75,
+      "y": 4464.75,
+      "region": "승전 데바의 석상",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787884991",
+      "name": "푸른물결 켈피나",
+      "type": "boss",
+      "category": "location",
+      "x": 4314,
+      "y": 4826.5,
+      "region": "회복의 샘",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787885509",
+      "name": "총감독관 누타",
+      "type": "boss",
+      "category": "location",
+      "x": 4716.05,
+      "y": 5547.96,
+      "region": "찬바람 피난처",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764787885639",
+      "name": "창모관 르시나",
+      "type": "boss",
+      "category": "location",
+      "x": 4839.36,
+      "y": 6032.17,
+      "region": "은신 동굴",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788789670",
+      "name": "침묵의 타르탄",
+      "type": "boss",
+      "category": "location",
+      "x": 5300.3,
+      "y": 5170.08,
+      "region": "도굴꾼 야영지",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788828814",
+      "name": "별동대장 링크스",
+      "type": "boss",
+      "category": "location",
+      "x": 5443.6,
+      "y": 5265.21,
+      "region": "도굴꾼 야영지",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788845313",
+      "name": "모독자 노블루드",
+      "type": "boss",
+      "category": "location",
+      "x": 5912.14,
+      "y": 5372.84,
+      "region": "도굴꾼 야영지",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788856802",
+      "name": "망혼의 아칸 악시오스",
+      "type": "boss",
+      "category": "location",
+      "x": 5679.05,
+      "y": 4728.29,
+      "region": "바스펠트 폐허 절벽",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788878402",
+      "name": "중독된 하디룬",
+      "type": "boss",
+      "category": "location",
+      "x": 5331.28,
+      "y": 3767.22,
+      "region": "강철망치 작업장",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788913903",
+      "name": "영혼의 지배자 카샤파",
+      "type": "boss",
+      "category": "location",
+      "x": 5548.5,
+      "y": 3349.5,
+      "region": "이둔의 호수",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788933069",
+      "name": "처형자 바르시엔",
+      "type": "boss",
+      "category": "location",
+      "x": 5339,
+      "y": 3146.5,
+      "region": "이둔의 호수",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788941511",
+      "name": "드라칸 부대병기 구루타",
+      "type": "boss",
+      "category": "location",
+      "x": 5940.09,
+      "y": 3381.24,
+      "region": "그리바데 구릉지 동부 낭떠러지",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788966698",
+      "name": "군단장 라그타",
+      "type": "boss",
+      "category": "location",
+      "x": 3853.5,
+      "y": 2511.5,
+      "region": "라그타 요새",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764788997123",
+      "name": "혹암의 비슈베다",
+      "type": "boss",
+      "category": "location",
+      "x": 4010.3,
+      "y": 2517.59,
+      "region": "라그타 요새",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764789011701",
+      "name": "비전의 카루카",
+      "type": "boss",
+      "category": "location",
+      "x": 4895,
+      "y": 2631.5,
+      "region": "검은 발톱 부락",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764789036989",
+      "name": "백전노장 슈자칸",
+      "type": "boss",
+      "category": "location",
+      "x": 5103.5,
+      "y": 2615,
+      "region": "검은 발톱 부락",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764789057575",
+      "name": "예리한 쉬라크",
+      "type": "boss",
+      "category": "location",
+      "x": 5685.74,
+      "y": 2376.56,
+      "region": "임페투시움 광장",
+      "images": []
+    },
+    {
+      "id": "new-marker-1764789078683",
+      "name": "불멸의 가르투아",
+      "type": "boss",
+      "category": "location",
+      "x": 2083,
+      "y": 808.5,
+      "region": "불멸의 섬",
+      "images": []
+    },
+    {
       "id": "8e309163-a01a-4682-8479-5e8f19ae7231",
       "images": ["markers_images/Ev7fUdRi4WjBU5-znDxXhw"],
       "indexInSubtype": 39,
@@ -3854,10 +4094,7 @@
     },
     {
       "id": "77dd18a5-e4b9-4755-87dd-d925b2f07232",
-      "images": [
-        "markers_images/3hyR8lyhGhqrPIsLMf5M4w",
-        "markers_images/4IDZGLNVlNW75RD0LvgHTw"
-      ],
+      "images": ["markers_images/3hyR8lyhGhqrPIsLMf5M4w", "markers_images/4IDZGLNVlNW75RD0LvgHTw"],
       "indexInSubtype": 277,
       "name": "",
       "region": "Uruthumheim",
@@ -6355,15 +6592,6 @@
       "type": "gatheringYggdrasilLog"
     },
     {
-      "id": "50c4068a-062d-46ae-b8ab-c71eddc71044",
-      "images": ["markers_images/4GecVLpUrgnQvDt9zaypwg"],
-      "indexInSubtype": 1,
-      "name": "",
-      "x": 3302,
-      "y": 4852,
-      "type": "boss"
-    },
-    {
       "id": "0812b5c2-3861-4d3b-a775-e1f8bebb6445",
       "indexInSubtype": 21,
       "name": "",
@@ -7480,15 +7708,6 @@
       "x": 2459,
       "y": 4581,
       "type": "gatheringKukuru"
-    },
-    {
-      "id": "52563fe7-5872-4e46-ae6f-b95d26a370d7",
-      "images": ["markers_images/e0PcJma2sWN9qF0a7u6qzA"],
-      "indexInSubtype": 0,
-      "name": "",
-      "x": 2556,
-      "y": 5068,
-      "type": "boss"
     },
     {
       "id": "b8b3fd21-95c4-4b64-9bac-e382166bdbbc",
@@ -9783,24 +10002,6 @@
       "type": "rift"
     },
     {
-      "id": "8ff06d66-95d2-4b94-8702-f073293c5b47",
-      "images": ["markers_images/cKqsG1q6mWgMHPHcb0xt_A"],
-      "indexInSubtype": 2,
-      "name": "",
-      "x": 5296,
-      "y": 5200,
-      "type": "boss"
-    },
-    {
-      "id": "2e74b353-428b-4d06-95d3-ca0e52d2098d",
-      "images": ["markers_images/CF1FhwWCz0pJPqGVybCJFA"],
-      "indexInSubtype": 4,
-      "name": "",
-      "x": 3856,
-      "y": 2546,
-      "type": "boss"
-    },
-    {
       "id": "88863a9f-3f1b-44a3-b3c2-c06d3bde57e4",
       "indexInSubtype": 57,
       "name": "",
@@ -10814,15 +11015,6 @@
       "x": 4321,
       "y": 2669,
       "type": "monolithMaterial"
-    },
-    {
-      "id": "93b0fc64-370d-460e-8b56-428e10faaac2",
-      "images": ["markers_images/nrK5pwiiHGvATS2IZFkm6Q"],
-      "indexInSubtype": 3,
-      "name": "",
-      "x": 5590,
-      "y": 3380,
-      "type": "boss"
     },
     {
       "id": "64070bee-2b86-4939-bb86-5d0f3fe19baa",
