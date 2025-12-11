@@ -431,12 +431,10 @@ const MapPage: React.FC = () => {
         isAdminMode={uiState.isAdminMode}
         onJsonEditorClick={() => uiDispatch({ type: 'OPEN_JSON_EDITOR' })}
       />
-
       {/* 게임 아이콘 토글 패널 */}
       {gameData && settings.gameMarkers && getAvailableTypes().length > 0 && (
         <GameIconToggle availableTypes={getAvailableTypes()} gameMarkerSettings={settings.gameMarkers} onToggleMarkerType={toggleGameMarkerType} />
       )}
-
       <MapContainerComponent selectedMap={selectedMap} onMapClick={handleMapClick} mapRef={mapRef}>
         {/* 게임 마커들 렌더링 */}
         {gameData && settings.gameMarkers && (
@@ -488,7 +486,6 @@ const MapPage: React.FC = () => {
           );
         })}
       </MapContainerComponent>
-
       {/* 메모 작성 다이얼로그 */}
       <MemoDialog
         isOpen={uiState.showMemoDialog}
@@ -502,7 +499,6 @@ const MapPage: React.FC = () => {
         onMarkerTypeChange={markerType => uiDispatch({ type: 'SET_SELECTED_MARKER_TYPE', markerType })}
         onSave={handleSaveMemo}
       />
-
       {/* 설정 모달 */}
       <SettingsModal
         isOpen={uiState.showSettingsModal}
@@ -522,7 +518,6 @@ const MapPage: React.FC = () => {
         }}
         onToggleGameMarkerType={toggleGameMarkerType}
       />
-
       {/* 마커 목록 사이드바 */}
       <MarkersSidebar
         markers={currentMapMarkers}
@@ -534,19 +529,14 @@ const MapPage: React.FC = () => {
         onDeleteMarker={handleDeleteMarker}
         onRequestMarkerInfo={handleRequestMarkerInfo}
       />
-
       {/* 마커 타입 추가/편집 폼 */}
       {uiState.showMarkerTypeForm && <MarkerTypeForm markerType={uiState.editingMarkerType} onSave={handleSaveMarkerType} onCancel={() => uiDispatch({ type: 'CLOSE_MARKER_TYPE_FORM' })} />}
-
       {/* JSON 에디터 모달 */}
       {uiState.isAdminMode && <JsonEditorModal isOpen={uiState.showJsonEditor} onClose={() => uiDispatch({ type: 'CLOSE_JSON_EDITOR' })} selectedMap={selectedMap} gameData={gameData} />}
-
       {/* 채팅 모달 */}
       <ChatModal isOpen={uiState.showChatModal} onClose={() => uiDispatch({ type: 'CLOSE_CHAT_MODAL' })} />
-
-      {/* 재료 계산기 플로팅 버튼 */}
-      <FloatingCalculatorButton onClick={() => window.open('/calculator', 'calculator', 'width=1200,height=800,scrollbars=yes,resizable=yes')} />
-
+      /* 재료 계산기 플로팅 버튼 */
+      <FloatingCalculatorButton onClick={() => window.open('/aion2-map/calculator', 'calculator', 'width=1200,height=800,scrollbars=yes,resizable=yes')} />
       {/* 채팅 플로팅 버튼 */}
       <FloatingChatButton onClick={() => uiDispatch({ type: 'OPEN_CHAT_MODAL' })} />
     </div>
