@@ -5,7 +5,7 @@ import MapPage from './pages/MapPage';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL || '/aion2-map'}>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <main className="main-content">
           <Routes>

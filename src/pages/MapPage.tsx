@@ -535,7 +535,7 @@ const MapPage: React.FC = () => {
       {uiState.isAdminMode && <JsonEditorModal isOpen={uiState.showJsonEditor} onClose={() => uiDispatch({ type: 'CLOSE_JSON_EDITOR' })} selectedMap={selectedMap} gameData={gameData} />}
       {/* 채팅 모달 */}
       <ChatModal isOpen={uiState.showChatModal} onClose={() => uiDispatch({ type: 'CLOSE_CHAT_MODAL' })} />
-      /* 재료 계산기 플로팅 버튼 */
+      {/* 재료 계산기 플로팅 버튼 */}
       <FloatingCalculatorButton onClick={() => window.open('/aion2-map/calculator', 'calculator', 'width=1200,height=800,scrollbars=yes,resizable=yes')} />
       {/* 채팅 플로팅 버튼 */}
       <FloatingChatButton onClick={() => uiDispatch({ type: 'OPEN_CHAT_MODAL' })} />
