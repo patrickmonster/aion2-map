@@ -1,11 +1,8 @@
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import MaterialCalculator from '../components/MaterialCalculator';
 import './CalculatorPage.css';
 
 const CalculatorPage: React.FC = () => {
-  const navigate = useNavigate();
-
   const handleGoBack = () => {
     window.close();
   };
