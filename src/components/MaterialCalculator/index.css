@@ -61,6 +61,26 @@
   color: #333;
 }
 
+.back-button {
+  background: none;
+  border: 1px solid #007acc;
+  color: #007acc;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.back-button:hover {
+  background-color: #007acc;
+  color: white;
+}
+
 .material-calculator-content {
   display: flex;
   flex: 1;

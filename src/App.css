@@ -9,6 +9,10 @@
   background-color: #f8f9fa;
 }
 
+.main-content.no-nav {
+  padding-top: 0; /* 계산기 페이지에서는 네비게이션 없음 */
+}
+
 /* 전역 스타일 리셋 및 기본 설정 */
 * {
   margin: 0;

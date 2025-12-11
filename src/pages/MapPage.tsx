@@ -2,7 +2,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import React, { useCallback, useEffect, useReducer, useState } from 'react';
 import { Marker, Popup } from 'react-leaflet';
-import './Home.css';
+import './MapPage.css';
 
 // 타입, 상수, 훅들 import
 import { setupLeafletIcons } from '../constants';
@@ -20,7 +20,6 @@ import {
   MapContainerComponent,
   MarkersSidebar,
   MarkerTypeForm,
-  MaterialCalculator,
   MemoDialog,
   Navigation,
   SettingsModal,
@@ -42,7 +41,6 @@ interface UIState {
   markerFilter: string;
   showJsonEditor: boolean;
   isAdminMode: boolean;
-  showMaterialCalculator: boolean;
   showChatModal: boolean;
 }
 
@@ -63,8 +61,6 @@ type UIAction =
   | { type: 'CLOSE_JSON_EDITOR' }
   | { type: 'SET_ADMIN_MODE'; isAdmin: boolean }
   | { type: 'EDIT_MARKER_DIALOG'; marker: MarkerMemo }
-  | { type: 'OPEN_MATERIAL_CALCULATOR' }
-  | { type: 'CLOSE_MATERIAL_CALCULATOR' }
   | { type: 'OPEN_CHAT_MODAL' }
   | { type: 'CLOSE_CHAT_MODAL' };
 
@@ -81,7 +77,6 @@ const initialUIState: UIState = {
   markerFilter: 'all',
   showJsonEditor: false,
   isAdminMode: false,
-  showMaterialCalculator: false,
   showChatModal: false,
 };
 
@@ -141,10 +136,6 @@ const uiReducer = (state: UIState, action: UIAction): UIState => {
         selectedMarkerType: action.marker.type || 'default',
         editingMarker: action.marker.id,
       };
-    case 'OPEN_MATERIAL_CALCULATOR':
-      return { ...state, showMaterialCalculator: true };
-    case 'CLOSE_MATERIAL_CALCULATOR':
-      return { ...state, showMaterialCalculator: false };
     case 'OPEN_CHAT_MODAL':
       return { ...state, showChatModal: true };
     case 'CLOSE_CHAT_MODAL':
@@ -154,7 +145,7 @@ const uiReducer = (state: UIState, action: UIAction): UIState => {
   }
 };
 
-const Map: React.FC = () => {
+const MapPage: React.FC = () => {
   const mapRef = React.useRef<L.Map>(null);
   const [selectedMap, setSelectedMap] = useState<string>('');
 
@@ -550,14 +541,11 @@ const Map: React.FC = () => {
       {/* JSON 에디터 모달 */}
       {uiState.isAdminMode && <JsonEditorModal isOpen={uiState.showJsonEditor} onClose={() => uiDispatch({ type: 'CLOSE_JSON_EDITOR' })} selectedMap={selectedMap} gameData={gameData} />}
 
-      {/* 재료 계산기 모달 */}
-      <MaterialCalculator isOpen={uiState.showMaterialCalculator} onClose={() => uiDispatch({ type: 'CLOSE_MATERIAL_CALCULATOR' })} />
-
       {/* 채팅 모달 */}
       <ChatModal isOpen={uiState.showChatModal} onClose={() => uiDispatch({ type: 'CLOSE_CHAT_MODAL' })} />
 
       {/* 재료 계산기 플로팅 버튼 */}
-      <FloatingCalculatorButton onClick={() => uiDispatch({ type: 'OPEN_MATERIAL_CALCULATOR' })} />
+      <FloatingCalculatorButton onClick={() => window.open('/calculator', 'calculator', 'width=1200,height=800,scrollbars=yes,resizable=yes')} />
 
       {/* 채팅 플로팅 버튼 */}
       <FloatingChatButton onClick={() => uiDispatch({ type: 'OPEN_CHAT_MODAL' })} />
@@ -565,4 +553,4 @@ const Map: React.FC = () => {
   );
 };
 
-export default Map;
+export default MapPage;

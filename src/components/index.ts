@@ -1,5 +1,6 @@
 export { ActionButton } from './ActionButton';
 export { AionTileLayer } from './AionTileLayer';
+export { default as AppNavigation } from './AppNavigation';
 export { default as ChatModal } from './ChatModal';
 export { default as FloatingCalculatorButton } from './FloatingCalculatorButton';
 export { default as FloatingChatButton } from './FloatingChatButton';

@@ -6,7 +6,6 @@
 body, html {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   height: 100%;
   width: 100%;
 }
@@ -14,14 +13,13 @@ body, html {
 #root {
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
 }
 
 .map-container {
   position: fixed;
-  top: 0;
+  top: 60px; /* 네비게이션 높이만큼 아래로 이동 */
   left: 0;
-  height: 100vh;
+  height: calc(100vh - 60px); /* 네비게이션 높이만큼 빼기 */
   width: 100vw;
   margin: 0;
   padding: 0;
