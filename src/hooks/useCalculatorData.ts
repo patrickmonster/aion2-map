@@ -35,7 +35,7 @@ export const useCalculatorData = () => {
           return Array.isArray(parsedData) ? parsedData : [];
         }
       } catch (err) {
-        console.error(`계산기 데이터 로드 실패 (${category}):`, err);
+        // Silent fail - return empty array
       }
       return [];
     },
@@ -49,7 +49,7 @@ export const useCalculatorData = () => {
         const key = `aion2-calculate-${category}`;
         localStorage.setItem(key, JSON.stringify(items));
       } catch (err) {
-        console.error(`계산기 데이터 저장 실패 (${category}):`, err);
+        // Silent fail
       }
     },
     []
@@ -128,7 +128,6 @@ export const useCalculatorData = () => {
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : "동기화 실패";
         setError(errorMessage);
-        console.error("계산기 데이터 동기화 실패:", err);
         return {
           syncedCount: 0,
           totalCount: 0,
@@ -178,7 +177,7 @@ export const useCalculatorData = () => {
         const key = `aion2-calculate-${category}-overrides`;
         localStorage.setItem(key, JSON.stringify(overrides));
       } catch (err) {
-        console.error(`오버라이드 저장 실패 (${category}):`, err);
+        // Silent fail
       }
     },
     []
@@ -195,7 +194,7 @@ export const useCalculatorData = () => {
           return parsedData && typeof parsedData === "object" ? parsedData : {};
         }
       } catch (err) {
-        console.error(`오버라이드 로드 실패 (${category}):`, err);
+        // Silent fail
       }
       return {};
     },
@@ -271,7 +270,6 @@ export const useCalculatorData = () => {
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : "초기화 실패";
         setError(errorMessage);
-        console.error("계산기 데이터 초기화 실패:", err);
         return [];
       } finally {
         setIsLoading(false);
@@ -285,9 +283,8 @@ export const useCalculatorData = () => {
     try {
       const key = `aion2-calculate-${category}`;
       localStorage.removeItem(key);
-      console.log(`로컬 데이터 삭제 완료: ${key}`);
     } catch (err) {
-      console.error(`로컬 데이터 삭제 실패 (${category}):`, err);
+      // Silent fail
     }
   }, []);
 

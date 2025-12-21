@@ -1,5 +1,5 @@
 import L from "leaflet";
-import React from "react";
+import React, { useMemo } from "react";
 import { Marker, Popup } from "react-leaflet";
 import { GameMarker, GameMarkerSettings } from "../types";
 
@@ -10,35 +10,51 @@ interface GameMarkersProps {
   onReportMarker?: (marker: GameMarker) => void;
 }
 
-export const GameMarkers: React.FC<GameMarkersProps> = ({
+const createMarkerIcon = (icon: string, color: string) => {
+  return L.divIcon({
+    html: `<div style="
+      font-size: 20px;
+      text-align: center;
+      line-height: 1;
+      color: ${color};
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+      filter: drop-shadow(0 0 2px rgba(0,0,0,0.5));
+    ">${icon}</div>`,
+    iconSize: [25, 25],
+    iconAnchor: [12, 12],
+    popupAnchor: [0, -12],
+    className: "game-marker-icon",
+  });
+};
+
+export const GameMarkers: React.FC<GameMarkersProps> = React.memo(({
   gameMarkers,
   gameMarkerSettings,
   visibleTypes,
   onReportMarker,
 }) => {
+  const filteredMarkers = useMemo(() =>
+    gameMarkers.filter((marker) => visibleTypes.has(marker.type)),
+    [gameMarkers, visibleTypes]
+  );
+
+  const iconCache = useMemo(() => {
+    const cache = new Map<string, L.DivIcon>();
+    Object.entries(gameMarkerSettings).forEach(([type, config]) => {
+      if (config.visible) {
+        cache.set(type, createMarkerIcon(config.icon, config.color));
+      }
+    });
+    return cache;
+  }, [gameMarkerSettings]);
+
   return (
     <>
-      {gameMarkers
-        .filter((marker) => visibleTypes.has(marker.type))
-        .map((marker) => {
+      {filteredMarkers.map((marker) => {
           const config = gameMarkerSettings[marker.type];
           if (!config || !config.visible) return null;
 
-          // 커스텀 아이콘 생성
-          const customIcon = L.divIcon({
-            html: `<div style="
-              font-size: 20px; 
-              text-align: center; 
-              line-height: 1;
-              color: ${config.color};
-              text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
-              filter: drop-shadow(0 0 2px rgba(0,0,0,0.5));
-            ">${config.icon}</div>`,
-            iconSize: [25, 25],
-            iconAnchor: [12, 12],
-            popupAnchor: [0, -12],
-            className: "game-marker-icon",
-          });
+          const customIcon = iconCache.get(marker.type) || createMarkerIcon(config.icon, config.color);
 
           return (
             <Marker
@@ -104,4 +120,4 @@ export const GameMarkers: React.FC<GameMarkersProps> = ({
         })}
     </>
   );
-};
+});

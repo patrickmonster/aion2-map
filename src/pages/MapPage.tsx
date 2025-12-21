@@ -1,6 +1,6 @@
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import React, { useCallback, useEffect, useReducer, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useReducer, useState } from 'react';
 import { Marker, Popup } from 'react-leaflet';
 import './MapPage.css';
 
@@ -422,6 +422,23 @@ const MapPage: React.FC = () => {
     return types;
   }, [gameData, getAvailableTypes, settings.gameMarkers]);
 
+  // 마커 타입별 아이콘 캐시
+  const markerIconCache = useMemo(() => {
+    const cache = new Map<string, L.DivIcon>();
+    markerTypes.forEach(type => {
+      if (type.id !== 'default' && type.icon) {
+        cache.set(type.id, L.divIcon({
+          html: `<div style="font-size: 24px; text-align: center; line-height: 1;">${type.icon}</div>`,
+          iconSize: [30, 30],
+          iconAnchor: [15, 15],
+          popupAnchor: [0, -15],
+          className: 'custom-marker-icon',
+        }));
+      }
+    });
+    return cache;
+  }, [markerTypes]);
+
   return (
     <div className="map-container">
       <Navigation
@@ -443,21 +460,7 @@ const MapPage: React.FC = () => {
 
         {/* 필터링된 마커들 렌더링 */}
         {filteredMarkers.map(marker => {
-          // 마커 타입에 따른 커스텀 아이콘 생성
-          const markerType = markerTypes.find(type => type.id === marker.type) || markerTypes.find(type => type.id === 'default');
-          let customIcon;
-
-          if (markerType && markerType.id !== 'default') {
-            // 커스텀 마커 타입인 경우 이모지 아이콘 사용
-            customIcon = L.divIcon({
-              html: `<div style="font-size: 24px; text-align: center; line-height: 1;">${markerType.icon}</div>`,
-              iconSize: [30, 30],
-              iconAnchor: [15, 15],
-              popupAnchor: [0, -15],
-              className: 'custom-marker-icon',
-            });
-          }
-          // 기본 타입이거나 타입이 없는 경우 기본 Leaflet 아이콘 사용
+          const customIcon = marker.type ? markerIconCache.get(marker.type) : undefined;
 
           return (
             <Marker key={marker.id} position={marker.position} {...(customIcon && { icon: customIcon })}>

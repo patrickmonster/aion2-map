@@ -27,6 +27,19 @@ const ShopContent: React.FC<ShopContentProps> = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // Event handlers
+  const handleSearchNameChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchName(e.target.value);
+  }, []);
+
+  const handleSearchTypeChange = useCallback((type: ItemType) => {
+    setSearchType(type);
+  }, []);
+
+  const handleShowConvertOnlyChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    setShowConvertOnly(e.target.checked);
+  }, []);
+
   // 상점 아이템 데이터
   const [shopItems, setShopItems] = useState<ShopItem[]>([]);
 
@@ -269,11 +282,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                 <input
                   type="text"
                   value={searchName}
-                  onChange={useCallback(
-                    (e: React.ChangeEvent<HTMLInputElement>) =>
-                      setSearchName(e.target.value),
-                    []
-                  )}
+                  onChange={handleSearchNameChange}
                   placeholder="상품명 검색"
                   className="search-input"
                 />
@@ -282,10 +291,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
               <div className="filter-group">
                 <TypeSelector
                   value={searchType}
-                  onChange={useCallback(
-                    (type: ItemType) => setSearchType(type),
-                    []
-                  )}
+                  onChange={handleSearchTypeChange}
                   label="타입:"
                   includeAll={true}
                 />
@@ -296,11 +302,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                   <input
                     type="checkbox"
                     checked={showConvertOnly}
-                    onChange={useCallback(
-                      (e: React.ChangeEvent<HTMLInputElement>) =>
-                        setShowConvertOnly(e.target.checked),
-                      []
-                    )}
+                    onChange={handleShowConvertOnlyChange}
                     className="convert-filter-checkbox"
                   />
                   재료변환만 보기

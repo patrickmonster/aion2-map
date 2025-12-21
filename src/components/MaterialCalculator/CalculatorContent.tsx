@@ -465,54 +465,61 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
     return customCalculatorItems;
   }, [customCalculatorItems]);
 
+  // 재료 비용 계산 함수 (메모이제이션을 위해 분리)
+  const calculateMaterialCosts = useCallback((
+    materials: { itemId: string; quantity: number }[],
+    excludeConvertFlag: boolean
+  ) => {
+    let minCost = 0;
+    let maxCost = 0;
+
+    materials.forEach((material) => {
+      const materialShopItem = getItemById(material.itemId);
+      if (materialShopItem) {
+        if (excludeConvertFlag && materialShopItem.convert) {
+          return;
+        }
+        minCost += materialShopItem.minPrice * material.quantity;
+        maxCost += materialShopItem.maxPrice * material.quantity;
+      }
+    });
+
+    return { minCost, maxCost };
+  }, [getItemById]);
+
   // 필터링되고 정렬된 아이템
   const filteredItems = useMemo(() => {
+    const searchLower = searchTerm.toLowerCase();
+    const materialFilterLower = materialFilter.toLowerCase();
+
     let items = allCalculatorItems
       .filter((item) => {
-        const matchesSearch =
-          searchTerm === "" ||
-          item.name.toLowerCase().includes(searchTerm.toLowerCase());
-        const matchesMaterial =
-          materialFilter === "" ||
-          item.materials.toLowerCase().includes(materialFilter.toLowerCase());
-        const matchesType = typeFilter === "전체" || item.type === typeFilter;
-        return matchesSearch && matchesMaterial && matchesType;
+        if (searchTerm !== "" && !item.name.toLowerCase().includes(searchLower)) {
+          return false;
+        }
+        if (materialFilter !== "" && !item.materials.toLowerCase().includes(materialFilterLower)) {
+          return false;
+        }
+        if (typeFilter !== "전체" && item.type !== typeFilter) {
+          return false;
+        }
+        return true;
       })
       .map((item) => {
-        // 실시간으로 상점에서 가격 가져오기
         const shopItem = getItemById(item.id);
         const currentMinPrice = shopItem?.minPrice || 0;
         const currentMaxPrice = shopItem?.maxPrice || 0;
 
-        // 각 아이템의 제작비용을 동적으로 계산 (사용자 설정값 반영)
         const overrides = itemOverrides[item.id];
         const materialsToUse = overrides?.materials || item.ingredient;
         const currentQuantity = overrides?.cnt || item.cnt;
 
-        let materialMinCost = 0;
-        let materialMaxCost = 0;
+        const { minCost: materialMinCost, maxCost: materialMaxCost } =
+          calculateMaterialCosts(materialsToUse, excludeConvert);
 
-        materialsToUse.forEach(
-          (material: { itemId: string; quantity: number }) => {
-            const materialShopItem = getItemById(material.itemId);
-            if (materialShopItem) {
-              // 재료변환 제외 필터가 활성화된 경우, convert가 true인 재료는 제외
-              if (excludeConvert && materialShopItem.convert) {
-                return;
-              }
-              materialMinCost += materialShopItem.minPrice * material.quantity;
-              materialMaxCost += materialShopItem.maxPrice * material.quantity;
-            }
-          }
-        );
-
-        const dynamicMaterialCost = Math.round(
-          (materialMinCost + materialMaxCost) / 2
-        );
-        const dynamicMinProfit =
-          currentMinPrice * currentQuantity - materialMaxCost;
-        const dynamicMaxProfit =
-          currentMaxPrice * currentQuantity - materialMinCost;
+        const dynamicMaterialCost = Math.round((materialMinCost + materialMaxCost) / 2);
+        const dynamicMinProfit = currentMinPrice * currentQuantity - materialMaxCost;
+        const dynamicMaxProfit = currentMaxPrice * currentQuantity - materialMinCost;
 
         return {
           ...item,
@@ -577,8 +584,9 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
     typeFilter,
     sortState,
     itemOverrides,
-    getItemById,
     excludeConvert,
+    calculateMaterialCosts,
+    getItemById,
   ]);
 
   return (

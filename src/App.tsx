@@ -1,17 +1,21 @@
+import { lazy, Suspense } from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
-import CalculatorPage from './pages/CalculatorPage';
-import MapPage from './pages/MapPage';
+
+const MapPage = lazy(() => import('./pages/MapPage'));
+const CalculatorPage = lazy(() => import('./pages/CalculatorPage'));
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <main className="main-content">
-          <Routes>
-            <Route path="/" element={<MapPage />} />
-            <Route path="/calculator" element={<CalculatorPage />} />
-          </Routes>
+          <Suspense fallback={<div className="loading">Loading...</div>}>
+            <Routes>
+              <Route path="/" element={<MapPage />} />
+              <Route path="/calculator" element={<CalculatorPage />} />
+            </Routes>
+          </Suspense>
         </main>
       </div>
     </Router>

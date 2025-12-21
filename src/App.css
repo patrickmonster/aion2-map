@@ -9,6 +9,15 @@
   background-color: #f8f9fa;
 }
 
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  color: #666;
+}
+
 .main-content.no-nav {
   padding-top: 0; /* 계산기 페이지에서는 네비게이션 없음 */
 }

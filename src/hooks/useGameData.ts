@@ -26,8 +26,6 @@ export const useGameData = (mapName: string) => {
         }
 
         const data: GameData = await response.json();
-        console.log("GAME ::", data);
-
         setGameData(data);
       } catch (err) {
         console.error("Error loading game data:", err);
