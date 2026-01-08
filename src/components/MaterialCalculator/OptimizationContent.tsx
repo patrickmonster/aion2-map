@@ -231,28 +231,34 @@ const OptimizationContent: React.FC = () => {
               {inventoryItems.length === 0 ? (
                 <div className="empty-inventory">아이템을 추가해주세요</div>
               ) : (
-                inventoryItems.map(invItem => {
-                  const shopItem = getItemById(invItem.id);
-                  if (!shopItem) return null;
+                inventoryItems
+                  .map(invItem => ({
+                    invItem,
+                    shopItem: getItemById(invItem.id),
+                  }))
+                  .filter(({ shopItem }) => shopItem !== undefined)
+                  .sort((a, b) => (a.shopItem?.name || '').localeCompare(b.shopItem?.name || ''))
+                  .map(({ invItem, shopItem }) => {
+                    if (!shopItem) return null;
 
-                  return (
-                    <div key={invItem.id} className="inventory-card">
-                      <div className="card-header">
-                        <span className="item-name">{shopItem.name}</span>
-                        <button className="btn-remove" onClick={() => handleRemoveItem(invItem.id)} title="삭제">
-                          ×
-                        </button>
-                      </div>
-                      <div className="card-body">
-                        <span className="item-type">{shopItem.type}</span>
-                        <div className="quantity-control">
-                          <label>수량:</label>
-                          <input type="number" min="1" value={invItem.quantity} onChange={e => handleQuantityChange(invItem.id, parseInt(e.target.value) || 1)} className="quantity-input" />
+                    return (
+                      <div key={invItem.id} className="inventory-card">
+                        <div className="card-header">
+                          <span className="item-name">{shopItem.name}</span>
+                          <button className="btn-remove" onClick={() => handleRemoveItem(invItem.id)} title="삭제">
+                            ×
+                          </button>
+                        </div>
+                        <div className="card-body">
+                          <span className="item-type">{shopItem.type}</span>
+                          <div className="quantity-control">
+                            <label>수량:</label>
+                            <input type="number" min="1" value={invItem.quantity} onChange={e => handleQuantityChange(invItem.id, parseInt(e.target.value) || 1)} className="quantity-input" />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  );
-                })
+                    );
+                  })
               )}
             </div>
           </div>
