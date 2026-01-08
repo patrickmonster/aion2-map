@@ -928,24 +928,29 @@
 
 
 .btn-discord-invite {
-  background-color: #684caf;
+  background-color: #5865F2;
   color: white;
   border: none;
-  padding: 10px 16px;
-  border-radius: 4px;
+  padding: 10px;
+  border-radius: 6px;
   cursor: pointer;
-  font-size: 0.875rem;
-  font-weight: 500;
   transition: all 0.2s;
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  margin-left: 8px;
+  justify-content: center;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.btn-discord-invite svg {
+  width: 24px;
+  height: 24px;
 }
 
 .btn-discord-invite:hover:not(:disabled) {
-  background-color: #9c27b0;
+  background-color: #4752C4;
   transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(88, 101, 242, 0.3);
 }
 
 .btn-discord-invite:disabled {
