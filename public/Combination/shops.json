@@ -2506,6 +2506,126 @@
       "minPrice": 10,
       "maxPrice": 10,
       "lastUpdated": "2025-12-07"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+      "name": "빛나는 오리하르콘 대검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+      "name": "장인의 빛나는 오리하르콘 대검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+      "name": "달인의 빛나는 오리하르콘 대검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+      "name": "빛나는 오리하르콘 장검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+      "name": "장인의 빛나는 오리하르콘 장검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+      "name": "달인의 빛나는 오리하르콘 장검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+      "name": "빛나는 오리하르콘 단검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+      "name": "장인의 빛나는 오리하르콘 단검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+      "name": "달인의 빛나는 오리하르콘 단검",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+      "name": "빛나는 오리하르콘 전곤",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+      "name": "장인의 빛나는 오리하르콘 전곤",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+      "name": "달인의 빛나는 오리하르콘 전곤",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+      "name": "빛나는 오리하르콘 가더",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+      "name": "장인의 빛나는 오리하르콘 가더",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+      "name": "달인의 빛나는 오리하르콘 가더",
+      "type": "무기",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "lastUpdated": "2026-01-09"
     }
   ]
 }

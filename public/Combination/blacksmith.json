@@ -1,5 +1,1335 @@
 {
-  "category": "대장",
-  "description": "대장 제작 조합법 데이터",
-  "items": []
+  "items": [
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+      "name": "오리하르콘 대검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "3개 재료",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+      "name": "장인의 오리하르콘 대검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "4개 재료",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+      "name": "달인의 오리하르콘 대검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "4개 재료",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb24mqdvlfaa",
+      "name": "건룡왕의 대검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "6개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 22
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 10
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 12
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb24mqdvlfaa",
+      "name": "흑룡왕의 대검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "7개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 9
+        },
+        {
+          "itemId": "5of2r24lvdwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 29
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 8
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 14
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": "5spij25duhwjtfpmtwmcb24mqdvlfaa",
+      "name": "임룡왕의 대검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "8개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 15
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 41
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 11
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 36
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb24mqdvlfaa",
+      "name": "기룡왕의 대검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "9개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 50
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 122
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 18
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 27
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 42
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 19
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 121
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 70
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+      "name": "오리하르콘 장검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "3개 재료",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+      "name": "장인의 오리하르콘 장검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "4개 재료",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+      "name": "달인의 오리하르콘 장검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "4개 재료",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3e6uxvlfaa",
+      "name": "건룡왕의 장검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "6개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 22
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 10
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 12
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3e6uxvlfaa",
+      "name": "흑룡왕의 장검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "7개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 9
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5of2r24lvdwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 29
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 8
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 14
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3e6uxvlfaa",
+      "name": "암룡왕의 장검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "8개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 15
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 41
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 11
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 36
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3e6uxvlfaa",
+      "name": "기룡왕의 장검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "9개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 50
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 122
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 18
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 27
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 42
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 19
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 121
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 70
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+      "name": "오리하르콘 단검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "3개 재료",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+      "name": "장인의 오리하르콘 단검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "4개 재료",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+      "name": "달인의 오리하르콘 단검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "4개 재료",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb24lvdvlfaa",
+      "name": "건룡왕의 단검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "6개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 22
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 10
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 12
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb24lvdvlfaa",
+      "name": "흑룡왕의 단검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "7개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 9
+        },
+        {
+          "itemId": "5of2r24lvdwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 29
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 8
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 14
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb24lvdvlfaa",
+      "name": "암룡왕의 단검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "8개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 15
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 41
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 11
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 36
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb24lvdvlfaa",
+      "name": "기룡왕의 단검",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "9개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 50
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 122
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 18
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 27
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 42
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 19
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 121
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 70
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+      "name": "오리하르콘 전곤",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "3개 재료",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+      "name": "장인의 오리하르콘 전곤",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "4개 재료",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+      "name": "달인의 오리하르콘 전곤",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "4개 재료",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb3faqtvlhja",
+      "name": "건룡왕의 전곤",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "6개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 22
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 10
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 12
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb3faqtvlhja",
+      "name": "흑룡왕의 전곤",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "7개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 9
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5of2r24lvdwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 29
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 8
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 14
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb3faqtvlhja",
+      "name": "암룡왕의 전곤",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "8개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 15
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 41
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 11
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 36
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb3faqtvlhja",
+      "name": "기룡왕의 전곤",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "9개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 50
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 122
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 18
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 27
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 42
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 19
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 121
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 70
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+      "name": "오리하르콘 가더",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "3개 재료",
+      "ingredient": [
+        {
+          "itemId": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+          "quantity": 3
+        },
+        {
+          "itemId": "5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5smkj24ttq",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+      "name": "장인의 오리하르콘 가더",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "4개 재료",
+      "ingredient": [
+        {
+          "itemId": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+          "quantity": 1
+        },
+        {
+          "itemId": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxjvm5wkzr25fwtwl3gba5k2jd3eetu",
+          "quantity": 6
+        },
+        {
+          "itemId": "5sejz24pqqqoxbus5soyaihmtcsoxe44",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+      "name": "달인의 오리하르콘 가더",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "4개 재료",
+      "ingredient": [
+        {
+          "itemId": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 8
+        },
+        {
+          "itemId": "5sejz3eitdwzlhba5smkj24ttq",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5ky3j25duhwjtfpmtwmcb2vqqdvy3fa",
+      "name": "건룡왕의 가더",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "6개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+          "quantity": 1
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 5
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 22
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 10
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 12
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "5wozd25duhwjtfpmtwmcb2vqqdvy3fa",
+      "name": "흑룡왕의 가더",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "7개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+          "quantity": 2
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 9
+        },
+        {
+          "itemId": "5of2r24lvdwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 29
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 8
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 14
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": "5skzj25duhwjtfpmtwmcb2vqqdvy3fa",
+      "name": "암룡왕의 가더",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "8개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+          "quantity": 3
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 15
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 41
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 6
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 11
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 21
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 36
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 21
+        }
+      ]
+    },
+    {
+      "id": "5k4lb25duhwjtfpmtwmcb2vqqdvy3fa",
+      "name": "기룡왕의 가더",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "9개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
+          "quantity": 5
+        },
+        {
+          "itemId": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
+          "quantity": 50
+        },
+        {
+          "itemId": "5sqjz25avdvzbhba5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 122
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sbkz24fsa",
+          "quantity": 18
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5sozr3fhqa",
+          "quantity": 27
+        },
+        {
+          "itemId": "5o3ij24fxdwj3gba5spjb3evqq",
+          "quantity": 42
+        },
+        {
+          "itemId": "5k2jd2vywdwjpeba5sykyihlw2coxbny5sozqihlvs2ovm5a",
+          "quantity": 19
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj25gvtwzlghluw2ozpmyedvljepmqsoq",
+          "quantity": 121
+        },
+        {
+          "itemId": "5sykz246qdwzlhba5smkj24ttq",
+          "quantity": 70
+        }
+      ]
+    },
+    {
+      "id": "5smkj25gvtwzlghluw2ozpmyedwkhphkws2a",
+      "name": "오리하르콘 주괴",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "재료 없음",
+      "ingredient": []
+    },
+    {
+      "id": "5sqjz25avdvzbhba5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o7zi",
+      "name": "제련된 두꺼운 용족의 뿔",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "2개 재료",
+      "ingredient": [
+        {
+          "itemId": "5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5styb25fwtwl3gba5otz33fzta",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sqjz25avdvzbhba5of2r24lvdwzlhba5snkt3fbwhwj3gba5o7zi",
+      "name": "제련된 단단한 용족의 뿔",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "2개 재료",
+      "ingredient": [
+        {
+          "itemId": "5of2r24lvdwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5oo3z3fgsdv2nlba5otz33fzta",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sqjz25avdvzbhba5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+      "name": "제련된 견고한 용족의 뿔",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "2개 재료",
+      "ingredient": [
+        {
+          "itemId": "5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5owlr3ekutwynjba5otz33fzta",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5sqjz25avdvzbhba5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+      "name": "제련된 강고한 용족의 뿔",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T12:18:32.502Z",
+      "materials": "2개 재료",
+      "ingredient": [
+        {
+          "itemId": "5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o7zi",
+          "quantity": 2
+        },
+        {
+          "itemId": "5s6ir3mmrtv2bchmtw2o3cvyedv2phpmxgma",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
 }

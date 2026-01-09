@@ -11,6 +11,17 @@ const SettingsContent: React.FC = () => {
       <div className="update-history">
         <div className="update-item">
           <div className="update-date">2026-01-09</div>
+          <div className="update-title">대장 아이템 추가</div>
+          <ul className="update-details">
+            <li>대장 아이템 추가</li>
+            <li>관계 - 시각화 개선</li>
+            <li>상점 - 최소/ 최대 거래금액을 테이블에서 수정 가능합니다</li>
+            <li>계산기 - 재료 편집 팝업창 UI 개선</li>
+          </ul>
+        </div>
+
+        <div className="update-item">
+          <div className="update-date">2026-01-09</div>
           <div className="update-title">데이터 동기화 로직 개선</div>
           <ul className="update-details">
             <li>기존 로컬 데이터 유지 기능 추가</li>
@@ -22,7 +33,7 @@ const SettingsContent: React.FC = () => {
       </div>
 
       <div className="settings-footer">
-        <p className="version-info">버전: 0.1.0 (Beta)</p>
+        <p className="version-info">버전: 0.1.1 (Beta)</p>
         <p className="contact-info">
           문의 및 피드백:{' '}
           <a href="https://discord.gg/wDFHrq5PPV" target="_blank" rel="noopener noreferrer">

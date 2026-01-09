@@ -115,8 +115,8 @@ const EditMaterialsModal: React.FC<EditMaterialsModalProps> = ({ shopData, getIt
                         </div>
                         <div className="material-controls">
                           <input type="number" min="1" value={material.quantity} onChange={e => handleQuantityChange(material.itemId, parseInt(e.target.value) || 1)} className="quantity-input" />
-                          <button onClick={() => handleRemoveMaterial(material.itemId)} className="btn-remove">
-                            제거
+                          <button onClick={() => handleRemoveMaterial(material.itemId)} className="btn-remove" title="제거">
+                            ✕
                           </button>
                         </div>
                       </div>

@@ -1,5 +1,5 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import * as d3 from 'd3';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { CalculatorItemData } from '../../hooks';
 import { useCalculatorData, useShopData } from '../../hooks';
 import './RelationshipContent.css';
@@ -138,9 +138,7 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
   // 상품 타입 목록 추출
   const productTypes = useMemo(() => {
     const types = new Set<string>();
-    graphData.nodes
-      .filter(n => n.type === 'product')
-      .forEach(n => types.add(n.group));
+    graphData.nodes.filter(n => n.type === 'product').forEach(n => types.add(n.group));
     return Array.from(types).sort();
   }, [graphData.nodes]);
 
@@ -247,19 +245,20 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
       .force('center', d3.forceCenter(width / 2, height / 2))
       .force('collision', d3.forceCollide().radius(30));
 
-    // 화살표 마커 정의 (크기 축소)
+    // 화살표 마커 정의 (고정 크기)
     svg
       .append('defs')
       .append('marker')
       .attr('id', 'arrowhead')
-      .attr('viewBox', '-0 -3 6 6')
-      .attr('refX', 18)
+      .attr('viewBox', '0 -5 10 10')
+      .attr('refX', 20)
       .attr('refY', 0)
       .attr('orient', 'auto')
-      .attr('markerWidth', 4)
-      .attr('markerHeight', 4)
+      .attr('markerWidth', 6)
+      .attr('markerHeight', 6)
+      .attr('markerUnits', 'userSpaceOnUse')
       .append('path')
-      .attr('d', 'M 0,-3 L 6 ,0 L 0,3')
+      .attr('d', 'M 0,-5 L 10,0 L 0,5')
       .attr('fill', '#999');
 
     // 링크 그리기
@@ -349,9 +348,7 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
         .attr('x2', d => (d.target as Node).x || 0)
         .attr('y2', d => (d.target as Node).y || 0);
 
-      linkLabels
-        .attr('x', d => (((d.source as Node).x || 0) + ((d.target as Node).x || 0)) / 2)
-        .attr('y', d => (((d.source as Node).y || 0) + ((d.target as Node).y || 0)) / 2);
+      linkLabels.attr('x', d => (((d.source as Node).x || 0) + ((d.target as Node).x || 0)) / 2).attr('y', d => (((d.source as Node).y || 0) + ((d.target as Node).y || 0)) / 2);
 
       node.attr('transform', d => `translate(${d.x || 0},${d.y || 0})`);
     });
@@ -417,16 +414,11 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
       <div className="filter-area">
         {/* 검색창 */}
         <div className="search-filter">
-          <label htmlFor="product-search" className="filter-label">검색:</label>
+          <label htmlFor="product-search" className="filter-label">
+            검색:
+          </label>
           <div className="search-input-wrapper">
-            <input
-              id="product-search"
-              type="text"
-              value={searchTerm}
-              onChange={e => setSearchTerm(e.target.value)}
-              placeholder="상품명 입력..."
-              className="search-input"
-            />
+            <input id="product-search" type="text" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} placeholder="상품명 입력..." className="search-input" />
             {searchTerm && (
               <button className="clear-search-btn" onClick={() => setSearchTerm('')} title="검색어 지우기">
                 ×
@@ -448,9 +440,7 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
                   title={hiddenTypes.has(type) ? `${type} 표시` : `${type} 숨기기`}
                 >
                   {type}
-                  <span className="filter-count">
-                    ({graphData.nodes.filter(n => n.type === 'product' && n.group === type).length})
-                  </span>
+                  <span className="filter-count">({graphData.nodes.filter(n => n.type === 'product' && n.group === type).length})</span>
                 </button>
               ))}
             </div>
@@ -459,16 +449,10 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
 
         {/* 거리 조절 슬라이더 */}
         <div className="distance-filter">
-          <label htmlFor="link-distance" className="filter-label">거리:</label>
-          <input
-            id="link-distance"
-            type="range"
-            min="30"
-            max="300"
-            value={linkDistance}
-            onChange={e => setLinkDistance(Number(e.target.value))}
-            className="distance-slider"
-          />
+          <label htmlFor="link-distance" className="filter-label">
+            노드간 거리:
+          </label>
+          <input id="link-distance" type="range" min="30" max="300" value={linkDistance} onChange={e => setLinkDistance(Number(e.target.value))} className="distance-slider" />
           <span className="distance-value">{linkDistance}</span>
         </div>
 
@@ -522,11 +506,7 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
                 .filter(n => n.type === 'product')
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .map(product => (
-                  <li
-                    key={product.id}
-                    className={`product-item ${selectedNode?.id === product.id ? 'selected' : ''}`}
-                    onClick={() => setSelectedNode(product)}
-                  >
+                  <li key={product.id} className={`product-item ${selectedNode?.id === product.id ? 'selected' : ''}`} onClick={() => setSelectedNode(product)}>
                     <span className="product-name">{product.name}</span>
                     <span className="product-type">{product.group}</span>
                     <span className="product-price">
@@ -580,7 +560,8 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
                     return selectedNode.type === 'product' ? targetId === selectedNode.id : sourceId === selectedNode.id;
                   })
                   .map((link, index) => {
-                    const connectedId = selectedNode.type === 'product' ? (typeof link.source === 'string' ? link.source : link.source.id) : typeof link.target === 'string' ? link.target : link.target.id;
+                    const connectedId =
+                      selectedNode.type === 'product' ? (typeof link.source === 'string' ? link.source : link.source.id) : typeof link.target === 'string' ? link.target : link.target.id;
                     const connectedNode = filteredGraphData.nodes.find(n => n.id === connectedId);
                     return (
                       <li key={index}>

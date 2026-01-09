@@ -426,6 +426,7 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
     const exportData = {
       items: allCalculatorItems.map(item => ({
         id: item.id,
+        name: item.name,
         level: 1,
         cnt: getItemValue(item.id, 'cnt', item.cnt),
         combo: getItemValue(item.id, 'combo', item.combo),

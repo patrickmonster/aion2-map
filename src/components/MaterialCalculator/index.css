@@ -197,12 +197,19 @@
 
 .main-tab-content {
   flex: 1;
-  height: 60%;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
 }
 
 .content-area {
-  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+  padding: 16px 20px;
 }
 
 .content-area h3 {
@@ -290,6 +297,7 @@
   /* padding: 16px; */
   /* margin-bottom: 20px; */
   border: 1px solid #e9ecef;
+  flex-shrink: 0;
 }
 
 .filter-row {
@@ -336,23 +344,82 @@
 .shop-table-container {
   background-color: white;
   border-radius: 6px;
-  overflow: hidden;
+  overflow: auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 16px;
+  flex: 1;
+  min-height: 0;
+}
+
+/* 테이블 스크롤바 스타일 */
+.shop-table-container::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.shop-table-container::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+.shop-table-container::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.shop-table-container::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.shop-table-container::-webkit-scrollbar-corner {
+  background: #f1f5f9;
 }
 
 .shop-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 14px;
+  table-layout: fixed;
+}
+
+.shop-table th:nth-child(1),
+.shop-table td:nth-child(1) {
+  width: 80px;
+}
+
+.shop-table th:nth-child(2),
+.shop-table td:nth-child(2) {
+  width: auto;
+}
+
+.shop-table th:nth-child(3),
+.shop-table td:nth-child(3),
+.shop-table th:nth-child(4),
+.shop-table td:nth-child(4) {
+  width: 130px;
+}
+
+.shop-table th:nth-child(5),
+.shop-table td:nth-child(5) {
+  width: 100px;
+}
+
+.shop-table th:nth-child(6),
+.shop-table td:nth-child(6) {
+  width: 100px;
+  padding-right: 20px;
 }
 
 .shop-table thead {
   background-color: #f8f9fa;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .shop-table th {
   padding: 12px 16px;
+  background-color: #f8f9fa;
   text-align: left;
   font-weight: 600;
   color: #495057;
@@ -364,6 +431,16 @@
   padding: 12px 16px;
   border-bottom: 1px solid #dee2e6;
   vertical-align: middle;
+  height: 48px;
+  box-sizing: border-box;
+}
+
+.shop-table td .item-type {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 100%;
 }
 
 .shop-table tbody tr:hover {
@@ -413,6 +490,44 @@
   font-weight: 500;
 }
 
+.price.editable {
+  padding: 8px 12px;
+}
+
+.price-value {
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  display: inline-block;
+  min-width: 80px;
+  text-align: right;
+}
+
+.price-value:hover {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.inline-price-input {
+  width: 100%;
+  max-width: 110px;
+  padding: 4px 8px;
+  border: 2px solid #2196f3;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+  outline: none;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.inline-price-input:focus {
+  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.2);
+}
+
 .date {
   color: #6c757d;
   font-size: 12px;
@@ -430,6 +545,7 @@
   color: #6c757d;
   text-align: right;
   margin-top: 8px;
+  flex-shrink: 0;
 }
 
 /* Responsive for mobile */
@@ -459,6 +575,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  flex-shrink: 0;
 }
 
 .content-header h3 {
@@ -671,6 +788,7 @@
   margin: 20px 0;
   border-radius: 6px;
   font-size: 16px;
+  flex-shrink: 0;
 }
 
 .loading-message {
@@ -1093,25 +1211,6 @@
   max-height: 400px;
 }
 
-.item-row {
-  padding: 12px 16px;
-  border-bottom: 1px solid #f0f0f0;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.item-row:hover {
-  background-color: #f8f9fa;
-}
-
-.item-row.selected {
-  background-color: #e3f2fd;
-  border-color: #2196f3;
-}
-
-.item-row:last-child {
-  border-bottom: none;
-}
 
 .item-info {
   display: flex;
@@ -1302,11 +1401,19 @@ input:checked + .toggle-slider:before {
   transform: none;
 }
 
+.edit-materials-modal .modal-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+}
+
 .materials-layout {
   display: flex;
   gap: 1px;
-  height: 100%;
-  min-height: 450px;
+  flex: 1;
+  min-height: 0;
   /* padding: 20px 24px 24px 24px; */
   background: #f8f9fa;
 }
@@ -1320,6 +1427,8 @@ input:checked + .toggle-slider:before {
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  min-width: 0;
 }
 
 .selected-materials-panel {
@@ -1382,6 +1491,9 @@ input:checked + .toggle-slider:before {
   flex-direction: column;
   gap: 12px;
   padding-right: 4px;
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
 }
 
 .material-item {
@@ -1456,43 +1568,25 @@ input:checked + .toggle-slider:before {
 }
 
 .btn-remove {
-  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  background: #ef4444;
   color: white;
   border: none;
-  padding: 8px 16px;
-  border-radius: 8px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 14px;
   font-weight: 600;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 4px rgba(239, 68, 68, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .btn-remove:hover {
-  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(239, 68, 68, 0.3);
-}
-
-.item-row {
-  padding: 16px;
-  border: 2px solid #f8fafc;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  background: #ffffff;
-  margin-bottom: 8px;
-}
-
-.item-row:hover {
-  border-color: #e0f2fe;
-  background: #f0f9ff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
-
-.item-row.clickable:active {
-  transform: translateY(0);
+  background: #dc2626;
+  transform: scale(1.1);
 }
 
 .item-name {
@@ -1571,14 +1665,8 @@ input:checked + .toggle-slider:before {
 .search-materials-panel .items-list {
   flex: 1;
   overflow-y: auto;
-  max-height: 400px;
   padding-right: 4px;
-}
-
-.materials-list {
-  flex: 1;
-  overflow-y: auto;
-  max-height: 400px;
+  min-height: 0;
 }
 
 /* 스크롤바 스타일링 */
@@ -1939,7 +2027,7 @@ input:checked + .toggle-slider:before {
 .item-row {
   display: flex;
   align-items: center;
-  padding: 12px 20px;
+  /* padding: 12px 20px; */
   cursor: pointer;
   border-bottom: 1px solid #f0f0f0;
   transition: background-color 0.2s;

@@ -20,6 +20,11 @@ const ShopContent: React.FC<ShopContentProps> = () => {
   const [editingItem, setEditingItem] = useState<ShopItem | null>(null);
   const [isAddMode, setIsAddMode] = useState(false);
 
+  // 인라인 편집 상태
+  const [editingPriceId, setEditingPriceId] = useState<string | null>(null);
+  const [editingPriceField, setEditingPriceField] = useState<'minPrice' | 'maxPrice' | null>(null);
+  const [editingPriceValue, setEditingPriceValue] = useState<string>('');
+
   // 마지막으로 선택한 타입 기억
   const [lastSelectedType, setLastSelectedType] = useState<ItemType>('기타');
 
@@ -170,6 +175,67 @@ const ShopContent: React.FC<ShopContentProps> = () => {
     setIsAddMode(false);
   }, []);
 
+  // 인라인 가격 편집 시작
+  const handleStartPriceEdit = useCallback((itemId: string, field: 'minPrice' | 'maxPrice', currentValue: number) => {
+    setEditingPriceId(itemId);
+    setEditingPriceField(field);
+    setEditingPriceValue(currentValue.toString());
+  }, []);
+
+  // 인라인 가격 편집 저장
+  const handleSavePriceEdit = useCallback(() => {
+    if (!editingPriceId || !editingPriceField) return;
+
+    const newValue = parseInt(editingPriceValue) || 0;
+    if (newValue < 0) {
+      alert('가격은 0 이상이어야 합니다.');
+      return;
+    }
+
+    const item = shopItems.find(i => i.id === editingPriceId);
+    if (!item) return;
+
+    let finalMinPrice = editingPriceField === 'minPrice' ? newValue : item.minPrice;
+    let finalMaxPrice = editingPriceField === 'maxPrice' ? newValue : item.maxPrice;
+
+    // 최소가 최대보다 크면 자동 조정
+    if (finalMinPrice > finalMaxPrice) {
+      if (editingPriceField === 'minPrice') {
+        finalMaxPrice = finalMinPrice;
+      } else {
+        finalMinPrice = finalMaxPrice;
+      }
+    }
+
+    const updatedItems = shopItems.map(i =>
+      i.id === editingPriceId
+        ? { ...i, minPrice: finalMinPrice, maxPrice: finalMaxPrice, lastUpdated: new Date().toISOString().split('T')[0] }
+        : i
+    );
+
+    setShopItems(updatedItems);
+    saveLocalData(updatedItems);
+    setEditingPriceId(null);
+    setEditingPriceField(null);
+    setEditingPriceValue('');
+  }, [editingPriceId, editingPriceField, editingPriceValue, shopItems, saveLocalData]);
+
+  // 인라인 가격 편집 취소
+  const handleCancelPriceEdit = useCallback(() => {
+    setEditingPriceId(null);
+    setEditingPriceField(null);
+    setEditingPriceValue('');
+  }, []);
+
+  // 인라인 편집 키보드 핸들러
+  const handlePriceKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      handleSavePriceEdit();
+    } else if (e.key === 'Escape') {
+      handleCancelPriceEdit();
+    }
+  }, [handleSavePriceEdit, handleCancelPriceEdit]);
+
   // 서버와 동기화 기능
   const handleSync = useCallback(async () => {
     if (window.confirm('서버에서 새로운 데이터를 가져와 동기화하시겠습니까?\n(ID가 없는 새 항목만 추가됩니다)')) {
@@ -300,8 +366,50 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                       <tr key={item.id} className={item.convert ? 'convert-item' : ''}>
                         <td className="item-type">{item.type}</td>
                         <td className="item-name">{item.name}</td>
-                        <td className="price">{item.minPrice.toLocaleString()}</td>
-                        <td className="price">{item.maxPrice.toLocaleString()}</td>
+                        <td className="price editable">
+                          {editingPriceId === item.id && editingPriceField === 'minPrice' ? (
+                            <input
+                              type="number"
+                              className="inline-price-input"
+                              value={editingPriceValue}
+                              onChange={e => setEditingPriceValue(e.target.value)}
+                              onBlur={handleSavePriceEdit}
+                              onKeyDown={handlePriceKeyDown}
+                              autoFocus
+                              min="0"
+                            />
+                          ) : (
+                            <span
+                              className="price-value"
+                              onClick={() => handleStartPriceEdit(item.id, 'minPrice', item.minPrice)}
+                              title="클릭하여 수정"
+                            >
+                              {item.minPrice.toLocaleString()}
+                            </span>
+                          )}
+                        </td>
+                        <td className="price editable">
+                          {editingPriceId === item.id && editingPriceField === 'maxPrice' ? (
+                            <input
+                              type="number"
+                              className="inline-price-input"
+                              value={editingPriceValue}
+                              onChange={e => setEditingPriceValue(e.target.value)}
+                              onBlur={handleSavePriceEdit}
+                              onKeyDown={handlePriceKeyDown}
+                              autoFocus
+                              min="0"
+                            />
+                          ) : (
+                            <span
+                              className="price-value"
+                              onClick={() => handleStartPriceEdit(item.id, 'maxPrice', item.maxPrice)}
+                              title="클릭하여 수정"
+                            >
+                              {item.maxPrice.toLocaleString()}
+                            </span>
+                          )}
+                        </td>
                         <td className="date">{item.lastUpdated}</td>
                         <td className="actions">
                           <button onClick={() => handleEdit(item)} className="btn-edit" title="수정">
