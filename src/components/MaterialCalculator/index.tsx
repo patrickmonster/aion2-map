@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import CalculatorContent from './CalculatorContent';
 import './index.css';
 import OptimizationContent from './OptimizationContent';
+import RelationshipContent from './RelationshipContent';
 import SettingsContent from './SettingsContent';
 import ShopContent from './ShopContent';
 
 // 사이드 메뉴 타입
-type SideMenuTab = '계산기' | '상점' | '최적화' | '수정+';
+type SideMenuTab = '계산기' | '상점' | '관계' | '최적화' | '수정+';
 
 interface MaterialCalculatorProps {
   isOpen: boolean;
@@ -18,7 +19,7 @@ interface MaterialCalculatorProps {
 
 const MaterialCalculator: React.FC<MaterialCalculatorProps> = ({ isOpen, onClose, isPageMode = false, backButton = false, hideHeader = false }) => {
   const [activeSideTab, setSideTab] = useState<SideMenuTab>('상점');
-  const sideTabs: SideMenuTab[] = ['상점', '계산기', '최적화', '수정+'];
+  const sideTabs: SideMenuTab[] = ['상점', '계산기', '관계', '최적화', '수정+'];
 
   if (!isOpen) return null;
 
@@ -70,6 +71,7 @@ const MaterialCalculator: React.FC<MaterialCalculatorProps> = ({ isOpen, onClose
             {/* 사이드 메뉴에 따른 콘텐츠 변경 */}
             {activeSideTab === '계산기' && <CalculatorContent />}
             {activeSideTab === '상점' && <ShopContent />}
+            {activeSideTab === '관계' && <RelationshipContent />}
             {activeSideTab === '최적화' && <OptimizationContent />}
             {activeSideTab === '수정+' && <SettingsContent />}
           </div>
