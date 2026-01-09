@@ -16,6 +16,8 @@ export interface CalculatorItemData {
 export interface ItemOverride {
   combo?: number;
   cnt?: number;
+  minPrice?: number;
+  maxPrice?: number;
   materials?: { itemId: string; quantity: number }[];
   hasUpperGradeCombination?: boolean;
 }

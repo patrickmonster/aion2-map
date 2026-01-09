@@ -65,7 +65,7 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
   const [customCalculatorItems, setCustomCalculatorItems] = useState<CalculatorItem[]>([]);
 
   // 커스텀 훅 사용
-  const { shopItems, getItemById, initializeData } = useShopData();
+  const { shopItems, getItemById, initializeData, saveLocalData: saveShopData } = useShopData();
   const { getRecipeFileName } = useRecipeData();
   const {
     loadCalculatorData,
@@ -242,6 +242,58 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
       });
     },
     [activeMainTab, getTabCategory, saveItemOverrides]
+  );
+
+  // 최저가 변경 핸들러
+  const handleMinPriceChange = useCallback(
+    (itemId: string, minPrice: number) => {
+      const category = getTabCategory(activeMainTab);
+      const newMinPrice = Math.max(0, minPrice);
+
+      // 오버라이드 저장
+      setItemOverrides(prev => {
+        const newOverrides = {
+          ...prev,
+          [itemId]: {
+            ...prev[itemId],
+            minPrice: newMinPrice,
+          },
+        };
+        saveItemOverrides(category, newOverrides);
+        return newOverrides;
+      });
+
+      // 상점 데이터도 업데이트
+      const updatedShopItems = shopItems.map(item => (item.id === itemId ? { ...item, minPrice: newMinPrice, lastUpdated: new Date().toISOString().split('T')[0] } : item));
+      saveShopData(updatedShopItems);
+    },
+    [activeMainTab, getTabCategory, saveItemOverrides, shopItems, saveShopData]
+  );
+
+  // 최고가 변경 핸들러
+  const handleMaxPriceChange = useCallback(
+    (itemId: string, maxPrice: number) => {
+      const category = getTabCategory(activeMainTab);
+      const newMaxPrice = Math.max(0, maxPrice);
+
+      // 오버라이드 저장
+      setItemOverrides(prev => {
+        const newOverrides = {
+          ...prev,
+          [itemId]: {
+            ...prev[itemId],
+            maxPrice: newMaxPrice,
+          },
+        };
+        saveItemOverrides(category, newOverrides);
+        return newOverrides;
+      });
+
+      // 상점 데이터도 업데이트
+      const updatedShopItems = shopItems.map(item => (item.id === itemId ? { ...item, maxPrice: newMaxPrice, lastUpdated: new Date().toISOString().split('T')[0] } : item));
+      saveShopData(updatedShopItems);
+    },
+    [activeMainTab, getTabCategory, saveItemOverrides, shopItems, saveShopData]
   );
 
   // 동기화 핸들러
@@ -496,12 +548,15 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
       })
       .map(item => {
         const shopItem = getItemById(item.id);
-        const currentMinPrice = shopItem?.minPrice || 0;
-        const currentMaxPrice = shopItem?.maxPrice || 0;
+        const baseMinPrice = shopItem?.minPrice || 0;
+        const baseMaxPrice = shopItem?.maxPrice || 0;
 
         const overrides = itemOverrides[item.id];
         const materialsToUse = overrides?.materials || item.ingredient;
         const currentQuantity = overrides?.cnt || item.cnt;
+        // 오버라이드된 가격이 있으면 사용, 없으면 상점 가격 사용
+        const currentMinPrice = overrides?.minPrice ?? baseMinPrice;
+        const currentMaxPrice = overrides?.maxPrice ?? baseMaxPrice;
 
         const { minCost: materialMinCost, maxCost: materialMaxCost } = calculateMaterialCosts(materialsToUse, excludeConvert);
 
@@ -610,7 +665,7 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
         <div className="search-group">
           <label className="exclude-convert-label">
             <input type="checkbox" checked={excludeConvert} onChange={e => setExcludeConvert(e.target.checked)} className="exclude-convert-checkbox" />
-            재료변환 제외 (오드 변환 아이템 제외)
+            물질변환 재료 제외 (오드 변환 아이템 제외)
           </label>
         </div>
       </div>
@@ -653,10 +708,26 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
               {filteredItems.length > 0 ? (
                 filteredItems.map(item => (
                   <tr key={`calculate-${item.id}`}>
-                    <td>{item.name}</td>
+                    <td style={{}}>{item.name}</td>
                     <td>{item.type}</td>
-                    <td>{item.minPrice.toLocaleString()}원</td>
-                    <td>{item.maxPrice.toLocaleString()}</td>
+                    <td>
+                      <input
+                        type="number"
+                        min="0"
+                        value={getItemValue(item.id, 'minPrice', item.minPrice)}
+                        onChange={e => handleMinPriceChange(item.id, parseInt(e.target.value) || 0)}
+                        className="inline-edit-input price-input"
+                      />
+                    </td>
+                    <td>
+                      <input
+                        type="number"
+                        min="0"
+                        value={getItemValue(item.id, 'maxPrice', item.maxPrice)}
+                        onChange={e => handleMaxPriceChange(item.id, parseInt(e.target.value) || 0)}
+                        className="inline-edit-input price-input"
+                      />
+                    </td>
                     <td>{item.materialCost.toLocaleString()}</td>
                     <td className={item.minProfit >= 0 ? 'profit-positive' : 'profit-negative'}>{item.minProfit.toLocaleString()}</td>
                     <td className={item.minProfit >= 0 ? 'profit-positive' : 'profit-negative'}>{item.minProfit.toLocaleString()}</td>

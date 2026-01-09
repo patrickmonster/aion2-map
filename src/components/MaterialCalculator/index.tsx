@@ -6,8 +6,23 @@ import RelationshipContent from './RelationshipContent';
 import SettingsContent from './SettingsContent';
 import ShopContent from './ShopContent';
 
-// 사이드 메뉴 타입
-type SideMenuTab = '계산기' | '상점' | '관계' | '최적화' | '수정+';
+// 사이드 메뉴 enum
+enum SideMenuTab {
+  SHOP = 'SHOP',
+  CALCULATOR = 'CALCULATOR',
+  RELATIONSHIP = 'RELATIONSHIP',
+  OPTIMIZATION = 'OPTIMIZATION',
+  SETTINGS = 'SETTINGS',
+}
+
+// 사이드 메뉴 라벨 매핑
+const SIDE_TAB_LABELS: Record<SideMenuTab, string> = {
+  [SideMenuTab.SHOP]: '📝',
+  [SideMenuTab.CALCULATOR]: '🧮',
+  [SideMenuTab.RELATIONSHIP]: '📊',
+  [SideMenuTab.OPTIMIZATION]: '창고',
+  [SideMenuTab.SETTINGS]: '⚙️',
+};
 
 interface MaterialCalculatorProps {
   isOpen: boolean;
@@ -18,8 +33,8 @@ interface MaterialCalculatorProps {
 }
 
 const MaterialCalculator: React.FC<MaterialCalculatorProps> = ({ isOpen, onClose, isPageMode = false, backButton = false, hideHeader = false }) => {
-  const [activeSideTab, setSideTab] = useState<SideMenuTab>('상점');
-  const sideTabs: SideMenuTab[] = ['상점', '계산기', '관계', '최적화', '수정+'];
+  const [activeSideTab, setSideTab] = useState<SideMenuTab>(SideMenuTab.SHOP);
+  const sideTabs: SideMenuTab[] = [SideMenuTab.SHOP, SideMenuTab.CALCULATOR, SideMenuTab.RELATIONSHIP, SideMenuTab.OPTIMIZATION, SideMenuTab.SETTINGS];
 
   if (!isOpen) return null;
 
@@ -49,7 +64,7 @@ const MaterialCalculator: React.FC<MaterialCalculatorProps> = ({ isOpen, onClose
             <div className="side-tabs">
               {sideTabs.map(tab => (
                 <button key={tab} className={`side-tab ${activeSideTab === tab ? 'active' : ''}`} onClick={() => setSideTab(tab)}>
-                  {tab}
+                  {SIDE_TAB_LABELS[tab]}
                 </button>
               ))}
 
@@ -69,11 +84,11 @@ const MaterialCalculator: React.FC<MaterialCalculatorProps> = ({ isOpen, onClose
             {/* 최상단 타이틀 */}
 
             {/* 사이드 메뉴에 따른 콘텐츠 변경 */}
-            {activeSideTab === '계산기' && <CalculatorContent />}
-            {activeSideTab === '상점' && <ShopContent />}
-            {activeSideTab === '관계' && <RelationshipContent />}
-            {activeSideTab === '최적화' && <OptimizationContent />}
-            {activeSideTab === '수정+' && <SettingsContent />}
+            {activeSideTab === SideMenuTab.CALCULATOR && <CalculatorContent />}
+            {activeSideTab === SideMenuTab.SHOP && <ShopContent />}
+            {activeSideTab === SideMenuTab.RELATIONSHIP && <RelationshipContent />}
+            {activeSideTab === SideMenuTab.OPTIMIZATION && <OptimizationContent />}
+            {activeSideTab === SideMenuTab.SETTINGS && <SettingsContent />}
           </div>
         </div>
       </div>

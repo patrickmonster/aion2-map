@@ -10,6 +10,16 @@ const SettingsContent: React.FC = () => {
 
       <div className="update-history">
         <div className="update-item">
+          <div className="update-date">2026-01-10</div>
+          <div className="update-title"></div>
+          <ul className="update-details">
+            <li>탭 시각화 (아이콘 적용)</li>
+            <li>상점 - 등급추가 (가시성 문제 해결)</li>
+            <li>계산기 - 완성 아이템 가격 수정 가능하도록 수정</li>
+          </ul>
+        </div>
+
+        <div className="update-item">
           <div className="update-date">2026-01-09</div>
           <div className="update-title">대장 아이템 추가</div>
           <ul className="update-details">

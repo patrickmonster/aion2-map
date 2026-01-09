@@ -8,7 +8,8 @@
       "type": "인게임재화",
       "minPrice": 10,
       "maxPrice": 250,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "NORMAL"
     },
     {
       "id": "5sbz325kqxwj3gba5o4yj3evxu",
@@ -16,7 +17,7 @@
       "type": "인게임재화",
       "minPrice": 1000,
       "maxPrice": 1000,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09"
     },
     {
       "id": "5s4zr3e4uaqoxlf45sk32",
@@ -24,7 +25,7 @@
       "type": "인게임재화",
       "minPrice": 630,
       "maxPrice": 630,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09"
     },
     {
       "id": "5skyr24iqtwivja",
@@ -32,7 +33,7 @@
       "type": "기타",
       "minPrice": 3400,
       "maxPrice": 3400,
-      "lastUpdated": "2025-12-07",
+      "lastUpdated": "2026-01-09",
       "convert": true
     },
     {
@@ -41,7 +42,7 @@
       "type": "기타",
       "minPrice": 3777,
       "maxPrice": 4050,
-      "lastUpdated": "2025-12-07",
+      "lastUpdated": "2026-01-09",
       "convert": true
     },
     {
@@ -229,8 +230,8 @@
       "name": "순수한 다이아몬드 원석",
       "type": "기타",
       "minPrice": 33333,
-      "maxPrice": 33333,
-      "lastUpdated": "2025-12-07",
+      "maxPrice": 40000,
+      "lastUpdated": "2026-01-09",
       "convert": true
     },
     {
@@ -361,7 +362,7 @@
       "type": "인게임재화",
       "minPrice": 1200,
       "maxPrice": 1200,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09"
     },
     {
       "id": "5s2zz2vtudvlrcja5spit3mbvq",
@@ -456,8 +457,8 @@
       "name": "진실의 마법서",
       "type": "무기",
       "minPrice": 8500,
-      "maxPrice": 8500,
-      "lastUpdated": "2025-12-05"
+      "maxPrice": 9000,
+      "lastUpdated": "2026-01-09"
     },
     {
       "id": "5styj3elutwj3gba5oz3j3fdxq",
@@ -537,7 +538,7 @@
       "type": "기타",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09"
     },
     {
       "id": "5spkl3e5xdwj3gba5sqjz25avdwijhi",
@@ -545,7 +546,8 @@
       "type": "기타",
       "minPrice": 160,
       "maxPrice": 160,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5styj3elutwj3gba5otyr25ssxwijha",
@@ -553,7 +555,8 @@
       "type": "무기",
       "minPrice": 80000,
       "maxPrice": 80000,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5styj3elutwj3gba5oz3j3fdxq",
@@ -561,7 +564,8 @@
       "type": "무기",
       "minPrice": 88000,
       "maxPrice": 88000,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5wkzr2vyrhv2pchmqsoq",
@@ -601,7 +605,8 @@
       "type": "인게임재화",
       "minPrice": 1600,
       "maxPrice": 1600,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5styj3elutwj3gba5otyr25ssxwijha",
@@ -609,7 +614,8 @@
       "type": "무기",
       "minPrice": 700000,
       "maxPrice": 700000,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5styj3elutwj3gba5oz3j3fdxq",
@@ -617,7 +623,8 @@
       "type": "무기",
       "minPrice": 690000,
       "maxPrice": 690000,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb25twtwkhpa",
@@ -625,7 +632,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb25twtwkhpa",
@@ -633,15 +641,17 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
-      "id": "5spij25duhwjtfpmtwmcb25twtwkhpa",
-      "name": "임룡왕의 보주",
+      "id": "5skzj25duhwjtfpmtwmcb25twtwkhpa",
+      "name": "암룡왕의 보주",
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb25twtwkhpa",
@@ -649,7 +659,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
@@ -657,7 +668,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
@@ -665,7 +677,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
@@ -673,7 +686,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb25hrdv3ffpmqsoa",
@@ -681,7 +695,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5s4zr25kqxwyhaba5wlkl3edqeqozi545owlr3eetq",
@@ -1161,7 +1176,8 @@
       "type": "무기",
       "minPrice": 80000,
       "maxPrice": 80000,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
@@ -1169,7 +1185,8 @@
       "type": "무기",
       "minPrice": 320000,
       "maxPrice": 320000,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5styj3elutwj3gba5otyr25ssxwijha",
@@ -1177,7 +1194,8 @@
       "type": "무기",
       "minPrice": 980000,
       "maxPrice": 980000,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5of2z3e5xdwj3gba5s2zz3edqhvlrcja5sqjz25avdwijhi",
@@ -1185,7 +1203,8 @@
       "type": "인게임재화",
       "minPrice": 1920,
       "maxPrice": 1920,
-      "lastUpdated": "2025-12-05"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5o3ij24fxdwj3gba5sbkz24fsa",
@@ -1353,7 +1372,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
@@ -1361,7 +1381,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
@@ -1369,7 +1390,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
@@ -1377,7 +1399,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
@@ -1385,7 +1408,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
@@ -1393,7 +1417,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
@@ -1401,7 +1426,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
@@ -1409,7 +1435,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
@@ -1417,7 +1444,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
@@ -1425,7 +1453,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
@@ -1433,7 +1462,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
@@ -1441,7 +1471,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
@@ -1449,7 +1480,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
@@ -1457,7 +1489,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb3m5rhvlbei",
@@ -1465,7 +1498,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2025-12-06",
+      "grade": "UNIQUE"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb2vqqhv3bga",
@@ -1473,7 +1507,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2025-12-06",
+      "grade": "UNIQUE"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb3mivtvllla",
@@ -1481,7 +1516,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2025-12-06",
+      "grade": "UNIQUE"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb2vsvtvlbei",
@@ -1489,7 +1525,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2025-12-06",
+      "grade": "UNIQUE"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb3e6uxvlbei",
@@ -1497,7 +1534,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2025-12-06",
+      "grade": "UNIQUE"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb3e6uxv3bfa",
@@ -1505,7 +1543,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2025-12-06",
+      "grade": "UNIQUE"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb25htxwynia",
@@ -1513,7 +1552,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2025-12-06",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb3m5rhvlbei",
@@ -1521,7 +1561,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb2vqqhv3bga",
@@ -1529,7 +1570,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb3mivtvllla",
@@ -1537,7 +1579,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb2vsvtvlbei",
@@ -1545,7 +1588,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb3e6uxvlbei",
@@ -1553,7 +1597,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb3e6uxwztfa",
@@ -1561,7 +1606,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb25htxwynia",
@@ -1569,7 +1615,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb2vqqhv3bga",
@@ -1577,7 +1624,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb3mivtvllla",
@@ -1585,7 +1633,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb2vsvtvlbei",
@@ -1593,7 +1642,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb3e6uxvlbei",
@@ -1601,7 +1651,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb3e6uxwztfa",
@@ -1609,7 +1660,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb25htxwynia",
@@ -1617,7 +1669,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb3m5rhvlbei",
@@ -1625,7 +1678,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb2vqqhv3bga",
@@ -1633,7 +1687,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb3mivtvllla",
@@ -1641,7 +1696,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb2vsvtvlbei",
@@ -1649,7 +1705,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb3e6uxvlbei",
@@ -1657,7 +1714,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb3e6uxwztfa",
@@ -1665,7 +1723,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb25htxwynia",
@@ -1673,7 +1732,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-06"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5oqir3e5wtvyxnba5sr3z3ekuq",
@@ -1745,7 +1805,8 @@
       "type": "소모품",
       "minPrice": 9400,
       "maxPrice": 9400,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5ovkr25fwtwyzdba5sykq",
@@ -1753,7 +1814,8 @@
       "type": "소모품",
       "minPrice": 12000,
       "maxPrice": 12000,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5s43j25araqovm5a5k4laihlwo3ozhmm",
@@ -1761,7 +1823,8 @@
       "type": "소모품",
       "minPrice": 34900,
       "maxPrice": 34900,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5wnyj25fwtwlriba5sbzb247vtvzhha",
@@ -1769,7 +1832,8 @@
       "type": "소모품",
       "minPrice": 5999,
       "maxPrice": 5999,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5wi3r3fattv2nlba5syjy",
@@ -1777,7 +1841,8 @@
       "type": "소모품",
       "minPrice": 8900,
       "maxPrice": 8900,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5s6zj24lrdwyldba5wgiz3ekutwyhaa",
@@ -1785,7 +1850,8 @@
       "type": "소모품",
       "minPrice": 9800,
       "maxPrice": 9800,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj3mbvtvz3pba5kz2b2vywaqo3cua5k4ya",
@@ -1793,7 +1859,8 @@
       "type": "소모품",
       "minPrice": 28000,
       "maxPrice": 28000,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5wi3r3fattv2nlba5k22z3e5wq",
@@ -1801,7 +1868,8 @@
       "type": "소모품",
       "minPrice": 18999,
       "maxPrice": 18999,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5wozd25duhwj3gba5kz3z3e5xqqozi545sfki",
@@ -1809,7 +1877,8 @@
       "type": "소모품",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwj3gba5wlyr25yrqqozmfi",
@@ -1817,7 +1886,8 @@
       "type": "소모품",
       "minPrice": 90000,
       "maxPrice": 90000,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwj3gba5sylt3ekutwyldhmtw2o3anm",
@@ -1825,7 +1895,8 @@
       "type": "소모품",
       "minPrice": 29900,
       "maxPrice": 29900,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwj3gba5skkr3mrxdvzhhba5wgiz3ekutwyhaa",
@@ -1833,7 +1904,8 @@
       "type": "소모품",
       "minPrice": 31000,
       "maxPrice": 31000,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwj3gba5o4yj3muqqqozg5q5otyd3mewq",
@@ -1841,7 +1913,8 @@
       "type": "소모품",
       "minPrice": 36000,
       "maxPrice": 36000,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5sf3d3elwhwzlhba5sbz32vtudvlrma",
@@ -1889,7 +1962,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5of2z3e5xdwj3gba5skyj3ekutv3bfhnqoacb3mztq",
@@ -1897,7 +1971,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb3mztq",
@@ -1905,7 +1980,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb3mztq",
@@ -1913,7 +1989,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb3mztq",
@@ -1921,7 +1998,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb3mztq",
@@ -1929,7 +2007,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5skyj3ekutv3bfhnqoacb25ssxv3jci",
@@ -1945,7 +2024,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5of2z3e5xdwj3gba5skyj3ekutv3bfhnqoacb25ssxv3jci",
@@ -1953,7 +2033,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb25ssxv3jci",
@@ -1961,7 +2042,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2025-12-07",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb25ssxv3jci",
@@ -1969,7 +2051,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb25ssxv3jci",
@@ -1977,7 +2060,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb25ssxv3jci",
@@ -1985,7 +2069,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
@@ -2001,7 +2086,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
@@ -2009,7 +2095,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb24mqdvlfaa",
@@ -2017,7 +2104,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2025-12-07",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb24mqdvlfaa",
@@ -2025,15 +2113,17 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
-      "id": "5spij25duhwjtfpmtwmcb24mqdvlfaa",
-      "name": "임룡왕의 대검",
+      "id": "5skzj25duhwjtfpmtwmcb24mqdvlfaa",
+      "name": "암룡왕의 대검",
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2025-12-07",
+      "grade": "UNIQUE"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb24mqdvlfaa",
@@ -2041,7 +2131,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
@@ -2057,7 +2148,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
@@ -2065,7 +2157,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb3e6uxvlfaa",
@@ -2073,7 +2166,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2025-12-07",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb3e6uxvlfaa",
@@ -2081,7 +2175,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb3e6uxvlfaa",
@@ -2089,7 +2184,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb3e6uxvlfaa",
@@ -2097,7 +2193,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
@@ -2113,7 +2210,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
@@ -2121,7 +2219,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb24lvdvlfaa",
@@ -2129,7 +2228,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2025-12-07",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb24lvdvlfaa",
@@ -2137,7 +2237,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb24lvdvlfaa",
@@ -2145,7 +2246,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb24lvdvlfaa",
@@ -2153,7 +2255,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
@@ -2169,7 +2272,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
@@ -2177,7 +2281,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb3faqtvlhja",
@@ -2185,7 +2290,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2025-12-07",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb3faqtvlhja",
@@ -2193,7 +2299,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb3faqtvlhja",
@@ -2201,7 +2308,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb3faqtvlhja",
@@ -2209,7 +2317,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
@@ -2225,7 +2334,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5of2z3e5xdwj3gba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
@@ -2233,7 +2343,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5ky3j25duhwjtfpmtwmcb2vqqdvy3fa",
@@ -2241,7 +2352,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2025-12-07",
+      "grade": "UNIQUE"
     },
     {
       "id": "5wozd25duhwjtfpmtwmcb2vqqdvy3fa",
@@ -2249,7 +2361,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5skzj25duhwjtfpmtwmcb2vqqdvy3fa",
@@ -2257,7 +2370,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5k4lb25duhwjtfpmtwmcb2vqqdvy3fa",
@@ -2265,7 +2379,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "HEROIC"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
@@ -2273,7 +2388,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
@@ -2281,7 +2397,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwyrlhkwwwa",
@@ -2289,7 +2406,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
@@ -2297,7 +2415,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
@@ -2305,7 +2424,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlflhkwciq",
@@ -2313,7 +2433,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
@@ -2321,7 +2442,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
@@ -2329,7 +2451,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwz3cpkwciq",
@@ -2337,7 +2460,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
@@ -2345,7 +2469,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
@@ -2353,7 +2478,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbaplwcma",
@@ -2361,7 +2487,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
@@ -2369,7 +2496,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
@@ -2377,7 +2505,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwciq",
@@ -2385,7 +2514,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
@@ -2393,7 +2523,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
@@ -2401,7 +2532,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedv2phpnq2qa",
@@ -2409,7 +2541,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
@@ -2417,7 +2550,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
@@ -2425,7 +2559,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpntgka",
@@ -2433,7 +2568,8 @@
       "type": "방어구",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5snkt2vywdwj3gba5sr3z25mxdwijha",
@@ -2497,7 +2633,7 @@
       "type": "인게임재화",
       "minPrice": 500000,
       "maxPrice": 500000,
-      "lastUpdated": "2025-12-07"
+      "lastUpdated": "2026-01-09"
     },
     {
       "id": "5o2it3myxtwijhi",
@@ -2513,7 +2649,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
@@ -2521,7 +2658,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyzahkwkaa",
@@ -2529,7 +2667,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
@@ -2537,7 +2676,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
@@ -2545,7 +2685,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwj5jpkwkaa",
@@ -2553,7 +2694,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
@@ -2561,7 +2703,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
@@ -2569,7 +2712,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvyxkhkwkaa",
@@ -2577,7 +2721,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
@@ -2585,7 +2730,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
@@ -2593,7 +2739,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedwkbbhkwosa",
@@ -2601,7 +2748,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     },
     {
       "id": "5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
@@ -2609,7 +2757,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "RARE"
     },
     {
       "id": "5spkl3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
@@ -2617,7 +2766,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "LEGACY"
     },
     {
       "id": "5of2z3e5xdwj3gba5o4zx24ctdvyvfba5smkj25gvtwzlghluw2ozpmyedvlbahlrwka",
@@ -2625,7 +2775,8 @@
       "type": "무기",
       "minPrice": 0,
       "maxPrice": 0,
-      "lastUpdated": "2026-01-09"
+      "lastUpdated": "2026-01-09",
+      "grade": "UNIQUE"
     }
   ]
 }

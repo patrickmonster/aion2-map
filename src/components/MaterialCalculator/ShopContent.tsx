@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import type { ShopItem } from '../../hooks';
 import { useShopData } from '../../hooks';
-import { ShopsJsonData } from '../../hooks/useShopData';
+import { GRADE_COLORS, GRADE_LABELS, ItemGrade, ShopsJsonData } from '../../hooks/useShopData';
 import { encodeBase32 } from '../../utils/base32';
 import TypeSelector, { ItemType } from './TypeSelector';
 
@@ -111,6 +111,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
       id: '',
       name: '',
       type: lastSelectedType,
+      grade: ItemGrade.NORMAL,
       minPrice: 0,
       maxPrice: 0,
       lastUpdated: new Date().toISOString().split('T')[0],
@@ -207,11 +208,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
       }
     }
 
-    const updatedItems = shopItems.map(i =>
-      i.id === editingPriceId
-        ? { ...i, minPrice: finalMinPrice, maxPrice: finalMaxPrice, lastUpdated: new Date().toISOString().split('T')[0] }
-        : i
-    );
+    const updatedItems = shopItems.map(i => (i.id === editingPriceId ? { ...i, minPrice: finalMinPrice, maxPrice: finalMaxPrice, lastUpdated: new Date().toISOString().split('T')[0] } : i));
 
     setShopItems(updatedItems);
     saveLocalData(updatedItems);
@@ -228,13 +225,26 @@ const ShopContent: React.FC<ShopContentProps> = () => {
   }, []);
 
   // 인라인 편집 키보드 핸들러
-  const handlePriceKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter') {
-      handleSavePriceEdit();
-    } else if (e.key === 'Escape') {
-      handleCancelPriceEdit();
-    }
-  }, [handleSavePriceEdit, handleCancelPriceEdit]);
+  const handlePriceKeyDown = useCallback(
+    (e: React.KeyboardEvent<HTMLInputElement>) => {
+      if (e.key === 'Enter') {
+        handleSavePriceEdit();
+      } else if (e.key === 'Escape') {
+        handleCancelPriceEdit();
+      }
+    },
+    [handleSavePriceEdit, handleCancelPriceEdit]
+  );
+
+  // 등급 변경 핸들러
+  const handleGradeChange = useCallback(
+    (itemId: string, newGrade: ItemGrade) => {
+      const updatedItems = shopItems.map(item => (item.id === itemId ? { ...item, grade: newGrade, lastUpdated: new Date().toISOString().split('T')[0] } : item));
+      setShopItems(updatedItems);
+      saveLocalData(updatedItems);
+    },
+    [shopItems, saveLocalData]
+  );
 
   // 서버와 동기화 기능
   const handleSync = useCallback(async () => {
@@ -333,7 +343,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
               <div className="filter-group">
                 <label className="convert-filter-label">
                   <input type="checkbox" checked={showConvertOnly} onChange={handleShowConvertOnlyChange} className="convert-filter-checkbox" />
-                  재료변환만 보기
+                  물질변환만 보기
                 </label>
               </div>
             </div>
@@ -352,6 +362,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
               <table className="shop-table">
                 <thead>
                   <tr>
+                    <th>등급</th>
                     <th>타입</th>
                     <th>이름</th>
                     <th>최소 거래금액</th>
@@ -364,6 +375,20 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                   {filteredItems.length > 0 ? (
                     filteredItems.map(item => (
                       <tr key={item.id} className={item.convert ? 'convert-item' : ''}>
+                        <td className="item-grade">
+                          <select
+                            value={item.grade || ItemGrade.NORMAL}
+                            onChange={e => handleGradeChange(item.id, e.target.value as ItemGrade)}
+                            className="inline-grade-select"
+                            style={{ color: GRADE_COLORS[item.grade || ItemGrade.NORMAL] }}
+                          >
+                            {Object.values(ItemGrade).map(grade => (
+                              <option key={grade} value={grade} style={{ color: GRADE_COLORS[grade] }}>
+                                {GRADE_LABELS[grade]}
+                              </option>
+                            ))}
+                          </select>
+                        </td>
                         <td className="item-type">{item.type}</td>
                         <td className="item-name">{item.name}</td>
                         <td className="price editable">
@@ -379,11 +404,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                               min="0"
                             />
                           ) : (
-                            <span
-                              className="price-value"
-                              onClick={() => handleStartPriceEdit(item.id, 'minPrice', item.minPrice)}
-                              title="클릭하여 수정"
-                            >
+                            <span className="price-value" onClick={() => handleStartPriceEdit(item.id, 'minPrice', item.minPrice)} title="클릭하여 수정">
                               {item.minPrice.toLocaleString()}
                             </span>
                           )}
@@ -401,11 +422,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                               min="0"
                             />
                           ) : (
-                            <span
-                              className="price-value"
-                              onClick={() => handleStartPriceEdit(item.id, 'maxPrice', item.maxPrice)}
-                              title="클릭하여 수정"
-                            >
+                            <span className="price-value" onClick={() => handleStartPriceEdit(item.id, 'maxPrice', item.maxPrice)} title="클릭하여 수정">
                               {item.maxPrice.toLocaleString()}
                             </span>
                           )}
@@ -423,7 +440,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                     ))
                   ) : (
                     <tr>
-                      <td colSpan={6} className="no-data">
+                      <td colSpan={7} className="no-data">
                         검색 조건에 맞는 상품이 없습니다.
                       </td>
                     </tr>
@@ -555,6 +572,29 @@ const EditModal: React.FC<EditModalProps> = ({ item, isAddMode, onSave, onCancel
               includeAll={false}
               required={true}
             />
+          </div>
+
+          <div className="form-group">
+            <label>등급</label>
+            <select
+              value={formData.grade || ItemGrade.NORMAL}
+              onChange={React.useCallback(
+                (e: React.ChangeEvent<HTMLSelectElement>) =>
+                  setFormData(prev => ({
+                    ...prev,
+                    grade: e.target.value as ItemGrade,
+                  })),
+                []
+              )}
+              className="form-select"
+              style={{ color: GRADE_COLORS[formData.grade || ItemGrade.NORMAL] }}
+            >
+              {Object.values(ItemGrade).map(grade => (
+                <option key={grade} value={grade} style={{ color: GRADE_COLORS[grade] }}>
+                  {GRADE_LABELS[grade]}
+                </option>
+              ))}
+            </select>
           </div>
 
           <div className="form-row">
