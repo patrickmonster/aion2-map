@@ -2,6 +2,7 @@ import * as d3 from 'd3';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { CalculatorItemData } from '../../hooks';
 import { useCalculatorData, useShopData } from '../../hooks';
+import { GRADE_COLORS, ItemGrade } from '../../hooks/useShopData';
 import './RelationshipContent.css';
 
 // 메인 콘텐츠 탭 타입
@@ -14,6 +15,7 @@ interface Node extends d3.SimulationNodeDatum {
   group: string;
   minPrice?: number;
   maxPrice?: number;
+  grade?: ItemGrade;
 }
 
 interface Link extends d3.SimulationLinkDatum<Node> {
@@ -100,6 +102,7 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
           group: item.type || '기타',
           minPrice: shopItem?.minPrice || 0,
           maxPrice: shopItem?.maxPrice || 0,
+          grade: shopItem?.grade || ItemGrade.NORMAL,
         });
       }
 
@@ -228,9 +231,6 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
       g.attr('transform', event.transform.toString());
     }
 
-    // 색상 스케일
-    const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
-
     // 시뮬레이션 설정
     const simulation = d3
       .forceSimulation<Node>(filteredGraphData.nodes)
@@ -302,7 +302,7 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
     node
       .append('circle')
       .attr('r', d => (d.type === 'product' ? 20 : 12))
-      .attr('fill', d => (d.type === 'product' ? colorScale(d.group) : '#95a5a6'))
+      .attr('fill', d => (d.type === 'product' ? GRADE_COLORS[d.grade || ItemGrade.NORMAL] : '#95a5a6'))
       .attr('stroke', d => (d.type === 'product' ? '#333' : '#666'))
       .attr('stroke-width', d => (d.type === 'product' ? 2 : 1))
       .attr('cursor', 'pointer')

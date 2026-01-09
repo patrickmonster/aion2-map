@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import type { CalculatorItemData, ItemOverride, ShopItem } from '../../hooks';
 import { useCalculatorData, useRecipeData, useShopData } from '../../hooks';
+import { GRADE_COLORS, ItemGrade } from '../../hooks/useShopData';
 import AddCalculatorItemModal from './AddCalculatorItemModal';
 import EditMaterialsModal from './EditMaterialsModal';
 import EditShopItemModal from './EditShopItemModal';
@@ -571,6 +572,7 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
           materialCost: dynamicMaterialCost,
           minProfit: Math.round(dynamicMinProfit),
           maxProfit: Math.round(dynamicMaxProfit),
+          grade: shopItem?.grade || ItemGrade.NORMAL,
         };
       });
 
@@ -708,8 +710,8 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
               {filteredItems.length > 0 ? (
                 filteredItems.map(item => (
                   <tr key={`calculate-${item.id}`}>
-                    <td style={{}}>{item.name}</td>
-                    <td>{item.type}</td>
+                    <td>{item.name}</td>
+                    <td style={{ backgroundColor: GRADE_COLORS[item.grade], color: '#1a1a1a', fontWeight: 600 }}>{item.type}</td>
                     <td>
                       <input
                         type="number"
