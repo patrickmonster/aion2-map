@@ -248,26 +248,50 @@ const ShopContent: React.FC<ShopContentProps> = () => {
 
   // 서버와 동기화 기능
   const handleSync = useCallback(async () => {
-    if (window.confirm('서버에서 새로운 데이터를 가져와 동기화하시겠습니까?\n(ID가 없는 새 항목만 추가됩니다)')) {
+    if (window.confirm('서버에서 새로운 데이터를 가져와 동기화하시겠습니까?\n(새 항목 추가 + 기존 항목 등급 업데이트)')) {
       try {
         setIsSyncing(true);
 
         // 서버에서 데이터 가져오기
         const serverData = await loadServerData();
 
+        // 서버 데이터를 ID로 빠르게 조회하기 위한 맵 생성
+        const serverDataMap = new Map(serverData.map(item => [item.id, item]));
+
         // 현재 로컬 데이터의 ID 목록
         const localIds = new Set(shopItems.map(item => item.id));
 
-        // ID가 없는 새 항목만 필터링
+        // ID가 없는 새 항목 필터링
         const newItems = serverData.filter(serverItem => !localIds.has(serverItem.id));
 
-        if (newItems.length > 0) {
-          const updatedItems = [...shopItems, ...newItems];
-          setShopItems(updatedItems);
-          saveLocalData(updatedItems);
-          alert(`${newItems.length}개의 새로운 항목이 추가되었습니다.`);
+        // 기존 항목의 등급 업데이트
+        let gradeUpdatedCount = 0;
+        const updatedLocalItems = shopItems.map(localItem => {
+          const serverItem = serverDataMap.get(localItem.id);
+          if (serverItem && serverItem.grade && serverItem.grade !== localItem.grade) {
+            gradeUpdatedCount++;
+            return { ...localItem, grade: serverItem.grade };
+          }
+          return localItem;
+        });
+
+        // 새 항목 추가
+        const finalItems = [...updatedLocalItems, ...newItems];
+
+        if (newItems.length > 0 || gradeUpdatedCount > 0) {
+          setShopItems(finalItems);
+          saveLocalData(finalItems);
+
+          const messages: string[] = [];
+          if (newItems.length > 0) {
+            messages.push(`${newItems.length}개의 새로운 항목이 추가되었습니다.`);
+          }
+          if (gradeUpdatedCount > 0) {
+            messages.push(`${gradeUpdatedCount}개의 항목 등급이 업데이트되었습니다.`);
+          }
+          alert(messages.join('\n'));
         } else {
-          alert('추가할 새로운 항목이 없습니다.');
+          alert('동기화할 변경 사항이 없습니다.');
         }
       } catch (err) {
         console.error('동기화 실패:', err);
@@ -277,6 +301,29 @@ const ShopContent: React.FC<ShopContentProps> = () => {
       }
     }
   }, [shopItems, loadServerData, saveLocalData]);
+
+  // 로컬 데이터 삭제 기능
+  const handleClearLocalData = useCallback(async () => {
+    if (window.confirm('로컬에 저장된 상점 데이터를 삭제하시겠습니까?\n(서버에서 데이터를 다시 불러옵니다)')) {
+      try {
+        setIsLoading(true);
+        // 로컬 스토리지에서 삭제
+        localStorage.removeItem('aion2-shop-items');
+
+        // 서버에서 데이터 다시 로드
+        const serverData = await loadServerData();
+        setShopItems(serverData);
+        saveLocalData(serverData);
+
+        alert('로컬 데이터가 삭제되고 서버 데이터로 초기화되었습니다.');
+      } catch (err) {
+        console.error('로컬 데이터 삭제 실패:', err);
+        alert('로컬 데이터 삭제에 실패했습니다.');
+      } finally {
+        setIsLoading(false);
+      }
+    }
+  }, [loadServerData, saveLocalData]);
 
   // JSON 내보내기 기능
   const handleExportJSON = useCallback(() => {
@@ -324,6 +371,9 @@ const ShopContent: React.FC<ShopContentProps> = () => {
               </button>
               <button onClick={handleExportJSON} className="btn-secondary">
                 📁 JSON 내보내기
+              </button>
+              <button onClick={handleClearLocalData} className="btn-danger">
+                🗑️ 로컬 데이터 삭제
               </button>
             </div>
           </div>
