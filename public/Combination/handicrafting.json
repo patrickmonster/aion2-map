@@ -1,5 +1,86 @@
 {
   "category": "세공",
   "description": "세공 제작 조합법 데이터",
-  "items": []
+  "items": [
+    {
+      "id": "5kyjl3mzstvzbhba5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "강화된 두꺼운 용족의 비늘",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T16:48:20.350Z",
+      "materials": "두꺼운 용족의 비늘 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5oizb2v2xtwjvnba5snkt3fbwhwj3gba5o4yj24kta",
+          "quantity": 2
+        },
+        {
+          "itemId": "5wkzr2vyreqozgvj5o4yj24ktaqovmev5wmzj3fatq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5kyjl3mzstvzbhba5of2r24lvdwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "강화된 단단한 용족의 비늘",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T16:48:20.350Z",
+      "materials": "단단한 용족의 비늘 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5of2r24lvdwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+          "quantity": 2
+        },
+        {
+          "itemId": "5ssjd2vyreqozgvj5o4yj24ktaqovmev5wmzj3fatq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5kyjl3mzstvzbhba5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "강화된 견고한 용족의 비늘",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T16:48:20.350Z",
+      "materials": "견고한 용족의 비늘 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5kzkz2vtudwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+          "quantity": 2
+        },
+        {
+          "itemId": "5sbyd2vyreqozgvj5o4yj24ktaqovmev5wmzj3fatq",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5kyjl3mzstvzbhba5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+      "name": "강화된 강고한 용족의 비늘",
+      "level": 1,
+      "cnt": 1,
+      "combo": 25,
+      "increase": false,
+      "updatedAt": "2026-01-09T16:48:20.350Z",
+      "materials": "강고한 용족의 비늘 외 1개",
+      "ingredient": [
+        {
+          "itemId": "5kyjl2vtudwzlhba5snkt3fbwhwj3gba5o4yj24kta",
+          "quantity": 2
+        },
+        {
+          "itemId": "5s2zz3edqhvlrcja5snkt25zqtvyvgba5kyjl3mzstwkbha",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
 }

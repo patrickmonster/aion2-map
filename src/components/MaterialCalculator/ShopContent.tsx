@@ -28,6 +28,12 @@ const ShopContent: React.FC<ShopContentProps> = () => {
   // 마지막으로 선택한 타입 기억
   const [lastSelectedType, setLastSelectedType] = useState<ItemType>('기타');
 
+  // 다중 선택 상태
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+
+  // 일괄 등급 변경 상태
+  const [bulkGrade, setBulkGrade] = useState<ItemGrade>(ItemGrade.NORMAL);
+
   // 로딩 상태
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -246,6 +252,53 @@ const ShopContent: React.FC<ShopContentProps> = () => {
     [shopItems, saveLocalData]
   );
 
+  // 개별 항목 선택/해제 핸들러
+  const handleSelectItem = useCallback((itemId: string, checked: boolean) => {
+    setSelectedIds(prev => {
+      const newSet = new Set(prev);
+      if (checked) {
+        newSet.add(itemId);
+      } else {
+        newSet.delete(itemId);
+      }
+      return newSet;
+    });
+  }, []);
+
+  // 전체 선택/해제 핸들러 (필터링된 항목 기준)
+  const handleSelectAll = useCallback(
+    (checked: boolean) => {
+      if (checked) {
+        const allFilteredIds = filteredItems.map(item => item.id);
+        setSelectedIds(new Set(allFilteredIds));
+      } else {
+        setSelectedIds(new Set());
+      }
+    },
+    [filteredItems]
+  );
+
+  // 선택된 항목 등급 일괄 변경 핸들러
+  const handleBulkGradeChange = useCallback(() => {
+    if (selectedIds.size === 0) {
+      alert('선택된 항목이 없습니다.');
+      return;
+    }
+
+    const updatedItems = shopItems.map(item =>
+      selectedIds.has(item.id) ? { ...item, grade: bulkGrade, lastUpdated: new Date().toISOString().split('T')[0] } : item
+    );
+    setShopItems(updatedItems);
+    saveLocalData(updatedItems);
+    alert(`${selectedIds.size}개 항목의 등급이 "${GRADE_LABELS[bulkGrade]}"(으)로 변경되었습니다.`);
+    setSelectedIds(new Set());
+  }, [selectedIds, bulkGrade, shopItems, saveLocalData]);
+
+  // 전체 선택 여부 확인
+  const isAllSelected = useMemo(() => {
+    return filteredItems.length > 0 && filteredItems.every(item => selectedIds.has(item.id));
+  }, [filteredItems, selectedIds]);
+
   // 서버와 동기화 기능
   const handleSync = useCallback(async () => {
     if (window.confirm('서버에서 새로운 데이터를 가져와 동기화하시겠습니까?\n(새 항목 추가 + 기존 항목 등급 업데이트)')) {
@@ -399,6 +452,25 @@ const ShopContent: React.FC<ShopContentProps> = () => {
             </div>
           </div>
 
+          {/* 일괄 등급 변경 */}
+          {!isLoading && (
+            <div className="bulk-actions">
+              <div className="bulk-grade-change">
+                <span className="selected-count">{selectedIds.size}개 선택됨</span>
+                <select value={bulkGrade} onChange={e => setBulkGrade(e.target.value as ItemGrade)} className="bulk-grade-select">
+                  {Object.values(ItemGrade).map(grade => (
+                    <option key={grade} value={grade}>
+                      {GRADE_LABELS[grade]}
+                    </option>
+                  ))}
+                </select>
+                <button onClick={handleBulkGradeChange} className="btn-bulk-change" disabled={selectedIds.size === 0}>
+                  등급 일괄 변경
+                </button>
+              </div>
+            </div>
+          )}
+
           {/* 로딩 및 에러 상태 */}
           {isLoading && <div className="loading-message">데이터를 불러오는 중...</div>}
 
@@ -412,6 +484,9 @@ const ShopContent: React.FC<ShopContentProps> = () => {
               <table className="shop-table">
                 <thead>
                   <tr>
+                    <th className="checkbox-col">
+                      <input type="checkbox" checked={isAllSelected} onChange={e => handleSelectAll(e.target.checked)} title="전체 선택" />
+                    </th>
                     <th>등급</th>
                     <th>타입</th>
                     <th>이름</th>
@@ -425,6 +500,13 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                   {filteredItems.length > 0 ? (
                     filteredItems.map(item => (
                       <tr key={item.id} className={item.convert ? 'convert-item' : ''}>
+                        <td className="checkbox-col">
+                          <input
+                            type="checkbox"
+                            checked={selectedIds.has(item.id)}
+                            onChange={e => handleSelectItem(item.id, e.target.checked)}
+                          />
+                        </td>
                         <td className="item-grade">
                           <select
                             value={item.grade || ItemGrade.NORMAL}
@@ -490,7 +572,7 @@ const ShopContent: React.FC<ShopContentProps> = () => {
                     ))
                   ) : (
                     <tr>
-                      <td colSpan={7} className="no-data">
+                      <td colSpan={8} className="no-data">
                         검색 조건에 맞는 상품이 없습니다.
                       </td>
                     </tr>

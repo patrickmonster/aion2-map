@@ -394,12 +394,13 @@
 
 .shop-table th:nth-child(3),
 .shop-table td:nth-child(3){
-  width: auto;
+  width: 120px;
 }
 
 .shop-table th:nth-child(4),
 .shop-table td:nth-child(4) {
-  width: 130px;
+  /* width: 130px; */
+  width: auto;
 }
 
 .shop-table th:nth-child(5),
@@ -1089,6 +1090,77 @@
   transform: translateY(-1px);
 }
 
+/* 일괄 등급 변경 스타일 */
+.bulk-actions {
+  display: flex;
+  justify-content: flex-start;
+  padding: 12px 16px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.bulk-grade-change {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.selected-count {
+  font-size: 14px;
+  font-weight: 600;
+  color: #007acc;
+  min-width: 80px;
+}
+
+.bulk-grade-select {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.bulk-grade-select:focus {
+  outline: none;
+  border-color: #007acc;
+}
+
+.btn-bulk-change {
+  padding: 8px 16px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-bulk-change:hover:not(:disabled) {
+  background-color: #5a6268;
+  transform: translateY(-1px);
+}
+
+.btn-bulk-change:disabled {
+  background-color: #adb5bd;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* 체크박스 컬럼 스타일 */
+.checkbox-col {
+  width: 40px;
+  text-align: center;
+}
+
+.checkbox-col input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
 /* 계산기 헤더 스타일 */
 .calculator-header {
   display: flex;
@@ -1453,6 +1525,157 @@ input:checked + .toggle-slider:before {
   color: rgba(0, 122, 204, 0.5);
   cursor: not-allowed;
   transform: none;
+}
+
+.edit-materials-modal .btn-copy-materials {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  background: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.edit-materials-modal .btn-copy-materials:hover {
+  background: #138496;
+  transform: translateY(-1px);
+}
+
+/* 재료 복사 팝업 스타일 */
+.copy-modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  border-radius: 12px;
+}
+
+.copy-modal-content {
+  background: white;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 70%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.copy-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+  color: white;
+}
+
+.copy-modal-header h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.btn-close-copy {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.btn-close-copy:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.copy-modal-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.copy-search-section {
+  margin-bottom: 12px;
+}
+
+.copy-search-input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.copy-search-input:focus {
+  outline: none;
+  border-color: #17a2b8;
+  box-shadow: 0 0 0 3px rgba(23, 162, 184, 0.1);
+}
+
+.copy-items-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.copy-item-row {
+  padding: 12px 14px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.copy-item-row:hover {
+  background: #e3f2fd;
+  border-color: #17a2b8;
+}
+
+.copy-item-name {
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+
+.copy-item-materials {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.copy-material-tag {
+  color: #17a2b8;
+}
+
+.copy-no-results {
+  text-align: center;
+  color: #999;
+  padding: 24px;
+  font-size: 14px;
 }
 
 .edit-materials-modal .modal-body {

@@ -346,6 +346,7 @@
   width: 90%;
   max-width: 1000px;
   max-height: 80vh;
+  min-height: 700px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);

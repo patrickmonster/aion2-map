@@ -817,6 +817,7 @@ const CalculatorContent: React.FC<CalculatorContentProps> = ({ className }) => {
           getItemById={getItemById}
           itemId={editingItemId}
           currentItem={allCalculatorItems.find(item => item.id === editingItemId)}
+          allCalculatorItems={allCalculatorItems}
           onClose={() => {
             setIsEditMaterialsModalOpen(false);
             setEditingItemId(null);
