@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import CalculatorContent from './CalculatorContent';
+import CameraContent from './CameraContent';
 import './index.css';
 import OptimizationContent from './OptimizationContent';
 import RelationshipContent from './RelationshipContent';
@@ -12,6 +13,7 @@ enum SideMenuTab {
   CALCULATOR = 'CALCULATOR',
   RELATIONSHIP = 'RELATIONSHIP',
   OPTIMIZATION = 'OPTIMIZATION',
+  CAMERA = 'CAMERA',
   SETTINGS = 'SETTINGS',
 }
 
@@ -21,6 +23,7 @@ const SIDE_TAB_LABELS: Record<SideMenuTab, string> = {
   [SideMenuTab.CALCULATOR]: '🧮',
   [SideMenuTab.RELATIONSHIP]: '📊',
   [SideMenuTab.OPTIMIZATION]: '창고',
+  [SideMenuTab.CAMERA]: '📷',
   [SideMenuTab.SETTINGS]: '⚙️',
 };
 
@@ -34,7 +37,7 @@ interface MaterialCalculatorProps {
 
 const MaterialCalculator: React.FC<MaterialCalculatorProps> = ({ isOpen, onClose, isPageMode = false, backButton = false, hideHeader = false }) => {
   const [activeSideTab, setSideTab] = useState<SideMenuTab>(SideMenuTab.SHOP);
-  const sideTabs: SideMenuTab[] = [SideMenuTab.SHOP, SideMenuTab.CALCULATOR, SideMenuTab.RELATIONSHIP, SideMenuTab.OPTIMIZATION, SideMenuTab.SETTINGS];
+  const sideTabs: SideMenuTab[] = [SideMenuTab.SHOP, SideMenuTab.CALCULATOR, SideMenuTab.RELATIONSHIP, SideMenuTab.OPTIMIZATION, SideMenuTab.CAMERA, SideMenuTab.SETTINGS];
 
   if (!isOpen) return null;
 
@@ -88,6 +91,7 @@ const MaterialCalculator: React.FC<MaterialCalculatorProps> = ({ isOpen, onClose
             {activeSideTab === SideMenuTab.SHOP && <ShopContent />}
             {activeSideTab === SideMenuTab.RELATIONSHIP && <RelationshipContent />}
             {activeSideTab === SideMenuTab.OPTIMIZATION && <OptimizationContent />}
+            {activeSideTab === SideMenuTab.CAMERA && <CameraContent />}
             {activeSideTab === SideMenuTab.SETTINGS && <SettingsContent />}
           </div>
         </div>
