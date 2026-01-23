@@ -560,11 +560,12 @@ const RelationshipContent: React.FC<RelationshipContentProps> = ({ className }) 
                     return selectedNode.type === 'product' ? targetId === selectedNode.id : sourceId === selectedNode.id;
                   })
                   .map((link, index) => {
-                    const connectedId =
-                      selectedNode.type === 'product' ? (typeof link.source === 'string' ? link.source : link.source.id) : typeof link.target === 'string' ? link.target : link.target.id;
+                    const sourceId = typeof link.source === 'string' ? link.source : link.source.id;
+                    const targetId = typeof link.target === 'string' ? link.target : link.target.id;
+                    const connectedId = selectedNode.type === 'product' ? sourceId : targetId;
                     const connectedNode = filteredGraphData.nodes.find(n => n.id === connectedId);
                     return (
-                      <li key={index}>
+                      <li key={`${sourceId}-${targetId}-${index}`}>
                         {connectedNode?.name || connectedId}
                         {selectedNode.type === 'product' && ` (x${link.quantity})`}
                       </li>
