@@ -427,13 +427,16 @@ const MapPage: React.FC = () => {
     const cache = new Map<string, L.DivIcon>();
     markerTypes.forEach(type => {
       if (type.id !== 'default' && type.icon) {
-        cache.set(type.id, L.divIcon({
-          html: `<div style="font-size: 24px; text-align: center; line-height: 1;">${type.icon}</div>`,
-          iconSize: [30, 30],
-          iconAnchor: [15, 15],
-          popupAnchor: [0, -15],
-          className: 'custom-marker-icon',
-        }));
+        cache.set(
+          type.id,
+          L.divIcon({
+            html: `<div style="font-size: 24px; text-align: center; line-height: 1;">${type.icon}</div>`,
+            iconSize: [30, 30],
+            iconAnchor: [15, 15],
+            popupAnchor: [0, -15],
+            className: 'custom-marker-icon',
+          })
+        );
       }
     });
     return cache;
@@ -539,7 +542,7 @@ const MapPage: React.FC = () => {
       {/* 채팅 모달 */}
       <ChatModal isOpen={uiState.showChatModal} onClose={() => uiDispatch({ type: 'CLOSE_CHAT_MODAL' })} />
       {/* 재료 계산기 플로팅 버튼 */}
-      <FloatingCalculatorButton onClick={() => window.open('/aion2-map/calculator', 'calculator', 'width=1200,height=800,scrollbars=yes,resizable=yes')} />
+      <FloatingCalculatorButton onClick={() => window.open(process.env.PUBLIC_URL + '/calculator', 'calculator', 'width=1200,height=800,scrollbars=yes,resizable=yes')} />
       {/* 채팅 플로팅 버튼 */}
       <FloatingChatButton onClick={() => uiDispatch({ type: 'OPEN_CHAT_MODAL' })} />
     </div>
