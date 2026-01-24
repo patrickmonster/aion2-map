@@ -1,12 +1,6 @@
-import { useCallback, useState } from "react";
+import { useCallback, useState } from 'react';
 
-export const useStorage = <T>({
-  url,
-  localKey,
-}: {
-  url: string;
-  localKey: string;
-}) => {
+export const useStorage = <T>({ url, localKey }: { url: string; localKey: string }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [data, setData] = useState<T>();
@@ -17,7 +11,9 @@ export const useStorage = <T>({
     setError(null);
 
     try {
-      const basePath = process.env.PUBLIC_URL || "";
+      const basePath = process.env.PUBLIC_URL || '';
+      console.log('PATH ::', `${basePath}${url}`);
+
       const response = await fetch(`${basePath}/${url}`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -31,8 +27,7 @@ export const useStorage = <T>({
       setData(items);
       return items;
     } catch (err) {
-      const errorMessage =
-        err instanceof Error ? err.message : "서버 데이터 로드 실패";
+      const errorMessage = err instanceof Error ? err.message : '서버 데이터 로드 실패';
       setError(errorMessage);
       throw err;
     } finally {
@@ -49,7 +44,7 @@ export const useStorage = <T>({
         return parsedData;
       }
     } catch (err) {
-      console.error("로컬 데이터 로드 실패:", err);
+      console.error('로컬 데이터 로드 실패:', err);
     }
     return {} as T;
   }, [localKey]);
@@ -60,7 +55,7 @@ export const useStorage = <T>({
       try {
         localStorage.setItem(localKey, JSON.stringify(items));
       } catch (err) {
-        console.error("데이터 저장 실패:", err);
+        console.error('데이터 저장 실패:', err);
       }
     },
     [localKey]
@@ -81,7 +76,7 @@ export const useStorage = <T>({
       // 서버에서 최신 데이터 로드
       await loadServerData();
     } catch (err) {
-      console.error("데이터 초기화 실패:", err);
+      console.error('데이터 초기화 실패:', err);
     }
   }, [data, loadLocalData, loadServerData]);
 

@@ -60,7 +60,7 @@ export const useShopData = () => {
     saveLocalData,
     initializeData,
   } = useStorage<ShopItem[]>({
-    url: `/Combination/shops.json`,
+    url: `Combination/shops.json`,
     localKey: 'aion2-shop-items',
   });
 

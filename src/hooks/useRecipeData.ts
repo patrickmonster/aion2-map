@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useState } from 'react';
 
 // 조합법 레시피 타입
 export interface Recipe {
@@ -32,10 +32,8 @@ export const useRecipeData = () => {
     setError(null);
 
     try {
-      const basePath = process.env.PUBLIC_URL || "";
-      const recipeResponse = await fetch(
-        `${basePath}/Combination/${recipeFile}`
-      );
+      const basePath = process.env.PUBLIC_URL || '';
+      const recipeResponse = await fetch(`${basePath}/Combination/${recipeFile}`);
 
       if (!recipeResponse.ok) {
         throw new Error(`HTTP error! status: ${recipeResponse.status}`);
@@ -47,10 +45,9 @@ export const useRecipeData = () => {
         items: recipeJson.items || [],
       };
     } catch (err) {
-      const errorMessage =
-        err instanceof Error ? err.message : "조합법 데이터 로드 실패";
+      const errorMessage = err instanceof Error ? err.message : '조합법 데이터 로드 실패';
       setError(errorMessage);
-      console.error("조합법 데이터 로드 실패:", err);
+      console.error('조합법 데이터 로드 실패:', err);
       // 에러 발생시 빈 배열 반환
       return {
         items: [],
@@ -63,18 +60,18 @@ export const useRecipeData = () => {
   // 탭에 따른 파일명 반환
   const getRecipeFileName = useCallback((tab: string): string => {
     switch (tab) {
-      case "연금":
-        return "alchemy.json";
-      case "갑옷":
-        return "armor.json";
-      case "대장":
-        return "blacksmith.json";
-      case "세공":
-        return "handicrafting.json";
-      case "요리":
-        return "food.json";
+      case '연금':
+        return 'alchemy.json';
+      case '갑옷':
+        return 'armor.json';
+      case '대장':
+        return 'blacksmith.json';
+      case '세공':
+        return 'handicrafting.json';
+      case '요리':
+        return 'food.json';
       default:
-        return "alchemy.json";
+        return 'alchemy.json';
     }
   }, []);
 
