@@ -2,7 +2,6 @@
   "name": "aion2-map",
   "version": "1.0.3",
   "private": true,
-  "homepage": "https://patrickmonster.github.io/aion2-map",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
